@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 
-<title>Aarick's Portfolio</title>
+<title>ECN Site</title>
 
 <!-- Bootstrap - Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
