@@ -1,34 +1,35 @@
 <?php
 /**
- * Class Member for sites member base
+ * Class Members for sites members base
  *
  * This class handles members
  *
  * @author Aarick Lameman lamemanaarick@gmail.com
  */
-class User implements JsonSerializable {
+class Members implements JsonSerializable
+{
     /**
-     * id for this member; this is the primary key
-     * @var int $membersId(PK)
+     * id for this members; this is the primary key
+     * @var int $membersId (PK)
      **/
     private $membersId;
     /**
-     * access level id to identify member groups
+     * missionsId to identify members groups
      * @var int for $missionsId(FK)
      **/
     private $missionsId;
     /**
-     * allows activation of a new member account
+     * allows activation of a new members account
      * @var string for activation
      **/
     private $activation;
     /**
-     * email for the user
+     * email for the members
      * @var string for $email
      **/
     private $email;
     /**
-     * first name of the user
+     * first name of the members
      * @var string for $firstName
      **/
     private $firstName;
@@ -38,12 +39,12 @@ class User implements JsonSerializable {
      **/
     private $hash;
     /**
-     * last name of the user
+     * last name of the members
      * @var string for $lastName
      **/
     private $lastName;
     /**
-     * phone number of user
+     * phone number of members
      * @var int $phone
      **/
     private $phone;
@@ -53,7 +54,7 @@ class User implements JsonSerializable {
      **/
     private $profilePath;
     /**
-     * position of the member
+     * position of the members
      * @var string $position
      **/
     private $position;
@@ -63,32 +64,32 @@ class User implements JsonSerializable {
      **/
     private $zip;
     /**
-     * state that member lives in
+     * state that members live in
      * @var string for $state
      **/
     private $state;
     /**
-     * city that member lives in
+     * city that members live in
      * @var string for $city
      **/
     private $city;
     /**
-    * address1 of the member
-    * @var string for $address1
-    **/
+     * address1 of the members
+     * @var string for $address1
+     **/
     private $address1;
     /**
-     * address2 of the member
+     * address2 of the members
      * @var string for $address2
      **/
     private $address2;
     /**
-     * gender of the member
+     * gender of the members
      * @var string for $gender
      **/
     private $gender;
     /**
-     * dob of the member
+     * dob of the members
      * @var string for $dob
      **/
     private $dob;
@@ -101,30 +102,31 @@ class User implements JsonSerializable {
 
     /**
      * User constructor.
-     * @param $newMemberId
+     * @param $newMembersId
      * @param $newMissionsId
+     * @param $newActivation
      * @param $newEmail
      * @param $newFirstName
      * @param $newHash
      * @param $newLastName
      * @param $newPhone
      * @param $newProfilePath
-     * @param $position
-     * @param $zip
-     * @param $state
-     * @param $city
-     * @param $address1
-     * @param $address2
-     * @param $gender
-     * @param $dob
+     * @param $newPosition
+     * @param $newZip
+     * @param $newState
+     * @param $newCity
+     * @param $newAddress1
+     * @param $newAddress2
+     * @param $newGender
+     * @param $newDob
      * @param $newSalt
      **/
-    public function __construct($newUserId, $newAccessLevelId, $newActivation, $newEmail, $newFirstName, $newHash, $newLastName,
-                                $newPhone, $newProfilePath, $newSalt)
+    public function __construct($newMembersId, $newMissionsId, $newActivation, $newEmail, $newFirstName, $newHash, $newLastName,
+                                $newPhone, $newProfilePath, $newPosition, $newZip, $newState, $newCity, $newAddress1, $newAddress2, $newGender, $newDob, $newSalt)
     {
         try {
-            $this->setUserId($newUserId);
-            $this->setAccessLevelId($newAccessLevelId);
+            $this->setMembersId($newMembersId);
+            $this->setMissionsId($newMissionsId);
             $this->setActivation($newActivation);
             $this->setEmail($newEmail);
             $this->setFirstName($newFirstName);
@@ -132,6 +134,14 @@ class User implements JsonSerializable {
             $this->setLastName($newLastName);
             $this->setPhone($newPhone);
             $this->setProfilePath($newProfilePath);
+            $this->setPosition($newPosition);
+            $this->setZip($newZip);
+            $this->setState($newState);
+            $this->setCity($newCity);
+            $this->setAddress1($newAddress1);
+            $this->setAddress2($newAddress2);
+            $this->setGender($newGender);
+            $this->setDob($newDob);
             $this->setSalt($newSalt);
         } catch (InvalidArgumentException $invalidArgument) {
             //rethrow the exception to the caller
@@ -144,284 +154,513 @@ class User implements JsonSerializable {
             throw(new Exception($exception->getMessage(), 0, $exception));
         }
     }
+
     /**
-     * accessor method for userId
+     * accessor method for membersId
      *
-     * @return int value of unique userId
+     * @return int value of unique membersId
      **/
-    public function getUserId() {
-        return ($this->userId);
+    public function getMemberId()
+    {
+        return ($this->membersId);
     }
+
     /**
-     * mutator method for the userId
+     * mutator method for the membersId
      *
-     * @param int unique value to represent a user $newUserId
+     * @param int $newMembersId unique value to represent a member $newMemberId
      * @throws InvalidArgumentException for invalid content
      **/
-    public function setUserId($newUserId) {
-        // base case: if the userId is null,
-        // this is a new user without a mySQL assigned id (yet)
-        if($newUserId === null) {
-            $this->userId = null;
+    public function setMembersId($newMembersId)
+    {
+        // base case: if the membersId is null,
+        // this is a new members without a mySQL assigned id (yet)
+        if ($newMembersId === null) {
+            $this->membersId = null;
             return;
         }
-        //verify the User is valid
-        $newUserId = filter_var($newUserId, FILTER_VALIDATE_INT);
-        if(empty($newUserId) === true) {
-            throw (new InvalidArgumentException ("userId invalid"));
+        //verify the Members is valid
+        $newMembersId = filter_var($newMembersId, FILTER_VALIDATE_INT);
+        if (empty($newMembersId) === true) {
+            throw (new InvalidArgumentException ("membersId invalid"));
         }
-        $this->userId = $newUserId;
+        $this->membersId = $newMembersId;
     }
+
     /**
      * accessor method for access level of user
      *
      * @return mixed
      **/
-    public function getAccessLevelId() {
-        return ($this->accessLevelId);
+    public function getMisionsId()
+    {
+        return ($this->missionsId);
     }
+
     /**
-     * Mutator method for access levelId
+     * Mutator method for missionsId
      *
-     * @param $newAccessLevelId int
-     * @throws InvalidArgumentException if access level is invalid
+     * @param int $newMissionsId
+     * @throws InvalidArgumentException if missions is invalid
      **/
-    public function setAccessLevelId($newAccessLevelId) {
-        // verify access level is integer
-        $newAccessLevelId = filter_var($newAccessLevelId, FILTER_VALIDATE_INT);
-        if(empty($newAccessLevelId) === true) {
-            throw new InvalidArgumentException ("Access Level Invalid");
+    public function setMissionsId($newMissionsId)
+    {
+        // verify missions is integer
+        $newMissionsId = filter_var($newMissionsId, FILTER_VALIDATE_INT);
+        if (empty($newMissionsId) === true) {
+            throw new InvalidArgumentException ("Missions Invalid");
         }
-        $this->accessLevelId = $newAccessLevelId;
+        $this->missionsId = $newMissionsId;
     }
+
     /**
      * @return string
      **/
-    public function getActivation() {
+    public function getActivation()
+    {
         return ($this->activation);
     }
+
     /**
      * @param $newActivation
      **/
-    public function setActivation($newActivation) {
-        if($newActivation === null){
+    public function setActivation($newActivation)
+    {
+        if ($newActivation === null) {
             $this->activation = null;
             return;
         }
         // verify salt is exactly string of 16
-        if((ctype_xdigit($newActivation)) === false) {
-            if(empty($newActivation) === true) {
+        if ((ctype_xdigit($newActivation)) === false) {
+            if (empty($newActivation) === true) {
                 throw new InvalidArgumentException ("activation invalid");
             }
-            if(strlen($newActivation) !== 16) {
+            if (strlen($newActivation) !== 16) {
                 throw (new RangeException ("Activation not valid"));
             }
         }
         $this->activation = $newActivation;
     }
+
     /**
      * accessor method for email
      *
      * @return string of email for user
      **/
-    public function getEmail() {
+    public function getEmail()
+    {
         return ($this->email);
     }
+
     /**
      * Mutator method for Email
      *
-     * @param string of users' email $newEmail
+     * @param string $newEmail of users' email $newEmail
      * @throws InvalidArgumentException if email does not pass sanitization
      * @throws RangeException if email is longer than 64 characters
      **/
-    public function setEmail($newEmail) {
+    public function setEmail($newEmail)
+    {
         // verify email is valid
         $newEmail = filter_var($newEmail, FILTER_SANITIZE_EMAIL);
-        if(empty($newEmail) === true) {
+        if (empty($newEmail) === true) {
             throw new InvalidArgumentException ("user email invalid");
         }
-        if(strlen($newEmail) > 64) {
+        if (strlen($newEmail) > 64) {
             throw(new RangeException ("Email content too large"));
         }
         $this->email = $newEmail;
     }
+
     /**
      * accessor method for First Name
      *
      * @return string for first name
      **/
-    public function getFirstName() {
+    public function getFirstName()
+    {
         return ($this->firstName);
     }
+
     /**
      * Mutator method for First Name
      *
-     * @param string for user first name $newFirstName
+     * @param string $newFirstName for user first name $newFirstName
      */
-    public function setFirstName($newFirstName) {
+    public function setFirstName($newFirstName)
+    {
         // verify first name is valid
         $newFirstName = filter_var($newFirstName, FILTER_SANITIZE_STRING);
-        if(empty($newFirstName) === true) {
+        if (empty($newFirstName) === true) {
             throw new InvalidArgumentException("first name invalid");
         }
-        if(strlen($newFirstName) > 32) {
+        if (strlen($newFirstName) > 32) {
             throw (new RangeException ("First Name content too large"));
         }
         $this->firstName = $newFirstName;
     }
+
     /**
      * accessor method for Hash
      * @return string of users password Hash
      **/
-    public function getHash() {
+    public function getHash()
+    {
         return ($this->hash);
     }
+
     /**
      * Mutator for Hash -insure it is 128 length string
      *
-     * @param string of users $newHash
+     * @param string $newHash of users $newHash
      * @throws InvalidArgumentException if newHash is not valid int
      * @throws RangeException if newHash is not exactly 128 xdigits
      **/
-    public function setHash($newHash) {
+    public function setHash($newHash)
+    {
         // verify Hash is exactly string of 128
-        if((ctype_xdigit($newHash)) === false) {
-            if(empty($newHash) === true) {
+        if ((ctype_xdigit($newHash)) === false) {
+            if (empty($newHash) === true) {
                 throw new InvalidArgumentException ("hash invalid");
             }
-            if(strlen($newHash) !== 128) {
+            if (strlen($newHash) !== 128) {
                 throw new RangeException ("hash not valid");
             }
         }
         $this->hash = $newHash;
     }
+
     /**
      * accessor method for Last Name
      *
      * @return string for last name
      **/
-    public function getLastName() {
+    public function getLastName()
+    {
         return ($this->lastName);
     }
+
     /**
      * Mutator method for last name sanitation
      *
-     * @param string for user last name $newLastName
+     * @param string $newLastName for member last name $newLastName
      **/
-    public function setLastName($newLastName) {
+    public function setLastName($newLastName)
+    {
         //verify last name is valid
         $newLastName = filter_var($newLastName, FILTER_SANITIZE_STRING);
-        if(empty($newLastName) === true) {
+        if (empty($newLastName) === true) {
             throw new InvalidArgumentException("last name invalid");
         }
-        if(strlen($newLastName) > 32) {
+        if (strlen($newLastName) > 32) {
             throw (new RangeException("Last Name content too large"));
         }
         $this->lastName = $newLastName;
     }
+
     /**
      * Accessor method for Phone Number
      *
      * @return int for phone number
      **/
-    public function getPhone() {
+    public function getPhone()
+    {
         return ($this->phone);
     }
+
     /**
      * Mutator method for Phone Number
      *
-     * @param int of user phone number $newPhoneNumber
+     * @param int $newPhoneNumber of user phone number $newPhoneNumber
      * @throws InvalidArgumentException if phoneNumber is not ctype digits
      * @throws RangeException if int is not 10 digits
      **/
-    public function setPhone($newPhone) {
+    public function setPhone($newPhone)
+    {
         //verify phone number is valid and digits only
-        if((ctype_digit($newPhone)) === false) {
+        if ((ctype_digit($newPhone)) === false) {
             throw new InvalidArgumentException ("phoneNumber invalid");
         }
-        if(strlen($newPhone) > 10) {
+        if (strlen($newPhone) > 10) {
             throw (new RangeException ("Phone Number should be formatted 5055558787"));
         }
         $this->phone = $newPhone;
     }
+
     /**
      * accessor for profile path of profile pic
      *
-     * @return string
+     * @return string for profile path
      **/
-    public function getProfilePath() {
+    public function getProfilePath()
+    {
         return ($this->profilePath);
     }
+
     /**
      * Mutator for profile path of profile pic
      *
      * @param $newProfilePath
      **/
-    public function setProfilePath($newProfilePath) {
+    public function setProfilePath($newProfilePath)
+    {
         //verify profile path is valid
         $newProfilePath = filter_var($newProfilePath, FILTER_SANITIZE_STRING);
-        if(empty($newProfilePath) === true) {
+        if (empty($newProfilePath) === true) {
             throw new InvalidArgumentException("profile pic path is invalid");
         }
-        if(strlen($newProfilePath) > 255) {
+        if (strlen($newProfilePath) > 255) {
             throw (new RangeException("Profile Path is too large"));
         }
         $this->profilePath = $newProfilePath;
     }
+
+    /**
+     * accessor method for Position
+     *
+     * @return string for position
+     **/
+    public function getPosition()
+    {
+        return ($this->position);
+    }
+
+    /**
+     * Mutator method for Position
+     *
+     * @param string $newPosition for members position $newPosition
+     */
+    public function setPosition($newPosition)
+    {
+        // verify position is valid
+        $newPosition = filter_var($newPosition, FILTER_SANITIZE_STRING);
+        if (empty($newPosition) === true) {
+            throw new InvalidArgumentException("position invalid");
+        }
+        if (strlen($newPosition) > 32) {
+            throw (new RangeException ("Position content too large"));
+        }
+        $this->position = $newPosition;
+    }
+
+    /**
+     * Mutator method for Zip
+     *
+     * @param string $newZip for members zip code $newZip
+     */
+    public function setZip($newZip)
+    {
+        // verify zip is valid
+        $newZip = filter_var($newZip, FILTER_SANITIZE_STRING);
+        if (empty($newZip) === true) {
+            throw new InvalidArgumentException("zip invalid");
+        }
+        if (strlen($newZip) > 32) {
+            throw (new RangeException ("Zip content too large"));
+        }
+        $this->zip = $newZip;
+    }
+
+    /**
+     * Mutator method for State
+     *
+     * @param string $newState for members state $newState
+     */
+    public function setState($newState)
+    {
+        // verify state is valid
+        $newState = filter_var($newState, FILTER_SANITIZE_STRING);
+        if (empty($newState) === true) {
+            throw new InvalidArgumentException("state invalid");
+        }
+        if (strlen($newState) > 32) {
+            throw (new RangeException ("State content too large"));
+        }
+        $this->state = $newState;
+    }
+
+    /**
+     * Mutator method for City
+     *
+     * @param string $newCity for members City $newCity
+     */
+    public function setCity($newCity)
+    {
+        // verify City is valid
+        $newCity = filter_var($newCity, FILTER_SANITIZE_STRING);
+        if (empty($newCity) === true) {
+            throw new InvalidArgumentException("city invalid");
+        }
+        if (strlen($newCity) > 32) {
+            throw (new RangeException ("City content too large"));
+        }
+        $this->city = $newCity;
+    }
+
+    /**
+     * Mutator method for Address1
+     *
+     * @param string $newAddress1 for members address1 $newAddress1
+     */
+    public function setAddress1($newAddress1)
+    {
+        // verify address1 is valid
+        $newAddress1 = filter_var($newAddress1, FILTER_SANITIZE_STRING);
+        if (empty($newAddress1) === true) {
+            throw new InvalidArgumentException("address1 invalid");
+        }
+        if (strlen($newAddress1) > 32) {
+            throw (new RangeException ("Address1 content too large"));
+        }
+        $this->address1 = $newAddress1;
+    }
+
+
+    /**
+     * Mutator method for Address2
+     *
+     * @param string $newAddress2 for members address2 $newAddress2
+     */
+    public function setAddress2($newAddress2)
+    {
+        // verify address2 is valid
+        $newAddress2 = filter_var($newAddress2, FILTER_SANITIZE_STRING);
+        if (empty($newAddress2) === true) {
+            throw new InvalidArgumentException("address2 invalid");
+        }
+        if (strlen($newAddress2) > 32) {
+            throw (new RangeException ("Address2 content too large"));
+        }
+        $this->address2 = $newAddress2;
+    }
+
+
+    /**
+     * Mutator method for Gender
+     *
+     * @param string $newGender for members gender $newGender
+     */
+    public function setGender($newGender)
+    {
+        // verify gender is valid
+        $newGender = filter_var($newGender, FILTER_SANITIZE_STRING);
+        if (empty($newGender) === true) {
+            throw new InvalidArgumentException("gender invalid");
+        }
+        if (strlen($newGender) > 32) {
+            throw (new RangeException ("Gender content too large"));
+        }
+        $this->gender = $newGender;
+    }
+
+
+    /**
+     * Mutator method for Dob
+     *
+     * @param string $newDob for members dob $newDob
+     */
+    public function setDob($newDob)
+    {
+        // verify dob is valid
+        $newDob = filter_var($newDob, FILTER_SANITIZE_STRING);
+        if (empty($newDob) === true) {
+            throw new InvalidArgumentException("dob invalid");
+        }
+        if (strlen($newDob) > 32) {
+            throw (new RangeException ("Dob content too large"));
+        }
+        $this->dob = $newDob;
+    }
+
+
     /**
      * accessor method for Salt
      *
      * @return string of Salt for user password
      **/
-    public function getSalt() {
+    public function getSalt()
+    {
         return ($this->salt);
     }
+
+
     /**
      * mutator method for Salt
      *
-     * @param string of users password salt $newSalt
+     * @param string $newSalt of users password salt $newSalt
      * @throw InvalidArgumentException if salt is not valid int
      * @throw RangeException if salt is not exactly 64 xdigits
      **/
-    public function setSalt($newSalt) {
+    public function setSalt($newSalt)
+    {
         // verify salt is exactly string of 64
-        if((ctype_xdigit($newSalt)) === false) {
-            if(empty($newSalt) === true) {
+        if ((ctype_xdigit($newSalt)) === false) {
+            if (empty($newSalt) === true) {
                 throw new InvalidArgumentException ("salt invalid");
             }
-            if(strlen($newSalt) !== 64) {
+            if (strlen($newSalt) !== 64) {
                 throw (new RangeException ("salt not valid"));
             }
         }
         $this->salt = $newSalt;
     }
-    public function JsonSerialize() {
+
+
+    public function JsonSerialize()
+    {
         $fields = get_object_vars($this);
         unset ($fields["salt"]);
         unset ($fields["hash"]);
         return ($fields);
     }
+
+
     /**
      * Inserts User into mySQL
      *
      * Inserts this userId into mySQL in intervals
      * @param PDO $pdo connection to
      **/
-    public function insert(PDO &$pdo) {
+    public function insert(PDO &$pdo)
+    {
         // make sure user doesn't already exist
-        if($this->userId !== null) {
-            throw (new PDOException("existing user"));
+        if ($this->membersId !== null) {
+            throw (new PDOException("existing member"));
         }
         //create query template
         $query
-            = "INSERT INTO user(accessLevelId, activation, email, firstName, hash, lastName, phone, profilePath, salt)
-        VALUES (:accessLevel, :activation, :email, :firstName, :hash, :lastName, :phone, :profilePath, :salt)";
+            = "INSERT INTO user( membersId, missionsId, activation, email, firstName, hash, lastName, phone, profilePath, position, zip, state, city, address1, address2, gender, dob, salt)
+        VALUES (:members, :missions, :activation, :email, :firstName, :hash, :lastName, :phone, :profilePath, :position, :zip, :state, :city, :address1, :address2, :gender, :dob, :salt)";
         $statement = $pdo->prepare($query);
         // bind the variables to the place holders in the template
-        $parameters = array("accessLevelId" => $this->accessLevelId, "activation" => $this->activation, "email" => $this->email,
+        $parameters = array("missionsId" => $this->missionsId, "activation" => $this->activation, "email" => $this->email,
             "firstName" => $this->firstName,
             "hash" => $this->hash, "lastName" => $this->lastName, "phone" => $this->phone, "profilePath" => $this->profilePath,
+            "position" => $this->position, "zip" => $this->zip, "state" => $this->state, "city" => $this->city, "address1" => $this->address1,
+            "address2" => $this->address2, "gender" => $this->gender, "dob" => $this->dob,
             "salt" => $this->salt);
         $statement->execute($parameters);
-        //update null userId with what mySQL just gave us
-        $this->userId = intval($pdo->lastInsertI
+        //update null membersId with what mySQL just gave us
+        $this->membersId = intval($pdo->lastInsertId);
+
+    }
+
+
+    /**
+     * updates Message in mySQL
+     *
+     * Update PDO to update members class
+     * @param PDO $pdo pointer to PDO connection, by reference
+     **/
+    public function update(PDO $pdo) {
+        // create query template
+        $query = "UPDATE missions SET membersId = :membersId, category = :category, message = :message WHERE missionsId = :missionsId";
+        $statement = $pdo->prepare($query);
+        // bind the members variables
+        $parameters = array("membersId" => $this->membersId, "category" => $this->category, "message" => $this->message,
+            "missionsId" => $this->missionsId);
+        $statement->execute($parameters);
+    }
+
+
+} // end class
