@@ -9,14 +9,14 @@
 class User implements JsonSerializable {
     /**
      * id for this member; this is the primary key
-     * @var int $membersId
+     * @var int $membersId(PK)
      **/
     private $membersId;
     /**
      * access level id to identify member groups
-     * @var int for $missionsFkId
+     * @var int for $missionsId(FK)
      **/
-    private $missionsFkId;
+    private $missionsId;
     /**
      * allows activation of a new member account
      * @var string for activation
@@ -73,10 +73,25 @@ class User implements JsonSerializable {
      **/
     private $city;
     /**
-    * city that member lives in
-    * @var string for $city
+    * address1 of the member
+    * @var string for $address1
     **/
-    private $city;
+    private $address1;
+    /**
+     * address2 of the member
+     * @var string for $address2
+     **/
+    private $address2;
+    /**
+     * gender of the member
+     * @var string for $gender
+     **/
+    private $gender;
+    /**
+     * dob of the member
+     * @var string for $dob
+     **/
+    private $dob;
     /**
      * salt of password w/ hash
      * @var string for password salt
@@ -86,14 +101,22 @@ class User implements JsonSerializable {
 
     /**
      * User constructor.
-     * @param $newUserId
-     * @param $newAccessLevelId
+     * @param $newMemberId
+     * @param $newMissionsId
      * @param $newEmail
      * @param $newFirstName
      * @param $newHash
      * @param $newLastName
      * @param $newPhone
      * @param $newProfilePath
+     * @param $position
+     * @param $zip
+     * @param $state
+     * @param $city
+     * @param $address1
+     * @param $address2
+     * @param $gender
+     * @param $dob
      * @param $newSalt
      **/
     public function __construct($newUserId, $newAccessLevelId, $newActivation, $newEmail, $newFirstName, $newHash, $newLastName,
