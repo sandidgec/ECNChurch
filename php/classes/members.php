@@ -49,11 +49,6 @@ class Members implements JsonSerializable
      **/
     private $phone;
     /**
-     * path for a profile pic
-     * @var string of profile picture path
-     **/
-    private $profilePath;
-    /**
      * position of the members
      * @var string $position
      **/
@@ -95,7 +90,7 @@ class Members implements JsonSerializable
     private $dob;
     /**
      * salt of password w/ hash
-     * @var string for password salt
+     * @var string $salt for password salt
      **/
     private $salt;
 
@@ -110,7 +105,6 @@ class Members implements JsonSerializable
      * @param $newHash
      * @param $newLastName
      * @param $newPhone
-     * @param $newProfilePath
      * @param $newPosition
      * @param $newZip
      * @param $newState
@@ -122,7 +116,7 @@ class Members implements JsonSerializable
      * @param $newSalt
      **/
     public function __construct($newMembersId, $newMissionsId, $newActivation, $newEmail, $newFirstName, $newHash, $newLastName,
-                                $newPhone, $newProfilePath, $newPosition, $newZip, $newState, $newCity, $newAddress1, $newAddress2, $newGender, $newDob, $newSalt)
+                                $newPhone, $newPosition, $newZip, $newState, $newCity, $newAddress1, $newAddress2, $newGender, $newDob, $newSalt)
     {
         try {
             $this->setMembersId($newMembersId);
@@ -133,7 +127,6 @@ class Members implements JsonSerializable
             $this->setHash($newHash);
             $this->setLastName($newLastName);
             $this->setPhone($newPhone);
-            $this->setProfilePath($newProfilePath);
             $this->setPosition($newPosition);
             $this->setZip($newZip);
             $this->setState($newState);
@@ -372,7 +365,7 @@ class Members implements JsonSerializable
      * Mutator method for Phone Number
      *
      * @param int $newPhoneNumber of user phone number $newPhoneNumber
-     * @throws InvalidArgumentException if phoneNumber is not ctype digits
+     * @throws InvalidArgumentException if phoneNumber is not typed digits
      * @throws RangeException if int is not 10 digits
      **/
     public function setPhone($newPhone)
@@ -385,34 +378,6 @@ class Members implements JsonSerializable
             throw (new RangeException ("Phone Number should be formatted 5055558787"));
         }
         $this->phone = $newPhone;
-    }
-
-    /**
-     * accessor for profile path of profile pic
-     *
-     * @return string for profile path
-     **/
-    public function getProfilePath()
-    {
-        return ($this->profilePath);
-    }
-
-    /**
-     * Mutator for profile path of profile pic
-     *
-     * @param $newProfilePath
-     **/
-    public function setProfilePath($newProfilePath)
-    {
-        //verify profile path is valid
-        $newProfilePath = filter_var($newProfilePath, FILTER_SANITIZE_STRING);
-        if (empty($newProfilePath) === true) {
-            throw new InvalidArgumentException("profile pic path is invalid");
-        }
-        if (strlen($newProfilePath) > 255) {
-            throw (new RangeException("Profile Path is too large"));
-        }
-        $this->profilePath = $newProfilePath;
     }
 
     /**
@@ -629,16 +594,14 @@ class Members implements JsonSerializable
         }
         //create query template
         $query
-            = "INSERT INTO user( membersId, missionsId, activation, email, firstName, hash, lastName, phone, profilePath, position, zip, state, city, address1, address2, gender, dob, salt)
-        VALUES (:members, :missions, :activation, :email, :firstName, :hash, :lastName, :phone, :profilePath, :position, :zip, :state, :city, :address1, :address2, :gender, :dob, :salt)";
+            = "INSERT INTO user( membersId, missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt)
+        VALUES (:members, :missions, :activation, :email, :firstName, :hash, :lastName, :phone, :position, :zip, :state, :city, :address1, :address2, :gender, :dob, :salt)";
         $statement = $pdo->prepare($query);
         // bind the variables to the place holders in the template
         $parameters = array("missionsId" => $this->missionsId, "activation" => $this->activation, "email" => $this->email,
-            "firstName" => $this->firstName,
-            "hash" => $this->hash, "lastName" => $this->lastName, "phone" => $this->phone, "profilePath" => $this->profilePath,
+            "firstName" => $this->firstName, "hash" => $this->hash, "lastName" => $this->lastName, "phone" => $this->phone,
             "position" => $this->position, "zip" => $this->zip, "state" => $this->state, "city" => $this->city, "address1" => $this->address1,
-            "address2" => $this->address2, "gender" => $this->gender, "dob" => $this->dob,
-            "salt" => $this->salt);
+            "address2" => $this->address2, "gender" => $this->gender, "dob" => $this->dob, "salt" => $this->salt);
         $statement->execute($parameters);
         //update null membersId with what mySQL just gave us
         $this->membersId = intval($pdo->lastInsertId);
@@ -654,11 +617,13 @@ class Members implements JsonSerializable
      **/
     public function update(PDO $pdo) {
         // create query template
-        $query = "UPDATE missions SET membersId = :membersId, category = :category, message = :message WHERE missionsId = :missionsId";
+        $query = "UPDATE members SET membersId = :membersId, category = :category, message = :message 
+          WHERE membersId = :membersId, email = :email, firstName = :firstName, lastName = :lastName, phone = :phone, 
+          position = :position, zip = :zip, city = :city, state = :state, address1 = :address1, address2 = :address2 ";
         $statement = $pdo->prepare($query);
         // bind the members variables
         $parameters = array("membersId" => $this->membersId, "category" => $this->category, "message" => $this->message,
-            "missionsId" => $this->missionsId);
+            "membersId" => $this->membersId);
         $statement->execute($parameters);
     }
 

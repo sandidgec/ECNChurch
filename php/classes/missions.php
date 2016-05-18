@@ -272,7 +272,7 @@ try {
     /**
      * mutator method for Email
      *
-     *@param string of users' email $newEmail
+     *@param string $newEmail of users' email $newEmail
      * @throws InvalidArgumentException if email does not pass sanitization
      * @throws RangeException if email is longer than 64 characters
      **/
@@ -300,7 +300,7 @@ try {
     /**
      * mutator for hash -insure it is 128 length string
      *
-     *@param string of users $newHash
+     *@param string $newHash of users $newHash
      * @throws InvalidArgumentException of newHash is not valid int
      * @throws RangeException if newHash is not exactly 128 xdiits
      **/
@@ -327,7 +327,7 @@ public function getPhone() {
     /**
      * mutator method for Phone Number
      *
-     *@param int of user phone number $newPhone
+     *@param int $newPhone of user phone number $newPhone
      *@throwsInvalidArgumentException if phone is not ctype digits
      *@throws RangeException if int is not 10 digits
      **/
