@@ -581,28 +581,31 @@ class Members implements JsonSerializable
 
 
     /**
-     * Inserts User into mySQL
+     * Inserts Members into mySQL
      *
-     * Inserts this userId into mySQL in intervals
+     * Inserts this membersId into mySQL in intervals
      * @param PDO $pdo connection to
      **/
     public function insert(PDO &$pdo)
     {
-        // make sure user doesn't already exist
+        // make sure members doesn't already exist
         if ($this->membersId !== null) {
             throw (new PDOException("existing member"));
         }
         //create query template
         $query
-            = "INSERT INTO user( membersId, missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt)
+            = "INSERT INTO members( membersId, missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt)
         VALUES (:members, :missions, :activation, :email, :firstName, :hash, :lastName, :phone, :position, :zip, :state, :city, :address1, :address2, :gender, :dob, :salt)";
         $statement = $pdo->prepare($query);
+
         // bind the variables to the place holders in the template
         $parameters = array("missionsId" => $this->missionsId, "activation" => $this->activation, "email" => $this->email,
             "firstName" => $this->firstName, "hash" => $this->hash, "lastName" => $this->lastName, "phone" => $this->phone,
             "position" => $this->position, "zip" => $this->zip, "state" => $this->state, "city" => $this->city, "address1" => $this->address1,
             "address2" => $this->address2, "gender" => $this->gender, "dob" => $this->dob, "salt" => $this->salt);
+
         $statement->execute($parameters);
+
         //update null membersId with what mySQL just gave us
         $this->membersId = intval($pdo->lastInsertId);
 
@@ -610,22 +613,45 @@ class Members implements JsonSerializable
 
 
     /**
-     * updates Message in mySQL
+     * updates Members in mySQL
      *
      * Update PDO to update members class
      * @param PDO $pdo pointer to PDO connection, by reference
      **/
     public function update(PDO $pdo) {
         // create query template
-        $query = "UPDATE members SET membersId = :membersId, category = :category, message = :message 
-          WHERE membersId = :membersId, email = :email, firstName = :firstName, lastName = :lastName, phone = :phone, 
-          position = :position, zip = :zip, city = :city, state = :state, address1 = :address1, address2 = :address2 ";
+        $query = "UPDATE members SET activation = :activation, 
+          email = :email, firstName = :firstName, hash = :hash, lastName = :lastName, phone = :phone, 
+          position = :position, zip = :zip, city = :city, state = :state, address1 = :address1, address2 = :address2,
+           gender = :gender, dob = :dob, salt =:salt, 
+          WHERE membersId = :membersId ";
         $statement = $pdo->prepare($query);
         // bind the members variables
-        $parameters = array("membersId" => $this->membersId, "category" => $this->category, "message" => $this->message,
-            "membersId" => $this->membersId);
+        $parameters = array("activation" => $this->activation, "email" => $this->email,
+            "firstName" => $this->firstName, "hash" => $this->hash, "lastName" => $this->lastName, "phone" => $this->phone,
+            "position" => $this->position, "zip" => $this->zip, "state" => $this->state, "city" => $this->city, "address1" => $this->address1,
+            "address2" => $this->address2, "gender" => $this->gender, "dob" => $this->dob, "salt" => $this->salt,
+            "membersId" => $this->membersId,);
         $statement->execute($parameters);
     }
 
+    /**
+     * Deletes Members from mySQL
+     *
+     * Delete PDO to delete membersId
+     * @param PDO $pdo
+     **/
+    public function delete(PDO &$pdo) {
+        // enforce the members is not null
+        if($this->membersId === null) {
+            throw(new PDOException("unable to delete a members that does not exist"));
+        }
+        //create query template
+        $query = "DELETE FROM members WHERE membersId = :membersId";
+        $statement = $pdo->prepare($query);
+        //bind the member variables to the place holder in the template
+        $parameters = array("membersId" => $this->membersId);
+        $statement->execute($parameters);
+    }
 
 } // end class

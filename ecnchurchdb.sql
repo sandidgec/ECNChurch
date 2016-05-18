@@ -1,17 +1,20 @@
-DROP DATABASE IF EXISTS ecnchurch;
-CREATE DATABASE ecnchurch;
-USE ccstudents;
-DROP TABLE IF EXISTS members;
-DROP TABLE IF EXISTS missionsId;
+USE ecnchurch;
 DROP TABLE IF EXISTS bulletins;
+DROP TABLE IF EXISTS members;
+DROP TABLE IF EXISTS missions;
+
+
+
 CREATE TABLE missions (
-  missionsId TINYINT UNSIGNED NOT NULL,
+  missionsId INT UNSIGNED AUTO_INCREMENT NOT NULL,
   description VARCHAR(32) NOT NULL,
   PRIMARY KEY(missionsId)
 );
+
+
 CREATE TABLE members (
-  memberId INT UNSIGNED AUTO_INCREMENT NOT NULL,
-  missionsId TINYINT UNSIGNED NOT NULL,
+  membersId INT UNSIGNED AUTO_INCREMENT NOT NULL,
+  missionsId INT UNSIGNED NOT NULL,
   activation CHAR(16),
   email VARCHAR(128) NOT NULL,
   firstName VARCHAR(32) NOT NULL,
@@ -25,16 +28,20 @@ CREATE TABLE members (
   address1 VARCHAR (32) NOT NULL,
   address2 VARCHAR (32) NOT NULL,
   gender VARCHAR (32) NOT NULL,
-  dob VARCHAR (32) NOT NULL,
+  dob DATE NOT NULL,
   salt CHAR(64) NOT NULL,
-  PRIMARY KEY(membersId),
-  FOREIGN KEY(missionsId) REFERENCES missions(missionsId)
+  INDEX(missionsId),
+  FOREIGN KEY(missionsId) REFERENCES missions(missionsId),
+  PRIMARY KEY(membersId)
+
 );
 CREATE TABLE bulletins (
-  bulletinlId INT UNSIGNED NOT NULL,
+  bulletinId INT UNSIGNED AUTO_INCREMENT NOT NULL,
   membersId INT UNSIGNED NOT NULL,
   category VARCHAR(32) NOT NULL,
   message TEXT NOT NULL,
-  PRIMARY KEY(bulletinlId),
-  FOREIGN KEY (membersId) REFERENCES user(membersId)
+  INDEX(membersId),
+  FOREIGN KEY (membersId) REFERENCES members(membersId),
+  PRIMARY KEY(bulletinId)
+
 );
