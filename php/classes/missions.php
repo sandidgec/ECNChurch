@@ -107,7 +107,7 @@ try {
     $this->setPrograms($newPrograms);
     $this->setSalt($newSalt);
     $this->setServiceTime($newServiceTime);
-    Sthis->setState($newState);
+    $this->setState($newState);
     $this->setZip($newZip);
 
 
@@ -231,7 +231,7 @@ try {
     /**
      * accessor method for city
      *
-     * @rerturn string for city
+     * @return string for city
      **/
     public function city()
     {
@@ -361,7 +361,7 @@ public function getPhone() {
             throw new InvalidArgumentException("Person In Charge invalid");
         }
         if(strlen($newPic) > 32) {
-            throw (new RangeEception("Person In Charge too large"));
+            throw (new RangeException("Person In Charge too large"));
         }
         $this->pic = $newPic;
     }
@@ -428,6 +428,12 @@ public function getPhone() {
         $this->salt = $newSalt;
     }
 
+        public function JsonSerialize() {
+            $fields = get_object_vars($this);
+            unset ($fields["salt"]);
+            unset ($fields["hash"]);
+            return ($fields);
+    }
 
 
 
@@ -477,7 +483,7 @@ public function getPhone() {
      **/
     public function state()
     {
-        return ($this->serviceTime);
+        return ($this->state);
 
     }
 
@@ -510,13 +516,13 @@ public function getPhone() {
 
 
     /**
-     * accessor method for State
+     * accessor method for Zip Code
      *
-     * @rerturn string for State
+     * @rerturn string for Zip code
      **/
-    public function serviceTime()
+    public function zip()
     {
-        return ($this->serviceTime);
+        return ($this->zip);
 
     }
 
@@ -524,24 +530,213 @@ public function getPhone() {
 
 
     /**
-     * Mutator method for Service Time
+     * Mutator method for Zip Code
      *
-     * @param string  mission address1 $serviceTime
+     * @param string  mission zip code
      */
-    public function setServiceTime($newServiceTime) {
+    public function setZip($newZip) {
 
-        $newServiceTime = filter_var($newServiceTime, FILTER_SANITIZE_STRING);
+        $newZip = filter_var($newZip, FILTER_SANITIZE_STRING);
 
-        if ( $newServiceTime === false) {
-            throw (new InvalidArgumentException("New Service Time is invalid"));
+        if ( $newZip === false) {
+            throw (new InvalidArgumentException("New Zip is invalid"));
         }
 
-        if (empty($newServiceTime) === true) {
-            throw new InvalidArgumentException("Service Time invalid");
+        if (empty($newZip) === true) {
+            throw new InvalidArgumentException("Zip invalid");
         }
-        if (strlen($newServiceTime) > 32) {
-            throw (new RangeException ("Service Time content too large"));
+        if (strlen($newZip) > 32) {
+            throw (new RangeException ("Zip content too large"));
         }
-        $this->serviceTime = $newServiceTime;
+        $this->zip = $newZip;
     }
+
+
+
+
+    /**
+     * Inserts User into mySQL
+     *
+     * Inserts this userId into mySQL in intervals
+     * @param PDO $pdo connection to
+     **/
+    public function insert(PDO &$pdo) {
+        // make sure mission doesn't already exist
+        if($this->missionId !== null) {
+            throw (new PDOException("existing user"));
+        }
+        //create query template
+        $query
+            = "INSERT INTO mission(address1, address2, city, email, hash, phone, pic, programs, salt, serviceTime, state, zip)
+        VALUES (:address1, :address2, :city, :email, :hash, :phone, :pic, :programs, :salt, :serviceTime, :state, :zip);
+		
+        $statement = $pdo->prepare($query);
+
+        // bind the variables to the place holders in the template
+        $parameters = array("address1" => $this->address1, "address2" => $this->address2, "city" => $this->city, 
+        "email" => $this->email, "hash" => $this->hash,
+            "phone" => $this->phone, "pic" => $this->pic, "programs" => $this->progrmas, "salt" => $this->salt,
+            "serviceTime" => $this->serviceTime, "state" => $this->state, "zip" => $this->zip);
+        $statement->execute($parameters);
+
+        //update null missionId with what mySQL just gave us
+        $this->missionId = intval($pdo->lastInsertId());
+    }
+
+    /**
+     * Deletes mission from mySQL
+     *
+     * Delete PDO to delete missionId
+     * @param PDO $pdo
+     **/
+    public function delete(PDO &$pdo) {
+        // enforce the user is not null
+        if($this->missionId === null) {
+            throw(new PDOException("unable to delete a mission that does not exist"));
+        }
+
+        //create query template
+        $query = "DELETE FROM mission WHERE missionId = :missionId";
+        $statement = $pdo->prepare($query);
+
+        //bind the member variables to the place holder in the template
+        $parameters = array("missionId" => $this->missionId);
+        $statement->execute($parameters);
+    }
+
+    /**
+     * updates Missiom in mySQL
+     *
+     * Update PDO to update missiom class
+     * @param PDO $pdo pointer to PDO connection, by reference
+     **/
+    public function update(PDO $pdo) {
+    
+        //create query template
+        $query = "UPDATE mission SET address1 = :address1, address2 = :address2, city = :city, email = :email,
+        hash = :hash, phone = :phone, pic = :pic, programs= :programs, salt = :salt, serviceTime = :serviceTime, state = :state,
+        zip = :zip;
+        $statement = j$pdo->prepare(query);
+
+
+        // bind the member variables
+        $parameters = array("addressl" => $this->address1, "address2" => $this->address2, "city" => #this->city, "email" => $this->email,
+            "hash" => $this->hash, "missionId" => $this->missionId, "phone" => $this->phone, "pic" => $this->pic, "programs" => $this->programs,
+            "salt" => $this->salt, "serviceTime" => $this->serviceTime, "state" => $this->state, "zip" =>$this->zip);
+        $statement->execute($parameters);
+    }
+
+    /**
+     * Get user by userId integer
+     *
+     * @param PDO $pdo pointer to PDO connection, by reference
+     * @param int for unique userId $userId
+     * @return mixed|Misison
+     **/
+    public static function getUserByMissionId(PDO $pdo, $missionId) {
+        // sanitize the missionId before searching
+        $missionId = filter_var($missionId, FILTER_VALIDATE_INT);
+        if($missionId === false) {
+            throw(new PDOException("mission id is not an integer"));
+        }
+        if($missionId <= 0) {
+            throw(new PDOException("mission id is not positive"));
+        }
+
+        // create query template
+        $query = "SELECT missionId, address1, address2, city, email, hash, phone, pic, programs, salt, serviceTime, 
+                state, zip, FROM mission WHERE missionId = :missionId";
+        $statement = $pdo->prepare($query);
+
+        // bind the user id to the place holder in the template
+        $parameters = array("missionId" => $missionId);
+        $statement->execute($parameters);
+
+        // grab the user from mySQL
+        try {
+            $mission = null;
+            $statement->setFetchMode(PDO::FETCH_ASSOC);
+            $row = $statement->fetch();
+            if($row !== false) {
+                $mission = new Mission ($row["missionId"], $row["address1"], $row["address2"], $row["city}, $row["email"],
+                    $row["hash"], $row["phone"], $row["pic], $row[programs], $row[salt], $row[serviceTime],
+                    $row[state], $row[zip];
+
+            }
+        } catch(Exception $exception) {
+            // if the row couldn't be converted, rethrow it
+            throw(new PDOException($exception->getMessage(), 0, $exception));
+        }
+        return ($mission);
+    }
+
+
+    /**
+     * get user by email
+     *
+     * @param PDO $pdo pointer to PDO connection, by reference
+     * @param mixed info for $mission
+     * @return null|Mission
+     **/
+    public static function getMissionByEmail(PDO &$pdo, $mission) {
+        // sanitize the email before searching
+        $mission = filter_var($mission, FILTER_SANITIZE_EMAIL);
+        if($mission === false) {
+            throw(new PDOException(""));
+        }
+        // create query template
+        $query = "SELECT missionId, address1, address2, city, email, hash, phone, pic, programs, salt, serviceTime, state, zip
+        FROM mission WHERE email = :email";
+        $statement = $pdo->prepare($query);
+
+        // bind the mission id to the place holder in the template
+        $parameters = array("email" => $mission);
+        $statement->execute($parameters);
+
+        // grab the mission from mySQL
+        try {
+            $mission = null;
+            $statement->setFetchMode(PDO::FETCH_ASSOC);
+            $row = $statement->fetch();
+            if($row !== false) {
+                $mission = new Mission ($row["missionId"], $row["address1"], $row["$this->address2"], $row["city"], $row["email"],
+                    $row["hash"], $row["phone"], $row["pic"], $row["programs"], $row["salt"], $row["serviceTime"], $row["state"], $row["zip"]);
+            }
+        } catch(Exception $exception) {
+            // if the row couldn't be converted, rethrow it
+            throw(new PDOException($exception->getMessage(), 0, $exception));
+        }
+        return ($mission);
+    }
+
+    /**
+     * Get all Missions
+     *
+     * @param PDO $pdo pointer to PDO connection, by reference
+     * @return mixed|Mission
+     **/
+    public static function getAllMissions(PDO &$pdo) {
+
+        // create query template
+       $query = "SELECT missionId, address1, address2, city, email, hash, phone, pic, programs, salt, serviceTime, state, zip
+        FROM mission WHERE email = :email";
+        $statement = $pdo->prepare($query);
+
+        // grab the mission from mySQL
+        try {
+            $mission = null;
+            $statement->setFetchMode(PDO::FETCH_ASSOC);
+            $row = $statement->fetch();
+            if($row !== false) {
+              $mission = new Mission ($row["missionId"], $row["address1"], $row["$this->address2"], $row["city"], $row["email"],
+                    $row["hash"], $row["phone"], $row["pic"], $row["programs"], $row["salt"], $row["serviceTime"], $row["state"], $row["zip"]);
+            }
+        } catch(Exception $exception) {
+            // if the row couldn't be converted, rethrow it
+            throw(new PDOException($exception->getMessage(), 0, $exception));
+        }
+        return ($mission);
+    }
+
+
 }
