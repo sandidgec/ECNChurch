@@ -11,10 +11,11 @@ CREATE TABLE missions (
   city VARCHAR (32) NOT NULL,
   email VARCHAR(128) NOT NULL,
   pic VARCHAR(32) NOT NULL,
-  phone VARCHAR(32) NOT NULL,
+  phone VARCHAR(16) NOT NULL,
   serviceTime VARCHAR (128) NOT NULL,
-  state VARCHAR (32) NOT NULL,
+  state VARCHAR (2) NOT NULL,
   zip VARCHAR (32) NOT NULL,
+  UNIQUE(email),
   PRIMARY KEY(missionsId)
 );
 
@@ -30,7 +31,7 @@ CREATE TABLE members (
   phone VARCHAR(32) NOT NULL,
   position VARCHAR(32) NOT NULL,
   zip VARCHAR (32) NOT NULL,
-  state VARCHAR (32) NOT NULL,
+  state VARCHAR (2) NOT NULL,
   city VARCHAR (32) NOT NULL,
   address1 VARCHAR (32) NOT NULL,
   address2 VARCHAR (32) NOT NULL,
