@@ -4,7 +4,7 @@
  *
  * This class handles bulletins posted to site
  *
- * @author Charles Sandidge charles@cultivatingcoders.com
+ * @author name email
  **/
 class Bulletin implements JsonSerializable {
     /**
@@ -14,9 +14,9 @@ class Bulletin implements JsonSerializable {
     private $bulletinId;
     /**
      * attaches key for user posting bulletin
-     * @var int $userId foreign key for userId
+     * @var int $missionsId foreign key for $missionsId
      */
-    private $userId;
+    private $missionsId;
     /**
      * describes a bulletins category
      * @var string for category description of the bulletin
@@ -28,19 +28,26 @@ class Bulletin implements JsonSerializable {
      */
     private $message;
     /**
+     * describes a timestamp
+     * @var string for timestamp of the bulletin
+     */
+    private $timestamp;
+    /**
      * Bulletin constructor.
      * @param $newBulletinId
-     * @param $newUserId
+     * @param $newMissionsId
      * @param $newCategory
      * @param $newMessage
+     * @param $newTimestamp
      */
-    public function __construct($newBulletinId, $newUserId, $newCategory, $newMessage)
+    public function __construct($newBulletinId, $newMissionsId, $newCategory, $newMessage, $newTimestamp)
     {
         try {
             $this->setBulletinId($newBulletinId);
-            $this->setUserId($newUserId);
+            $this->setMissionsId($newMissionsId);
             $this->setCategory($newCategory);
             $this->setMessage($newMessage);
+            $this->setTimestamp($newTimestamp);
         } catch (InvalidArgumentException $invalidArgument) {
             //rethrow the exception to the caller
             throw(new InvalidArgumentException($invalidArgument->getMessage(), 0, $invalidArgument));
@@ -52,6 +59,7 @@ class Bulletin implements JsonSerializable {
             throw(new Exception($exception->getMessage(), 0, $exception));
         }
     }
+
     /**
      * accessor method for bulletinId
      *
@@ -82,28 +90,30 @@ class Bulletin implements JsonSerializable {
         }
         $this->bulletinId = $newBulletinId;
     }
+
     /**
-     * accessor method for userId
+     * accessor method for missionsId
      *
-     * @return int
+     * @return int misisonsId
      **/
-    public function getUserId() {
-        return ($this->userId);
+    public function getMissionsId() {
+        return ($this->missionsId);
     }
     /**
-     * Mutator method for userId
+     * Mutator method for missionsId
      *
-     * @param $newUserId int
+     * @param $newMissionsId int
      * @throws InvalidArgumentException if userId is invalid
      **/
-    public function setUserId($newUserId) {
+    public function setUserId($newMissionsId) {
         // verify access level is integer
-        $newUserId = filter_var($newUserId, FILTER_VALIDATE_INT);
-        if(empty($newUserId) === true) {
-            throw new InvalidArgumentException ("User Id Invalid");
+        $newUserId = filter_var($newMissionsId, FILTER_VALIDATE_INT);
+        if(empty($newMissionsId) === true) {
+            throw new InvalidArgumentException ("Missions Id Invalid");
         }
-        $this->userId = $newUserId;
+        $this->missionsId = $newMissionsId;
     }
+
     /**
      * accessor method for category
      *
@@ -130,6 +140,7 @@ class Bulletin implements JsonSerializable {
         }
         $this->category = $newCategory;
     }
+
     /**
      * accessor method for message
      *
@@ -158,6 +169,36 @@ class Bulletin implements JsonSerializable {
         $fields = get_object_vars($this);
         return ($fields);
     }
+
+    /**
+     * accessor method for timestamp
+     *
+     * @return string of timestamp
+     **/
+    public function getTimestamp()
+    {
+        return ($this->timestamp);
+    }
+    /**
+     * Mutator method for timestamp
+     *
+     * @param string timestamp category $newTimestamp
+     */
+    public function setTimestamp($newTimestamp)
+    {
+        // verify timestamp is valid
+        $newTimestamp = filter_var($newTimestamp, FILTER_SANITIZE_STRING);
+        if (empty($newTimestamp) === true) {
+            throw new InvalidArgumentException("timestamp invalid");
+        }
+        $this->category = $newTimestamp;
+    }
+    public function JsonSerialize()
+    {
+        $fields = get_object_vars($this);
+        return ($fields);
+    }
+
     /**
      * Inserts Bulletin into mySQL
      *
@@ -172,15 +213,16 @@ class Bulletin implements JsonSerializable {
         }
         //create query template
         $query
-            = "INSERT INTO bulletin(userId, category, message)" .
-            "VALUES (:userId, :category, :message)";
+            = "INSERT INTO bulletin(missionsId, category, message, timestamp)" .
+            "VALUES (:missionsId, :category, :message, :timestamp")";
         $statement = $pdo->prepare($query);
         // bind the variables to the place holders in the template
-        $parameters = array("userId" => $this->userId, "category" => $this->category, "message" => $this->message);
+        $parameters = array("missionsId" => $this->missionsId, "category" => $this->category, "message" => $this->message, "timestamp" => $this->timestamp);
         $statement->execute($parameters);
         //update null bulletinId with what mySQL just gave us
         $this->bulletinId = intval($pdo->lastInsertId());
     }
+
     /**
      * Deletes Bulletin from mySQL
      *
@@ -199,6 +241,7 @@ class Bulletin implements JsonSerializable {
         $parameters = array("bulletinId" => $this->bulletinId);
         $statement->execute($parameters);
     }
+
     /**
      * updates Message in mySQL
      *
@@ -207,13 +250,14 @@ class Bulletin implements JsonSerializable {
      **/
     public function update(PDO $pdo) {
         // create query template
-        $query = "UPDATE bulletin SET userId = :userId, category = :category, message = :message WHERE bulletinId = :bulletinId";
+        $query = "UPDATE bulletin SET missionsId = :missionsId, category = :category, message = :message WHERE bulletinId = :bulletinId";
         $statement = $pdo->prepare($query);
         // bind the member variables
-        $parameters = array("userId" => $this->userId, "category" => $this->category, "message" => $this->message,
+        $parameters = array("missionsId" => $this->missionsId, "category" => $this->category, "message" => $this->message,
             "bulletinId" => $this->bulletinId);
         $statement->execute($parameters);
     }
+
     /**
      * Get bulletin by bulletinId integer
      *
@@ -231,7 +275,7 @@ class Bulletin implements JsonSerializable {
             throw(new PDOException("bulletin id is not positive"));
         }
         // create query template
-        $query = "SELECT bulletinId, userId, category, message FROM user WHERE bulletinId = :bulletinId";
+        $query = "SELECT bulletinId, missionsId, category, message FROM user WHERE bulletinId = :bulletinId";
         $statement = $pdo->prepare($query);
         // bind the bulletin id to the place holder in the template
         $parameters = array("bulletinId" => $bulletinId);
@@ -242,7 +286,7 @@ class Bulletin implements JsonSerializable {
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["userId"], $row["category"], $row["message"]);
+                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
@@ -250,6 +294,7 @@ class Bulletin implements JsonSerializable {
         }
         return ($bulletin);
     }
+
     /**
      * get bulletin by category
      *
@@ -262,7 +307,7 @@ class Bulletin implements JsonSerializable {
             throw(new PDOException(""));
         }
         // create query template
-        $query = "SELECT bulletinId, userId, category, message
+        $query = "SELECT bulletinId, missionsId, category, message
         FROM bulletin WHERE category = :category";
         $statement = $pdo->prepare($query);
         // bind the bulletinid to the place holder in the template
@@ -274,7 +319,7 @@ class Bulletin implements JsonSerializable {
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["userId"], $row["category"], $row["message"]);
+                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
@@ -290,7 +335,7 @@ class Bulletin implements JsonSerializable {
      **/
     public static function getAllBulletins(PDO &$pdo) {
         // create query template
-        $query = "SELECT bulletinId, userId, category, message FROM bulletin";
+        $query = "SELECT bulletinId, missionsId, category, message FROM bulletin";
         $statement = $pdo->prepare($query);
         // grab the bulletin from mySQL
         try {
@@ -298,7 +343,7 @@ class Bulletin implements JsonSerializable {
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["userId"], $row["category"], $row["message"]);
+                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
