@@ -426,7 +426,14 @@ try {
                 $this->zip = $newZip;
             }
 
-    
+
+                public function JsonSerialize() {
+                    $fields = get_object_vars($this);
+                    unset ($fields["salt"]);
+                    unset ($fields["hash"]);
+                    return ($fields);
+                }
+
             /**
              * Inserts mission into mySQL
              *
