@@ -654,4 +654,99 @@ class Members implements JsonSerializable
         $statement->execute($parameters);
     }
 
+    /**
+     * Get bulletin by bulletinId integer
+     *
+     * @param PDO $pdo pointer to PDO connection, by reference
+     * @param int $bulletinId for unique bulletinId $bulletinId
+     * @return mixed|Bulletin
+     **/
+    public static function getBulletinByBulletinId(PDO $pdo, $bulletinId) {
+        // sanitize the bulletinId before searching
+        $bulletinId = filter_var($bulletinId, FILTER_VALIDATE_INT);
+        if($bulletinId === false) {
+            throw(new PDOException("bulletin id is not an integer"));
+        }
+        if($bulletinId <= 0) {
+            throw(new PDOException("bulletin id is not positive"));
+        }
+        // create query template
+        $query = "SELECT bulletinId, missionsId, category, message, timeStamp FROM user WHERE bulletinId = :bulletinId";
+        $statement = $pdo->prepare($query);
+        // bind the bulletin id to the place holder in the template
+        $parameters = array("bulletinId" => $bulletinId);
+        $statement->execute($parameters);
+        // grab the bulletin from mySQL
+        try {
+            $bulletin = null;
+            $statement->setFetchMode(PDO::FETCH_ASSOC);
+            $row = $statement->fetch();
+            if($row !== false) {
+                $bulletin = new Bulletin ($row["bulletinId"], $row["userId"], $row["category"], $row["message"], $row["timeStamp"]);
+            }
+        } catch(Exception $exception) {
+            // if the row couldn't be converted, rethrow it
+            throw(new PDOException($exception->getMessage(), 0, $exception));
+        }
+        return ($bulletin);
+    }
+
+    /**
+     * get bulletin by category
+     *
+     * @param PDO $pdo pointer to PDO connection, by reference
+     * @param mixed $bulletin info for $bulletin
+     * @return null|Bulletin
+     **/
+    public static function getBulletinByCategory(PDO &$pdo, $bulletin) {
+        if($bulletin === false) {
+            throw(new PDOException(""));
+        }
+        // create query template
+        $query = "SELECT bulletinId, missionsId, category, message, timeStamp
+        FROM bulletin WHERE category = :category";
+        $statement = $pdo->prepare($query);
+        // bind the bulletinid to the place holder in the template
+        $parameters = array("category" => $bulletin);
+        $statement->execute($parameters);
+        // grab the bulletin from mySQL
+        try {
+            $bulletin= null;
+            $statement->setFetchMode(PDO::FETCH_ASSOC);
+            $row = $statement->fetch();
+            if($row !== false) {
+                $bulletin = new Bulletin ($row["bulletinId"], $row["userId"], $row["category"], $row["message"], $row["timeStamp"]);
+            }
+        } catch(Exception $exception) {
+            // if the row couldn't be converted, rethrow it
+            throw(new PDOException($exception->getMessage(), 0, $exception));
+        }
+        return ($bulletin);
+    }
+
+    /**
+     * Get all Bulletins
+     *
+     * @param PDO $pdo pointer to PDO connection, by reference
+     * @return mixed|Bulletin
+     **/
+    public static function getAllBulletins(PDO &$pdo) {
+        // create query template
+        $query = "SELECT bulletinId, missionsId, category, message, timeStamp FROM bulletin";
+        $statement = $pdo->prepare($query);
+        // grab the bulletin from mySQL
+        try {
+            $bulletin = null;
+            $statement->setFetchMode(PDO::FETCH_ASSOC);
+            $row = $statement->fetch();
+            if($row !== false) {
+                $bulletin = new Bulletin ($row["bulletinId"], $row["userId"], $row["category"], $row["message"], $row["timeStamp"]);
+            }
+        } catch(Exception $exception) {
+            // if the row couldn't be converted, rethrow it
+            throw(new PDOException($exception->getMessage(), 0, $exception));
+        }
+        return ($bulletin);
+    }
+
 } // end class
