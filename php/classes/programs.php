@@ -8,7 +8,50 @@
  * @author Dana Yazzie redcloudsaboveus01@gmail.com
  */
 
+
 class Programs implements JsonSerializable {
+
+    /**
+     * id for this program; this is the primary key
+     * @var int $programsId
+     **/
+    private $programsId;
+
+    /**
+     * access programs id to identify program groups
+     * @var int for missionsId
+     **/
+    private $missionsId;
+
+    /**
+     * datetime sets date for programs
+     * @datetime for programs $date
+     */
+    private $date;
+
+    /**
+     * descriptions of programs
+     * @var string for $description
+     */
+    private $description;
+
+    /**
+     * locations of programs
+     * @var string for $description;
+     */
+    private $location;
+
+    /**
+     * names of the programs
+     * @var string for $programName;
+     */
+    private $programName;
+
+    /**
+     * sets the time for the program
+     * @time for program $time;
+     */
+    private $time;
 
     /**
      * accessor method for programsId
@@ -64,27 +107,7 @@ class Programs implements JsonSerializable {
         }
         $this->missionsId = $newMissionsId;
     }
-
-
-    /**
-     * param $newActivation
-     **/
-    public function setActivation($newActivation) {
-        if($newActivation === null) {
-            $this->activation = null;
-            return;
-        }
-        //Verify salt is exactly string of 16
-        if((ctype_xdigit($newActivation)) === false) {
-            if(empty($newActivation) === true) {
-                throw new InvalidArgumentException ("activation invalid");
-            }
-            if(strlen($newActivation) !== 16) {
-                throw (new RangeException ("Activation not valid"));
-            }
-        }
-        $this->activation = $newActivation;
-    }
+    
 
     /**
      * accessor method for date of programs
@@ -95,15 +118,13 @@ class Programs implements JsonSerializable {
         return ($this->date);
     }
 
-
-
-
-
     /**
      * mutator method for Date
      */
-    public function setDate($newDate) {
-        return ();
+    public function setDate(DateTime $newDate) {
+
+        $this->date = $newDate;
+
     }
 
 
@@ -122,46 +143,22 @@ class Programs implements JsonSerializable {
      * @return string of descriptions for programs
      **/
     public function
-
-    /**
-     * accesssor method for Hash
-     * @return string of users password Hash
-     **/
-    public function getHash() {
-        return ($this->hash);
-    }
-
-    /**
-     * mutator for hash - insure it is 128 length string
-     * 
-     * @param string of users $newHash
-     * @throws InvalidArgumentException if newHash is not valid int
-     * @throws RangeException if newHash is not exactly 128 xdigits
-     **/
-    public function setHash($newHash) {
-        //verify Hash is exactly string of 128
-        if((ctype_xdigit($newHash)) === false) {
-            if(empty($newHash) === true) {
-                throw new InvalidArgumentException ("hash invalid");
-            }
-            if(strlen($newHash) !== 128) {
-               throw new RangeException ("hash invalid"); 
-            }
-        }
-        $this->hash = $newHash;
-    }
+    
 
     /**
      * accessor method for location
      *
      * @return string of locations for programs
      **/
+        
     public function getLocation() {
         return ($this->location);
     }
 
     /**
      * mutator method for locations
+     *
+     * @param string of locations $newLocation
      */
     public function
 
@@ -177,15 +174,18 @@ class Programs implements JsonSerializable {
     /**
      * mutator for programName
      *
+     * @param string programs name $newProgramName
      */
-
-    /**
-     * accessor method for Salt
-     *
-     * @return string of Salt for user password
-     **/
-    public function getSalt() {
-        return ($this->salt);
+    public function setProgramName($newProgramName) {
+        //verify program name is valid
+        $newProgramName = filter_var($newProgramName), FILTER_SANITIZE_STRING);
+        if(empty($newProgramName) === true) {
+            throw new InvalidArgumentException("first name invalid");
+        }
+        if(strlen($newProgramName) > 32) {
+            throw (new RangeException ("Program Name content to large"));
+        }
+        $this->programName = $newProgramName;
     }
 
     /**
