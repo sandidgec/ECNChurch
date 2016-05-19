@@ -56,7 +56,7 @@ class Programs implements JsonSerializable {
                                 $newLocation, $newProgramName,$newTime)
     {
         try {
-            $this->setProgramsId(newProgramsId);
+            $this->setProgramsId($newProgramsId);
             $this->setMissionsId($newMissionsId);
             $this->setDate($newDate);
             $this->setDescription($newDescription);
@@ -65,7 +65,7 @@ class Programs implements JsonSerializable {
             $this->setTime($newTime);
         } catch (InvalidArgumentException $invalidArgument) {
             //rethrow the exception to the caller
-            throw(new InvalidArgumentException($invalidArgument-getMessage(), 0, $invalidArgument));
+            throw(new InvalidArgumentException($invalidArgument->getMessage(), 0, $invalidArgument));
         } catch (RangeException $range) {
             //rethrow the exception to the caller
             throw (new RangeException($range->getMessage(), 0, $range));
@@ -87,7 +87,7 @@ class Programs implements JsonSerializable {
     /**
      * mutator method for the programsId
      *
-     * @param int unique value to represent a program $newProgramId
+     * @param int $newProgramsId unique value to represent a program
      * @throws InvalidArgumentException for invalid content
      **/
     public function setProgramsId($newProgramsId) {
@@ -159,7 +159,7 @@ class Programs implements JsonSerializable {
     /**
      * mutator method for description of programs
      *
-     * @return string of descriptions for programs
+     * @return string description of programs
      **/
     public function setDescription($newDescription) {
 
@@ -183,7 +183,7 @@ class Programs implements JsonSerializable {
     /**
      * mutator method for locations
      *
-     * @param string of locations $newLocation
+     * @param string $newLocation of locations
      */
     public function setLocation($newLocation) {
 
@@ -207,12 +207,14 @@ class Programs implements JsonSerializable {
     /**
      * mutator for programName
      *
-     * @param string programs name $newProgramName
+     * @param string $newProgramName for programs
      */
     public function setProgramName($newProgramName) {
+
         //verify program name is valid
-        $newProgramName = filter_var($newProgramName), FILTER_SANITIZE_STRING);
-        if(empty($newProgramName) === true) {
+        $newProgramName = filter_var($newProgramName, FILTER_SANITIZE_STRING);
+
+        if($newProgramName === false) {
             throw new InvalidArgumentException("first name invalid");
         }
         if(strlen($newProgramName) > 32) {
@@ -241,68 +243,178 @@ class Programs implements JsonSerializable {
         }
         $this->time = $newTime;
 }
-}
 
 
-/**
- * Inserts Programs into MYSQL
- *
- * Inserts this programsId in intervals
- * @param PDO $pdo connection to
- **/
-public function insert(PDO &$pdo) {
-    //make sure program doesnt already exist
-    if($this->programsId !-- null) {
+
+    /**
+     * Inserts Programs into MYSQL
+     *
+     * Inserts this programsId in intervals
+     * @param PDO $pdo connection to
+     **/
+    public function insert(PDO &$pdo) {
+        //make sure program doesn't already exist
+        if($this->programsId !== null) {
         throw (new PDOException("existing program"));
-    }
-    //create query template
-    $query = "INSERT INTO programs(programsId, missionsId, date, description, location, programName, time)
-      VALUES (:programsId, :missionsId, :date, :description, :location, :programName, :time)";
-    $statement = $pdo->prepare($query);
-    // bind the variables to the place holders in the template
-    $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId, "date" => $this->date,
-        "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "time" => $this->time);
-    $statement->execute($parameters);
-    //update null programsId with what mySQL just gave us
-    $this->programsId = intval($pdo->lastInsertId());
+        }
+        //create query template
+        $query = "INSERT INTO programs(programsId, missionsId, date, description, location, programName, time)
+          VALUES (:programsId, :missionsId, :date, :description, :location, :programName, :time)";
+        $statement = $pdo->prepare($query);
+        // bind the variables to the place holders in the template
+        $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId, "date" => $this->date,
+            "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "time" => $this->time);
+        $statement->execute($parameters);
+        //update null programsId with what mySQL just gave us
+        $this->programsId = intval($pdo->lastInsertId());
 }
 
-/**
- * Deletes Programs from mySQl
- *
- * Delete PDO to delete programsId
- * @param PDO $pdo
- **/
-public function delete(PDO &$pdo) {
-    //enforce the bullletin is not null
-    if($this->programsId ===null) {
-        throw(new PDOException("unable to delete program that does not exist"));
-    }
-    //create query template
-    $query = "DELETE FROM programs WHERE programsId = :programsId";
-    $statement = $pdo->prepare($query);
-//bind the member variables to the place holder in the template
-$parameters = array("programsId" => $this->programsId);
-$statement->execute($parameters);
-}
+    /**
+     * Deletes Programs from mySQl
+     *
+     * Delete PDO to delete programsId
+     * @param PDO $pdo
+     **/
+    public function delete(PDO &$pdo) {
+        //enforce the programs is not null
+        if($this->programsId ===null) {
+            throw(new PDOException("unable to delete program that does not exist"));
+        }
+        //create query template
+        $query = "DELETE FROM programs WHERE programsId = :programsId";
+        $statement = $pdo->prepare($query);
+        //bind the member variables to the place holder in the template
+        $parameters = array("programsId" => $this->programsId);
+        $statement->execute($parameters);
+        }
 
-/**
- * updates Message in mySQL
- *
- * Update PDO to update programs class
- * @param PDO $pdo pointer to PDO connection, by reference
- **/
-public function update(PDO $pdo) {
-    // create query template
-    $query = "UPDATE programs SET programsId = :programsId, missionsId = :missionsId, date = :date, 
-      description = :description, location = :location, programName = :programName, 
-      time = :time  WHERE programsId = :programsId";
-    $statement = $pdo->prepare($query);
-    // bind the member variables
-    $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId,
-        "date" => $this->date, "description" => $this->description, "location" => $this->location,
-        "programName" => $this->programName, "time" => $this->time);
-    $statement->execute($parameters);
-}
-//end class
+    /**
+     * updates Message in mySQL
+     *
+     * Update PDO to update programs class
+     * @param PDO $pdo pointer to PDO connection, by reference
+     **/
+    public function update(PDO $pdo) {
+        // create query template
+        $query = "UPDATE programs SET programsId = :programsId, missionsId = :missionsId, date = :date, 
+          description = :description, location = :location, programName = :programName, 
+          time = :time  WHERE programsId = :programsId";
+        $statement = $pdo->prepare($query);
+        // bind the member variables
+        $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId,
+            "date" => $this->date, "description" => $this->description, "location" => $this->location,
+            "programName" => $this->programName, "time" => $this->time);
+        $statement->execute($parameters);
+    }
+
+    /**
+     * Get programs by programsId
+     *
+     * @param PDO $pdo pointer to PDO connection, by reference
+     * @param int $programsId for unique programs
+     * @return mixed|programs
+     **/
+    public static function getProgramsByProgramsId(PDO $pdo, $programsId) {
+        // sanitize the programsId before searching
+        $programsId = filter_var($programsId, FILTER_VALIDATE_INT);
+        if($programsId === false) {
+            throw(new PDOException("programs Id is not an integer"));
+        }
+        if($programsId <= 0) {
+            throw(new PDOException("programs Id is not positive"));
+        }
+        // create query template
+        $query = "SELECT programsId, missionsId, date, description, location, programName, time FROM programs WHERE programsId = :programsId";
+        $statement = $pdo->prepare($query);
+        // bind the bulletin id to the place holder in the template
+        $parameters = array("programsId" => $programsId);
+        $statement->execute($parameters);
+        // grab the bulletin from mySQL
+        try {
+            $programs = null;
+            $statement->setFetchMode(PDO::FETCH_ASSOC);
+            $row = $statement->fetch();
+            if($row !== false) {
+                $programs = new Programs ($row["programsId"], $row["missionsId"], $row["date"],
+                    $row["description"], $row["location"], $row["programName"], $row["time"]);
+            }
+        } catch(Exception $exception) {
+            // if the row couldn't be converted, rethrow it
+            throw(new PDOException($exception->getMessage(), 0, $exception));
+        }
+        return ($programs);
+    }
+
+    /**
+     * Get programs by missionsId
+     *
+     * @param PDO $pdo pointer to PDO connection, by reference
+     * @param int $missionsId for unique programs
+     * @return mixed|missions
+     **/
+    public static function getProgramsByMissionsId(PDO $pdo, $missionsId) {
+        // sanitize the programsId before searching
+        $missionsId = filter_var($missionsId, FILTER_VALIDATE_INT);
+        if($missionsId === false) {
+            throw(new PDOException("missions Id is not an integer"));
+        }
+        if($missionsId <= 0) {
+            throw(new PDOException("missions Id is not positive"));
+        }
+        // create query template
+        $query = "SELECT programsId, missionsId, date, description, location, programName, time FROM programs WHERE missionsId = :missionsId";
+        $statement = $pdo->prepare($query);
+        // bind the bulletin id to the place holder in the template
+        $parameters = array("missionsId" => $missionsId);
+        $statement->execute($parameters);
+        // grab the bulletin from mySQL
+        try {
+            $missions = null;
+            $statement->setFetchMode(PDO::FETCH_ASSOC);
+            $row = $statement->fetch();
+            if($row !== false) {
+                $missions = new Missions ($row["programsId"], $row["missionsId"], $row["date"],
+                    $row["description"], $row["location"], $row["programName"], $row["time"]);
+            }
+        } catch(Exception $exception) {
+            // if the row couldn't be converted, rethrow it
+            throw(new PDOException($exception->getMessage(), 0, $exception));
+        }
+        return ($missions);
+    }
+
+    public static function getAllPrograms(PDO $pdo) {
+        //create the query template
+        $query = "SELECT programsId, missionsId, date, description, location, programName, time FROM programs";
+        $statement = $pdo->prepare($query);
+        // execute
+        $statement->execute();
+        //call the function to build an array of the values
+        $programs = null;
+        $statement->setFetchMode(PDO::FETCH_ASSOC);
+        $programs = new SplFixedArray($statement->rowCount());
+        while(($row = $statement->fetch()) !== false) {
+            try {
+                if($row !== false) {
+                    $program = new Programs($row["programsId"], $row["missionsId"], $row["date"], $row["description"], $row["location"], $row["programName"], $row["time"]);
+                    $programs[$program->key()] = $program;
+                    $programs->next();
+                }
+            } catch(Exception $exception) {
+
+                throw(new PDOException($exception->getMessage(), 0, $exception));
+            }
+        }
+
+        return $programs;
+    }
+    public function JsonSerialize() {
+        $fields = get_object_vars($this);
+        unset ($fields["salt"]);
+        unset ($fields["hash"]);
+        return ($fields);
+    }
+
+} //end class
+
 
