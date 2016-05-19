@@ -19,7 +19,7 @@ class Programs implements JsonSerializable {
 
     /**
      * access programs id to identify program groups
-     * @var int for missionsId
+     * @var int for $missionsId
      **/
     private $missionsId;
 
@@ -37,7 +37,7 @@ class Programs implements JsonSerializable {
 
     /**
      * locations of programs
-     * @var string for $description;
+     * @var string for $location;
      */
     private $location;
 
@@ -49,9 +49,32 @@ class Programs implements JsonSerializable {
 
     /**
      * sets the time for the program
-     * @time for program $time;
+     * @var DateTime for program $time;
      */
     private $time;
+
+    public function __construct($newProgramsId, $newMissionsId, $newDate, $newDescription,
+                                $newLocation, $newProgramName,$newTime)
+    {
+        try {
+            $this->setProgramsId(newProgramsId);
+            $this->setMissionsId($newMissionsId);
+            $this->setDate($newDate);
+            $this->setDescription($newDescription);
+            $this->setLocation($newLocation);
+            $this->setProgramName($newProgramName);
+            $this->setTime($newTime);
+        } catch (InvalidArgumentException $invalidArgument) {
+            //rethrow the exception to the caller
+            throw(new InvalidArgumentException($invalidArgument-getMessage(), 0, $invalidArgument));
+        } catch (RangeException $range) {
+            //rethrow the exception to the caller
+            throw (new RangeException($range->getMessage(), 0, $range));
+        } catch (Exception $exception) {
+            //rethrow generic exception
+            throw(new Exception($exception->getMessage(), 0, $exception));
+        }
+    }
 
     /**
      * accessor method for programsId
@@ -62,9 +85,6 @@ class Programs implements JsonSerializable {
         return ($this->programsId);
     }
 
-    
-    
-    
     /**
      * mutator method for the programsId
      *
@@ -85,7 +105,6 @@ class Programs implements JsonSerializable {
         }
         $this->programsId = $newProgramsId;
     }
-
 
     /**
      * accessor method for access level of identifying programs (missionsId)
@@ -110,7 +129,7 @@ class Programs implements JsonSerializable {
         }
         $this->missionsId = $newMissionsId;
     }
-    
+
 
     /**
      * accessor method for date of programs
@@ -125,9 +144,7 @@ class Programs implements JsonSerializable {
      * mutator method for Date
      */
     public function setDate(DateTime $newDate) {
-
         $this->date = $newDate;
-
     }
 
 
@@ -145,15 +162,21 @@ class Programs implements JsonSerializable {
      *
      * @return string of descriptions for programs
      **/
-    public function
-    
+    public function setDescription($newDescription) {
+
+        $newDescription = filter_var ($newDescription, FILTER_SANITIZE_STRING);
+
+        if($newDescription === false) {
+            throw (new InvalidArgumentException("New description is insecure or empty"));
+        }
+        $this->description = $newDescription;
+    }
 
     /**
      * accessor method for location
      *
      * @return string of locations for programs
      **/
-        
     public function getLocation() {
         return ($this->location);
     }
@@ -163,7 +186,15 @@ class Programs implements JsonSerializable {
      *
      * @param string of locations $newLocation
      */
-    public function
+    public function setLocation($newLocation) {
+
+        $newLocation = filter_var ($newLocation, FILTER_SANITIZE_STRING);
+
+        if($newLocation === false) {
+            throw( new InvalidArgumentException("New Location is insecure or empty"));
+        }
+        $this->location = $newLocation;
+    }
 
     /**
      * accessor method for programName
@@ -181,7 +212,7 @@ class Programs implements JsonSerializable {
      */
     public function setProgramName($newProgramName) {
         //verify program name is valid
-        $newProgramName = filter_var($newProgramName), FILTER_SANITIZE_STRING);
+        $newProgramName = filter_var($newProgramName) FILTER_SANITIZE_STRING);
         if(empty($newProgramName) === true) {
             throw new InvalidArgumentException("first name invalid");
         }
@@ -203,14 +234,29 @@ class Programs implements JsonSerializable {
     /**
      * mutator for time
      */
-    public function 
+    public function setTime($newTime) {}
 
 
-
-
-
-
-
-
-
+/**
+ * Inserts Programs into MYSQL
+ *
+ * Inserts this programsId in intervals
+ * @param PDO $pdo connection to
+ **/
+public function insert(PDO &$pdo) {
+    //make sure program doesnt already exist
+    if($this->userId !-- null) {
+        throw (new PDOException("existing program"));
+    }
+    //create query template
+    $query
+        = "INSERT INTO programs(programsId, missionsId, date, description, location, programName, time)
+      VALUES (:programsId, :missionsId, :date, :description, :location, :programName, :time)";
+    $statement = $pdo->prepare($query);
+    // bind the variables to the place holders in the template
+    $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId, "date" => $this->date,
+        "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "time" => $this->time);
+    $statement->execute($parameters);
+    //update null programsId with what mySQL just gave us
+    $this->programsId = intval($pdo->lastInsertId);
 }
