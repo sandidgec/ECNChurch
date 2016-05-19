@@ -214,7 +214,7 @@ class Bulletin implements JsonSerializable {
         //create query template
         $query
             = "INSERT INTO bulletin(missionsId, category, message, timeStamp)" .
-            "VALUES (:missionsId, :category, :message, :timeStamp")";
+            "VALUES (:missionsId, :category, :message, :timeStamp)";
         $statement = $pdo->prepare($query);
         // bind the variables to the place holders in the template
         $parameters = array("missionsId" => $this->missionsId, "category" => $this->category, "message" => $this->message, "timeStamp" => $this->timestamp);

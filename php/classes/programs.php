@@ -8,7 +8,6 @@
  * @author Dana Yazzie redcloudsaboveus01@gmail.com
  */
 
-
 class Programs implements JsonSerializable {
 
     /**
@@ -212,7 +211,7 @@ class Programs implements JsonSerializable {
      */
     public function setProgramName($newProgramName) {
         //verify program name is valid
-        $newProgramName = filter_var($newProgramName) FILTER_SANITIZE_STRING);
+        $newProgramName = filter_var($newProgramName), FILTER_SANITIZE_STRING);
         if(empty($newProgramName) === true) {
             throw new InvalidArgumentException("first name invalid");
         }
@@ -234,7 +233,15 @@ class Programs implements JsonSerializable {
     /**
      * mutator for time
      */
-    public function setTime($newTime) {}
+    public function setTime($newTime)  {
+        $newTime = filter_var ($newTime, FILTER_SANITIZE_STRING);
+
+        if($newTime === false) {
+            throw( new InvalidArgumentException("New Time is insecure or empty"));
+        }
+        $this->time = $newTime;
+}
+}
 
 
 /**
@@ -245,12 +252,11 @@ class Programs implements JsonSerializable {
  **/
 public function insert(PDO &$pdo) {
     //make sure program doesnt already exist
-    if($this->userId !-- null) {
+    if($this->programsId !-- null) {
         throw (new PDOException("existing program"));
     }
     //create query template
-    $query
-        = "INSERT INTO programs(programsId, missionsId, date, description, location, programName, time)
+    $query = "INSERT INTO programs(programsId, missionsId, date, description, location, programName, time)
       VALUES (:programsId, :missionsId, :date, :description, :location, :programName, :time)";
     $statement = $pdo->prepare($query);
     // bind the variables to the place holders in the template
@@ -258,5 +264,45 @@ public function insert(PDO &$pdo) {
         "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "time" => $this->time);
     $statement->execute($parameters);
     //update null programsId with what mySQL just gave us
-    $this->programsId = intval($pdo->lastInsertId);
+    $this->programsId = intval($pdo->lastInsertId());
 }
+
+/**
+ * Deletes Programs from mySQl
+ *
+ * Delete PDO to delete programsId
+ * @param PDO $pdo
+ **/
+public function delete(PDO &$pdo) {
+    //enforce the bullletin is not null
+    if($this->programsId ===null) {
+        throw(new PDOException("unable to delete program that does not exist"));
+    }
+    //create query template
+    $query = "DELETE FROM programs WHERE programsId = :programsId";
+    $statement = $pdo->prepare($query);
+//bind the member variables to the place holder in the template
+$parameters = array("programsId" => $this->programsId);
+$statement->execute($parameters);
+}
+
+/**
+ * updates Message in mySQL
+ *
+ * Update PDO to update programs class
+ * @param PDO $pdo pointer to PDO connection, by reference
+ **/
+public function update(PDO $pdo) {
+    // create query template
+    $query = "UPDATE programs SET programsId = :programsId, missionsId = :missionsId, date = :date, 
+      description = :description, location = :location, programName = :programName, 
+      time = :time  WHERE programsId = :programsId";
+    $statement = $pdo->prepare($query);
+    // bind the member variables
+    $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId,
+        "date" => $this->date, "description" => $this->description, "location" => $this->location,
+        "programName" => $this->programName, "time" => $this->time);
+    $statement->execute($parameters);
+}
+//end class
+
