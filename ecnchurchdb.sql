@@ -50,7 +50,7 @@ CREATE TABLE programs (
   description VARCHAR(160) NOT NULL,
   location VARCHAR(32) NOT NULL,
   programName VARCHAR(32) NOT NULL,
-  time DATE NOT NULL,
+  time VARCHAR(15) NOT NULL,
   INDEX(missionsId),
   FOREIGN KEY(missionsId) REFERENCES missions(missionsId),
   PRIMARY KEY(programsId)

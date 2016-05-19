@@ -407,6 +407,15 @@ class Members implements JsonSerializable
         }
         $this->position = $newPosition;
     }
+    /**
+     * accessor method for Zip
+     *
+     * @return string for zip
+     **/
+    public function getZip()
+    {
+        return ($this->zip);
+    }
 
     /**
      * Mutator method for Zip
@@ -424,6 +433,16 @@ class Members implements JsonSerializable
             throw (new RangeException ("Zip content too large"));
         }
         $this->zip = $newZip;
+    }
+
+    /**
+     * accessor method for State
+     *
+     * @return string for state
+     **/
+    public function getState()
+    {
+        return ($this->state);
     }
 
     /**
@@ -445,6 +464,16 @@ class Members implements JsonSerializable
     }
 
     /**
+     * accessor method for City
+     *
+     * @return string for position
+     **/
+    public function getCity()
+    {
+        return ($this->city);
+    }
+
+    /**
      * Mutator method for City
      *
      * @param string $newCity for members City $newCity
@@ -463,6 +492,16 @@ class Members implements JsonSerializable
     }
 
     /**
+     * accessor method for Address1
+     *
+     * @return string for address1
+     **/
+    public function getAddress1()
+    {
+        return ($this->address1);
+    }
+
+    /**
      * Mutator method for Address1
      *
      * @param string $newAddress1 for members address1 $newAddress1
@@ -478,6 +517,16 @@ class Members implements JsonSerializable
             throw (new RangeException ("Address1 content too large"));
         }
         $this->address1 = $newAddress1;
+    }
+
+    /**
+     * accessor method for Address2
+     *
+     * @return string for address2
+     **/
+    public function getAddress2()
+    {
+        return ($this->address2);
     }
 
 
@@ -499,6 +548,16 @@ class Members implements JsonSerializable
         $this->address2 = $newAddress2;
     }
 
+    /**
+     * accessor method for Gender
+     *
+     * @return string for gender
+     **/
+    public function getGender()
+    {
+        return ($this->gender);
+    }
+
 
     /**
      * Mutator method for Gender
@@ -516,6 +575,16 @@ class Members implements JsonSerializable
             throw (new RangeException ("Gender content too large"));
         }
         $this->gender = $newGender;
+    }
+
+    /**
+     * accessor method for Dob
+     *
+     * @return string for dob
+     **/
+    public function getDob()
+    {
+        return ($this->dob);
     }
 
 
@@ -554,7 +623,7 @@ class Members implements JsonSerializable
      *
      * @param string $newSalt of users password salt $newSalt
      * @throw InvalidArgumentException if salt is not valid int
-     * @throw RangeException if salt is not exactly 64 xdigits
+     * @throw RangeException if salt is not exactly 64 digits
      **/
     public function setSalt($newSalt)
     {
@@ -692,7 +761,7 @@ class Members implements JsonSerializable
     }
 
     /**
-     * get bulletin by category
+     * get bulletin by missionsId
      *
      * @param PDO $pdo pointer to PDO connection, by reference
      * @param mixed $bulletin info for $bulletin
@@ -704,10 +773,10 @@ class Members implements JsonSerializable
         }
         // create query template
         $query = "SELECT bulletinId, missionsId, category, message, timeStamp
-        FROM bulletin WHERE category = :category";
+        FROM bulletin WHERE missionsId = :missionsId";
         $statement = $pdo->prepare($query);
         // bind the bulletinid to the place holder in the template
-        $parameters = array("category" => $bulletin);
+        $parameters = array("missionsId" => $bulletin);
         $statement->execute($parameters);
         // grab the bulletin from mySQL
         try {
@@ -715,7 +784,7 @@ class Members implements JsonSerializable
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["userId"], $row["category"], $row["message"], $row["timeStamp"]);
+                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"], $row["timeStamp"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
