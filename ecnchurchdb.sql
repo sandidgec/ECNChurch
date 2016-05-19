@@ -25,6 +25,7 @@ CREATE TABLE members (
   activation CHAR(16),
   email VARCHAR(128) NOT NULL,
   firstName VARCHAR(32) NOT NULL,
+  hash CHAR(128) NOT NULL,
   lastName VARCHAR(32) NOT NULL,
   phone VARCHAR(32) NOT NULL,
   position VARCHAR(32) NOT NULL,
@@ -35,6 +36,7 @@ CREATE TABLE members (
   address2 VARCHAR (32) NOT NULL,
   gender VARCHAR (32) NOT NULL,
   dob DATE NOT NULL,
+  salt CHAR(64) NOT NULL,
   INDEX(missionsId),
   FOREIGN KEY(missionsId) REFERENCES missions(missionsId),
   PRIMARY KEY(membersId)
