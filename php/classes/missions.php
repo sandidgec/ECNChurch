@@ -228,10 +228,6 @@ try {
                     throw (new InvalidArgumentException("New City is Invalid"));
                 }
 
-                If (empty($newCity) === true) {
-                    throw (new InvalidArgumentException("New City is invalid"));
-                }
-
                 if (strlen($newCity) > 16) {
                     throw (new RangeException ("City content too large"));
                 }
@@ -285,7 +281,7 @@ try {
                 if (strlen($newPhone) > 16) {
                     throw (new RangeException ("Phone content too large"));
                 }
-                $this->city = $newPhone;
+                $this->phone = $newPhone;
             }
 
 
