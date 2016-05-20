@@ -96,7 +96,7 @@ class Members implements JsonSerializable
 
 
     /**
-     * User constructor.
+     * Members constructor.
      * @param $newMembersId
      * @param $newMissionsId
      * @param $newActivation
@@ -114,6 +114,10 @@ class Members implements JsonSerializable
      * @param $newGender
      * @param $newDob
      * @param $newSalt
+     * @throws RangeException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     *
      **/
     public function __construct($newMembersId, $newMissionsId, $newActivation, $newEmail, $newFirstName, $newHash, $newLastName,
                                 $newPhone, $newPosition, $newZip, $newState, $newCity, $newAddress1, $newAddress2, $newGender, $newDob, $newSalt)
@@ -360,22 +364,20 @@ class Members implements JsonSerializable
     {
         return ($this->phone);
     }
-
     /**
-     * Mutator method for Phone Number
-     *
-     * @param int $newPhoneNumber of user phone number $newPhoneNumber
-     * @throws InvalidArgumentException if phoneNumber is not typed digits
-     * @throws RangeException if int is not 10 digits
-     **/
-    public function setPhone($newPhone)
-    {
-        //verify phone number is valid and digits only
-        if ((ctype_digit($newPhone)) === false) {
-            throw new InvalidArgumentException ("phoneNumber invalid");
+     * Mutator method for phone
+     * @throws RangeException
+     * @param string missions phone $newPhone
+     */
+    public function setPhone($newPhone) {
+        $newPhone = filter_var($newPhone, FILTER_SANITIZE_STRING);
+
+        if ( $newPhone === false) {
+            throw (new InvalidArgumentException("New Phone is Invalid"));
         }
-        if (strlen($newPhone) > 10) {
-            throw (new RangeException ("Phone Number should be formatted 5055558787"));
+
+        if (strlen($newPhone) > 16) {
+            throw (new RangeException ("Phone content too large"));
         }
         $this->phone = $newPhone;
     }
@@ -676,7 +678,7 @@ class Members implements JsonSerializable
         $statement->execute($parameters);
 
         //update null membersId with what mySQL just gave us
-        $this->membersId = intval($pdo->lastInsertId);
+        $this->membersId = intval($pdo->lastInsertId());
 
     }
 
@@ -742,7 +744,7 @@ class Members implements JsonSerializable
 
         // create query template
         $query = "SELECT membersId, missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt
-                  FROM user WHERE missionsId = :missionsId";
+                  FROM members WHERE membersId = :membersId";
         $statement = $pdo->prepare($query);
         // bind the members id to the place holder in the template
         $parameters = array("membersId" => $membersId);
@@ -769,11 +771,12 @@ class Members implements JsonSerializable
      * @param PDO $pdo pointer to PDO connection, by reference
      * @return mixed|Members
      **/
-    public static function getAllMembers(PDO  $pdo) {
+    public static function getAllMembers(PDO &$pdo) {
 
 
         //create the query template
-        $query = "SELECT membersId, missionsId, activationn, email, firstName, hash, lastName, phone, positition, zip, state, city, address1, address2, gender, dob, salt FROM membersId";
+        $query = "SELECT membersId, missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt 
+                  FROM members";
         $statement = $pdo->prepare($query);
 
         // execute
