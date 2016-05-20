@@ -63,7 +63,7 @@ CREATE TABLE bulletins (
   missionsId INT UNSIGNED NOT NULL,
   category VARCHAR(32) NOT NULL,
   message TEXT NOT NULL,
-  timestamp TIMESTAMP NOT NULL,
+  timeStamp TIMESTAMP NOT NULL,
   INDEX(missionsId),
   FOREIGN KEY (missionsId) REFERENCES missions(missionsId),
   PRIMARY KEY(bulletinId)

@@ -728,7 +728,7 @@ class Members implements JsonSerializable
      *
      * @param PDO $pdo pointer to PDO connection, by reference
      * @param int $membersId for unique membersId $membersId
-     * @return mixed| MembersId
+     * @return mixed|Members
      **/
     public static function getMembersByMembersId(PDO $pdo, $membersId) {
         // sanitize the membersId before searching
@@ -769,22 +769,29 @@ class Members implements JsonSerializable
      * @param PDO $pdo pointer to PDO connection, by reference
      * @return mixed|Members
      **/
-    public static function getAllMembers(PDO & $pdo) {
+    public static function getAllMembers(PDO  $pdo) {
+
+
+        //create the query template
+        $query = "SELECT membersId, missionsId, activationn, email, firstName, hash, lastName, phone, positition, zip, state, city, address1, address2, gender, dob, salt FROM membersId";
+        $statement = $pdo->prepare($query);
 
         // execute
         $statement->execute();
 
-        //call the function to build an array of the values
-        $membersId = null;
-        $statement->setFetchMode(PDO::FETCH_ASSOC);
-        $membersId = new SplFixedArray($statement->rowCount());
 
+        //call the function to build an array of the values
+        $members = null;
+        $statement->setFetchMode(PDO::FETCH_ASSOC);
+
+        $members = new SplFixedArray($statement->rowCount());
+ 
         while(($row = $statement->fetch()) !== false) {
             try {
                 if($row !== false) {
-                    $membersId = new membersId($row["membersId"], $row["missionsId"], $row["activation"], $row["email"], $row["firstName"], $row["hash"], $row["lastName"], $row["phone"], $row["postition"], $row["zip"], $row["state"], $row["city"], $row["address1"], $row["address2"], $row["gender"], $row["dob"], $row["salt"]);
-                    $membersId[$membersId->key()] = $membersId;
-                    $membersId->next();
+                    $member = new Members ($row["membersId"], $row["missionsId"], $row["activation"], $row["email"], $row["firstName"], $row["hash"], $row["lastName"], $row["phone"], $row["postition"], $row["zip"], $row["state"], $row["city"], $row["address1"], $row["address2"], $row["gender"], $row["dob"], $row["salt"]);
+                    $members[$members->key()] = $member;
+                    $members->next();
                 }
             } catch(Exception $exception) {
 
@@ -792,7 +799,7 @@ class Members implements JsonSerializable
             }
         }
 
-        return $membersId;
+        return $members;
     }
 
 } // end class
