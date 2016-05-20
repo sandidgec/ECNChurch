@@ -8,6 +8,9 @@
  * @author Dana Yazzie redcloudsaboveus01@gmail.com
  */
 
+
+require_once ("dateCheck.php");
+
 class Programs implements JsonSerializable {
 
     /**
@@ -141,8 +144,23 @@ class Programs implements JsonSerializable {
 
     /**
      * mutator method for Date
+     * @param  DateTime $newDate string
+     * @throws InvalidArgumentException
+     * @throws RangeException
+     * @throws Exception
      */
     public function setDate(DateTime $newDate) {
+        try {
+            $newDate = validateDate($newDate);
+
+        } catch(InvalidArgumentException $invalidArgument) {
+            throw(new InvalidArgumentException($invalidArgument->getMessage(), 0, $invalidArgument));
+        } catch(RangeException $range) {
+            throw(new RangeException($range->getMessage(), 0, $range));
+        } catch(Exception $exception) {
+            throw(new Exception($exception->getMessage(), 0, $exception));
+        }
+
         $this->date = $newDate;
     }
 
@@ -159,7 +177,8 @@ class Programs implements JsonSerializable {
     /**
      * mutator method for description of programs
      *
-     * @return string description of programs
+     * @param $newDescription string
+     * @throws InvalidArgumentException if new description is empty
      **/
     public function setDescription($newDescription) {
 
@@ -208,6 +227,7 @@ class Programs implements JsonSerializable {
      * mutator for programName
      *
      * @param string $newProgramName for programs
+     * @throws InvalidArgumentException if program name invalid
      */
     public function setProgramName($newProgramName) {
 
@@ -215,7 +235,7 @@ class Programs implements JsonSerializable {
         $newProgramName = filter_var($newProgramName, FILTER_SANITIZE_STRING);
 
         if($newProgramName === false) {
-            throw new InvalidArgumentException("first name invalid");
+            throw new InvalidArgumentException("program name invalid");
         }
         if(strlen($newProgramName) > 32) {
             throw (new RangeException ("Program Name content to large"));
@@ -234,6 +254,9 @@ class Programs implements JsonSerializable {
 
     /**
      * mutator for time
+     *
+     * @param $newTime int
+     * @throws InvalidArgumentException if time is invalid
      */
     public function setTime($newTime)  {
         $newTime = filter_var ($newTime, FILTER_SANITIZE_STRING);
@@ -242,9 +265,7 @@ class Programs implements JsonSerializable {
             throw( new InvalidArgumentException("New Time is insecure or empty"));
         }
         $this->time = $newTime;
-}
-
-
+    }
 
     /**
      * Inserts Programs into MYSQL
@@ -289,7 +310,7 @@ class Programs implements JsonSerializable {
         }
 
     /**
-     * updates Message in mySQL
+     * updates Programs in mySQL
      *
      * Update PDO to update programs class
      * @param PDO $pdo pointer to PDO connection, by reference
@@ -326,23 +347,23 @@ class Programs implements JsonSerializable {
         // create query template
         $query = "SELECT programsId, missionsId, date, description, location, programName, time FROM programs WHERE programsId = :programsId";
         $statement = $pdo->prepare($query);
-        // bind the bulletin id to the place holder in the template
+        // bind the programs id to the place holder in the template
         $parameters = array("programsId" => $programsId);
         $statement->execute($parameters);
-        // grab the bulletin from mySQL
+        // grab the programs from mySQL
         try {
-            $programs = null;
+            $program = null;
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $programs = new Programs ($row["programsId"], $row["missionsId"], $row["date"],
+                $program = new Programs ($row["programsId"], $row["missionsId"], $row["date"],
                     $row["description"], $row["location"], $row["programName"], $row["time"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
             throw(new PDOException($exception->getMessage(), 0, $exception));
         }
-        return ($programs);
+        return ($program);
     }
 
     /**
@@ -353,7 +374,7 @@ class Programs implements JsonSerializable {
      * @return mixed|missions
      **/
     public static function getProgramsByMissionsId(PDO $pdo, $missionsId) {
-        // sanitize the programsId before searching
+        // sanitize the missionsId before searching
         $missionsId = filter_var($missionsId, FILTER_VALIDATE_INT);
         if($missionsId === false) {
             throw(new PDOException("missions Id is not an integer"));
@@ -364,23 +385,28 @@ class Programs implements JsonSerializable {
         // create query template
         $query = "SELECT programsId, missionsId, date, description, location, programName, time FROM programs WHERE missionsId = :missionsId";
         $statement = $pdo->prepare($query);
-        // bind the bulletin id to the place holder in the template
+        // bind the missions id to the place holder in the template
         $parameters = array("missionsId" => $missionsId);
         $statement->execute($parameters);
-        // grab the bulletin from mySQL
-        try {
-            $missions = null;
-            $statement->setFetchMode(PDO::FETCH_ASSOC);
-            $row = $statement->fetch();
-            if($row !== false) {
-                $missions = new Missions ($row["programsId"], $row["missionsId"], $row["date"],
-                    $row["description"], $row["location"], $row["programName"], $row["time"]);
+
+        //call the function to build an array of the values
+        $programs = null;
+        $statement->setFetchMode(PDO::FETCH_ASSOC);
+        $programs = new SplFixedArray($statement->rowCount());
+        while(($row = $statement->fetch()) !== false) {
+            try {
+                if($row !== false) {
+                    $program = new Programs($row["programsId"], $row["missionsId"], $row["date"], $row["description"], $row["location"], $row["programName"], $row["time"]);
+                    $programs[$programs->key()] = $program;
+                    $programs->next();
+                }
+            } catch(Exception $exception) {
+
+                throw(new PDOException($exception->getMessage(), 0, $exception));
             }
-        } catch(Exception $exception) {
-            // if the row couldn't be converted, rethrow it
-            throw(new PDOException($exception->getMessage(), 0, $exception));
         }
-        return ($missions);
+
+        return $programs;
     }
 
     public static function getAllPrograms(PDO $pdo) {
@@ -397,7 +423,7 @@ class Programs implements JsonSerializable {
             try {
                 if($row !== false) {
                     $program = new Programs($row["programsId"], $row["missionsId"], $row["date"], $row["description"], $row["location"], $row["programName"], $row["time"]);
-                    $programs[$program->key()] = $program;
+                    $programs[$programs->key()] = $program;
                     $programs->next();
                 }
             } catch(Exception $exception) {
