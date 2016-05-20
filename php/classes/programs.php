@@ -150,6 +150,10 @@ class Programs implements JsonSerializable {
      * @throws Exception
      */
     public function setDate(DateTime $newDate) {
+
+
+
+
         try {
             $newDate = validateDate($newDate);
 
@@ -160,6 +164,7 @@ class Programs implements JsonSerializable {
         } catch(Exception $exception) {
             throw(new Exception($exception->getMessage(), 0, $exception));
         }
+
 
         $this->date = $newDate;
     }
