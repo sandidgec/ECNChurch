@@ -96,7 +96,7 @@ class Members implements JsonSerializable
 
 
     /**
-     * User constructor.
+     * Members constructor.
      * @param $newMembersId
      * @param $newMissionsId
      * @param $newActivation
@@ -114,6 +114,10 @@ class Members implements JsonSerializable
      * @param $newGender
      * @param $newDob
      * @param $newSalt
+     * @throws RangeException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     *
      **/
     public function __construct($newMembersId, $newMissionsId, $newActivation, $newEmail, $newFirstName, $newHash, $newLastName,
                                 $newPhone, $newPosition, $newZip, $newState, $newCity, $newAddress1, $newAddress2, $newGender, $newDob, $newSalt)
@@ -360,22 +364,20 @@ class Members implements JsonSerializable
     {
         return ($this->phone);
     }
-
     /**
-     * Mutator method for Phone Number
-     *
-     * @param int $newPhoneNumber of user phone number $newPhoneNumber
-     * @throws InvalidArgumentException if phoneNumber is not typed digits
-     * @throws RangeException if int is not 10 digits
-     **/
-    public function setPhone($newPhone)
-    {
-        //verify phone number is valid and digits only
-        if ((ctype_digit($newPhone)) === false) {
-            throw new InvalidArgumentException ("phoneNumber invalid");
+     * Mutator method for phone
+     * @throws RangeException
+     * @param string missions phone $newPhone
+     */
+    public function setPhone($newPhone) {
+        $newPhone = filter_var($newPhone, FILTER_SANITIZE_STRING);
+
+        if ( $newPhone === false) {
+            throw (new InvalidArgumentException("New Phone is Invalid"));
         }
-        if (strlen($newPhone) > 10) {
-            throw (new RangeException ("Phone Number should be formatted 5055558787"));
+
+        if (strlen($newPhone) > 16) {
+            throw (new RangeException ("Phone content too large"));
         }
         $this->phone = $newPhone;
     }
@@ -676,7 +678,7 @@ class Members implements JsonSerializable
         $statement->execute($parameters);
 
         //update null membersId with what mySQL just gave us
-        $this->membersId = intval($pdo->lastInsertId);
+        $this->membersId = intval($pdo->lastInsertId());
 
     }
 
@@ -692,8 +694,8 @@ class Members implements JsonSerializable
         $query = "UPDATE members SET activation = :activation, 
           email = :email, firstName = :firstName, hash = :hash, lastName = :lastName, phone = :phone, 
           position = :position, zip = :zip, city = :city, state = :state, address1 = :address1, address2 = :address2,
-           gender = :gender, dob = :dob, salt =:salt, 
-          WHERE membersId = :membersId ";
+           gender = :gender, dob = :dob, salt =:salt
+          WHERE membersId = :membersId";
         $statement = $pdo->prepare($query);
         // bind the members variables
         $parameters = array("activation" => $this->activation, "email" => $this->email,
@@ -724,98 +726,83 @@ class Members implements JsonSerializable
     }
 
     /**
-     * Get bulletin by bulletinId integer
+     * Get members by membersId integer
      *
      * @param PDO $pdo pointer to PDO connection, by reference
-     * @param int $bulletinId for unique bulletinId $bulletinId
-     * @return mixed|Bulletin
+     * @param int $membersId for unique membersId $membersId
+     * @return mixed|Members
      **/
-    public static function getBulletinByBulletinId(PDO $pdo, $bulletinId) {
-        // sanitize the bulletinId before searching
-        $bulletinId = filter_var($bulletinId, FILTER_VALIDATE_INT);
-        if($bulletinId === false) {
-            throw(new PDOException("bulletin id is not an integer"));
+    public static function getMembersByMembersId(PDO $pdo, $membersId) {
+        // sanitize the membersId before searching
+        $membersId = filter_var($membersId, FILTER_VALIDATE_INT);
+        if($membersId === false) {
+            throw(new PDOException("membersId is not an integer"));
         }
-        if($bulletinId <= 0) {
-            throw(new PDOException("bulletin id is not positive"));
+        if($membersId <= 0) {
+            throw(new PDOException("membersId is not positive"));
         }
-        // create query template
-        $query = "SELECT bulletinId, missionsId, category, message, timeStamp FROM user WHERE bulletinId = :bulletinId";
-        $statement = $pdo->prepare($query);
-        // bind the bulletin id to the place holder in the template
-        $parameters = array("bulletinId" => $bulletinId);
-        $statement->execute($parameters);
-        // grab the bulletin from mySQL
-        try {
-            $bulletin = null;
-            $statement->setFetchMode(PDO::FETCH_ASSOC);
-            $row = $statement->fetch();
-            if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["userId"], $row["category"], $row["message"], $row["timeStamp"]);
-            }
-        } catch(Exception $exception) {
-            // if the row couldn't be converted, rethrow it
-            throw(new PDOException($exception->getMessage(), 0, $exception));
-        }
-        return ($bulletin);
-    }
 
-    /**
-     * get bulletin by missionsId
-     *
-     * @param PDO $pdo pointer to PDO connection, by reference
-     * @param mixed $bulletin info for $bulletin
-     * @return null|Bulletin
-     **/
-    public static function getBulletinByCategory(PDO &$pdo, $bulletin) {
-        if($bulletin === false) {
-            throw(new PDOException(""));
-        }
         // create query template
-        $query = "SELECT bulletinId, missionsId, category, message, timeStamp
-        FROM bulletin WHERE missionsId = :missionsId";
+        $query = "SELECT membersId, missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt
+                  FROM members WHERE membersId = :membersId";
         $statement = $pdo->prepare($query);
-        // bind the bulletinid to the place holder in the template
-        $parameters = array("missionsId" => $bulletin);
+        // bind the members id to the place holder in the template
+        $parameters = array("membersId" => $membersId);
         $statement->execute($parameters);
-        // grab the bulletin from mySQL
+
+        // grab the members from mySQL
         try {
-            $bulletin= null;
+            $member = null;
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"], $row["timeStamp"]);
+                $member = new Members ($row["membersId"], $row["missionsId"], $row["activation"], $row["email"], $row["firstName"], $row["hash"], $row["lastName"], $row["phone"], $row["postition"], $row["zip"], $row["state"], $row["city"], $row["address1"], $row["address2"], $row["gender"], $row["dob"], $row["salt"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
             throw(new PDOException($exception->getMessage(), 0, $exception));
         }
-        return ($bulletin);
+        return ($member);
     }
-
+    
     /**
-     * Get all Bulletins
+     * Get all MembersId
      *
      * @param PDO $pdo pointer to PDO connection, by reference
-     * @return mixed|Bulletin
+     * @return mixed|Members
      **/
-    public static function getAllBulletins(PDO &$pdo) {
-        // create query template
-        $query = "SELECT bulletinId, missionsId, category, message, timeStamp FROM bulletin";
+    public static function getAllMembers(PDO &$pdo) {
+
+
+        //create the query template
+        $query = "SELECT membersId, missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt 
+                  FROM members";
         $statement = $pdo->prepare($query);
-        // grab the bulletin from mySQL
-        try {
-            $bulletin = null;
-            $statement->setFetchMode(PDO::FETCH_ASSOC);
-            $row = $statement->fetch();
-            if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["userId"], $row["category"], $row["message"], $row["timeStamp"]);
+
+        // execute
+        $statement->execute();
+
+
+        //call the function to build an array of the values
+        $members = null;
+        $statement->setFetchMode(PDO::FETCH_ASSOC);
+
+        $members = new SplFixedArray($statement->rowCount());
+ 
+        while(($row = $statement->fetch()) !== false) {
+            try {
+                if($row !== false) {
+                    $member = new Members ($row["membersId"], $row["missionsId"], $row["activation"], $row["email"], $row["firstName"], $row["hash"], $row["lastName"], $row["phone"], $row["postition"], $row["zip"], $row["state"], $row["city"], $row["address1"], $row["address2"], $row["gender"], $row["dob"], $row["salt"]);
+                    $members[$members->key()] = $member;
+                    $members->next();
+                }
+            } catch(Exception $exception) {
+
+                throw(new PDOException($exception->getMessage(), 0, $exception));
             }
-        } catch(Exception $exception) {
-            // if the row couldn't be converted, rethrow it
-            throw(new PDOException($exception->getMessage(), 0, $exception));
         }
-        return ($bulletin);
+
+        return $members;
     }
 
 } // end class

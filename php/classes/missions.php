@@ -62,7 +62,8 @@ class Missions implements JsonSerializable
 
 
     /**
-     * Mission Constructor.
+     * Missions Constructor.
+     *
      * @param $newMissionsId
      * @param $newAddress1
      * @param $newAddress2
@@ -73,6 +74,9 @@ class Missions implements JsonSerializable
      * @param $newServiceTime
      * @param $newState
      * @param $newZip
+     * @throws RangeException
+     * @throws InvalidArgumentException
+     * @throws Exception
      **/
 public function __construct($newMissionsId, $newAddress1, $newAddress2, $newCity, $newEmail, $newPhone,
 $newPic, $newServiceTime, $newState, $newZip)
@@ -102,9 +106,11 @@ try {
 
         }   catch (Exception $exception) {
             // rethrow generic exception
-            throw(newException($exception->getMessage(), 0, $exception));
+            throw(new Exception($exception->getMessage(), 0, $exception));
         }
         }
+
+
         /**
          * accessor method for MissionsId
          *
@@ -118,7 +124,7 @@ try {
          * mutator method for the missionsId
          *
          * @param int $newMissionsId unique value to represent a mission $newMissionsId
-         * @thorws InvalidArgumentException for invalid content
+         * @throws InvalidArgumentException for invalid content
          **/
             public function setMissionsId($newMissionsId) {
         //base case: if the missionsId is null,
@@ -130,7 +136,7 @@ try {
         //verify the missions is valid
         $newMissionsId = filter_var($newMissionsId, FILTER_VALIDATE_INT);
         if (empty($newMissionsId) === true) {
-            throw (new InvalidAgrumentException ("missionsId invalid"));
+            throw (new InvalidArgumentException ("missionsId invalid"));
         }
         $this->missionsId = $newMissionsId;
             }
@@ -146,12 +152,11 @@ try {
         public function getAddress1()
         {
             return ($this->address1);
-
         }
 
         /**
          * Mutator method for Address Line 1
-         *
+         * @throws RangeException
          * @param string $newAddress1 missions address1 $newAddress1
          */
         public function setAddress1($newAddress1) {
@@ -162,9 +167,6 @@ try {
                 throw (new InvalidArgumentException("New Address 1 is invalid"));
             }
 
-            if (empty($newAddress1) === true) {
-                throw new InvalidArgumentException("address1 invalid");
-            }
             if (strlen($newAddress1) > 76) {
                 throw (new RangeException ("Address1 content too large"));
             }
@@ -196,9 +198,6 @@ try {
                     throw (new InvalidArgumentException("New Address 2 is invalid"));
                 }
 
-                if (empty($newAddress2) === true) {
-                    throw (new InvalidArgumentException("address2 invalid"));
-                }
                 if (strlen($newAddress2) > 76) {
                     throw (new RangeException ("Address2 content too large"));
                 }
@@ -211,7 +210,7 @@ try {
              *
              * @return string for city
              **/
-            public function city()
+            public function getCity()
             {
                 return ($this->city);
 
@@ -219,7 +218,7 @@ try {
 
             /**
              * Mutator method for city
-             *
+             * @throws RangeException
              * @param string missions city $newCity
              */
             public function setCity($newCity) {
@@ -227,10 +226,6 @@ try {
 
                 if ( $newCity === false) {
                     throw (new InvalidArgumentException("New City is Invalid"));
-                }
-
-                If (empty($newCity) === true) {
-                    throw (new InvalidArgumentException("New City is invalid"));
                 }
 
                 if (strlen($newCity) > 16) {
@@ -257,43 +252,40 @@ try {
             public function setEmail($newEmail) {
                 //verify email is valid
                 $newEmail = filter_var($newEmail, FILTER_SANITIZE_EMAIL);
-                if (empty($newEmail) === true) {
+
+                if ($newEmail === false) {
                     throw new InvalidArgumentException ("user email is invalid");
                 }
+
                 if(strlen($newEmail) > 64) {
                     throw(new RangeException ("Email content too large"));
                 }
+
                 $this->email = $newEmail;
             }
 
 
 
-
-            /** Accessor method for Phone Number
-             *
-             *@return int for phone number
-             **/
-        public function getPhone() {
-            return ($this->phone);
-            }
-
             /**
-             * Mutator method for Phone Number
-             *
-             *@param int $newPhone of user phone number $newPhone
-             *@throws InvalidArgumentException if phone is not c type digits
-             *@throws RangeException if int is not 10 digits
-             **/
+             * Mutator method for phone
+             * @throws RangeException
+             * @param string missions phone $newPhone
+             */
             public function setPhone($newPhone) {
-                //verify phone is valid and digits only
-                if((ctype_digit($newPhone)) === false) {
-                    throw new InvalidArgumentException ("phoneNumber invalid");
+                $newPhone = filter_var($newPhone, FILTER_SANITIZE_STRING);
+
+                if ( $newPhone === false) {
+                    throw (new InvalidArgumentException("New Phone is Invalid"));
                 }
-                if(strlen($newPhone) > 10) {
-                    throw (new RangeException ("Phone should be formatted 5055555555"));
+
+                if (strlen($newPhone) > 16) {
+                    throw (new RangeException ("Phone content too large"));
                 }
                 $this->phone = $newPhone;
             }
+
+
+
             /**accessor method for Person In Charge
              *
              * @return string for Person In Charge
@@ -305,7 +297,8 @@ try {
             /**
              * Mutator for Person in Charge sanitation
              *
-             * $param string $newPic for person in Charge
+             * @param string $newPic for person in Charge
+             * @throws RangeException
              **/
             Public function setPic($newPic) {
                 //verify pic is valid
@@ -337,6 +330,7 @@ try {
              * Mutator method for Service Time
              *
              * @param string $newServiceTime
+             * @throws RangeException
              */
             public function setServiceTime($newServiceTime) {
 
@@ -346,12 +340,10 @@ try {
                     throw (new InvalidArgumentException("New Service Time is invalid"));
                 }
 
-                if (empty($newServiceTime) === true) {
-                    throw new InvalidArgumentException("Service Time invalid");
-                }
                 if (strlen($newServiceTime) > 32) {
                     throw (new RangeException ("Service Time content too large"));
                 }
+
                 $this->serviceTime = $newServiceTime;
             }
 
@@ -362,7 +354,7 @@ try {
              *
              * @return string for State
              **/
-            public function state()
+            public function getState()
             {
                 return ($this->state);
 
@@ -381,12 +373,10 @@ try {
                     throw (new InvalidArgumentException("New State is invalid"));
                 }
 
-                if (empty($newState) === true) {
-                    throw new InvalidArgumentException("State invalid");
-                }
                 if (strlen($newState) > 2) {
                     throw (new RangeException ("State content too large"));
                 }
+
                 $this->state = $newState;
             }
 
@@ -417,9 +407,7 @@ try {
                     throw (new InvalidArgumentException("New Zip is invalid"));
                 }
 
-                if (empty($newZip) === true) {
-                    throw new InvalidArgumentException("Zip invalid");
-                }
+
                 if (strlen($newZip) > 32) {
                     throw (new RangeException ("Zip content too large"));
                 }
@@ -429,8 +417,6 @@ try {
 
                 public function JsonSerialize() {
                     $fields = get_object_vars($this);
-                    unset ($fields["salt"]);
-                    unset ($fields["hash"]);
                     return ($fields);
                 }
 
@@ -524,10 +510,10 @@ try {
 
                 // create query template
                 $query = "SELECT missionsId, address1, address2, city, email, phone, pic, serviceTime, 
-                        state, zip, FROM missions WHERE missionsId = :missionsId";
+                        state, zip FROM missions WHERE missionsId = :missionsId";
                 $statement = $pdo->prepare($query);
 
-                // bind the user id to the place holder in the template
+                // bind the mission id to the place holder in the template
                 $parameters = array("missionsId" => $missionsId);
                 $statement->execute($parameters);
 
@@ -537,7 +523,7 @@ try {
                     $statement->setFetchMode(PDO::FETCH_ASSOC);
                     $row = $statement->fetch();
                     if($row !== false) {
-                        $missions = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
+                        $mission = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
                             $row["phone"], $row["pic"],  $row["serviceTime"],
                             $row["state"], $row["zip"]);
         
@@ -547,7 +533,7 @@ try {
                     // if the row couldn't be converted, rethrow it
                     throw(new PDOException($exception->getMessage(), 0, $exception));
                 }
-                return ($missions);
+                return ($mission);
             }
         
         
@@ -555,14 +541,15 @@ try {
              * get user by email
              *
              * @param PDO $pdo pointer to PDO connection, by reference
-             * @param mixed $missions info for $missions
+             * @param mixed $email info for $missions
              * @return null|Missions
              **/
-            public static function getMissionsByEmail(PDO &$pdo, $missions) {
+            public static function getMissionsByEmail(PDO &$pdo, $email) {
+
                 // sanitize the email before searching
-                $missions = filter_var($missions, FILTER_SANITIZE_STRING);
-                if($missions === false) {
-                    throw(new PDOException("string is insecure or empty"));
+                $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+                if($email === false) {
+                    throw(new PDOException("email is insecure or empty"));
                 }
                 // create query template
                 $query = "SELECT missionsId, address1, address2, city, email, phone, pic, serviceTime, state, zip
@@ -571,23 +558,23 @@ try {
                 $statement = $pdo->prepare($query);
 
                 // bind the missions id to the place holder in the template
-                $parameters = array("email" => $missions);
+                $parameters = array("email" => $email);
                 $statement->execute($parameters);
 
                 // grab the missions from mySQL
                 try {
-                    $missions = null;
+                    $mission = null;
                     $statement->setFetchMode(PDO::FETCH_ASSOC);
                     $row = $statement->fetch();
                     if($row !== false) {
-                        $missions = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
+                        $mission = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
                             $row["phone"], $row["pic"], $row["serviceTime"], $row["state"], $row["zip"]);
                     }
                 } catch(Exception $exception) {
                     // if the row couldn't be converted, rethrow it
                     throw(new PDOException($exception->getMessage(), 0, $exception));
                 }
-                return ($missions);
+                return ($mission);
             }
 
             /**
@@ -599,24 +586,33 @@ try {
             public static function getAllMissions(PDO &$pdo) {
 
                 // create query template
-               $query = "SELECT missionsId, address1, address2, city, email, phone, pic, serviceTime, state, zip,
+               $query = "SELECT missionsId, address1, address2, city, email, phone, pic, serviceTime, state, zip
                     FROM missions";
                 $statement = $pdo->prepare($query);
 
-                // grab the missions from mySQL
-                try {
-                    $missions = null;
-                    $statement->setFetchMode(PDO::FETCH_ASSOC);
-                    $row = $statement->fetch();
-                    if($row !== false) {
-                      $missions = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
-                          $row["phone"], $row["pic"], $row["serviceTime"], $row["state"], $row["zip"]);
+                //execute
+                $statement->execute();
+
+                //call the function to build an array of the values
+                $missions = null;
+                $statement->setFetchMode(PDO::FETCH_ASSOC);
+                $missions = new SplFixedArray($statement->rowCount());
+
+                while(($row = $statement->fetch()) !== false) {
+                    try {
+                        if($row !== false) {
+                            $mission = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
+                                $row["phone"], $row["pic"], $row["serviceTime"], $row["state"], $row["zip"]);
+                                $missions[$missions->key()] = $mission;
+                                $missions->next();
+                        }
+                    }   catch(Exception $exception) {
+                        throw(new PDOException($exception->getMessage(), 0, $exception));
                     }
-                } catch(Exception $exception) {
-                    // if the row couldn't be converted, rethrow it
-                    throw(new PDOException($exception->getMessage(), 0, $exception));
                 }
-                return ($missions);
+                return $missions;
+
+
             }
 
 
