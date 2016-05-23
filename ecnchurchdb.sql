@@ -69,4 +69,3 @@ CREATE TABLE bulletins (
   PRIMARY KEY(bulletinId)
 
 );
-
