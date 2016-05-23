@@ -3,11 +3,13 @@
 <head>
     <?php require_once("lib/head-utils.php"); ?>
     <title>WireFrame For ECN </title>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <div>
-<nav class="navbar navbar-button navbar-fixed-top">
-    <div class="navbar-header">
+    <nav class="navbar navbar-button navbar-fixed-top">
+        <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 div class="container">
                 <span class="sr-only">Toggle navigation</span>
@@ -20,23 +22,34 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active">
-                <li><a href="index.php">History/Beliefs</a></li>
-                <li><a href="index.php">Ministries</a></li>
-                <li><a href="index.php">Governance</a></li>
-                <li><a href="index.php">Contact Us</a></li>
-                <li><a href="index.php">Support</a></li>
-                <li><a href="index.php">Current Events</a></li>
+                <li><a href="History&Beliefs.php">History/Beliefs</a></li>
+                <li><a href="Ministries.php">Ministries</a></li>
+                <li><a href="Governance.php">Governance</a></li>
+                <li><a href="Contact Us.php">Contact Us</a></li>
+                <li><a href="Support.php">Support</a></li>
+                <li><a href="Current Events.php">Current Events</a></li>
             </ul>
 
         </div><!--/.nav-collapse -->
     </div>
 </div>
 </nav>
-<br> </br>
-    <h2>
-     <p>Ya'ateeh, Welcome to the Episcopal Church In Navajoland</p>
-    </h2>
-    <img src="../lib/img/elo_96868_traditions_lg_2.jpg">
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Ya'ateeh, Welcome to the Episcopal Church In Navajoland</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+    >
+    <div>
+        <img src="../lib/img/elo_96868_traditions_lg_2.jpg">
+    </div>
 <br> </br>
     <p> Episcopal Church of Navajoland is more than just a place of worship.
     It is a growing, loving family. There are so many great opportunities here to make friends,
@@ -51,10 +64,29 @@
          data-file-height="745">
     </div>
 <br> </br>
-<h1> <img src="">
+<div class="row">
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="../../lib/img/arizona.jpg"><p>Arizona Churches</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="../../lib/img/newmex.jpg"><p>New Mexico Churches</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="../../lib/img/utah.jpg"><p>Utah Churches</p>
+        </div>
+    </div>
+</div>
 
-<p>Arizona Churches</p></h1>
-<link> 
+
+
+
+<link>
+
 </body>
 
 </html>
