@@ -1,7 +1,7 @@
 <?php
-require_once(dirname(dirname(__DIR__)) . "/classes/autoload.php");
-require_once(dirname(dirname(__DIR__)) . "/lib/xsrf.php");
-require_once("/etc/apache2/data-design/encrypted-config.php");
+require_once(dirname(dirname(__DIR__)) . "API/members/autoload.php");
+require_once(dirname(dirname(__DIR__)) . "API/members/xsrf.php");
+
 // start the session and create a XSRF token
 if(session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
@@ -20,6 +20,7 @@ try {
     // grab the mySQL connection
     $pdo = connectToEncryptedMySql("/etc/apache2/capstone-mysql/invtext.ini");
     // handle all RESTful calls to Program today
+
     // get some or all Programs
     if ($method === "GET") {
         // set an XSRF cookie on GET requests
@@ -31,10 +32,11 @@ try {
         } else {
             $reply->data = Programs::getAllPrograms($pdo);
         }
+
+
         // post to a new Program
     } else if ($method === "POST") {
         // handle optional fields
-        $attention = (empty($requestObject->attention) === true ? null : $requestObject->attention);
         $program = new Programs($programsId, $requestObject->programsId, $requestObject->missionsId,
             $requestObject->date, $requestObject->description, $requestObject->location, $requestObject->programName, $requestObject->time);
         $program->insert($pdo);
@@ -43,8 +45,8 @@ try {
         // delete an existing Program
     } else if ($method === "DELETE") {
         verifyXsrf();
-        $program = Programs::getProgramsByProgramsId($pdo, $programsId);
-        $program->delete($pdo);
+        $programs = Programs::getProgramsByProgramsId($pdo, $programsId);
+        $programs->delete($pdo);
         $reply->data = "Program deleted OK";
         // put to an existing Program
     } else if ($method === "PUT") {
@@ -57,6 +59,7 @@ try {
         $program->update($pdo);
         $reply->data = "Program updated OK";
         // create an exception to pass back to the RESTful caller
+    }
     }catch(Exception $exception) {
         $reply->status = $exception->getCode();
         $reply->message = $exception->getMessage();
@@ -65,7 +68,7 @@ try {
 
     header("Content-type: application/json");
     echo json_encode($reply);
-    }
+    
 
 
 
