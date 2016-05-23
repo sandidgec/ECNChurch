@@ -21,35 +21,33 @@ try {
     $pdo = connectToEncryptedMySql("/etc/apache2/capstone-mysql/invtext.ini");
     // handle all RESTful calls to Program today
     // get some or all Programs
-    if($method === "GET") {
+    if ($method === "GET") {
         // set an XSRF cookie on GET requests
         setXsrfCookie("/");
-        if(empty($programsId) === false) {
+        if (empty($programsId) === false) {
             $reply->data = Programs::getProgramsByProgramsId($pdo, $programsId);
-        } else if(empty($missionsId) === false) {
+        } else if (empty($missionsId) === false) {
             $reply->data = Programs::getProgramsByMissionsId($pdo, $missionsId);
         } else {
             $reply->data = Programs::getAllPrograms($pdo);
         }
         // post to a new Program
-    } else if($method === "POST") {
-        }
+    } else if ($method === "POST") {
         // handle optional fields
         $attention = (empty($requestObject->attention) === true ? null : $requestObject->attention);
-        $addressLineTwo = (empty($requestObject->addressLineTwo) === true ? null : $requestObject->addressLineTwo);
         $program = new Programs($programsId, $requestObject->programsId, $requestObject->missionsId,
             $requestObject->date, $requestObject->description, $requestObject->location, $requestObject->programName, $requestObject->time);
         $program->insert($pdo);
         $_SESSION["program"] = $program;
         $reply->data = "Program created OK";
         // delete an existing Program
-    } else if($method === "DELETE") {
+    } else if ($method === "DELETE") {
         verifyXsrf();
         $program = Programs::getProgramsByProgramsId($pdo, $programsId);
         $program->delete($pdo);
         $reply->data = "Program deleted OK";
         // put to an existing Program
-    } else if($method === "PUT") {
+    } else if ($method === "PUT") {
         // convert PUTed JSON to an object
         verifyXsrf();
         $requestContent = file_get_contents("php://input");
@@ -58,12 +56,13 @@ try {
             $requestObject->location, $requestObject->programName, $requestObject->Time);
         $program->update($pdo);
         $reply->data = "Program updated OK";
+        // create an exception to pass back to the RESTful caller
     }
-    // create an exception to pass back to the RESTful caller
-} catch(Exception $exception) {
-    $reply->status = $exception->getCode();
-    $reply->message = $exception->getMessage();
-    unset($reply->data);
-}
-header("Content-type: application/json");
-echo json_encode($reply);
+    catch(Exception $exception) {
+        $reply->status = $exception->getCode();
+        $reply->message = $exception->getMessage();
+        unset($reply->data);
+    }
+    }
+    header("Content-type: application/json");
+    echo json_encode($reply);

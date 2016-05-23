@@ -251,7 +251,7 @@ class Programs implements JsonSerializable {
     /**
      * accessor method for Time
      *
-     * return string of Time for programs
+     * @return string of Time for programs
      */
     public function getTime() {
         return ($this->time);
