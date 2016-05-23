@@ -57,12 +57,15 @@ try {
         $program->update($pdo);
         $reply->data = "Program updated OK";
         // create an exception to pass back to the RESTful caller
-    }
-    catch(Exception $exception) {
+    }catch(Exception $exception) {
         $reply->status = $exception->getCode();
         $reply->message = $exception->getMessage();
         unset($reply->data);
     }
-    }
+
     header("Content-type: application/json");
     echo json_encode($reply);
+    }
+
+
+
