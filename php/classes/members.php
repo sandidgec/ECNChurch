@@ -4,7 +4,7 @@
  *
  * This class handles members
  *
- * @author Aarick Lameman lamemanaarick@gmail.com
+ * @author Aarick Lameman LamemanAarick@gmail.com
  */
 class Members implements JsonSerializable
 {
@@ -311,7 +311,7 @@ class Members implements JsonSerializable
      *
      * @param string $newHash of users $newHash
      * @throws InvalidArgumentException if newHash is not valid int
-     * @throws RangeException if newHash is not exactly 128 xdigits
+     * @throws RangeException if newHash is not exactly 128 digits
      **/
     public function setHash($newHash)
     {
