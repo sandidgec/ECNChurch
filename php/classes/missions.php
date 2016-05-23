@@ -479,14 +479,13 @@ try {
 
                 //create query template
                 $query = "UPDATE missions SET address1 = :address1, address2 = :address2, city = :city, email = :email,
-                phone = :phone, pic = :pic, serviceTime = :serviceTime, state = :state,
-                zip = :zip WHERE  missionsId = :missionsId";
+                phone = :phone, pic = :pic, serviceTime = :serviceTime, state = :state, zip = :zip WHERE  missionsId = :missionsId";
                 $statement = $pdo->prepare($query);
 
 
                 // bind the member variables
                 $parameters = array("address1" => $this->address1, "address2" => $this->address2, "city" => $this->city, "email" => $this->email,
-                        "missionId" => $this->missionsId, "phone" => $this->phone, "pic" => $this->pic,
+                        "missionsId" => $this->missionsId, "phone" => $this->phone, "pic" => $this->pic,
                         "serviceTime" => $this->serviceTime, "state" => $this->state, "zip" =>$this->zip);
                 $statement->execute($parameters);
             }
