@@ -10,7 +10,7 @@ function loadClass($members) {
     $members = preg_replace_callback("/([A-Z])/", function($matches) {
         return("-" . strtolower($matches[0]));
     }, $members);
-    $members = __DIR__ . "/" . $members . ".php";
+    $members = __DIR__ . "autoload.php/" . $members . ".php";
     if(is_readable($members) === true && require_once($members)) {
         return(true);
     } else {

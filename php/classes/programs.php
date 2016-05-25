@@ -284,7 +284,7 @@ class Programs implements JsonSerializable {
         throw (new PDOException("existing program"));
         }
         //create query template
-        $query = "INSERT INTO programs(programsId, missionsId, date, description, location, programName, time)
+        $query = "INSERT INTO programs (programsId, missionsId, date, description, location, programName, time)
           VALUES (:programsId, :missionsId, :date, :description, :location, :programName, :time)";
         $statement = $pdo->prepare($query);
         // bind the variables to the place holders in the template
