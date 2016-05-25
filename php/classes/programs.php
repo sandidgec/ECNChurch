@@ -288,6 +288,7 @@ class Programs implements JsonSerializable {
           VALUES (:missionsId, :progDate, :description, :location, :programName, :progTime)";
         $statement = $pdo->prepare($query);
 
+        
         // bind the variables to the place holders in the template
         $parameters = array("missionsId" => $this->missionsId, "progDate" => $this->progDate,
             "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "progTime" => $this->progTime);
