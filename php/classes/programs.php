@@ -144,12 +144,12 @@ class Programs implements JsonSerializable {
 
     /**
      * mutator method for Date
-     * @param  DateTime $newDate string
+     * @param  mixed DateTime|string $newDate string
      * @throws InvalidArgumentException
      * @throws RangeException
      * @throws Exception
      */
-    public function setDate(DateTime $newDate) {
+    public function setDate($newDate) {
 
 
 
