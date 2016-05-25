@@ -285,19 +285,19 @@ class Programs implements JsonSerializable {
         }
         //create query template
         $query = "INSERT INTO programs (missionsId, progDate, description, location, programName, progTime)
-          VALUES (:missionsId, :progDate, :description, :location, :programName, :progTime)";
+          			VALUES (:missionsId, :progDate, :description, :location, :programName, :progTime)";
         $statement = $pdo->prepare($query);
 
 		 $pDate = $this->progDate->format("Y-m-d");
 
         // bind the variables to the place holders in the template
-        $parameters = array("missionsId" => $this->missionsId, "progDate" => $pDate,
-            "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "progTime" => $this->progTime);
+        $parameters = array("missionsId" => $this->missionsId, "progDate" => $pDate, "description" => $this->description,
+			  							"location" => $this->location, "programName" => $this->programName, "progTime" => $this->progTime);
         $statement->execute($parameters);
 
         //update null programsId with what mySQL just gave us
         $this->programsId = intval($pdo->lastInsertId());
-		 
+
 }
 
     /**
