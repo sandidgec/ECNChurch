@@ -285,7 +285,7 @@ class Programs implements JsonSerializable {
         }
         //create query template
         $query = "INSERT INTO programs (missionsId, date, description, location, programName, time)
-          VALUES (:programsId, :missionsId, :date, :description, :location, :programName, :time)";
+          VALUES (:missionsId, :date, :description, :location, :programName, :time)";
         $statement = $pdo->prepare($query);
 
         // bind the variables to the place holders in the template
@@ -303,7 +303,7 @@ class Programs implements JsonSerializable {
      * Delete PDO to delete programsId
      * @param PDO $pdo
      **/
-    public function delete(PDO &$pdo) {
+    public function delete(PDO & $pdo) {
         //enforce the programs is not null
         if($this->programsId ===null) {
             throw(new PDOException("unable to delete program that does not exist"));
