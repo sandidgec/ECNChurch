@@ -1,6 +1,6 @@
 <?php
 require_once ("../../ecnChurch.php");
-require_once("autoload.php");
+require_once("programs.php");
 
 
 

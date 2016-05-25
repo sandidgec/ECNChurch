@@ -278,7 +278,7 @@ class Programs implements JsonSerializable {
      * Inserts this programsId in intervals
      * @param PDO $pdo connection to
      **/
-    public function insert(PDO &$pdo) {
+    public function insert(PDO $pdo) {
         //make sure program doesn't already exist
         if($this->programsId !== null) {
         throw (new PDOException("existing program"));
@@ -288,8 +288,10 @@ class Programs implements JsonSerializable {
           VALUES (:missionsId, :progDate, :description, :location, :programName, :progTime)";
         $statement = $pdo->prepare($query);
 
+		 $pDate = $this->progDate->format("Y-m-d");
+
         // bind the variables to the place holders in the template
-        $parameters = array("missionsId" => $this->missionsId, "progDate" => $this->progDate,
+        $parameters = array("missionsId" => $this->missionsId, "progDate" => $pDate,
             "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "progTime" => $this->progTime);
         $statement->execute($parameters);
 
