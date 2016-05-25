@@ -284,13 +284,15 @@ class Programs implements JsonSerializable {
         throw (new PDOException("existing program"));
         }
         //create query template
-        $query = "INSERT INTO programs (programsId, missionsId, date, description, location, programName, time)
+        $query = "INSERT INTO programs (missionsId, date, description, location, programName, time)
           VALUES (:programsId, :missionsId, :date, :description, :location, :programName, :time)";
         $statement = $pdo->prepare($query);
+
         // bind the variables to the place holders in the template
-        $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId, "date" => $this->date,
+        $parameters = array("missionsId" => $this->missionsId, "date" => $this->date,
             "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "time" => $this->time);
         $statement->execute($parameters);
+
         //update null programsId with what mySQL just gave us
         $this->programsId = intval($pdo->lastInsertId());
 }
