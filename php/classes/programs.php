@@ -297,6 +297,7 @@ class Programs implements JsonSerializable {
 
         //update null programsId with what mySQL just gave us
         $this->programsId = intval($pdo->lastInsertId());
+		 
 }
 
     /**
