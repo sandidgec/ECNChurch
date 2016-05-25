@@ -47,11 +47,11 @@ CREATE TABLE members (
 CREATE TABLE programs (
   programsId INT UNSIGNED AUTO_INCREMENT NOT NULL,
   missionsId INT UNSIGNED NOT NULL,
-  date DATE NOT NULL,
+  progDate DATE NOT NULL,
   description VARCHAR(160) NOT NULL,
   location VARCHAR(32) NOT NULL,
   programName VARCHAR(32) NOT NULL,
-  time VARCHAR(15) NOT NULL,
+  progTime VARCHAR(15) NOT NULL,
   INDEX(missionsId),
   FOREIGN KEY(missionsId) REFERENCES missions(missionsId),
   PRIMARY KEY(programsId)

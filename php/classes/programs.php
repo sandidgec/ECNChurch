@@ -29,7 +29,7 @@ class Programs implements JsonSerializable {
      * datetime sets date for programs
      * @datetime for programs $date
      */
-    private $date;
+    private $progDate;
 
     /**
      * descriptions of programs
@@ -53,7 +53,7 @@ class Programs implements JsonSerializable {
      * sets the time for the program
      * @var DateTime for program $time;
      */
-    private $time;
+    private $progTime;
 
     public function __construct($newProgramsId, $newMissionsId, $newDate, $newDescription,
                                 $newLocation, $newProgramName,$newTime)
@@ -61,11 +61,11 @@ class Programs implements JsonSerializable {
         try {
             $this->setProgramsId($newProgramsId);
             $this->setMissionsId($newMissionsId);
-            $this->setDate($newDate);
+            $this->setProgDate($newDate);
             $this->setDescription($newDescription);
             $this->setLocation($newLocation);
             $this->setProgramName($newProgramName);
-            $this->setTime($newTime);
+            $this->setProgTime($newTime);
         } catch (InvalidArgumentException $invalidArgument) {
             //rethrow the exception to the caller
             throw(new InvalidArgumentException($invalidArgument->getMessage(), 0, $invalidArgument));
@@ -138,24 +138,24 @@ class Programs implements JsonSerializable {
      *
      * @return string date for programs
      **/
-    public function getDate() {
-        return ($this->date);
+    public function getProgDate() {
+        return ($this->progDate);
     }
 
     /**
-     * mutator method for Date
-     * @param  mixed DateTime|string $newDate string
+     * mutator method for ProgDate
+     * @param mixed DateTime|string $newProgDate
      * @throws InvalidArgumentException
      * @throws RangeException
      * @throws Exception
      */
-    public function setDate($newDate) {
+    public function setProgDate($newProgDate) {
 
 
 
 
         try {
-            $newDate = validateDate($newDate);
+            $newProgDate = validateDate($newProgDate);
 
         } catch(InvalidArgumentException $invalidArgument) {
             throw(new InvalidArgumentException($invalidArgument->getMessage(), 0, $invalidArgument));
@@ -166,7 +166,7 @@ class Programs implements JsonSerializable {
         }
 
 
-        $this->date = $newDate;
+        $this->progDate = $newProgDate;
     }
 
 
@@ -249,31 +249,31 @@ class Programs implements JsonSerializable {
     }
 
     /**
-     * accessor method for Time
+     * accessor method for progTime
      *
-     * @return string of Time for programs
+     * @return string of progTime for programs
      */
-    public function getTime() {
-        return ($this->time);
+    public function getProgTime() {
+        return ($this->progTime);
     }
 
     /**
-     * mutator for time
+     * mutator for progTime
      *
-     * @param $newTime int
+     * @param $newProgTime int
      * @throws InvalidArgumentException if time is invalid
      */
-    public function setTime($newTime)  {
-        $newTime = filter_var ($newTime, FILTER_SANITIZE_STRING);
+    public function setProgTime($newProgTime)  {
+        $newProgTime = filter_var ($newProgTime, FILTER_SANITIZE_STRING);
 
-        if($newTime === false) {
-            throw( new InvalidArgumentException("New Time is insecure or empty"));
+        if($newProgTime === false) {
+            throw( new InvalidArgumentException("New progTime is insecure or empty"));
         }
-        $this->time = $newTime;
+        $this->progTime = $newProgTime;
     }
 
     /**
-     * Inserts Programs into MYSQL
+     * Inserts Program into MYSQL
      *
      * Inserts this programsId in intervals
      * @param PDO $pdo connection to
@@ -284,13 +284,13 @@ class Programs implements JsonSerializable {
         throw (new PDOException("existing program"));
         }
         //create query template
-        $query = "INSERT INTO programs (missionsId, date, description, location, programName, time)
-          VALUES (:missionsId, :date, :description, :location, :programName, :time)";
+        $query = "INSERT INTO programs (missionsId, progDate, description, location, programName, progTime)
+          VALUES (:missionsId, :progDate, :description, :location, :programName, :progTime)";
         $statement = $pdo->prepare($query);
 
         // bind the variables to the place holders in the template
-        $parameters = array("missionsId" => $this->missionsId, "date" => $this->date,
-            "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "time" => $this->time);
+        $parameters = array("missionsId" => $this->missionsId, "progDate" => $this->progDate,
+            "description" => $this->description, "location" => $this->location, "programName" => $this->programName, "progTime" => $this->progTime);
         $statement->execute($parameters);
 
         //update null programsId with what mySQL just gave us
@@ -324,14 +324,14 @@ class Programs implements JsonSerializable {
      **/
     public function update(PDO $pdo) {
         // create query template
-        $query = "UPDATE programs SET programsId = :programsId, missionsId = :missionsId, date = :date, 
+        $query = "UPDATE programs SET programsId = :programsId, missionsId = :missionsId, progDate = :progDate, 
           description = :description, location = :location, programName = :programName, 
-          time = :time  WHERE programsId = :programsId";
+          progTime = :progTime  WHERE programsId = :programsId";
         $statement = $pdo->prepare($query);
         // bind the member variables
         $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId,
-            "date" => $this->date, "description" => $this->description, "location" => $this->location,
-            "programName" => $this->programName, "time" => $this->time);
+            "progDate" => $this->progDate, "description" => $this->description, "location" => $this->location,
+            "programName" => $this->programName, "progTime" => $this->progTime);
         $statement->execute($parameters);
     }
 
@@ -352,7 +352,7 @@ class Programs implements JsonSerializable {
             throw(new PDOException("programs Id is not positive"));
         }
         // create query template
-        $query = "SELECT programsId, missionsId, date, description, location, programName, time FROM programs WHERE programsId = :programsId";
+        $query = "SELECT programsId, missionsId, progDate, description, location, programName, progTime FROM programs WHERE programsId = :programsId";
         $statement = $pdo->prepare($query);
         // bind the programs id to the place holder in the template
         $parameters = array("programsId" => $programsId);
@@ -390,7 +390,7 @@ class Programs implements JsonSerializable {
             throw(new PDOException("missions Id is not positive"));
         }
         // create query template
-        $query = "SELECT programsId, missionsId, date, description, location, programName, time FROM programs WHERE missionsId = :missionsId";
+        $query = "SELECT programsId, missionsId, progDate, description, location, programName, progTime FROM programs WHERE missionsId = :missionsId";
         $statement = $pdo->prepare($query);
         // bind the missions id to the place holder in the template
         $parameters = array("missionsId" => $missionsId);
@@ -403,7 +403,7 @@ class Programs implements JsonSerializable {
         while(($row = $statement->fetch()) !== false) {
             try {
                 if($row !== false) {
-                    $program = new Programs($row["programsId"], $row["missionsId"], $row["date"], $row["description"], $row["location"], $row["programName"], $row["time"]);
+                    $program = new Programs($row["programsId"], $row["missionsId"], $row["progDate"], $row["description"], $row["location"], $row["programName"], $row["progTime"]);
                     $programs[$programs->key()] = $program;
                     $programs->next();
                 }
@@ -418,7 +418,7 @@ class Programs implements JsonSerializable {
 
     public static function getAllPrograms(PDO $pdo) {
         //create the query template
-        $query = "SELECT programsId, missionsId, date, description, location, programName, time FROM programs";
+        $query = "SELECT programsId, missionsId, progDate, description, location, programName, progTime FROM programs";
         $statement = $pdo->prepare($query);
         // execute
         $statement->execute();
@@ -429,7 +429,7 @@ class Programs implements JsonSerializable {
         while(($row = $statement->fetch()) !== false) {
             try {
                 if($row !== false) {
-                    $program = new Programs($row["programsId"], $row["missionsId"], $row["date"], $row["description"], $row["location"], $row["programName"], $row["time"]);
+                    $program = new Programs($row["programsId"], $row["missionsId"], $row["progDate"], $row["description"], $row["location"], $row["programName"], $row["progTime"]);
                     $programs[$programs->key()] = $program;
                     $programs->next();
                 }
