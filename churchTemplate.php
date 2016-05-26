@@ -51,7 +51,7 @@
         <img src="../lib/img/elo_96868_traditions_lg_2.jpg">
     </div>
 <br> </br>
-    <p> Episcopal Church of Navajoland is more than just a place of worship.
+    <p> Episcopal Church in Navajoland is more than just a place of worship.
     It is a growing, loving family. There are so many great opportunities here to make friends,
     receive ministry and affect people's lives with God's love.
     There is something here for everyone, and we invite you to take a look and see.

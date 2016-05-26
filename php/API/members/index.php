@@ -1,5 +1,5 @@
 <?php
-require_once(dirname(dirname(__DIR__)) . "/classes/autoload.php");
+require_once(dirname(dirname(__DIR__)) . "/members/autoload.php");
 /**require_once(dirname(dirname(__DIR__)) . "/lib/xsrf.php");*/
 
 // start the session and create a XSRF token
@@ -22,8 +22,8 @@ try {
     // sanitize the email
     $email = filter_input(INPUT_GET, "email", FILTER_SANITIZE_EMAIL);
 
-    // grab the mySQL connection
-    $pdo = connectToEncryptedMySql("/etc/apache2/capstone-mysql/invtext.ini");
+  /**  // grab the mySQL connection
+    $pdo = connectToEncryptedMySql("/etc/apache2/capstone-mysql/invtext.ini");*/
 
     // handle all RESTful calls to Members today
 
@@ -57,7 +57,7 @@ try {
         $attention = (empty($requestObject->attention) === true ? null : $requestObject->attention);
         $addressLineTwo = (empty($requestObject->addressLineTwo) === true ? null : $requestObject->addressLineTwo);
         $members = new Members($membersId, $requestObject->lastName, $requestObject->firstName, false, $attention,
-            $requestObject->address1, $address2, $requestObject->city, $requestObject->state,
+            $requestObject->address1, $requestObject->address2, $requestObject->city, $requestObject->state,
             $requestObject->zip, $requestObject->email, $requestObject->phoneNumber, $salt, $hash);
         $members->insert($pdo);
         $_SESSION["members"] = $members;

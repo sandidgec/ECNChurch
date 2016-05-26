@@ -2,9 +2,6 @@
 require_once ("../../ecnChurch.php");
 require_once("programs.php");
 
-
-
-
 // setup dsn and options
 $dsn = 'mysql:host=' . $config["hostname"] . ';dbname=' . $config["database"];
 $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8");
