@@ -317,6 +317,7 @@ class Programs implements JsonSerializable {
         //bind the member variables to the place holder in the template
         $parameters = array("programsId" => $this->programsId);
         $statement->execute($parameters);
+
         }
 
     /**
@@ -327,13 +328,16 @@ class Programs implements JsonSerializable {
      **/
     public function update(PDO $pdo) {
         // create query template
-        $query = "UPDATE programs SET programsId = :programsId, missionsId = :missionsId, progDate = :progDate, 
+        $query = "UPDATE programs SET programsId = :programsId, missionsId = :missionsId, progDate = :pDate, 
           description = :description, location = :location, programName = :programName, 
           progTime = :progTime  WHERE programsId = :programsId";
         $statement = $pdo->prepare($query);
+
+        $pDate = $this->progDate->format("Y-m-d");
+        
         // bind the member variables
         $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId,
-            "progDate" => $this->progDate, "description" => $this->description, "location" => $this->location,
+            "progDate" => $this->pDate, "description" => $this->description, "location" => $this->location,
             "programName" => $this->programName, "progTime" => $this->progTime);
         $statement->execute($parameters);
     }

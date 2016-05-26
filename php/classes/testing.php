@@ -20,5 +20,9 @@ try {
 }
 
 
+$prog->setProgDate("2017-11-20");
+var_dump($prog);
+
+$prog->update($pdo);
 
 
