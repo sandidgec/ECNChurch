@@ -327,17 +327,18 @@ class Programs implements JsonSerializable {
      * @param PDO $pdo pointer to PDO connection, by reference
      **/
     public function update(PDO $pdo) {
+
         // create query template
-        $query = "UPDATE programs SET programsId = :programsId, missionsId = :missionsId, progDate = :pDate, 
+        $query = "UPDATE programs SET programsId = :programsId, missionsId = :missionsId, progDate = :progDate, 
           description = :description, location = :location, programName = :programName, 
           progTime = :progTime  WHERE programsId = :programsId";
         $statement = $pdo->prepare($query);
 
         $pDate = $this->progDate->format("Y-m-d");
-        
+
         // bind the member variables
         $parameters = array("programsId" => $this->programsId, "missionsId" => $this->missionsId,
-            "progDate" => $this->pDate, "description" => $this->description, "location" => $this->location,
+            "progDate" => $pDate, "description" => $this->description, "location" => $this->location,
             "programName" => $this->programName, "progTime" => $this->progTime);
         $statement->execute($parameters);
     }
@@ -370,8 +371,8 @@ class Programs implements JsonSerializable {
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $program = new Programs ($row["programsId"], $row["missionsId"], $row["date"],
-                    $row["description"], $row["location"], $row["programName"], $row["time"]);
+                $program = new Programs ($row["programsId"], $row["missionsId"], $row["progDate"],
+                    $row["description"], $row["location"], $row["programName"], $row["progTime"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
