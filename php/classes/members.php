@@ -189,7 +189,7 @@ class Members implements JsonSerializable
      *
      * @return mixed
      **/
-    public function getMisionsId()
+    public function getMissionsId()
     {
         return ($this->missionsId);
     }
@@ -309,7 +309,7 @@ class Members implements JsonSerializable
     /**
      * Mutator for Hash -insure it is 128 length string
      *
-     * @param string $newHash of users $newHash
+     * @param string $newHash of users
      * @throws InvalidArgumentException if newHash is not valid int
      * @throws RangeException if newHash is not exactly 128 digits
      **/
@@ -664,9 +664,8 @@ class Members implements JsonSerializable
             throw (new PDOException("existing member"));
         }
         //create query template
-        $query
-            = "INSERT INTO members( membersId, missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt)
-        VALUES (:members, :missions, :activation, :email, :firstName, :hash, :lastName, :phone, :position, :zip, :state, :city, :address1, :address2, :gender, :dob, :salt)";
+        $query = "INSERT INTO members (missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt)
+        VALUES (:missionsId, :activation, :email, :firstName, :hash, :lastName, :phone, :position, :zip, :state, :city, :address1, :address2, :gender, :dob, :salt)";
         $statement = $pdo->prepare($query);
 
         // bind the variables to the place holders in the template
@@ -756,7 +755,7 @@ class Members implements JsonSerializable
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $member = new Members ($row["membersId"], $row["missionsId"], $row["activation"], $row["email"], $row["firstName"], $row["hash"], $row["lastName"], $row["phone"], $row["postition"], $row["zip"], $row["state"], $row["city"], $row["address1"], $row["address2"], $row["gender"], $row["dob"], $row["salt"]);
+                $member = new Members ($row["membersId"], $row["missionsId"], $row["activation"], $row["email"], $row["firstName"], $row["hash"], $row["lastName"], $row["phone"], $row["position"], $row["zip"], $row["state"], $row["city"], $row["address1"], $row["address2"], $row["gender"], $row["dob"], $row["salt"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
@@ -764,7 +763,48 @@ class Members implements JsonSerializable
         }
         return ($member);
     }
-    
+
+    /**
+     * Get members by missionsId
+     *
+     * @param PDO $pdo pointer to PDO connection, by reference
+     * @param int $missionsId for unique members
+     * @return mixed|missions
+     **/
+    public static function getMembersByMissionsId(PDO $pdo, $missionsId) {
+        // sanitize the missionsId before searching
+        $missionsId = filter_var($missionsId, FILTER_VALIDATE_INT);
+        if($missionsId === false) {
+            throw(new PDOException("missions Id is not an integer"));
+        }
+        if($missionsId <= 0) {
+            throw(new PDOException("missions Id is not positive"));
+        }
+        // create query template
+        $query = "SELECT membersId, missionsId, activation, email, firstName, hash, lastName, phone, position, zip, state, city, address1, address2, gender, dob, salt 
+                  FROM members WHERE missionsId = :missionsId";
+        $statement = $pdo->prepare($query);
+        // bind the missions id to the place holder in the template
+        $parameters = array("missionsId" => $missionsId);
+        $statement->execute($parameters);
+        //call the function to build an array of the values
+        $members = null;
+        $statement->setFetchMode(PDO::FETCH_ASSOC);
+        $members = new SplFixedArray($statement->rowCount());
+        while(($row = $statement->fetch()) !== false) {
+            try {
+                if($row !== false) {
+                    $member = new Members($row["membersId"], $row["missionsId"], $row["activation"], $row["email"], $row["firstName"], $row["hash"], $row["lastName"], $row["phone"], $row["position"], $row["zip"], $row["state"], $row["city"], $row["address1"], $row["address2"], $row["gender"], $row["dob"], $row["salt"]);
+                    $members[$members->key()] = $member;
+                    $members->next();
+                }
+            } catch(Exception $exception) {
+                throw(new PDOException($exception->getMessage(), 0, $exception));
+            }
+        }
+        return $members;
+    }
+
     /**
      * Get all MembersId
      *
@@ -792,7 +832,7 @@ class Members implements JsonSerializable
         while(($row = $statement->fetch()) !== false) {
             try {
                 if($row !== false) {
-                    $member = new Members ($row["membersId"], $row["missionsId"], $row["activation"], $row["email"], $row["firstName"], $row["hash"], $row["lastName"], $row["phone"], $row["postition"], $row["zip"], $row["state"], $row["city"], $row["address1"], $row["address2"], $row["gender"], $row["dob"], $row["salt"]);
+                    $member = new Members ($row["membersId"], $row["missionsId"], $row["activation"], $row["email"], $row["firstName"], $row["hash"], $row["lastName"], $row["phone"], $row["position"], $row["zip"], $row["state"], $row["city"], $row["address1"], $row["address2"], $row["gender"], $row["dob"], $row["salt"]);
                     $members[$members->key()] = $member;
                     $members->next();
                 }
