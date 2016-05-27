@@ -1,5 +1,5 @@
 <?php
-require_once(\xampp(htdocs(__ECNChurch__)) . "/PHP/API/missions/index.php");
+require_once(dirname(dirname(__DIR__)) . "/missions/autoload.php");
 require_once("/etc/apache2/data-design/encrypted-config.php");
 
 // start the session and create a XSRF token
