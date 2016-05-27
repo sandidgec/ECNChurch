@@ -54,8 +54,8 @@ try {
         $attention = (empty($requestObject->attention) === true ? null : $requestObject->attention);
         $address2 = (empty($requestObject->address2) === true ? null : $requestObject->address2);
 
-        $missions = new Missions($missionsId, $requestObject->address1,address2, $requestObject->city, $requestObject->state,
-            $requestObject->zipCode, $requestObject->email, $requestObject->phone, pic, serviceTime);
+        $missions = new Missions($missionsId, $requestObject->address1,$requestObject->address2, $requestObject->city, $requestObject->state,
+            $requestObject->zipCode, $requestObject->email, $requestObject->phone, $requestObject->pic, $requestObject->serviceTime);
         $missions->insert($pdo);
         $_SESSION["missions"] = $missions;
         $reply->data = "Mission created OK";
