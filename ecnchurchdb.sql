@@ -64,7 +64,9 @@ CREATE TABLE bulletins (
   category VARCHAR(32) NOT NULL,
   message TEXT NOT NULL,
   timeStamp TIMESTAMP NOT NULL,
+  INDEX (membersId),
   INDEX(missionsId),
+  FOREIGN KEY (membersId) REFERENCES members(membersId),
   FOREIGN KEY (missionsId) REFERENCES missions(missionsId),
   PRIMARY KEY(bulletinId)
 

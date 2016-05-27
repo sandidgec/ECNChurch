@@ -370,7 +370,7 @@ class Bulletin implements JsonSerializable {
      **/
     public static function getAllBulletins(PDO &$pdo) {
         // create query template
-        $query = "SELECT bulletinId, missionsId, category, message FROM bulletin";
+        $query = "SELECT bulletinId, missionsId, category, message, timeStamp FROM bulletin";
         $statement = $pdo->prepare($query);
         // grab the bulletin from mySQL
         try {
