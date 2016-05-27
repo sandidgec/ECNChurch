@@ -288,7 +288,7 @@ class Bulletin implements JsonSerializable {
         $query = "UPDATE bulletin SET membersId = :membersId, missionsId = :missionsId, category = :category, message = :message, timeStamp = :timestamp WHERE bulletinId = :bulletinId";
         $statement = $pdo->prepare($query);
         // bind the member variables
-        $parameters = array("membersId" $this->membersId, "missionsId" $this->missionsId, "category" => $this->category, "message" => $this->message,
+        $parameters = array("membersId"=>$this->membersId, "missionsId"=>$this->missionsId, "category" => $this->category, "message" => $this->message,
             "bulletinId" => $this->bulletinId);
         $statement->execute($parameters);
     }
