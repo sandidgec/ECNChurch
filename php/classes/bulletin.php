@@ -184,16 +184,16 @@ class Bulletin implements JsonSerializable {
      *
      * @param string timeStamp category $newTimestamp
      */
-    public function setTimeStamp($newTimestamp)
+    public function setTimeStamp($newTimeStamp)
     {
         // verify timeStamp is valid
         $newTimeStamp = filter_var($newTimeStamp, FILTER_SANITIZE_STRING);
         if (empty($newTimeStamp) === true) {
             throw new InvalidArgumentException("timeStamp invalid");
         }
-        $this->category = $newTimestamp;
+        $this->category = $newTimeStamp;
     }
-    public function JsonSerialize()
+    public function JsonSterialize()
     {
         $fields = get_object_vars($this);
         return ($fields);
@@ -286,7 +286,7 @@ class Bulletin implements JsonSerializable {
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"], $row["timeStamp");
+                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"], $row["timeStamp"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
@@ -319,7 +319,7 @@ class Bulletin implements JsonSerializable {
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"], $row["timeStamp");
+                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"], $row["timeStamp"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
@@ -343,7 +343,7 @@ class Bulletin implements JsonSerializable {
             $statement->setFetchMode(PDO::FETCH_ASSOC);
             $row = $statement->fetch();
             if($row !== false) {
-                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"], $row["timeStamp");
+                $bulletin = new Bulletin ($row["bulletinId"], $row["missionsId"], $row["category"], $row["message"], $row["timeStamp"]);
             }
         } catch(Exception $exception) {
             // if the row couldn't be converted, rethrow it
