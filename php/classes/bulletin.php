@@ -49,10 +49,11 @@ class Bulletin implements JsonSerializable {
      * @throws RangeException
      * @throws Exception
      */
-    public function __construct($newBulletinId, $newMissionsId, $newCategory, $newMessage, $newTimeStamp)
+    public function __construct($newBulletinId, $newMembersId, $newMissionsId, $newCategory, $newMessage, $newTimeStamp)
     {
         try {
             $this->setBulletinId($newBulletinId);
+            $this->setMembersId($newMembersId);
             $this->setMissionsId($newMissionsId);
             $this->setCategory($newCategory);
             $this->setMessage($newMessage);
@@ -99,6 +100,31 @@ class Bulletin implements JsonSerializable {
         }
         $this->bulletinId = $newBulletinId;
     }
+
+
+    /**
+     * accessor method for membersId
+     *
+     * @return int missionsId
+     **/
+    public function getMembersId() {
+        return ($this->missionsId);
+    }
+    /**
+     * Mutator method for membersId
+     *
+     * @param $newMembersId int
+     * @throws InvalidArgumentException if membersId is invalid
+     **/
+    public function setMembersId($newMembersId) {
+        // verify access level is integer
+        $newMembersId = filter_var($newMembersId, FILTER_VALIDATE_INT);
+        if(empty($newMembersId) === true) {
+            throw new InvalidArgumentException ("Members Id Invalid");
+        }
+        $this->membersId = $newMembersId;
+    }
+
 
     /**
      * accessor method for missionsId
