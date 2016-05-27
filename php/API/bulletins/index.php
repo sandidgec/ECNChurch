@@ -40,7 +40,7 @@ try {
             throw(new InvalidArgumentException("passwords do not match", 400));
         }
         // handle optional fields
-        $bulletin = new Bulletin($bulletinId, $requestObject->bulletinId, $membersId, $requestObject->membersId, $requestObject->$missionsId, $requestObject->category, $requestObject->message,
+        $bulletin = new Bulletin($bulletinId, $requestObject->bulletinId, $membersId, $requestObject->membersId, $missionsId, $requestObject->$missionsId, $requestObject->category, $requestObject->message,
             $requestObject->timeStamp);
         $bulletin->insert($pdo);
         $_SESSION["bulletin"] = $bulletin;
