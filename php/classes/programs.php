@@ -151,9 +151,6 @@ class Programs implements JsonSerializable {
      */
     public function setProgDate($newProgDate) {
 
-
-
-
         try {
             $newProgDate = validateDate($newProgDate);
 

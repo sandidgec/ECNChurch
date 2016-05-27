@@ -1,6 +1,6 @@
 <?php
-require_once(dirname(dirname(__DIR__)) . "API/members/autoload.php");
-require_once(dirname(dirname(__DIR__)) . "API/members/xsrf.php");
+require_once(dirname(dirname(__DIR__)) . "classes/autoload.php");
+require_once(dirname(dirname(__DIR__)) . "classes/xsrf.php");
 
 // start the session and create a XSRF token
 if(session_status() !== PHP_SESSION_ACTIVE) {
