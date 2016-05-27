@@ -11,8 +11,8 @@ if(session_status() !== PHP_SESSION_ACTIVE) {
 $reply = new stdClass();
 $reply->status = 200;
 $reply->data = null;
-try {
 
+try {
     // determine which HTTP method was used
     $method = array_key_exists("HTTP_X_HTTP_METHOD", $_SERVER) ? $_SERVER["HTTP_X_HTTP_METHOD"] : $_SERVER["REQUEST_METHOD"];
 
@@ -36,6 +36,7 @@ try {
             $reply->data = Members::getMembersByMembersId($pdo, $membersId);
         } else if(empty($email) === false) {
             $reply->data = Members::getMembersByEmail($pdo, $email);
+            
         } else {
             $reply->data = Members::getAllMembers($pdo);
         }
