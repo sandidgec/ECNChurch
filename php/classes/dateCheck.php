@@ -33,4 +33,3 @@ function validateDate($newDate) {
     $newDate = DateTime::createFromFormat("Y-m-d", $newDate);
     return($newDate);
 }
-?>

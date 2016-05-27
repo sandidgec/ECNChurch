@@ -11,40 +11,39 @@ $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8");
 $pdo = new PDO($dsn, $config["username"], $config["password"], $options);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$salt = "c95b9c80eeb7aa08d327f24f8884e6c8dba171d88aa69f3b790ee93800f2a58a";
-$hash = "865187f5ba94ed115719aab747fb32fa2243a826be809762a6588149029994622f745a3e8db6d19f27cd21f23f7e863034e33c48d0800a5d05d94db8ed7370c0";
 
-$memb = new Members (null, 2, 2, "VBS", "reply asap: vbs@ecnchurch.com", "timeStamp" );
-
-
+/*
+$bull = new Bulletin(null, 5, 2, "VBS", "this is a message", null );
 try {
-    $memb->insert($pdo);
-}catch (PDOException $exception) {
-    echo $exception->getMessage();
-}
-
-
-$bulle->setCategory("Youth Arts Oasis ");
-var_dump($memb);
-
-$bulle->update($pdo);
-
-$bulle->delete($pdo);
-
-try {
-    $bulle = Bulletins::getBulletinByBulletinId($pdo, 31);
-} catch (Exception $e) {
+    $bull->insert($pdo);
+}catch (Exception $e){
     echo $e->getMessage();
 }
 
-echo'<br>';
-var_dump($bulle);
+$bull->setCategory("Youth");
+$bull->setMessage("this is a replacement message");
+$bull->update($pdo);
 
-$bulle = Members::getMembersByMissionsId($pdo, 3);
-var_dump($bulle);
+$bull->delete($pdo);
 
-$bulle = Members::getAllMembers($pdo);
-var_dump($bulle);
+*/
+
+/*
+try {
+    $bulls = Bulletin::getAllBulletins($pdo);
+}catch(Exception $e) {
+    echo $e->getMessage();
+}
+*/
+
+//$bulls = Bulletin::getBulletinByCategory($pdo, "VBS");
+
+$bull = Bulletin::getBulletinByBulletinId($pdo, 9);
+
+var_dump($bull);
+
+
+
 
 
 

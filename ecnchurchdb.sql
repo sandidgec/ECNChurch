@@ -64,7 +64,7 @@ CREATE TABLE bulletins (
   missionsId INT UNSIGNED NOT NULL,
   category VARCHAR(32) NOT NULL,
   message TEXT NOT NULL,
-  timeStamp TIMESTAMP NOT NULL,
+  timeStamp TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
   INDEX (membersId),
   INDEX(missionsId),
   FOREIGN KEY (membersId) REFERENCES members(membersId),
