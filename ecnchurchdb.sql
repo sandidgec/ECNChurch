@@ -60,7 +60,7 @@ CREATE TABLE programs (
 
 CREATE TABLE bulletins (
   bulletinId INT UNSIGNED AUTO_INCREMENT NOT NULL,
-  membersId INT UNSIGNED NOT NULL,
+  membersId INT UNSIGNED NOT NULL
   missionsId INT UNSIGNED NOT NULL,
   category VARCHAR(32) NOT NULL,
   message TEXT NOT NULL,
