@@ -40,7 +40,7 @@ try {
             throw(new InvalidArgumentException("passwords do not match", 400));
         }
         // handle optional fields
-        $bulletin = new Bulletin($bulletinId, $requestObject->bulletinId, $requestObject->$missionsId, $requestObject->category, $requestObject->message,
+        $bulletin = new Bulletin($bulletinId, $requestObject->bulletinId, $membersId, $requestObject->membersId, $requestObject->$missionsId, $requestObject->category, $requestObject->message,
             $requestObject->timeStamp);
         $bulletin->insert($pdo);
         $_SESSION["bulletin"] = $bulletin;
@@ -57,7 +57,7 @@ try {
         verifyXsrf();
         $requestContent = file_get_contents("php://input");
         $requestObject = json_decode($requestContent);
-        $bulletin = new Bulletin($bulletinId, $requestObject->bulletinId, $requestObject->$missionsId,$requestObject->category, $requestObject->message,
+        $bulletin = new Bulletin($bulletinId, $requestObject->bulletinId,$membersId, $requestObject->membersId, $requestObject->$missionsId,$requestObject->category, $requestObject->message,
             $requestObject->timeStamp);
         $bulletin->update($pdo);
         $reply->data = "Bulletin updated OK";
