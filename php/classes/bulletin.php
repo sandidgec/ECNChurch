@@ -437,6 +437,5 @@ class Bulletin implements JsonSerializable {
         }
 
         return ($bulletins);
-
     }
 }
