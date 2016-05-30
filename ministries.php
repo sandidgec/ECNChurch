@@ -7,11 +7,11 @@
     <link href="/lib/css/style.css" rel="stylesheet">
 </head>
 <body>
-<div>
-    <nav class="navbar navbar-button navbar-fixed-top">
+
+<nav class="navbar navbar-button navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                div class="container">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -19,6 +19,8 @@
             </button>
             <a class="navbar-brand em-text" href="index.php">Home</a>
         </div>
+
+
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active">
@@ -29,22 +31,18 @@
                 <li><a href="support.php">Support</a></li>
                 <li><a href="currentEvents.php">Current Events</a></li>
             </ul>
-
         </div><!--/.nav-collapse -->
-</div>
-</div>
+    </div>
+</nav>
 
 <div class="jumbotron">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h1>Ya'ateeh, Welcome to the Episcopal Church In Navajoland</h1>
+            <div class="firstline">
+                <h2>Ministries in the Churches </h2>
             </div>
-
         </div>
-
     </div>
-
 </div>
 </body>
 

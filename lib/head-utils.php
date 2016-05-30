@@ -17,7 +17,7 @@
           crossorigin="anonymous"></script>
 
 <!-- Custom CSS -->
-<link href="lib/css/style.css" rel="stylesheet">
+<link href="/lib/css/style.css" rel="stylesheet">
 <link type="text/css" href="css/style.css" rel="stylesheet"/>
 
 <!-- Latest compiled and minified JavaScript -->
@@ -26,7 +26,7 @@
         crossorigin="anonymous"></script>
 
 <!-- Our Custom JS -->
-<script src="./scripts.js"></script>
+<script src="js/script.js"></script>
 
 <!--Font awesome code-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
@@ -34,6 +34,6 @@
 <!--Google Font-->
 
 
-<!-- Angulur -->
+<!-- Angular -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
 

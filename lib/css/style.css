@@ -1,7 +1,37 @@
-background{
+.background{
     color: blue;
 }
-.jumbroton{
+.jumbotron {
     text-align: center;
 
+}
+
+.message {
+    text-align: center;
+}
+
+.pictures img {
+    alignment: center;
+}
+
+.thumbnail img {
+    padding: 10px,5px;
+    border: solid;
+    width: 500px;
+    height: 200px;
+}
+
+.imaginefirst img {
+    width: 700px;
+    height: 500px;
+    padding-left: 250px;
+    padding-right: 50px;
+}
+
+.thumbnail li {
+    text-align: center;
+}
+
+.firstnav {
+    alignment: center;
 }
