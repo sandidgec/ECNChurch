@@ -22,7 +22,7 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active">
-                <li><a href="History&Beliefs.php">History/Beliefs</a></li>
+                <li><a href="history&Beliefs.php">History/Beliefs</a></li>
                 <li><a href="Ministries.php">Ministries</a></li>
                 <li><a href="Governance.php">Governance</a></li>
                 <li><a href="Contact Us.php">Contact Us</a></li>

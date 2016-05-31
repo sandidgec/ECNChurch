@@ -24,7 +24,7 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                    <li><a href="History&Beliefs.php">History/Beliefs</a></li>
+                    <li><a href="history&Beliefs.php">History/Beliefs</a></li>
                     <li><a href="ministries.php">Ministries</a></li>
                     <li><a href="governance.php">Governance</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
@@ -55,11 +55,11 @@
 
             </br>
             <div class="message">
-            <p>The Episcopal Church in Navajoland is more than just a place of worship.</br>
+            <h3>The Episcopal Church in Navajoland is more than just a place of worship.</br>
                 It is a growing, loving family. There are so many great opportunities here to make friends,</br>
                 receive ministry and affect people's lives with God's love.</br>
                 There is something here for everyone, and we invite you to take a look and see.
-            </p>
+            </h3>
             </div>
 
             </br>
