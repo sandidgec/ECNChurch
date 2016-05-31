@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php require_once("/lib/js/head-utils.php"); ?>
+    <?php require_once("lib/js/head-utils.php"); ?>
     <title>WireFrame For ECN </title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/style.css" rel="stylesheet">
