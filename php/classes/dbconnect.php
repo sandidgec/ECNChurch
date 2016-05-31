@@ -16,8 +16,11 @@ function establishConn($iniFile) {
     $host = $db['host'];
     $type = $db['type'];
 
+    // NOTE: Make sure you close this by making dbConn = null anytime you
+    // expect the server to crash / shut down for whatever reason.
     $GLOBALS['dbConn'] = new PDO($type . ":host=" . $host . ";dbname=" . $name,
-      $user, $pass);
+      $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+
   }
 
 }
