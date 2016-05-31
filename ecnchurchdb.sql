@@ -10,6 +10,7 @@ CREATE TABLE missions (
   address2 VARCHAR (32) NOT NULL,
   city VARCHAR (32) NOT NULL,
   email VARCHAR(128) NOT NULL,
+  images VARCHAR (64) NOT NULL,
   phone VARCHAR(16) NOT NULL,
   pic VARCHAR(32) NOT NULL,
   serviceTime VARCHAR (128) NOT NULL,
