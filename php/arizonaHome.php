@@ -1,7 +1,7 @@
 <!DOC TYPE html>
 <html>
     <head>
-        <?php require_once("lib/head-utils.php"); ?>
+        <?php require_once("../lib/head-utils.php"); ?>
         <title>Arizona</title>
         <link href="/lib/css/style.css" rel="stylesheet">
     </head>
@@ -9,7 +9,7 @@
     <body>
 
     <p>Arizona Region Site</p>
-    
+
     <nav class="navbar navbar-button navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">

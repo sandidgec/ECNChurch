@@ -8,8 +8,6 @@
         <link href="/lib/css/style.css" rel="stylesheet">
     </head>
     <body>
-
-        
         <div class="jumbotron">
             <div class="container">
                 <div class="row">
