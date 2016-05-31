@@ -1,5 +1,5 @@
 <?php
-require_once(dirname(dirname(__DIR__)) . "/members/autoload.php");
+require_once(dirname(dirname(__DIR__)) . "/classes/autoload.php");
 /**require_once(dirname(dirname(__DIR__)) . "/lib/xsrf.php");*/
 require_once(dirname(dirname(__DIR__)) . "/classes/dbconnect.php");
 
