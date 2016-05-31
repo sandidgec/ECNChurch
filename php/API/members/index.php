@@ -1,6 +1,7 @@
 <?php
 require_once(dirname(dirname(__DIR__)) . "/members/autoload.php");
 /**require_once(dirname(dirname(__DIR__)) . "/lib/xsrf.php");*/
+require_once(dirname(dirname(__DIR__)) . "/classes/dbconnect.php");
 
 // start the session and create a XSRF token
 if(session_status() !== PHP_SESSION_ACTIVE) {
@@ -23,7 +24,7 @@ try {
     $email = filter_input(INPUT_GET, "email", FILTER_SANITIZE_EMAIL);
 
   /**  // grab the mySQL connection
-    $pdo = connectToEncryptedMySql("/etc/apache2/capstone-mysql/invtext.ini");*/
+    $pdo = establishConn("/etc/apache2/capstone-mysql/invtext.ini");*/
 
     // handle all RESTful calls to Members today
 
@@ -36,7 +37,7 @@ try {
             $reply->data = Members::getMembersByMembersId($pdo, $membersId);
         } else if(empty($email) === false) {
             $reply->data = Members::getMembersByEmail($pdo, $email);
-            
+
         } else {
             $reply->data = Members::getAllMembers($pdo);
         }
@@ -63,7 +64,7 @@ try {
         $members->insert($pdo);
         $_SESSION["members"] = $members;
         $reply->data = "Members created OK";
-        
+
         // delete an existing Members
     } else if($method === "DELETE") {
         verifyXsrf();

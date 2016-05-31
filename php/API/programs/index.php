@@ -1,6 +1,7 @@
 <?php
 require_once(dirname(dirname(__DIR__)) . "classes/autoload.php");
 require_once(dirname(dirname(__DIR__)) . "classes/xsrf.php");
+require_once(dirname(dirname(__DIR__)) . "/classes/dbconnect.php");
 
 // start the session and create a XSRF token
 if(session_status() !== PHP_SESSION_ACTIVE) {
@@ -18,7 +19,7 @@ try {
     // sanitize the missionsId
     $missionsId = filter_input(INPUT_GET, "missionsId", FILTER_SANITIZE_STRING);
     // grab the mySQL connection
-    $pdo = connectToEncryptedMySql("/etc/apache2/capstone-mysql/invtext.ini");
+    $pdo = establishConn("/etc/apache2/capstone-mysql/invtext.ini");
     // handle all RESTful calls to Program today
 
     // get some or all Programs
@@ -68,7 +69,3 @@ try {
 
     header("Content-type: application/json");
     echo json_encode($reply);
-    
-
-
-

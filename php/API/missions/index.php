@@ -1,6 +1,7 @@
 <?php
 require_once(dirname(dirname(__DIR__)) . "/missions/autoload.php");
 require_once("/etc/apache2/data-design/encrypted-config.php");
+require_once(dirname(dirname(__DIR__)) . "/classes/dbconnect.php");
 
 // start the session and create a XSRF token
 if(session_status() !== PHP_SESSION_ACTIVE) {
@@ -24,7 +25,7 @@ try {
 
 
     // grab the mySQL connection
-    $pdo = connectToEncryptedMySql("/etc/apache2/capstone-mysql/invtext.ini");
+    $pdo = establishConn("/etc/apache2/capstone-mysql/invtext.ini");
 
     // handle all RESTful calls to Mission today
     // get some or all Missions

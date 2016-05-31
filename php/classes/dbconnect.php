@@ -7,6 +7,7 @@
 function establishConn($iniFile) {
 
   if ($GLOBALS['dbConn'] != null) {
+
     $db = parse_ini_file($iniFile);
 
     $user = $db['user'];
