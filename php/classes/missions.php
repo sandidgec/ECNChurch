@@ -35,6 +35,11 @@ class Missions implements JsonSerializable
      **/
     private $email;
     /**
+     * images of missions
+     * @var string for $images
+     */
+    private $images;
+    /**
      * phone number of missions
      * @var string for $phone
      **/
@@ -69,6 +74,7 @@ class Missions implements JsonSerializable
      * @param $newAddress2
      * @param $newCity
      * @param $newEmail
+     * @param $newImages
      * @param $newPhone
      * @param $newPic
      * @param $newServiceTime
@@ -78,7 +84,7 @@ class Missions implements JsonSerializable
      * @throws InvalidArgumentException
      * @throws Exception
      **/
-public function __construct($newMissionsId, $newAddress1, $newAddress2, $newCity, $newEmail, $newPhone,
+public function __construct($newMissionsId, $newAddress1, $newAddress2, $newCity, $newEmail, $newImages, $newPhone,
 $newPic, $newServiceTime, $newState, $newZip)
 {
 try {
@@ -88,6 +94,7 @@ try {
     $this->setAddress2($newAddress2);
     $this->setCity($newCity);
     $this->setEmail($newEmail);
+    $this->setImages($newImages);
     $this->setPhone($newPhone);
     $this->setPic($newPic);
     $this->setServiceTime($newServiceTime);
@@ -285,6 +292,36 @@ try {
             }
 
 
+            /**accessor method for Images
+             *
+             * @return string for Images
+             * **/
+            public function getImages() {
+                return ($this->images);
+            }
+
+            /**
+             * Mutator for images sanitation
+             *
+             * @param string $newImages for images
+             * @throws RangeException
+             **/
+            Public function setImages($newImages) {
+                //verify pic is valid
+                $newImages = filter_var($newImages, FILTER_SANITIZE_STRING);
+                if (empty($newImages) === true) {
+                    throw new InvalidArgumentException("Images invalid");
+                }
+                if(strlen($newImages) > 32) {
+                    throw (new RangeException("Images too large"));
+                }
+                $this->images = $newImages;
+            }
+
+
+
+
+
 
             /**accessor method for Person In Charge
              *
@@ -433,13 +470,13 @@ try {
                 }
                 //create query template
                 $query
-                    = "INSERT INTO missions(address1, address2, city, email, phone, pic, serviceTime, state, zip)
-                VALUES (:address1, :address2, :city, :email, :phone, :pic, :serviceTime, :state, :zip)";
+                    = "INSERT INTO missions(address1, address2, city, email, images, phone, pic, serviceTime, state, zip)
+                VALUES (:address1, :address2, :city, :email, :images, :phone, :pic, :serviceTime, :state, :zip)";
                 $statement = $pdo->prepare($query);
 
                 // bind the variables to the place holders in the template
                 $parameters = array("address1" => $this->address1, "address2" => $this->address2, "city" => $this->city,
-                "email" => $this->email,
+                "email" => $this->email, "images" =>$this->images,
                     "phone" => $this->phone, "pic" => $this->pic,
                     "serviceTime" => $this->serviceTime, "state" => $this->state, "zip" => $this->zip);
                 $statement->execute($parameters);
@@ -479,13 +516,13 @@ try {
 
                 //create query template
                 $query = "UPDATE missions SET address1 = :address1, address2 = :address2, city = :city, email = :email,
-                phone = :phone, pic = :pic, serviceTime = :serviceTime, state = :state, zip = :zip WHERE  missionsId = :missionsId";
+                images = :images, phone = :phone, pic = :pic, serviceTime = :serviceTime, state = :state, zip = :zip WHERE  missionsId = :missionsId";
                 $statement = $pdo->prepare($query);
 
 
                 // bind the member variables
                 $parameters = array("address1" => $this->address1, "address2" => $this->address2, "city" => $this->city, "email" => $this->email,
-                        "missionsId" => $this->missionsId, "phone" => $this->phone, "pic" => $this->pic,
+                        "missionsId" => $this->missionsId, "images" => $this->images, "phone" => $this->phone, "pic" => $this->pic,
                         "serviceTime" => $this->serviceTime, "state" => $this->state, "zip" =>$this->zip);
                 $statement->execute($parameters);
             }
@@ -508,7 +545,7 @@ try {
                 }
 
                 // create query template
-                $query = "SELECT missionsId, address1, address2, city, email, phone, pic, serviceTime, 
+                $query = "SELECT missionsId, address1, address2, city, email, images, phone, pic, serviceTime, 
                         state, zip FROM missions WHERE missionsId = :missionsId";
                 $statement = $pdo->prepare($query);
 
@@ -523,7 +560,7 @@ try {
                     $row = $statement->fetch();
                     if($row !== false) {
                         $mission = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
-                            $row["phone"], $row["pic"],  $row["serviceTime"],
+                            $row["images"], $row["phone"], $row["pic"],  $row["serviceTime"],
                             $row["state"], $row["zip"]);
         
                     }
@@ -551,7 +588,7 @@ try {
                     throw(new PDOException("email is insecure or empty"));
                 }
                 // create query template
-                $query = "SELECT missionsId, address1, address2, city, email, phone, pic, serviceTime, state, zip
+                $query = "SELECT missionsId, address1, address2, city, email, images, phone, pic, serviceTime, state, zip
                 FROM missions WHERE email = :email";
 
                 $statement = $pdo->prepare($query);
@@ -567,7 +604,7 @@ try {
                     $row = $statement->fetch();
                     if($row !== false) {
                         $mission = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
-                            $row["phone"], $row["pic"], $row["serviceTime"], $row["state"], $row["zip"]);
+                            $row["images"], $row["phone"], $row["pic"], $row["serviceTime"], $row["state"], $row["zip"]);
                     }
                 } catch(Exception $exception) {
                     // if the row couldn't be converted, rethrow it
@@ -585,7 +622,7 @@ try {
             public static function getAllMissions(PDO &$pdo) {
 
                 // create query template
-               $query = "SELECT missionsId, address1, address2, city, email, phone, pic, serviceTime, state, zip
+               $query = "SELECT missionsId, address1, address2, city, email, images, phone, pic, serviceTime, state, zip
                     FROM missions";
                 $statement = $pdo->prepare($query);
 
@@ -601,7 +638,7 @@ try {
                     try {
                         if($row !== false) {
                             $mission = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
-                                $row["phone"], $row["pic"], $row["serviceTime"], $row["state"], $row["zip"]);
+                                $row["images"], $row["phone"], $row["pic"], $row["serviceTime"], $row["state"], $row["zip"]);
                                 $missions[$missions->key()] = $mission;
                                 $missions->next();
                         }
