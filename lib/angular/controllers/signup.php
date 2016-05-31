@@ -1,5 +1,5 @@
 app.controller("SignUpController", function($http, SignupService, $scope, $window) {
-$scope.user = null;
+$scope.membersId = null;
 $scope.statusClass = "alert-success";
 $scope.statusMessage = null;
 
@@ -7,12 +7,12 @@ $scope.statusMessage = null;
 /**
 *method that controls the action table and will fill the table or display errors
 */
-$scope.addUser = function(user) {
-if(user.password === user.passwordConfirm) {
-SignupService.addUser(user)
+$scope.addMembersId = function(membersId) {
+if(membersId.password === membersId.passwordConfirm) {
+SignupService.addMembersId(membersId)
 .then(function(reply) {
 if(reply.status === 200) {
-$window.location.href = "../lib/angular/views/admin-panel.php";
+$window.location.href = "../lib/angular/controllers/adminPanel.php";
 } else {
 $scope.statusClass = "alert-danger";
 $scope.statusMessage = reply.message;
