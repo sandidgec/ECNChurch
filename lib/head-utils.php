@@ -27,7 +27,7 @@
 
 <!-- Our Custom JS -->
 <script src="js/script.js"></script>
-
+<script src="js/ecnTempScript.js"></script>
 <!--Font awesome code-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 

@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php require_once("lib/head-utils.php"); ?>
+    <?php require_once("lib/js/head-utils.php"); ?>
     <title>WireFrame For ECN </title>
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/lib/css/style.css" rel="stylesheet">
 </head>
-<body>
+
+<body ng-app="recall" ng-controller="recallCtrl">
+
 <?php require_once("navbar.php");?>
 <div class="jumbotron">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1>Ya'ateeh, Welcome to the Episcopal Church In Navajoland</h1>
+                <h1>Ya'ateeh, Welcome to {{churchName}}</h1>
             </div>
 
         </div>
-
     </div>
 
 </div>
-    >
+
     <div>
         <img src="../lib/img/elo_96868_traditions_lg_2.jpg">
     </div>
@@ -56,11 +57,8 @@
     </div>
 </div>
 
-
-
-
-<link>
-
+<!--Angular Framework-->
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
 </body>
 
 </html>

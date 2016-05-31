@@ -90,7 +90,7 @@ class Missions implements JsonSerializable
      * @throws InvalidArgumentException
      * @throws Exception
      **/
-public function __construct($newMissionsId, $newAddress1, $newAddress2, $newCity, $newEmail, $newImages, $name, $newPhone,
+public function __construct($newMissionsId, $newAddress1, $newAddress2, $newCity, $newEmail, $newImages, $newName, $newPhone,
 $newPic, $newServiceTime, $newState, $newZip)
 {
 try {
