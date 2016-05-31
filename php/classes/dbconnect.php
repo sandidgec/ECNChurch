@@ -23,6 +23,8 @@ function establishConn($iniFile) {
 
   }
 
+  return $GLOBALS['dbConn'];
+
 }
 
 ?>
