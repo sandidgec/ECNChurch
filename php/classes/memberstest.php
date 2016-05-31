@@ -1,5 +1,5 @@
 <?php
-require_once ("../../ecnChurch.php");
+require_once("../../ecnChurch.php");
 require_once("autoload.php");
 
 // setup dsn and options
