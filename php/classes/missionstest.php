@@ -11,7 +11,6 @@ $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8");
 $pdo = new PDO($dsn, $config["username"], $config["password"], $options);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$miss = new Missions(null, Po Box 954 WindowRock, "12857 W. Cherry Hills Drive", "CoalMine", gjgordy1996@yahoo.com, sd, st. marks, 602-323-4122, Gj. Gordy, 11am, NM, 86515);
 
 try {
     $miss->insert($pdo);

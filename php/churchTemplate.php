@@ -7,8 +7,8 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<div>
-    <nav class="navbar navbar-button navbar-fixed-top">
+    <div>
+        <nav class="navbar navbar-button navbar-fixed-top">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 div class="container">
