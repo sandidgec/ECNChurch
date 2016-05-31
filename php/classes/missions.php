@@ -149,8 +149,7 @@ try {
             }
 
 
-
-
+    
         /**
          * accessor method for address line 1
          *
@@ -320,9 +319,6 @@ try {
 
 
 
-
-
-
             /**accessor method for Person In Charge
              *
              * @return string for Person In Charge
@@ -348,7 +344,6 @@ try {
                 }
                 $this->pic = $newPic;
             }
-
 
 
             /**
@@ -385,7 +380,6 @@ try {
             }
 
 
-
             /**
              * accessor method for State
              *
@@ -416,8 +410,6 @@ try {
 
                 $this->state = $newState;
             }
-
-
 
 
             /**
