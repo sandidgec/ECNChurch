@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php require_once("lib/head-utils.php"); ?>
+    <?php require_once("../lib/head-utils.php"); ?>
     <?php require_once("navbar.php");?>
     <title>WireFrame For ECN </title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/style.css" rel="stylesheet">
 </head>
 <body>
-
-
         <div class="jumbotron">
 
             <div class="container">
@@ -26,29 +24,22 @@
             <img src="/lib/img/elo_96868_traditions_lg_2.jpg">
         </div>
 
-            <br>
 
-            </br>
             <div class="message">
             <h3>The Episcopal Church in Navajoland is more than just a place of worship.</br>
                 It is a growing, loving family. There are so many great opportunities here to make friends,</br>
                 receive ministry and affect people's lives with God's love.</br>
                 There is something here for everyone, and we invite you to take a look and see.
             </h3>
+                
             </div>
-
-            </br>
-            </br>
-
+        <p>Hello Guys</p>
             <div class="pictures">
                 <img alt="File:Bulletin Board with notes.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bulletin_Board_with_notes.svg/800px-Bulletin_Board_with_notes.svg.png"
                      width="800" height="568" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bulletin_Board_with_notes.svg/1200px-Bulletin_Board_with_notes.svg.png 1.5x,
                      https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bulletin_Board_with_notes.svg/1600px-Bulletin_Board_with_notes.svg.png 2x" data-file-width="1050"
                      data-file-height="745">
             </div>
-
-            </br>
-            </br>
 
     <ul class="nav nav-pills">
             <div class="row">
