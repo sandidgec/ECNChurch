@@ -2,6 +2,7 @@
 <html>
 <head>
     <?php require_once("../lib/head-utils.php");?>
+    <link rel="short icon" href="lib/images/ecn.ico"/>
     <title>WireFrame For ECN </title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/style.css" rel="stylesheet">
