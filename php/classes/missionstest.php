@@ -1,5 +1,5 @@
 <?php
-require_once ("../../ecnChurch.php");
+require_once("../../ecnChurch.php");
 require_once("programs.php");
 
 // setup dsn and options
