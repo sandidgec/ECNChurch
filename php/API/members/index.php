@@ -24,7 +24,7 @@ try {
     $email = filter_input(INPUT_GET, "email", FILTER_SANITIZE_EMAIL);
 
   /**  // grab the mySQL connection
-    $pdo = establishConn("/etc/apache2/capstone-mysql/invtext.ini");*/
+    $pdo = establishConn("/etc/apache2/ecnchurch.ini");*/
 
     // handle all RESTful calls to Members today
 

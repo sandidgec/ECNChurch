@@ -19,7 +19,7 @@ try {
     // sanitize the missionsId
     $missionsId = filter_input(INPUT_GET, "missionsId", FILTER_SANITIZE_STRING);
     // grab the mySQL connection
-    $pdo = establishConn("/etc/apache2/capstone-mysql/invtext.ini");
+    $pdo = establishConn("/etc/apache2/ecnchurch.ini");
     // handle all RESTful calls to Program today
 
     // get some or all Programs

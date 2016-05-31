@@ -25,7 +25,7 @@ try {
 
 
     // grab the mySQL connection
-    $pdo = establishConn("/etc/apache2/capstone-mysql/invtext.ini");
+    $pdo = establishConn("/etc/apache2/ecnchurch.ini");
 
     // handle all RESTful calls to Mission today
     // get some or all Missions
