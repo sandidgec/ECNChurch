@@ -7,33 +7,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <nav class="navbar navbar-button navbar-fixed-top">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                div class="container">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand em-text" href="index.php">Home</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active">
-                <li><a href="history&Beliefs.php">History/Beliefs</a></li>
-                <li><a href="Ministries.php">Ministries</a></li>
-                <li><a href="Governance.php">Governance</a></li>
-                <li><a href="Contact Us.php">Contact Us</a></li>
-                <li><a href="Support.php">Support</a></li>
-                <li><a href="Current Events.php">Current Events</a></li>
-            </ul>
-
-        </div><!--/.nav-collapse -->
-    </div>
-</div>
-</nav>
+<?php require_once("navbar.php");?>
 <div class="jumbotron">
     <div class="container">
         <div class="row">
