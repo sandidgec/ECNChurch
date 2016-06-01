@@ -33,47 +33,75 @@ try {
         if(empty($bulletinId) === false) {
             $reply->data = Bulletin::getBulletinByBulletinId($pdo, $bulletinId);
         } else if(empty($category) === false) {
+
+            // NOTE: Where the hell is category?
             $reply->data = Bulletin::getBulletinByCategory($pdo, $category);
+
         } else {
             $reply->data = Bulletin::getAllBulletins($pdo);
         }
         // post to a new Bulletin
+
     } else if($method === "POST") {
+
         // convert POSTed JSON to an object
         verifyXsrf();
         $requestContent = file_get_contents("php://input");
         $requestObject = json_decode($requestContent);
+
         if($requestObject->password !== $requestObject->passwordConfirm) {
             throw(new InvalidArgumentException("passwords do not match", 400));
         }
+
         // handle optional fields
-        $bulletin = new Bulletin($bulletinId, $requestObject->bulletinId, $membersId, $requestObject->membersId, $missionsId, $requestObject->$missionsId, $requestObject->category, $requestObject->message,
-            $requestObject->timeStamp);
+        $bulletin = new Bulletin(
+          $requestObject->bulletinId,
+          $requestObject->membersId,
+          $requestObject->$missionsId,
+          $requestObject->category,
+          $requestObject->message,
+          $requestObject->timeStamp
+        );
+
         $bulletin->insert($pdo);
         $_SESSION["bulletin"] = $bulletin;
         $reply->data = "Bulletin created OK";
         // delete an existing Bulletin
+
     } else if($method === "DELETE") {
+
         verifyXsrf();
         $bulletin = Bulletin::getBulletinByBulletinId($pdo, $bulletinId);
         $bulletin->delete($pdo);
         $reply->data = "Bulletin deleted OK";
-        // put to an existing Bulletin
+
+    // put to an existing Bulletin
     } else if($method === "PUT") {
+
         // convert PUTed JSON to an object
         verifyXsrf();
         $requestContent = file_get_contents("php://input");
         $requestObject = json_decode($requestContent);
-        $bulletin = new Bulletin($bulletinId, $requestObject->bulletinId,$membersId, $requestObject->membersId, $requestObject->$missionsId,$requestObject->category, $requestObject->message,
-            $requestObject->timeStamp);
+
+        $bulletin = new Bulletin(
+          $requestObject->bulletinId,
+          $requestObject->membersId,
+          $requestObject->$missionsId,
+          $requestObject->category,
+          $requestObject->message,
+          $requestObject->timeStamp
+        );
+
         $bulletin->update($pdo);
         $reply->data = "Bulletin updated OK";
     }
     // create an exception to pass back to the RESTful caller
 } catch(Exception $exception) {
+
     $reply->status = $exception->getCode();
     $reply->message = $exception->getMessage();
     unset($reply->data);
+    
 }
 header("Content-type: application/json");
 echo json_encode($reply);
