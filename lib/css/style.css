@@ -35,3 +35,19 @@
 .message {
     color: black;
 }
+body{
+    background-color: black
+}
+
+.info {
+    padding-left: 50px;
+    padding-right: 900px;
+    float: right;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+
+img {
+    padding-bottom: 30px;
+    padding-right: 45px;
+}

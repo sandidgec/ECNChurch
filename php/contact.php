@@ -18,25 +18,16 @@
                 <h2>Contact Us </h2>
             </div>
         </div>
-</div>
-</div>
-<p>Hello World!! </p>
-<div class="container">
-    <div class="row">
-        <div class="col-md-3">
-            <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
-        </div>
-        <div class="col-md-3">
-            <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
-        </div>
-        <div class="col-md-3">
-            <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
-        </div>
-        <div class="col-md-3">
-            <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
-        </div>
     </div>
 </div>
+<div class="info">
+    <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
+    <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
+    <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
+    <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
+
+</div>
+
 </body>
 
 </html>
