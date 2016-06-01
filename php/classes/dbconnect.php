@@ -6,7 +6,7 @@
 
 function establishConn($iniFile) {
 
-  if ($GLOBALS['dbConn'] != null) {
+  if (!array_key_exists('dbConn', $GLOBALS)) {
 
     $db = parse_ini_file($iniFile);
 

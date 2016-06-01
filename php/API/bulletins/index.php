@@ -16,12 +16,18 @@ try {
     $method = array_key_exists("HTTP_X_HTTP_METHOD", $_SERVER) ? $_SERVER["HTTP_X_HTTP_METHOD"] : $_SERVER["REQUEST_METHOD"];
     // sanitize the userId
     $bulletinId = filter_input(INPUT_GET, "bulletinId", FILTER_VALIDATE_INT);
-    // grab the mySQL connection
-    $pdo = establishConn("/etc/apache2/capstone-mysql/invtext.ini");
+
+    // Grab the mySQL connection
+    // NOTE: This one is only used for Nginx servers
+    $pdo = establishConn("/usr/share/nginx/ecn_db.ini");
+    // NOTE: This is the one you use for Apache web servers.
+    //$pdo = establishConn("/etc/apache2/capstone-mysql/invtext.ini");
+
     // handle all RESTful calls to Bulletin today
 
     // get some or all Bulletins
     if($method === "GET") {
+
         // set an XSRF cookie on GET requests
         setXsrfCookie("/");
         if(empty($bulletinId) === false) {
