@@ -32,7 +32,6 @@
                 <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
             </div>
         </div>
-        
     </div>
     </body>
 
