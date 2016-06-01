@@ -5,7 +5,7 @@
     <?php require_once("navbar.php");?>
     <title>WireFrame For ECN </title>
     <!-- Custom styles for this template -->
-    <link href="/lib/css/style.css" rel="stylesheet">
+    <link href="../lib/css/style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -20,7 +20,7 @@
         </div>
 </div>
 </div>
-
+<p>Hello World!! </p>
 <div class="container">
     <div class="row">
         <div class="col-md-3">
