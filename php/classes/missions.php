@@ -1,6 +1,6 @@
 <?php
 
-/** 
+/**
  * Class Missions for sites Missions base
  *
  *This class handles missions
@@ -90,144 +90,146 @@ class Missions implements JsonSerializable
      * @throws InvalidArgumentException
      * @throws Exception
      **/
-public function __construct($newMissionsId, $newAddress1, $newAddress2, $newCity, $newEmail, $newImages, $newName, $newPhone,
-$newPic, $newServiceTime, $newState, $newZip)
-{
-try {
+    public function __construct($newMissionsId, $newName, $newAddress1,
+      $newAddress2, $newCity, $newState, $newZip, $newEmail, $newPhone, $newPic,
+      $newServiceTime, $newImages) {
 
-    $this->setMissionsId($newMissionsId);
-    $this->setAddress1($newAddress1);
-    $this->setAddress2($newAddress2);
-    $this->setCity($newCity);
-    $this->setEmail($newEmail);
-    $this->setImages($newImages);
-    $this->setName($newName);
-    $this->setPhone($newPhone);
-    $this->setPic($newPic);
-    $this->setServiceTime($newServiceTime);
-    $this->setState($newState);
-    $this->setZip($newZip);
+      try {
 
-
-        } catch
-        (InvalidArgumentException $invalidArgument) {
-            //rethrow the exception to the caller
-            throw(new InvalidArgumentException($invalidArgument->getMessage(), 0, $invalidArgument));
-
-        }   catch (RangeException $range) {
-            // rethrow the exception to the caller
-            throw (new RangeException($range->getMessage(), 0, $range));
-
-        }   catch (Exception $exception) {
-            // rethrow generic exception
-            throw(new Exception($exception->getMessage(), 0, $exception));
-        }
-        }
+        $this->setMissionsId($newMissionsId);
+        $this->setAddress1($newAddress1);
+        $this->setAddress2($newAddress2);
+        $this->setCity($newCity);
+        $this->setEmail($newEmail);
+        $this->setImages($newImages);
+        $this->setName($newName);
+        $this->setPhone($newPhone);
+        $this->setPic($newPic);
+        $this->setServiceTime($newServiceTime);
+        $this->setState($newState);
+        $this->setZip($newZip);
 
 
-        /**
-         * accessor method for MissionsId
-         *
-         * @return int value of unique MissionsId
-         **/
-        public function getMissionsId() {
-             return ($this->missionsId);
-        }
+      } catch (InvalidArgumentException $invalidArgument) {
 
-        /**
-         * mutator method for the missionsId
-         *
-         * @param int $newMissionsId unique value to represent a mission $newMissionsId
-         * @throws InvalidArgumentException for invalid content
-         **/
-            public function setMissionsId($newMissionsId) {
-        //base case: if the missionsId is null,
-        //this is a new missions without a mySQL assigned id (yet)
-        if ($newMissionsId === null) {
-            $this->missionsId = null;
-            return;
-        }
-        //verify the missions is valid
-        $newMissionsId = filter_var($newMissionsId, FILTER_VALIDATE_INT);
-        if (empty($newMissionsId) === true) {
-            throw (new InvalidArgumentException ("missionsId invalid"));
-        }
-        $this->missionsId = $newMissionsId;
-            }
+        //rethrow the exception to the caller
+        throw(new InvalidArgumentException($invalidArgument->getMessage(), 0, $invalidArgument));
+
+      } catch (RangeException $range) {
+
+        // rethrow the exception to the caller
+        throw (new RangeException($range->getMessage(), 0, $range));
+
+      } catch (Exception $exception) {
+
+        // rethrow generic exception
+        throw(new Exception($exception->getMessage(), 0, $exception));
+      }
+    }
 
 
-    
-        /**
-         * accessor method for address line 1
-         *
-         * @return string for address line 1
-         **/
-        public function getAddress1()
-        {
-            return ($this->address1);
-        }
+    /**
+     * accessor method for MissionsId
+     *
+     * @return int value of unique MissionsId
+     **/
+    public function getMissionsId() {
+         return ($this->missionsId);
+    }
 
-        /**
-         * Mutator method for Address Line 1
-         * @throws RangeException
-         * @param string $newAddress1 missions address1 $newAddress1
-         */
-        public function setAddress1($newAddress1) {
+    /**
+     * mutator method for the missionsId
+     *
+     * @param int $newMissionsId unique value to represent a mission $newMissionsId
+     * @throws InvalidArgumentException for invalid content
+     **/
+    public function setMissionsId($newMissionsId) {
 
-            $newAddress1 = filter_var($newAddress1, FILTER_SANITIZE_STRING);
+      //base case: if the missionsId is null,
+      //this is a new missions without a mySQL assigned id (yet)
+      if ($newMissionsId === null) {
+          $this->missionsId = null;
+          return;
+      }
+      //verify the missions is valid
+      $newMissionsId = filter_var($newMissionsId, FILTER_VALIDATE_INT);
+      if (empty($newMissionsId) === true) {
+          throw (new InvalidArgumentException ("missionsId invalid"));
+      }
+      $this->missionsId = $newMissionsId;
+    }
 
-            if ( $newAddress1 === false) {
-                throw (new InvalidArgumentException("New Address 1 is invalid"));
-            }
+    /**
+     * accessor method for address line 1
+     *
+     * @return string for address line 1
+     **/
+    public function getAddress1()
+    {
+        return ($this->address1);
+    }
 
-            if (strlen($newAddress1) > 76) {
-                throw (new RangeException ("Address1 content too large"));
-            }
-            $this->address1 = $newAddress1;
-        }
+    /**
+     * Mutator method for Address Line 1
+     * @throws RangeException
+     * @param string $newAddress1 missions address1 $newAddress1
+     */
+    public function setAddress1($newAddress1) {
 
-            /**
-             * accessor method for address line 2
-             *
-             * @return string for address line 2
-             **/
-            public function getAddress2()
-            {
-                return ($this->address2);
+      $newAddress1 = filter_var($newAddress1, FILTER_SANITIZE_STRING);
 
-            }
+      if ( $newAddress1 === false) {
+          throw (new InvalidArgumentException("New Address 1 is invalid"));
+      }
+
+      if (strlen($newAddress1) > 76) {
+          throw (new RangeException ("Address1 content too large"));
+      }
+      $this->address1 = $newAddress1;
+
+    }
+
+    /**
+     * accessor method for address line 2
+     *
+     * @return string for address line 2
+     **/
+    public function getAddress2()
+    {
+        return ($this->address2);
+
+    }
+
+    /**
+     * Mutator method for Address Line 2
+     *
+     * @param string  missions address2 $newAddress2
+     */
+    public function setAddress2($newAddress2) {
+
+      $newAddress2 = filter_var($newAddress2, FILTER_SANITIZE_STRING);
+
+      if ( $newAddress2 === false) {
+          throw (new InvalidArgumentException("New Address 2 is invalid"));
+      }
+
+      if (strlen($newAddress2) > 76) {
+          throw (new RangeException ("Address2 content too large"));
+      }
+      $this->address2 = $newAddress2;
+    }
 
 
-            /**
-             * Mutator method for Address Line 2
-             *
-             * @param string  missions address2 $newAddress2
-             */
-            public function setAddress2($newAddress2) {
+    /**
+     * accessor method for city
+     *
+     * @return string for city
+     **/
+    public function getCity()
+    {
+        return ($this->city);
 
-                $newAddress2 = filter_var($newAddress2, FILTER_SANITIZE_STRING);
-
-                if ( $newAddress2 === false) {
-                    throw (new InvalidArgumentException("New Address 2 is invalid"));
-                }
-
-                if (strlen($newAddress2) > 76) {
-                    throw (new RangeException ("Address2 content too large"));
-                }
-                $this->address2 = $newAddress2;
-            }
-
-
-            /**
-             * accessor method for city
-             *
-             * @return string for city
-             **/
-            public function getCity()
-            {
-                return ($this->city);
-
-            }
+    }
 
             /**
              * Mutator method for city
@@ -241,7 +243,7 @@ try {
                     throw (new InvalidArgumentException("New City is Invalid"));
                 }
 
-                if (strlen($newCity) > 16) {
+                if (strlen($newCity) > 32) {
                     throw (new RangeException ("City content too large"));
                 }
                 $this->city = $newCity;
@@ -296,7 +298,7 @@ try {
                 //verify pic is valid
                 $newImages = filter_var($newImages, FILTER_SANITIZE_STRING);
                 if (empty($newImages) === true) {
-                    throw new InvalidArgumentException("Images invalid");
+                    //throw new InvalidArgumentException("Images invalid");
                 }
                 if(strlen($newImages) > 32) {
                     throw (new RangeException("Images too large"));
@@ -495,14 +497,23 @@ try {
                 //create query template
                 $query
                     = "INSERT INTO missions(address1, address2, city, email, images, name, phone, pic, serviceTime, state, zip)
-                VALUES (:address1, :address2, :city, :email, :images, :name, :phone, :pic, :serviceTime, :state, :zip)";
+                      VALUES (:address1, :address2, :city, :email, :images, :name, :phone, :pic, :serviceTime, :state, :zip)";
                 $statement = $pdo->prepare($query);
 
                 // bind the variables to the place holders in the template
-                $parameters = array("address1" => $this->address1, "address2" => $this->address2, "city" => $this->city,
-                "email" => $this->email, "images" =>$this->images, "name" =>$this->name,
-                    "phone" => $this->phone, "pic" => $this->pic,
-                    "serviceTime" => $this->serviceTime, "state" => $this->state, "zip" => $this->zip);
+                $parameters = array(
+                  "address1" => $this->address1,
+                  "address2" => $this->address2,
+                  "city" => $this->city,
+                  "email" => $this->email,
+                  "images" =>$this->images,
+                  "name" =>$this->name,
+                  "phone" => $this->phone,
+                  "pic" => $this->pic,
+                  "serviceTime" => $this->serviceTime,
+                  "state" => $this->state,
+                  "zip" => $this->zip
+                );
                 $statement->execute($parameters);
 
                 //update null missionsId with what mySQL just gave us
@@ -569,7 +580,7 @@ try {
                 }
 
                 // create query template
-                $query = "SELECT missionsId, address1, address2, city, email, images, name, phone, pic, serviceTime, 
+                $query = "SELECT missionsId, address1, address2, city, email, images, name, phone, pic, serviceTime,
                         state, zip FROM missions WHERE missionsId = :missionsId";
                 $statement = $pdo->prepare($query);
 
@@ -586,17 +597,17 @@ try {
                         $mission = new Missions ($row["missionsId"], $row["address1"], $row["address2"], $row["city"], $row["email"],
                             $row["images"], $row["name"], $row["phone"], $row["pic"],  $row["serviceTime"],
                             $row["state"], $row["zip"]);
-        
+
                     }
                 } catch(Exception $exception) {
-                
+
                     // if the row couldn't be converted, rethrow it
                     throw(new PDOException($exception->getMessage(), 0, $exception));
                 }
                 return ($mission);
             }
-        
-        
+
+
             /**
              * get user by email
              *

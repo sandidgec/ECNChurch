@@ -1,6 +1,6 @@
 <?php
 require_once(dirname(dirname(__DIR__)) . "/classes/autoload.php");
-require_once("/etc/apache2/data-design/encrypted-config.php");
+require_once(dirname(dirname(__DIR__)) . "/classes/xsrf.php");
 require_once(dirname(dirname(__DIR__)) . "/classes/dbconnect.php");
 
 // start the session and create a XSRF token
@@ -23,9 +23,11 @@ try {
     // sanitize the email
     $email = filter_input(INPUT_GET, "email", FILTER_SANITIZE_EMAIL);
 
-
-    // grab the mySQL connection
-    $pdo = establishConn("/etc/apache2/ecnchurch.ini");
+    // Grab the mySQL connection
+    // NOTE: This one is only used for Nginx servers
+    $pdo = establishConn("/usr/share/nginx/ecn_db.ini");
+    // NOTE: This is the one you use for Apache web servers.
+    //$pdo = establishConn("/etc/apache2/capstone-mysql/invtext.ini");
 
     // handle all RESTful calls to Mission today
     // get some or all Missions
@@ -43,7 +45,7 @@ try {
         // post to a new Mission
     } else if($method === "POST") {
         // convert POSTed JSON to an object
-        verifyXsrf();
+        // verifyXsrf();
         $requestContent = file_get_contents("php://input");
         $requestObject = json_decode($requestContent);
 
@@ -55,8 +57,20 @@ try {
         $attention = (empty($requestObject->attention) === true ? null : $requestObject->attention);
         $address2 = (empty($requestObject->address2) === true ? null : $requestObject->address2);
 
-        $missions = new Missions($missionsId, $requestObject->address1,$requestObject->address2, $requestObject->city, $requestObject->state,
-            $requestObject->zipCode, $requestObject->email, $requestObject->phone, $requestObject->pic, $requestObject->serviceTime);
+        $missions = new Missions(
+          $missionsId,
+          $requestObject->name,
+          $requestObject->address1,
+          $requestObject->address2,
+          $requestObject->city,
+          $requestObject->state,
+          $requestObject->zipCode,
+          $requestObject->email,
+          $requestObject->phone,
+          $requestObject->pic,
+          $requestObject->serviceTime
+        );
+
         $missions->insert($pdo);
         $_SESSION["missions"] = $missions;
         $reply->data = "Mission created OK";

@@ -9,9 +9,11 @@
       crossorigin="anonymous">
 
   </head>
-  <body>
 
-    <div class="modal fade" tabindex="-1" role="dialog" id="newMissionModal">
+  <body ng-app="mission">
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="newMissionModal"
+      ng-controller="MissionFormCtrl">
       <div class="modal-dialog">
         <div class="modal-content">
 
@@ -20,68 +22,78 @@
             <h4 class="modal-title">Add New Mission</h4>
           </div>
 
-          <div class="modal-body">
+          <form ng-submit="sendMission()">
 
-            <form>
+            <div class="modal-body">
 
               <div class="form-group">
                 <label for="#inputName">Mission Name</label>
-                <input type="text" class="form-control" id="inputName" name="name">
+                <input type="text" class="form-control" id="inputName" name="name"
+                  ng-model="missionName">
               </div>
 
               <div class="form-group">
                 <label for="#inputAddr1">Address 1</label>
-                <input type="text" class="form-control" id="inputAddr1" name="address_1">
+                <input type="text" class="form-control" id="inputAddr1"
+                  name="address_1" ng-model="addressOne">
               </div>
 
               <div class="form-group">
                 <label for="#inputAddr2">Address 2 (Optional)</label>
-                <input type="text" class="form-control" id="inputAddr2" name="address_2">
+                <input type="text" class="form-control" id="inputAddr2"
+                  name="address_2" ng-model="addressTwo">
               </div>
 
               <div class="form-group">
                 <label for="#inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity" name="city">
+                <input type="text" class="form-control" id="inputCity"
+                  name="city" ng-model="city">
               </div>
 
               <div class="form-group">
                 <label for="#inputState">State</label>
-                <input type="text" class="form-control" id="inputState" name="state">
+                <input type="text" class="form-control" id="inputState"
+                  name="state" ng-model="state">
               </div>
 
               <div class="form-group">
                 <label for="#inputZip">Zipcode</label>
-                <input type="text" class="form-control" id="inputZip" name="zip">
+                <input type="text" class="form-control" id="inputZip"
+                  name="zip" ng-model="zip">
               </div>
 
               <div class="form-group">
                 <label for="#inputPhone">Phone</label>
-                <input type="text" class="form-control" id="inputPhone" name="phone">
+                <input type="text" class="form-control" id="inputPhone"
+                  name="phone" ng-model="phone">
               </div>
 
               <div class="form-group">
                 <label for="#inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail" name="email">
+                <input type="email" class="form-control" id="inputEmail"
+                  name="email" ng-model="email">
               </div>
 
               <div class="form-group">
                 <label for="#inputPIC">Person in Charge</label>
-                <input type="text" class="form-control" id="inputPIC" name="pic">
+                <input type="text" class="form-control" id="inputPIC" name="pic"
+                  ng-model="pic">
               </div>
 
               <div class="form-group">
                 <label for="#inputService">Service Time</label>
-                <input type="text" class="form-control" id="inputService" name="service_time">
+                <input type="text" class="form-control" id="inputService"
+                  name="service_time" ng-model="serviceTime">
               </div>
 
-            </form>
+            </div>
 
-          </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
 
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+          </form>
 
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -108,6 +120,7 @@
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js"></script>
+    <script src="/lib/js/admin-missions.js"></script>
 
   </body>
 </html>
