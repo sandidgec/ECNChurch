@@ -45,9 +45,11 @@ body{
     float: right;
     margin-left: 10px;
     padding-bottom: 15px;
+    color: black;
 }
 
 img {
     padding-bottom: 30px;
     padding-right: 45px;
+    vertical-align: text-top;
 }

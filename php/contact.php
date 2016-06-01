@@ -6,6 +6,9 @@
     <title>WireFrame For ECN </title>
     <!-- Custom styles for this template -->
     <link href="../lib/css/style.css" rel="stylesheet">
+    <style>
+        body {background-color: aqua;}
+    </style>
 </head>
 <body>
 
@@ -21,7 +24,7 @@
     </div>
 </div>
 <div class="info">
-    <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
+    <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div></br>
     <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
     <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
     <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
