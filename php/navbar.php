@@ -17,7 +17,7 @@
                 <li><a href="History&Beliefs.php">History/Beliefs</a></li>
                 <li><a href="ministries.php">Ministries</a></li>
                 <li><a href="governance.php">Governance</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="../php/contact.php">Contact Us</a></li>
                 <li><a href="support.php">Support</a></li>
                 <li><a href="currentEvents.php">Current Events</a></li>
             </ul>
