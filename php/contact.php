@@ -20,6 +20,21 @@
         </div>
     </div>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
+        </div>
+    </div>
 </body>
 
 </html>
