@@ -1,5 +1,5 @@
-<nav class="navbar navbar-button navbar-fixed-top">
-    <div class="container">
+<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -12,7 +12,7 @@
 
 
         <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
                 <li class="active">
                 <li><a href="../php/History&Beliefs.php">History/Beliefs</a></li>
                 <li><a href="../php/ministries.php">Ministries</a></li>

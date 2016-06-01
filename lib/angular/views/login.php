@@ -12,14 +12,14 @@
             </div>
 
             <div class="modal-body" ng-controller="LoginController">
-                <form class="form-horizontal" method="post" ng-submit="login(user);" novalidate="novalidate">
+                <form class="form-horizontal" method="post" ng-submit="login(members);" novalidate="novalidate">
 
                     <div class="form-group">
                         <label for="email" class="col-sm-3 control-label">Email:</label>
 
                         <div class="col-sm-9">
                             <input type="email" class="form-control" id="email" name="email"
-                                   placeholder=" (e.g. john@smith.com)" ng-model="user.email"/>
+                                   placeholder=" (e.g. john@smith.com)" ng-model="members.email"/>
                         </div>
                     </div>
 
@@ -28,7 +28,7 @@
 
                         <div class="col-sm-9">
                             <input type="password" class="form-control" id="password" name="password"
-                                   placeholder=" (e.g. password1234)" ng-model="user.password"/>
+                                   placeholder=" (e.g. password1234)" ng-model="members.password"/>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
