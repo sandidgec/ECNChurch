@@ -22,5 +22,6 @@
                 <li><a href="../php/currentEvents.php">Current Events</a></li>
             </ul>
         </div><!--/.nav-collapse -->
+        
     </div>
 </nav>
