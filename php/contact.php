@@ -5,7 +5,7 @@
     <?php require_once("navbar.php");?>
     <title>WireFrame For ECN </title>
     <!-- Custom styles for this template -->
-    <link href="/lib/css/style.css" rel="stylesheet">
+    <link href="../lib/css/style.css" rel="stylesheet">
 </head>
 <body>
 
