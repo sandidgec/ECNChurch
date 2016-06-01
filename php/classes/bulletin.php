@@ -255,12 +255,17 @@ class Bulletin implements JsonSerializable {
     {
 
         //create query template
-        $query = "INSERT INTO bulletins (missionsId, membersId, category, message)
-                        VALUES (:missionsId, :membersId, :category, :message)";
+        $query = "INSERT INTO bulletins (membersId, missionsId, category, message)
+                        VALUES (:membersId, :missionsId, :category, :message)";
         $statement = $pdo->prepare($query);
 
         // bind the variables to the place holders in the template
-        $parameters = array("missionsId" => $this->missionsId, "membersId" => $this->membersId, "category" => $this->category, "message" => $this->message);
+        $parameters = array(
+          "membersId" => $this->membersId,
+          "missionsId" => $this->missionsId,
+          "category" => $this->category,
+          "message" => $this->message
+        );
         $statement->execute($parameters);
 
         //update null bulletinId with what mySQL just gave us
