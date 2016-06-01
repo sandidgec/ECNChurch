@@ -18,7 +18,7 @@
                 <h2>Contact Us </h2>
             </div>
         </div>
-    </div>
+</div>
 </div>
 
 <div class="container">
