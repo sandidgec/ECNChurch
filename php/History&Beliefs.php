@@ -22,6 +22,15 @@
             <div class="col-md-3">
                 <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
             </div>
+            <div class="col-md-3">
+                <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail"> <img src="../lib/img/imginsert.jpg"></div>
+            </div>
         </div>
     </div>
     </body>
