@@ -129,7 +129,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href="">Email</a>
+                        <a href=""></a>
                     </p>
                 </div>
             </div>
@@ -149,7 +149,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href="">Email</a>
+                        <a href=""></a>
                     </p>
                 </div>
             </div>
@@ -209,11 +209,11 @@
                     <h3 class="text-center">Rev. Cornelia Eaton</h3>
 
                     <p class="text-center">
-                        Info
+                        Priest
                     </p>
 
                     <p class="text-center">
-                        <a href="">Email</a>
+                        <a href=""></a>
                     </p>
                 </div>
             </div>
@@ -237,7 +237,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href="">Email</a>
+                        <a href=""></a>
                     </p>
                 </div>
             </div>
@@ -257,7 +257,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href="">Email</a>
+                        <a href=""></a>
                     </p>
                 </div>
             </div>
@@ -270,7 +270,8 @@
 
 <!-- Contact -->
 <section id="contact" class="four">
-    <div class="container">
+    <div class="contact1">
+        <div class="container">
 
         <header>
             <h1>Have any questions?</h1>
@@ -289,10 +290,13 @@
             <div class="form-group">
             </div>
         </form>
+        </div>
 
     </div>
 </section>
-
+    <div class="addressinfo">
+    <p>Episcopal Church in Navajoland P.O. Box 720 Farmington, NM 87499 Phone: (505) 327-7549 — Main</p>
+    </div>
 </body>
 
 </html>
