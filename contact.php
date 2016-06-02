@@ -167,7 +167,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href="mailto:ecncanaya@gmail.com">Email</a>
+                        <a href="mailto:ecncanaya@gmail.com">ecncanaya@gmail.com</a>
                     </p>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href="mailto:ecncplummer@gmail.com">Email</a>
+                        <a href="mailto:ecncplummer@gmail.com">ecncplummer@gmail.com</a>
                     </p>
                 </div>
             </div>
