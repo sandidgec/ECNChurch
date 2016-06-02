@@ -14,9 +14,6 @@
 </head>
 <body>
 
-
-
-
     <div class="container">
         <div class="row">
             <div class="firstline">
@@ -30,11 +27,11 @@
                 <div class="col-md-4">
                     <div class="row">
                         <img src="/lib/img/dave.JPG" alt="Person"
-                             class="img-responsive img-circle center-block"/>
+                             class="img-responsive img-circle pic center-block"/>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="text-center">Rt. Rev. David E. Bailey</h2>
+                            <h3 class="text-center">Rt. Rev. David E. Bailey</h3>
 
                             <p class="text-center">
                                 Bishop
@@ -50,11 +47,11 @@
                 <div class="col-md-4">
                     <div class="row">
                         <img src="../lib/img/imginsert.jpg" alt="Person"
-                             class="img-responsive img-circle center-block"/>
+                             class="img-responsive img-circle pic center-block"/>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="text-center">Rev. Cynthia Hizer</h2>
+                            <h3 class="text-center">Rev. Cynthia Hizer</h3>
 
                             <p class="text-center">
                                 Vicar of Good Shepherd Mission
@@ -70,11 +67,11 @@
                 <div class="col-md-4">
                     <div class="row">
                         <img src="/lib/img/Paula.PNG" alt="Person"
-                             class="img-responsive img-circle center-block"/>
+                             class="img-responsive img-circle pic center-block"/>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="text-center">Rev. Deacon Paula Henson</h2>
+                            <h3 class="text-center">Rev. Deacon Paula Henson</h3>
 
                             <p class="text-center">
                                 Mission Developer
@@ -95,11 +92,11 @@
         <div class="col-md-4">
             <div class="row">
                 <img src="../lib/img/imginsert.jpg" alt="Person"
-                     class="img-responsive img-circle center-block"/>
+                     class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Rev. Deacon Leon Sampson</h2>
+                    <h3 class="text-center">Rev. Deacon Leon Sampson</h3>
 
                     <p class="text-center">
                         Deacon in charge of St. Christophers Mission
@@ -114,12 +111,12 @@
 
         <div class="col-md-4">
             <div class="row">
-                <img src="../lib/img/imginsert.jpg" alt="Person"
-                     class="img-responsive img-circle center-block"/>
+                <img src="/lib/img/catsmom.JPG" alt="Person"
+                     class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Rev. Catherine Plummer</h2>
+                    <h3 class="text-center">Rev. Catherine Plummer</h3>
 
                     <p class="text-center">
                         Priest in charge of St. Mary's
@@ -135,11 +132,11 @@
         <div class="col-md-4">
             <div class="row">
                 <img src="/lib/img/inez.PNG" alt="Person"
-                     class="img-responsive img-circle center-block"/>
+                     class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Rev. Inez Velarde</h2>
+                    <h3 class="text-center">Rev. Inez Velarde</h3>
 
                     <p class="text-center">
                         Priest in charge of St. Luke's
@@ -158,12 +155,12 @@
     <div class="row">
         <div class="col-md-4">
             <div class="row">
-                <img src="../lib/img/imginsert.jpg" alt="Person"
-                     class="img-responsive img-circle center-block"/>
+                <img src="/lib/img/chan.JPG" alt="Person"
+                     class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Rev. Chan de Anaya</h2>
+                    <h3 class="text-center">Rev. Chan de Anaya</h3>
 
                     <p class="text-center">
                         Canon Missioner for ECN
@@ -179,11 +176,11 @@
         <div class="col-md-4">
             <div class="row">
                 <img src="/lib/img/cat.jpg" alt="Person"
-                     class="img-responsive img-circle center-block"/>
+                     class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Rev. Cathlena Plummer</h2>
+                    <h3 class="text-center">Rev. Cathlena Plummer</h3>
 
                     <p class="text-center">
                         Priest in charge of All Saints
@@ -199,11 +196,11 @@
         <div class="col-md-4">
             <div class="row">
                 <img src="/lib/img/cornelia.JPG" alt="Person"
-                     class="img-responsive img-circle center-block"/>
+                     class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Rev. Cornelia Eaton</h2>
+                    <h3 class="text-center">Rev. Cornelia Eaton</h3>
 
                     <p class="text-center">
                         Info
@@ -222,12 +219,12 @@
     <div class="row">
         <div class="col-md-4">
             <div class="row">
-                <img src="../lib/img/imginsert.jpg" alt="Person"
-                     class="img-responsive img-circle center-block"/>
+                <img src="/lib/img/imginsert.jpg" alt="Person"
+                     class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Rev. Carol Tookey</h2>
+                    <h3 class="text-center">Rev. Carol Tookey</h3>
 
                     <p class="text-center">
                         Supply Priest
@@ -243,11 +240,30 @@
         <div class="col-md-4">
             <div class="row">
                 <img src="../lib/img/imginsert.jpg" alt="Person"
-                     class="img-responsive img-circle center-block"/>
+                     class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Rev. Patricia Cook</h2>
+                    <h3 class="text-center">Rev. Patricia Cook</h3>
+
+                    <p class="text-center">
+                        Supply Priest
+                    </p>
+
+                    <p class="text-center">
+                        <a href="">Email</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <img src="../lib/img/imginsert.jpg" alt="Person"
+                     class="img-responsive img-circle pic center-block"/>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center">Name</h3>
 
                     <p class="text-center">
                         Supply Priest
@@ -260,27 +276,10 @@
             </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="row">
-                <img src="../lib/img/imginsert.jpg" alt="Person"
-                     class="img-responsive img-circle center-block"/>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-center"></h2>
 
-                    <p class="text-center">
-                        Info
-                    </p>
-
-                    <p class="text-center">
-                        <a href="">Email</a>
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
-</div>
+
 
 
 <!-- Contact -->

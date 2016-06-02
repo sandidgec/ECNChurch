@@ -54,3 +54,12 @@ body{
 .img-responsive {
     max-width: 50%;
 }
+
+.firstline {
+    padding-top:75px;
+padding-bottom: 75px;
+}
+
+.pic {width: 200px;
+height: 200px;
+}
