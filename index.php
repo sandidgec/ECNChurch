@@ -12,22 +12,6 @@
 
 
 <div class="hero-unit" id="bunnies">
-    <div id="bg">
-        <div id="search-container">
-            <div id="search-bg"></div>
-            <div id="search">
-
-    <h2>Welcome</h2>
-    <h3>The Episcopal Church in Navajoland (ECN) is located in the Southwest Four Corners Region and consists of three
-        regions-New Mexico, Arizona, and Utah. Navajoland has long participated in efforts to integrate Navajo Language,
-        traditions and spirituality within its expression of Episcopal faith and life. We seek to live out the power of
-        God's incarnation as proclaimed in the Gospel through the Navajo (Dine') language and spirituality. The Dine'
-        remind us that word centers us where we live and work. We have rich spiritual and cultural traditions that we wish
-        to share.
-    <p><a class="btn btn-primary btn-large" href="">Learn More</a></p>
-            </div>
-        </div>
-    </div>
 </div>
 
 
