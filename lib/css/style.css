@@ -57,8 +57,8 @@ body{
 }
 
 .firstline {
-    padding-top:75px;
-    padding-bottom: 75px;
+    padding-top:100px;
+    padding-bottom: 2px;
 }
 
 .pic {width: 200px;
@@ -71,10 +71,13 @@ header {
 }
 
 .btn-lg {
-    padding: 10px 16px;
+    padding: 10px 10px;
     font-size: 18px;
     line-height: 1.3333333;
     border-radius: 6px;
     width: 150px;
+    padding-bottom: 5px;
 }
+
+
 
