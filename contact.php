@@ -8,7 +8,8 @@
     <link href="/lib/css/style.css" rel="stylesheet">
     <style>
         body {
-              background-image: url("/lib/img/backcontact.jpg");
+            background-image: url("/lib/img/backcontact.jpg");
+            
         }
     </style>
 </head>
