@@ -20,6 +20,9 @@
                 <li><a href="contact.php">Contact Us</a></li>
                 <li><a href="support.php">Support</a></li>
                 <li><a href="currentEvents.php">Current Events</a></li>
+                <li><a href="http://www.facebook.com" class = "navbar-btn" class="btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook-official fa-lg" ></span></li>
+
             </ul>
         </div><!--/.nav-collapse -->
     </div>
