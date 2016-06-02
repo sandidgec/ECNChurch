@@ -41,21 +41,17 @@
 .message {
     color: black;
 }
+
 body{
     background-color: black;
     text-align: center;
 
 }
 
-.info {
-    padding-left: 50px;
-    padding-right: 900px;
-    float: right;
-    margin-left: 10px;
-    padding-bottom: 15px;
+.container {
+    padding-right: 10px;
 }
 
-img {
-    padding-bottom: 30px;
-    padding-right: 45px;
+.img-responsive {
+    max-width: 50%;
 }
