@@ -13,7 +13,9 @@
     </style>
 </head>
 <body>
-
+<div class="logoimage"
+<img src="/lib/img/episcopalchurchinnavajolandlogo_480.png" class="img-responsive" alt="Awesome.jpg">
+</div>
     <div class="container">
         <div class="row">
             <div class="firstline">
