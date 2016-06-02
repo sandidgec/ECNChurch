@@ -150,3 +150,13 @@ body {
     margin-left:0px;
     border:none;
 }
+
+#welcome {
+    padding-top: 20%;
+}
+
+h3 {
+    font-size: 35px;
+    padding-top: 15%;
+    font-color: black;
+}
