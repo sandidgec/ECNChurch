@@ -131,6 +131,20 @@ body {
     color: deepskyblue;
 }
 
+#bunniesjoe {
+    background-size: cover;
+    background-color: black;
+    padding: 30px 50px 30px 50px;
+    height: 800px;
+    text-align: center;
+    background-position: center;
+    color: white;
+    background-image: url("/lib/img/stjoes.jpg");
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+}
+
+
 .row.no-pad.img-responsive{
     margin-right:0px;
     margin-left:0px;
