@@ -46,7 +46,7 @@
 
                 <div class="col-md-4">
                     <div class="row">
-                        <img src="../lib/img/imginsert.jpg" alt="Person"
+                        <img src="/lib/img/cynthia.jpg" alt="Person"
                              class="img-responsive img-circle pic center-block"/>
                     </div>
                     <div class="row">
@@ -91,7 +91,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="row">
-                <img src="../lib/img/imginsert.jpg" alt="Person"
+                <img src="/lib/img/leon.JPG" alt="Person"
                      class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
@@ -239,7 +239,7 @@
 
         <div class="col-md-4">
             <div class="row">
-                <img src="../lib/img/imginsert.jpg" alt="Person"
+                <img src="/lib/img/pat.JPG" alt="Person"
                      class="img-responsive img-circle pic center-block"/>
             </div>
             <div class="row">
@@ -256,26 +256,6 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="row">
-                <img src="../lib/img/imginsert.jpg" alt="Person"
-                     class="img-responsive img-circle pic center-block"/>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="text-center">Name</h3>
-
-                    <p class="text-center">
-                        Supply Priest
-                    </p>
-
-                    <p class="text-center">
-                        <a href="">Email</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-
 
         </div>
     </div>
@@ -287,7 +267,7 @@
     <div class="container">
 
         <header>
-            <h2>Have any questions?</h2>
+            <h1>Have any questions?</h1>
         </header>
 
         <form method="post" action="contact.php" class="col-md-6 col-md-offset-3" id="contactForm" name="contactForm">
