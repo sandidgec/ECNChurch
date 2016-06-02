@@ -24,7 +24,7 @@
     </div>
 </div>
 <div class="info">
-    <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div></br>
+    <div style="float: right"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
     <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
     <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
     <div style="float: right;"><img height="300" width="300" src="../lib/img/imginsert.jpg" align="left">  Clergy Name/Info</div>
@@ -38,21 +38,19 @@
             <h2>Contact</h2>
         </header>
 
-        <p>Elementum sem parturient nulla quam placerat viverra
-            mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-            donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-            orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+        <p>Have any questions?</p>
 
-        <form method="post" action="#">
-            <div class="row">
-                <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-                <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-                <div class="12u$">
-                    <textarea name="message" placeholder="Message"></textarea>
-                </div>
-                <div class="12u$">
-                    <input type="submit" value="Send Message" />
-                </div>
+        <form method="post" action="../contact/" class="col-md-6 col-md-offset-3" id="contactForm" name="contactForm">
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button class="btn btn-success" id="submit" name="submit" type="submit">Send</button>
+            <div class="form-group">
             </div>
         </form>
 
