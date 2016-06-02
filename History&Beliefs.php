@@ -18,19 +18,15 @@
                 </div>
             </div>
         </div>
-    
-    </div>
+
            <!-- End wrap -->
         <div id="footer">
 
             <div class="container">
                 <div class="row" align="center">
                     <div class="col-md-5">
-
                         <img class="img-responsive" src="/designs/navajoland/img/logo_navajoland_long.png" alt="logo_small_navajoland">
-
                     </div>
-
                     <div class="col-md-2">
                         <ul class="socialiconsfooter">
                             <li><a href="https://www.facebook.com/episcopalchurchinnavajolandecn" target="_blank"><img border="0" class="img-responsive" src="http://s3.amazonaws.com/dfc_attachments/images/3288810/icon_fb_web.png" alt="facebook"></a></li>
@@ -41,42 +37,19 @@
                     </div>      <div class="col-sm-3">
                         <small>
                             <address>
-
                                 <a href="http://maps.google.com/?f=q&amp;hl=en&amp;q=P.O. Box 720 Farmington,&nbsp; NM 87499&amp;maptype=roadmap" target="_blank">Navajoland</a><br>
-
-
                                 <a href="http://maps.google.com/?f=q&amp;hl=en&amp;q=P.O. Box 720 Farmington,&nbsp; NM 87499&amp;maptype=roadmap" target="_blank">P.O. Box 720 <br> Farmington,&nbsp; NM 87499</a>
-
                                 <br>
-
                                 <span class="footerphone">Phone: </span>(505) 327-7549 — Main
                                 <br>
-
-
                             </address>
                         </small>
                     </div>
-
                     <div class="col-md-2"><img class="img-responsive" src="/designs/navajoland/img/logo_ec.png" alt="logo_ec"></div>
                 </div>
-
             </div>
-
         </div>
-        
     
-
-
-
-        </body>
-
-
-
-
-
-
-
-
 
     </body>
 
