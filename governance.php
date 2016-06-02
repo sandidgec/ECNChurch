@@ -6,11 +6,7 @@
     <title>WireFrame For ECN </title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/style.css" rel="stylesheet">
-    <style>
-        body{
-            background-color:green;
-        }
-    </style>
+
 </head>
 <body>
 
@@ -23,6 +19,7 @@
         </div>
     </div>
 </div>
+
 </body>
 
 </html>
