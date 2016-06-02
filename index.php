@@ -15,7 +15,7 @@
     <div class="row">
         <div id="logo" class="col-lg-4">
             <div id="logoimg" class="thumbnail">
-            <img src="/lib/img/epslogo_720.png">
+            <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png">
             </div>
         </div>
         <div class="col-lg-2">
@@ -43,8 +43,12 @@
                             <div class="col-lg-4">
                                 <h3>South East Region</h3>
                                 <h6 span class="state">Arizona Churches</h6></span>
+                                <a href="http://www.goodshepmission.org/">
                                 <h6>Good Shepherd Mission</h6>
+                               </a>
+                                <a href="stjoes.php">
                                 <h6>St. Josephs Church</h6>
+                                </a>
                                 <h6 span class="state">New Mexico Churches</h6></span>
                                 <h6>St. Marks Church</h6>
                             </div>
@@ -89,27 +93,27 @@
                     A Spiritual Place: Navajo spirituality recognizes a sacred web of life which encompasses all living
                     things.And Navajo ceremonies are designed to restore this harmony with all of creation to those who
                     are ill or hurting in any way. These ceremonies take place in hogans.<br>
-
+                    <br>
                     A Place Home: The hogan is also the traditional Navajo home. Its shape reflects the universe.
                     The one door opens to the East, to greet the dawn. All inside activities move in a clockwise fashion,
                     following the sun’s path. The domed roof is the sky, the floor is the earth, and the smoke hole is a
                     window to the North Star. Literally translated, hogan means “place home”, and the Navajo take their
                     identity from it.<br>
-
+                    <br>
                     The Project: Through harsh weather, neglect, and decaying materials, many of the hogans on the
                     Reservation have fallen into ruin. The Episcopal Church in Navajoland has begun a campaign to
                     build new hogans, for ceremonial, educational, and spiritual purposes. There will be two hogans
                     in each state the Reservation touches: Arizona, New Mexico, and Utah.<br>
-
+                    <br>
                     A hogan is built of wood, usually cedar or ponderosa or pinyon pine. Today, there is often a steel
                     infrastructure, providing resistance to the strenuous winds which sweep through the Reservation.
                     Today’s hogans are often built on a concrete slab for durability.<br>
-
+                    <br>
                     The Financials: The cost of a hogan varies greatly depending on its location. Proximity to
                     electricity and water, availability of materials and labor, and accessibility for the delivery
                     of them are some of the factors which contribute to variable cost. Thus, we estimate that each 800
                     square foot hogan will cost approximately $40,000 to construct.<br>
-
+                    <br>
                     The Follow-up: As the hogans are funded, watch the building progress on our website,
                     www.navajoland.org. We’ll have pictures and updates that show you how your generosity empowers as
                     it preserves the beauty of Navajo culture.<br>
