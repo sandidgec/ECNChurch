@@ -14,7 +14,7 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active">
-                <li><a href="History&Beliefs.php">History/Beliefs</a></li>
+                <li><a href="history.php">History/Beliefs</a></li>
                 <li><a href="ministries.php">Ministries</a></li>
                 <li><a href="governance.php">Governance</a></li>
                 <li><a href="contact.php">Contact Us</a></li>

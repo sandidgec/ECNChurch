@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php require_once("../lib/head-utils.php"); ?>
+    <?php require_once("lib/head-utils.php"); ?>
     <?php require_once("navbar.php");?>
     <title>WireFrame For ECN </title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/style.css" rel="stylesheet">
+    <style>
+        body{
+            background-color:green;
+        }
+    </style>
 </head>
 <body>
 
