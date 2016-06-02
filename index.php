@@ -14,8 +14,10 @@
 <div class="hero-unit" id="bunnies">
     <div class="row">
         <div id="logo" class="col-lg-4">
-            <div id="logoimg" class="thumbnail">
-            <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png">
+            <div class="row no-pad">
+                <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
+                                           class="img-responsive"  alt="Awesome.jpg">
+                </div>
             </div>
         </div>
         <div class="col-lg-2">
