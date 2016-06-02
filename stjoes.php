@@ -11,11 +11,11 @@
 <body>
 
 
-<div class="hero-unit" id="bunnies">
+<div class="hero-unit" id="bunniesjoe">
     <div class="row">
         <div id="logo" class="col-lg-4">
             <div id="logoimg" class="thumbnail">
-                <img src="/lib/img/epslogo_720.png">
+                <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png">
             </div>
         </div>
         <div class="col-lg-2">
@@ -43,22 +43,20 @@
 
                         <div class="row">
                             <div class="col-lg-4">
-                                <h3>South East Region</h3>
-                                <h6 span class="state">Arizona Churches</h6></span>
-                                <h6>Good Shepherd Mission</h6>
-                                <h6>St. Josephs Church</h6>
-                                <h6 span class="state">New Mexico Churches</h6></span>
-                                <h6>St. Marks Church</h6>
+                                <h3>Address</h3>
+                                <h6> P.O. Box 618</h6>
+                                <h6>Many Farms, Arizona 86504</h6>
+
                             </div>
                             <div class="col-lg-4">
-                                <h3>San Juan Region</h3>
+                                <h3>Service Time</h3>
                                 <h6 span class="state">New Mexico Churches</h6></span>
                                 <h6>All Saints Church</h6>
                                 <h6>St. Michael's Church</h6>
                                 <h6>St. Luke's In the Desert</h6>
                             </div>
                             <div class="col-lg-4">
-                                <h3>Utah Region</h3>
+                                <h3>Programs</h3>
                                 <h6>St. Christopher's Mission</h6>
                                 <h6>St. Mary's of the Moonlight</h6>
                                 <h6>St. John the Baptizer</h6>
