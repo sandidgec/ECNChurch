@@ -85,7 +85,6 @@ body {
     text-align: center;
     background-position: center;
     color: white;
-    background-image: url("/lib/img/002+(1).jpg");
     font-family: 'Josefin Sans', sans-serif;
     font-size: xx-large;
 }
@@ -150,13 +149,21 @@ body {
     margin-left:0px;
     border:none;
 }
-
-#welcome {
-    padding-top: 20%;
+.carousel .carousel-inner, .carousel .item{
 }
 
-h3 {
-    font-size: 35px;
-    padding-top: 15%;
-    font-color: black;
+.carousel {
+    height: auto;
+}
+.carousel img {
+    width: 100%;
+    display: inline;
+    text-align: center;
+}
+
+.logo-container {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 100%;
 }
