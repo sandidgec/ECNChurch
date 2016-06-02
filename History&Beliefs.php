@@ -64,15 +64,7 @@
 
         </div>
         
-        
-
-
-
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="/designs/navajoland/js/jquery-1.10.2.min.js"></script>
-        <script src="/designs/navajoland/js/bootstrap.min.js"></script>
+    
 
 
 
