@@ -3,6 +3,9 @@
     <head>
         <?php require_once("lib/head-utils.php"); ?>
 
+        <!-- Custom styles for this template -->
+        <link href="/lib/css/styleadmin.css" rel="stylesheet">
+
         <title>Admin Panel</title>
 
     </head>
@@ -20,7 +23,7 @@
                     </div>
                     <div class="form-group">
                         <label for="InputMessage">Message</label>
-                        <input type="message" class="form-control" id="exampleInputMessage" placeholder="message">
+                        <input type="message" class="form-control" id="exampleInputMessage" placeholder="Message">
                     </div>
                 </form>
             </div>
