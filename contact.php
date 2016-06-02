@@ -17,7 +17,10 @@
     <div class="container">
         <div class="row">
             <div class="firstline">
-                <h2>Contact Us </h2>
+                <a class="btn btn-primary btn-lg center-block" href="#contact" role="button">
+                    <span class="text-big">Contact Us</span>
+                </a>
+
             </div>
         </div>
     </div>
