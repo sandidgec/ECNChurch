@@ -38,7 +38,7 @@
                             </p>
 
                             <p class="text-center">
-                                <a href="">Email</a>
+                                <a href="mailto:ecndbailey@gmail.com">ecndbailey@gmail.com</a>
                             </p>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                             </p>
 
                             <p class="text-center">
-                                <a href="">Email</a>
+                                <a href="mailto:VicarGoodShepherdMission@gmail.com">VicarGoodShepherdMission@gmail.com</a>
                             </p>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                             </p>
 
                             <p class="text-center">
-                                <a href="">Email</a>
+                                <a href="mailto:officegoodshepherdmission@gmail.com">officegoodshepherdmission@gmail.com</a>
                             </p>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href="">Email</a>
+                        <a href="mailto:sampsonl74@yahoo.com">sampsonl74@yahoo.com</a>
                     </p>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href="">Email</a>
+                        <a href="mailto:ecncanaya@gmail.com">Email</a>
                     </p>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href="">Email</a>
+                        <a href="mailto:ecncplummer@gmail.com">Email</a>
                     </p>
                 </div>
             </div>
