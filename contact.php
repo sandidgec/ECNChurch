@@ -129,7 +129,7 @@
                     </p>
 
                     <p class="text-center">
-                        <a href=""></a>
+                        <a href="mailto:zigsunnygrandma@hotmail.com">zigsunnygrandma@hotmail.com</a>
                     </p>
                 </div>
             </div>
@@ -209,11 +209,11 @@
                     <h3 class="text-center">Rev. Cornelia Eaton</h3>
 
                     <p class="text-center">
-                        Priest
+                        Priest & Canon to the Ordinary
                     </p>
 
                     <p class="text-center">
-                        <a href=""></a>
+                        <a href="mailto:ckm_eaton@msn.com">ckm_eaton@msn.com</a>
                     </p>
                 </div>
             </div>
