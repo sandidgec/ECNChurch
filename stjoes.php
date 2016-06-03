@@ -6,7 +6,7 @@
     <!-- Custom styles for this template -->
     <link href="/lib/css/stylestjoes.css" rel="stylesheet">
 
-    <title>St. Joseph's</title>
+    <title>St. Joseph's - E.C.N.</title>
 </head>
 <body>
 
@@ -22,7 +22,7 @@
                         </div>
                     </div>
 
-                    <h2>Welcome to the St. Joseph's E.C.N. Page</h2>
+                    <h2>Welcome to the St. Joseph's Page</h2>
 
                     <div id="welcome" class="col-lg-2">
                     </div>
