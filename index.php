@@ -92,7 +92,9 @@
                                 <h6 span class="state">New Mexico Churches</h6></span>
                                 <h6>All Saints Church</h6>
                                 <h6>St. Michael's Church</h6>
+                                <a href="stlukes.php">
                                 <h6>St. Luke's In the Desert</h6>
+                                </a>
                             </div>
                             <div class="col-lg-4">
                                 <h3>Utah Region</h3>
