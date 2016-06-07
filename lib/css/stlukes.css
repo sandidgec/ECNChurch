@@ -139,7 +139,7 @@ body {
     text-align: center;
     background-position: center;
     color: white;
-    background-image: url("/lib/img/stjoes.jpg");
+    background-image: url("/lib/img/stlukes.jpg");
     font-family: 'Josefin Sans', sans-serif;
     font-size: xx-large;
 }
@@ -158,5 +158,5 @@ body {
 h3 {
     font-size: 35px;
     padding-top: 15%;
-    font-color: black;
+    color: black;
 }
