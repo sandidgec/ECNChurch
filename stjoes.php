@@ -6,13 +6,13 @@
     <!-- Custom styles for this template -->
     <link href="/lib/css/stylestjoes.css" rel="stylesheet">
 
-    <title>St. Joseph's - E.C.N.</title>
+    <title>St. Joseph's</title>
 </head>
 <body>
 
 
             <div class="hero-unit" id="bunniesjoe">
-
+                <h3>Welcome to the St. Joseph's E.C.N. Page</h3>
 
                 <div class="row">
                     <div id="logo" class="col-lg-4">
@@ -21,8 +21,6 @@
                                  class="img-responsive"  alt="Awesome.jpg">
                         </div>
                     </div>
-
-                    <h2>Welcome to the St. Joseph's Page</h2>
 
                     <div id="welcome" class="col-lg-2">
                     </div>
