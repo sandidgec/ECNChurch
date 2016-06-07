@@ -14,8 +14,6 @@
     }
         .historyJumbo {
             padding-top: 5px;
-            padding-bottom: 30px;
-
         }
         .logoImage {
             width: 350px;
@@ -27,15 +25,16 @@
             padding-top: 40px;
         }
         p {
-            color: darkblue;
+            color: white;
             text-align: center;
             font-size: 18px;
+            padding-bottom: 50px;
         }
         .panel {
             margin-bottom: 40px !important;
         }
         .panel {
-            font-size: 75px;
+            font-size: 15px;
         }
 
     </style>
@@ -97,7 +96,7 @@
 </div>
 <div class="footer">
     <div class="col-xs-6 col-xs-offset-3">
-    <p> Episcopal Church in Navajoland P.O. Box 720 Farmington,  NM 87499 Phone: (505) 327-7549 — Main</p>
+    <p> Episcopal Church in Navajoland P.O. Box 720 Farmington, NM 87499 </br> Phone: (505) 327-7549 — Main</p>
 </div>
 </div>
 
