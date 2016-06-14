@@ -21,13 +21,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
+                <img src="/lib/img/7557019780_6c20fac414_z.jpg" alt="...">
+                <div class="carousel-caption">
+                    ...
+                </div>
+            </div>
+            <div class="item">
                 <img src="/lib/img/10401084_935079563233241_7047644908115160838_n.jpg" alt="...">
                 <div class="carousel-caption">
                     ...
                 </div>
             </div>
             <div class="item">
-                <img src="/lib/img/7557019780_6c20fac414_n.jpg" alt="...">
+                <img src="/lib/img/gsm.jpg" alt="...">
                 <div class="carousel-caption">
                     ...
                 </div>
@@ -51,16 +57,41 @@
             <div class="row no-pad">
                 <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
                                            class="img-responsive"  alt="Awesome.jpg">
-                </div>
             </div>
         </div>
-        <div class="col-lg-2">
+
+        <div class="col-lg-offset-4 col-lg-4">
+            <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
+        </div>
+    </div>
+
+    <div class="container bulliten" id="bulletin">
+        <div class="row bulliten">
+
+            <div class="col-lg-4">
+                <h2>Graduation Day Today For Coders</h2>
+                <h4>Thank you all for your support in making
+                this first session possible!</h4>
+                <h6>June 03, 2016 @ 11am</h6>
+            </div>
+
+            <div class="col-lg-4">
+                <h2>ECN's 40th Annual Convocation is Coming Up Soon!</h2>
+                <h4>Hosted by the San Juan Region @
+                    All Saints Church Farmington, NM</h4>
+                <h6>June 10-12, 2016</h6>
+            </div>
+
+            <div class="col-lg-4">
+                <h2>St. Marks Church VBS will be held @ GSM</h2>
+                <h4> Prepare to be outdoors, and to have some fun!</h4>
+                <h6>Last week of July from 2pm to 6pm
+                Snack, Dinner and a take home meal provided!</h6>
+            </div>
 
         </div>
-        <div id="bulliten" class="col-lg-6">
-          <h1>ECN's 40th Annual Convocation is Coming Up Soon!</h1>
-            <h3>June 10-12, 2016</h3>
-        </div>
+    </div>
+
     </div>
 
 

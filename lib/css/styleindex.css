@@ -113,12 +113,16 @@ body {
 #text {
     text-align: left;
 }
-#bulliten {
-    padding-top: 35%;
+.bulliten .container {
+    padding-top: 10%;
 }
-#logo {
-    padding-top: 5%;
+
+.bulliten .row {
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;    margin-top: 10%;
 }
+
 #logoimg {
     width: 300px;
     height: 300px;
@@ -166,4 +170,10 @@ body {
     top: 25px;
     left: 25px;
     width: 100%;
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.logo-container .btn {
+    background-color: black;
 }
