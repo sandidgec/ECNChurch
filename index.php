@@ -69,17 +69,16 @@
         <div class="row bulliten">
 
             <div class="col-lg-4">
-                <h2>Graduation Day Today For Coders</h2>
-                <h4>Thank you all for your support in making
-                this first session possible!</h4>
-                <h6>June 03, 2016 @ 11am</h6>
+                <h2>St. Christophers Bee Project is Happening</h2>
+                <h4>100 Pounds is Ready to be Packaged!</h4>
+                <h6>Contact office for more Info.</h6>
             </div>
 
             <div class="col-lg-4">
-                <h2>ECN's 40th Annual Convocation is Coming Up Soon!</h2>
+                <h2>ECN's 40th Annual Convocation was a Success!</h2>
                 <h4>Hosted by the San Juan Region @
                     All Saints Church Farmington, NM</h4>
-                <h6>June 10-12, 2016</h6>
+                <h6>Thank You For Your Support!</h6>
             </div>
 
             <div class="col-lg-4">
@@ -116,13 +115,19 @@
                                 <h6>St. Josephs Church</h6>
                                 </a>
                                 <h6 span class="state">New Mexico Churches</h6></span>
+                                <a href="stMarks.php">
                                 <h6>St. Marks Church</h6>
+                                </a>
                             </div>
                             <div class="col-lg-4">
                                 <h3>San Juan Region</h3>
                                 <h6 span class="state">New Mexico Churches</h6></span>
+                                <a href="allSaints.php">
                                 <h6>All Saints Church</h6>
+                                </a>
+                                <a href="stMichaels.php">
                                 <h6>St. Michael's Church</h6>
+                                </a>
                                 <a href="stlukes.php">
                                 <h6>St. Luke's In the Desert</h6>
                                 </a>
@@ -130,9 +135,15 @@
                             <div class="col-lg-4">
                                 <h3>Utah Region</h3>
                                 <h6>St. Christopher's Mission</h6>
+                                <a href="stMarys.php">
                                 <h6>St. Mary's of the Moonlight</h6>
+                                </a>
+                                <a href="stJohns.php">
                                 <h6>St. John the Baptizer</h6>
+                                </a>
+                                <a href="stDavids.php">
                                 <h6>St. David's House</h6>
+                                </a>
                             </div>
                         </div>
 
