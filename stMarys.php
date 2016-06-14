@@ -4,7 +4,7 @@
         <?php require_once("lib/head-utils.php"); ?>
         <?php require_once("indexNavBar.php");?>
         <!-- Custom styles for this template -->
-        <link href="/lib/css/stmarys.css" rel="stylesheet">
+        <link href="/lib/css/stMarys.css" rel="stylesheet">
     <title>Utah</title>
 </head>
 
