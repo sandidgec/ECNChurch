@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -18,8 +18,11 @@
                 <li><a href="ministries.php">Ministries</a></li>
                 <li><a href="governance.php">Governance</a></li>
                 <li><a href="contact.php">Staff/Contact Us</a></li>
-                <li><a href="support.php">Support</a></li>
-                <li><a href="currentEvents.php">Current Events</a></li>
+                <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
+                <li><a href="calendar.php">Calendar</a></li>
+                <li><a href="http://www.facebook.com" class = "navbar-btn" class="btn-social-icon btn-facebook">
+                        <span class="fa fa-facebook-official fa-lg"></span></li></a>
+
             </ul>
         </div><!--/.nav-collapse -->
         
