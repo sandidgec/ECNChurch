@@ -3,7 +3,7 @@
 <head>
     <?php require_once("lib/head-utils.php"); ?>
     <?php require_once("indexNavBar.php");?>
-    <title>WireFrame For ECN </title>
+    <title>Contact</title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/style.css" rel="stylesheet">
     <style>
