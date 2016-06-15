@@ -4,13 +4,16 @@
     <?php require_once("lib/head-utils.php"); ?>
     <?php require_once("indexNavBar.php");?>
     <!-- Custom styles for this template -->
-    <link href="/lib/css/allSaints.css" rel="stylesheet">
+    <link href="lib/css/allSaints.css" rel="stylesheet">
     <title>New Mexico</title>
 </head>
 
 <body>
-<h1>All Saints</h1>
-<p>Farmington New Mexico</p>
+
+<div class="container" id="bunniesjoe">
+    <h1>All Saints</h1>
+        <p>Farmington New Mexico</p>
+</div>
 
 <div class="hero-unit" id="allsaints">
     <h3>Welcome to the All Saints E.C.N.</h3>
