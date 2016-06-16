@@ -17,7 +17,7 @@
                 <li><a href="history.php">History/Beliefs</a></li>
                 <li><a href="ministries.php">Ministries</a></li>
                 <li><a href="governance.php">Governance</a></li>
-                <li><a href="contact.php">Staff/Contact Us</a></li>
+                <li><a href="areaMissContact.php">Staff/Contact Us</a></li>
                 <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
                 <li><a href="calendar.php">Calendar</a></li>
                 <li><a href="http://www.facebook.com" class = "navbar-btn" class="btn-social-icon btn-facebook">
