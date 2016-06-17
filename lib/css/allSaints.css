@@ -131,7 +131,7 @@ body {
     color: deepskyblue;
 }
 
-#bunniesjoe {
+#bunniesaint {
     background-size: cover;
     background-color: black;
     padding: 30px 50px 30px 50px;
@@ -139,7 +139,7 @@ body {
     text-align: center;
     background-position: center;
     color: white;
-    background-image: url("/lib/img/allsaints.jpg");
+    background-image: url("/lib/img/allsaintschurchold.jpg");
     font-family: 'Josefin Sans', sans-serif;
     font-size: xx-large;
 }

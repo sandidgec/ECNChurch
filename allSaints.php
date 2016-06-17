@@ -10,19 +10,20 @@
 
 <body>
 
-<div class="container" id="bunniesjoe">
+<div class="container" id="bunniesaint">
     <h1>All Saints</h1>
         <p>Farmington New Mexico</p>
-</div>
 
-<div class="hero-unit" id="allsaints">
-    <h3>Welcome to the All Saints E.C.N.</h3>
 
-    <div class="row">
-        <div id="logo" class="col-lg-4">
-            <div class="row no-padi">
+    <div class="hero-unit" id="bunniesaint">
+     <h3>Welcome to the All Saints E.C.N.</h3>
+
+        <div class="row">
+            <div id="logo" class="col-lg-4">
+             <div class="row no-padi">
                 <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
                      class="img-responsive"  alt="Awesome.jpg">
+             </div>
             </div>
         </div>
     </div>
@@ -42,6 +43,7 @@
                             <div class="col-lg-4">
                                 <h3>Address</h3>
                                 <h6>1271 Mission Ave</h6>
+                                <h6>P.O. Box 720</h6>
                                 <h6>Phone:(505) 327-0326</h6>
                                 <h6>Farmington, NM 87401</h6>
 

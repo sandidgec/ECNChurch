@@ -1,0 +1,47 @@
+.hero-unit {
+    background: url("/lib/img/allsaint.jpg");
+    background-size: cover;
+    width: 1400px;
+    height: 800px;
+    padding-top: 400px;
+}
+
+
+body {
+    background-color: darkturquoise;
+}
+
+
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+
+h6 {
+    color: black;
+}
+
+#title {
+    padding-top: 200px;
+}
+
+dl {
+    padding-top: 20px;
+}
+
+dt {
+    color: black;
+}
+
+dd {
+    color: black;
+}
