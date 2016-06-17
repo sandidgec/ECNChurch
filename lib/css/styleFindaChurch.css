@@ -1,6 +1,7 @@
 body{
     background-color: darkturquoise;
     text-align: center;
+    font-family: 'Catamaran', sans-serif;
 }
 .historyJumbo {
     padding-top: 5px;
@@ -8,20 +9,13 @@ body{
 .logoImage {
     width: 350px;
     height: 350px;
-    padding-left: 50px;
+    padding-left: 150px;
     padding-top: 75px;
 }
 .find {
     text-align: left;
 }
-#mapmain {
-    background-color: black;
-    padding: 30px 50px 30px 50px;
-    text-align: center;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: xx-large;
-}
+
 h3 {
     text-align: center;
 }
