@@ -17,6 +17,7 @@
                 <li><a href="history.php">History/Beliefs</a></li>
                 <li><a href="ministries.php">Ministries</a></li>
                 <li><a href="governance.php">Governance</a></li>
+                <li><a href="findaChurch.php">Find A Church</a></li>
                 <li><a href="areaMissContact.php">Staff/Contact Us</a></li>
                 <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
                 <li><a href="calendar.php">Calendar</a></li>
@@ -27,3 +28,4 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
+

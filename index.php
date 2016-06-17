@@ -209,14 +209,15 @@
 
 
 
-<ol class="breadcrumb">
-    <li><a href="index.php">Home</a></li>
-    <li><a href="contact.php">Contact</a></li>
-    <li><a href="currentEvents.php">NewsLetter</a></li>
-    <li><a href="governance.php">Calendar</a></li>
-    <li><a href="support.php">Ministries</a></li>
-    <li class="active">Data</li>
-</ol>
+
+    <ol class="breadcrumb">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="areaMissContact.php">Area Mission Contact</a></li>
+        <li><a href="calendar.php">Calendar</a></li>
+        <li><a href="governance.php"></a></li>
+        <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
+        <li class="active"></li>
+    </ol>
 </body>
 
 </html>

@@ -5,8 +5,9 @@
 .navbar-right {
     padding-right: 5%;
 }
+
 body{
-    background-color: black;
+    background-color: darkturquoise;
     text-align: center;
 }
 
@@ -42,8 +43,8 @@ body{
     position: relative;
     z-index: 100;
     padding: 20px;
-    background: rgba(47, 47, 47, 0.67); /* for IE */
-    background: rgba(43, 43, 43, 0.44);
+    background: rgba(35, 35, 35, 0.85); /* for IE */
+    background: rgba(43, 43, 43, 0.76);
     color: white;
 }
 
@@ -132,7 +133,7 @@ body {
     background: transparent;
 }
 .state {
-    color: deepskyblue;
+    color: #ff36ad;
 }
 
 #bunniesjoe {
