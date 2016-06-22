@@ -9,6 +9,7 @@
 </head>
 <body>
 
+
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -114,7 +115,7 @@
         <h3>Lillie Henderson, Lay Pastor/Children's Ministry Director</h3>
         <h3>Office:(435) 651-3225</h3>
         <h3>Cell:(435)444-0484</h3>
-        <h3>P.O. Box Montezuma Creek</h3>
+        <h3>Montezuma Creek</h3>
         <h3>Utah, 84534</h3>
     </div>
 </div>
@@ -123,5 +124,15 @@
 
 </div>
 </div>
+
+<ol class="breadcrumb">
+    <li><a href="index.php">Home</a></li>
+    <li><a href="contact.php">Contact</a></li>
+    <li><a href="currentEvents.php">NewsLetter</a></li>
+    <li><a href="governance.php">Calendar</a></li>
+    <li><a href="support.php">Ministries</a></li>
+    <li class="active">Data</li>
+</ol>
+
 </body>
 </html>
