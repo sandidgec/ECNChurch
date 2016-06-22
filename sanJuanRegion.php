@@ -11,26 +11,24 @@
 <body>
 
 <div class="hero-unit">
-    <h1>San Juan Region </h1>
-    <p>New Mexico Missions</p>
-    <p>
-        <a class="btn btn-primary btn-large">
-            Learn more
-        </a>
-    </p>
+    <div class="container col-md-6" id="container">
+        <h1>San Juan Region </h1>
+         <p>New Mexico Missions</p>
+        <a href="#learn-more" role="button" class="btn btn-info btn-large">Learn more</a>
+    </div>
 </div>
 
 
 
-<div class="container" id="title"> 
+<div class="text-center" id="title">
     <h1>Welcome to the San Juan Region</h1>
 </div>
 
-<div class="container" id="info"> 
+<div class="text-center" id="info">
     <h1>New Mexico Missions</h1>
 </div>
 
-<div class="row">
+<div class="row" id="learn-more">
 
     <div class="col-lg-4">
         <h3>St. Michael's Church </h3>
@@ -41,9 +39,9 @@
 
         <dl>
             <dt>Rev. Chan Anaya</dt>
-            <dd>Cell No. (505) 716-8445</dd>
+            <dd>Office No. (505) 327-0326</dd>
             <dd>Email: ecncanaya@gmail.com</dd>
-            <dd>Priest in Charge St. Michaels Canon Missioner</dd>
+            <dd>Priest in Charge St. Michael's Canon Missioner</dd>
         </dl>
 
     </div>

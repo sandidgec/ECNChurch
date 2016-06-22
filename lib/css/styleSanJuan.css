@@ -1,11 +1,16 @@
 .hero-unit {
     background: url("/lib/img/allsaint.jpg");
-    background-size: cover;
-    width: 1400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
     height: 800px;
-    padding-top: 400px;
+
 }
 
+.container {
+    padding-top: 200px;
+    font-size: 50px;
+}
 
 body {
     background-color: darkturquoise;
@@ -14,7 +19,8 @@ body {
 
 
 h1 {
-    color: black;
+    color: white;
+    font-size: 50px;
 }
 
 p {
@@ -22,7 +28,7 @@ p {
 }
 
 h3 {
-    color: black;
+    color: darkblue;
 }
 
 
@@ -31,11 +37,11 @@ h6 {
 }
 
 #title {
-    padding-top: 200px;
+    padding-top: px;
 }
 
 dl {
-    padding-top: 20px;
+    padding-top: px;
 }
 
 dt {
@@ -43,5 +49,5 @@ dt {
 }
 
 dd {
-    color: black;
+    color: blue;
 }
