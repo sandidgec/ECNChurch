@@ -16,26 +16,69 @@
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="/lib/img/7557019780_6c20fac414_z.jpg" alt="...">
+                <img src="/lib/img/oldHosp.jpg" alt="...">
                 <div class="carousel-caption">
-                    ...
+                    <h1>Hozho Center</h1>
                 </div>
             </div>
             <div class="item">
-                <img src="/lib/img/10401084_935079563233241_7047644908115160838_n.jpg" alt="...">
+                <img src="/lib/img/oldHosInterior.jpg" alt="...">
                 <div class="carousel-caption">
-                    ...
+                    <h1>Hozho Center Chapel</h1>
                 </div>
             </div>
             <div class="item">
-                <img src="/lib/img/gsm.jpg" alt="...">
+                <img src="/lib/img/WRYouth.jpg" alt="...">
                 <div class="carousel-caption">
-                    ...
+                    <h1>Southeast Region Youth</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/lib/img/GSMBell.JPG" alt="...">
+                <div class="carousel-caption">
+                    <h1>Good Shepherd Mission Bell</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/lib/img/HDF.JPG" alt="...">
+                <div class="carousel-caption">
+                    <h1> Homer Dell Farm</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/lib/img/lilyFlower.JPG" alt="...">
+                <div class="carousel-caption">
+                    <h1>St. Christopher's Lily</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/lib/img/ruinsCDc.JPG" alt="...">
+                <div class="carousel-caption">
+                    <h1> Canyon Ruins</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/lib/img/stCBell.JPG" alt="...">
+                <div class="carousel-caption">
+                    <h1>St. Christopher's Bell</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/lib/img/windowR.JPG" alt="...">
+                <div class="carousel-caption">
+                    <h1> WindowRock Monument</h1>
                 </div>
             </div>
             ...
@@ -106,44 +149,35 @@
 
                         <div class="row">
                             <div class="col-lg-4">
+                                <a href="southEast.php">
                                 <h3>South East Region</h3>
+                                </a>
                                 <h6 span class="state">Arizona Churches</h6></span>
                                 <a href="http://www.goodshepmission.org/">
                                 <h6>Good Shepherd Mission</h6>
                                </a>
-                                <a href="stjoes.php">
                                 <h6>St. Josephs Church</h6>
-                                </a>
                                 <h6 span class="state">New Mexico Churches</h6></span>
-                                <a href="stMarks.php">
                                 <h6>St. Marks Church</h6>
-                                </a>
                             </div>
                             <div class="col-lg-4">
+                                <a href="sanJuanRegion.php">
                                 <h3>San Juan Region</h3>
+                                </a>
                                 <h6 span class="state">New Mexico Churches</h6></span>
-                                <a href="allSaints.php">
                                 <h6>All Saints Church</h6>
-                                </a>
-                                <a href="stMichaels.php">
                                 <h6>St. Michael's Church</h6>
-                                </a>
-                                <a href="stlukes.php">
                                 <h6>St. Luke's In the Desert</h6>
-                                </a>
                             </div>
                             <div class="col-lg-4">
+                                <a href="utahRegion.php">
                                 <h3>Utah Region</h3>
+                                </a>
                                 <h6>St. Christopher's Mission</h6>
-                                <a href="stMarys.php">
                                 <h6>St. Mary's of the Moonlight</h6>
-                                </a>
-                                <a href="stJohns.php">
                                 <h6>St. John the Baptizer</h6>
-                                </a>
-                                <a href="stDavids.php">
                                 <h6>St. David's House</h6>
-                                </a>
+
                             </div>
                         </div>
 
