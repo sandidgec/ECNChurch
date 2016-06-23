@@ -25,7 +25,7 @@
 </div>
 
 <div class="text-center" id="info">
-    <h1>New Mexico Missions</h1>
+    <p>New Mexico Missions</p>
 </div>
 
 <div class="row" id="learn-more">
