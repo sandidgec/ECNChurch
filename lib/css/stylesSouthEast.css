@@ -1,0 +1,76 @@
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+.tales {
+    width: 100%;
+}
+.carousel-inner{
+    width:100%;
+    max-height: 650px !important;
+}
+.container {
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+body {
+    background-color: darkturquoise;
+}
+
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+
+h6 {
+    color: black;
+}
+
+#title {
+    background-color: darkturquoise;
+}
+
+dl {
+    padding-top: px;
+}
+
+dt {
+    color: black;
+}
+
+dd {
+    color: darkgreen;
+}
+
+#info {
+    font-size: 50px;
+}
+#space{
+    padding-top: 15px;
+}
+
+.glyphicon.glyphicon-chevron-right{
+    font-size: 75px;
+    color: darkturquoise;
+}
+.glyphicon.glyphicon-chevron-left{
+    font-size: 75px;
+    color: darkturquoise;
+}

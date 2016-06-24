@@ -1,16 +1,20 @@
-.hero-unit {
-    background: url("/lib/img/allsaint.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 800px;
-
+.carousel-caption {
+    top: 0;
+    bottom: auto;
 }
 
-.container {
-    padding-top: 200px;
-    font-size: 50px;
+
+.tales {
+    width: 100%;
 }
+.carousel-inner{
+    width:100%;
+    max-height: 650px !important;
+    background-size: cover;
+}
+
+
+
 
 body {
     background-color: darkturquoise;
@@ -28,7 +32,7 @@ p {
 }
 
 h3 {
-    color: darkblue;
+    color: black;
 }
 
 
@@ -36,8 +40,6 @@ h6 {
     color: black;
 }
 
-#title {
-    padding-top: px;
 }
 
 dl {
@@ -49,5 +51,25 @@ dt {
 }
 
 dd {
-    color: blue;
+    color: darkgreen;
+}
+#info {
+    font-size: 50px;
+}
+
+.glyphicon.glyphicon-chevron-right{
+    font-size: 75px;
+    color: darkturquoise;
+}
+.glyphicon.glyphicon-chevron-left{
+    font-size: 75px;
+    color: darkturquoise;
+}
+
+#test {
+    padding-top: 200px;
+}
+
+p {
+    font-size: 50px;
 }
