@@ -78,7 +78,7 @@
             <div class="item">
                 <img src="/lib/img/windowR.JPG" alt="...">
                 <div class="carousel-caption">
-                    <h1> WindowRock Monument</h1>
+                    <h> WindowRock Monument</h>
                 </div>
             </div>
             ...
