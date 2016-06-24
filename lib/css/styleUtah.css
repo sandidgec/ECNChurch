@@ -1,5 +1,11 @@
 .jumbotron {
     text-align: center;
+    color: teal;
+}
+
+.utahMission {
+    text-align: center;
+    color: teal;
 }
 
 .pictures img {
@@ -9,16 +15,16 @@
 .thumbnail img {
     padding: 10px, 5px, 10px, 5px;
     border: solid;
-    width: 500px;
-    height: 200px;
+    width: 400px;
+    height: 100px;
 }
 
 .thumbnail li {
     text-align: center;
 }
 
-body{
-    background-color: black;
+body {
+    background-color: darkturquoise;
     text-align: center;
 }
 
