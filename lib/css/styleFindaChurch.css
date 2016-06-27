@@ -73,3 +73,21 @@ body {
 <!-- src: http://subtlepatterns.com/?p=1045 -->
     background: url('dark_geometric.png');
 }
+
+#SJ {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#SE {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#UR {
+    padding-bottom: 25px;
+}
+
+.firstline {
+    padding-top: 100px;
+}
