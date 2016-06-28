@@ -11,8 +11,7 @@
             background-image: url("/lib/img/historyAndBeliefs.jpg");
             background-size: cover;
             background-repeat: no-repeat;
-
-
+            
     }
         .historyJumbo {
             padding-top: 5px;
