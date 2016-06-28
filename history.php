@@ -8,7 +8,7 @@
     <link href="/lib/css/style.css" rel="stylesheet">
     <style>
         body {
-            background-image: url("/lib/img/20160528_175410.jpg");
+            background-image: url("/lib/img/historyAndBeliefs.jpg");
             background-size: cover;
             background-repeat: no-repeat;
 
