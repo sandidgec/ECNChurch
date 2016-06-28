@@ -107,7 +107,7 @@
                                         <img src="/lib/img/chan.JPG">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
+                                        E-Mail: ecncanaya@gmail.com<br>
                                         Phone: (505) 327-7549
                                     </p>
                                 </div>
@@ -138,7 +138,7 @@
                                         <img src="/lib/img/dave.JPG">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
+                                        E-Mail: ecndbailey@gmail.com<br>
                                         Phone: (505) 327-7549
                                     </p>
                                 </div>
@@ -163,8 +163,8 @@
                                         <img src="/lib/img/pat.JPG">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
-                                        Phone: (505) 327-7549
+                                        E-Mail: cookandbond@msn.com <br>
+                                        Message Phone:(435)-672-2206
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
@@ -188,7 +188,7 @@
                                         <img src="/lib/img/cornelia.JPG">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
+                                        Contact ECN Office<br>
                                         Phone: (505) 327-7549
                                     </p>
                                 </div>
@@ -213,8 +213,8 @@
                                         <img src="/lib/img/lily.JPG">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
-                                        Phone: (505) 327-7549
+                                        E-Mail: teabimasaani@yahoo.com<br>
+                                        Phone: (435) 651-3225
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
@@ -239,8 +239,8 @@
                                         <img src="/lib/img/Paula.PNG">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
-                                        Phone: (505) 327-7549
+                                        E-Mail: officegoodshepherdmission@gmail.com<br>
+                                        Phone: (928) 729-2322
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
@@ -265,8 +265,8 @@
                                         <img src="/lib/img/cynthia.jpg">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
-                                        Phone: (505) 327-7549
+                                        E-Mail:  vicargoodshepherdmission@gmail.com<br>
+                                        Phone: (928)729-2322
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
@@ -292,8 +292,8 @@
                                         <img src="/lib/img/catsmom.JPG">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
-                                        Phone: (505) 327-7549
+                                        St. Mary's Office<br>
+                                        Phone: (435) 727-0200
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
@@ -317,13 +317,14 @@
                                         <img src="/lib/img/cat.jpg">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
+                                        E-Mail: ecncplummer@gmail.com<br>
                                         Phone: (505) 327-7549
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Cathlena Plummer</h3>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -341,8 +342,8 @@
                                         <img src="/lib/img/leon.JPG">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
-                                        Phone: (505) 327-7549
+                                        E-Mail: sampsonl74@yahoo.com<br>
+                                        Phone:  (435)-444-0485
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
@@ -367,7 +368,7 @@
                                         <img src="/lib/img/carol.png">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
+                                        Contact ECN Office<br>
                                         Phone: (505) 327-7549
                                     </p>
                                 </div>
@@ -392,7 +393,7 @@
                                         <img src="/lib/img/inez.PNG">
                                     </div>
                                     <p>
-                                        E-Mail: ecncanaya@gmail.com
+                                        Contact ECN Office<br>
                                         Phone: (505) 327-7549
                                     </p>
                                 </div>

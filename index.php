@@ -112,7 +112,7 @@
         <div class="row bulliten">
 
             <div class="col-lg-4">
-                <h2>St. Christophers Bee Project is Happening</h2>
+                <h2>St. Christopher's Bee Project is Happening</h2>
                 <h4>100 Pounds is Ready to be Packaged!</h4>
                 <h6>Contact office for more Info.</h6>
             </div>
@@ -134,13 +134,13 @@
         </div>
     </div>
 
-    </div>
 
 
 <div id="bg">
     <div id="search-container">
         <div id="search-bg"></div>
         <div id="search">
+
             <div id="bg">
                 <div id="search-container">
                     <div id="search-bg"></div>
@@ -177,24 +177,21 @@
                                 <h6>St. Mary's of the Moonlight</h6>
                                 <h6>St. John the Baptizer</h6>
                                 <h6>St. David's House</h6>
-
                             </div>
                         </div>
 
+
                     </div>
                 </div>
-
-
             </div>
-        </div>
-    </div>
+
     <div id="search-container">
         <div id="search-bg"></div>
         <div id="search">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="thumbnail">
-                         <img src="/lib/img/slide3.jpg">
+                        <img src="/lib/img/slide3.jpg">
                     </div>
                     <div class="thumbnail">
                         <img src="/lib/img/gsmhoganproject.jpg">
@@ -236,11 +233,10 @@
     </div>
 
 
+
+        </div>
     </div>
 </div>
-
-
-
 
 
 
