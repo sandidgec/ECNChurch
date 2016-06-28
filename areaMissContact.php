@@ -106,16 +106,20 @@
                                     <div class="thumbnail">
                                         <img src="/lib/img/chan.JPG">
                                     </div>
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3> Cannon Missioner for Justice and Spiritual Development for the Bishops Office
                                         Rev. Chan Osborn de Anaya</h3>
-                                    Before becomming a Priest, Chan was an ICU-CCU Nurse and a Realestiate Broker.
-                                    She graduated from the Siminary of the Southwest in 2000 and was at Pittsburg mississippi Civil War
-                                    Church involved in reconciliation came to ECN in 2010 and was 5 years at Good Shipherd Mission as
-                                    Regional Ministry Developer and currently in the Bishops Office doing oversight, troubleshooting
-                                    and developing in enviromental Justice issues. She has a husband and 2 grown issues.
-                                    Kyacking and gardening in her back yard are her hobbies.
+                                    Before becoming a Priest, I was an ICU-CCU Nurse and a Real Estate Broker.
+                                    I graduated from the Seminary of the Southwest in 2000 and was at a Pittsburgh Mississippi Civil War
+                                    Church involved in reconciliation. I came to ECN in 2010 and was 5 years at Good Shepherd Mission as
+                                    Regional Ministry Developer and am currently in the Bishops Office doing oversight, troubleshooting
+                                    and developing in Environmental Justice issues. I have a husband and 2 grown children.
+                                    Kayaking and gardening in my back yard are my hobbies.
                                 </div>
                             </div>
                         </div>
@@ -133,12 +137,14 @@
 
                                         <img src="/lib/img/dave.JPG">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rt. Rev. David E. Bailey</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>
@@ -156,12 +162,14 @@
 
                                         <img src="/lib/img/pat.JPG">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
-                                    <h3>Rev. Patricia Cook</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    <h3>Rev. Pat Cook</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>
@@ -179,12 +187,14 @@
 
                                         <img src="/lib/img/cornelia.JPG">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Cornelia Eaton</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>
@@ -202,12 +212,15 @@
 
                                         <img src="/lib/img/lily.JPG">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
-                                    <h3>Lay Pastor Lillie Henderson</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    <h3>Lay Pastor of St. Johns the Baptizer Lillie Henderson</h3>
+                                    I have been at St Johns for 19 years. I was exposed to the Episcopal Church by attending  St. Christopher's Mission and St. Marys of the Moonlight as a child with my grandmother. I use to pass by St. Johns as I go through to Blanding, Utah and think it looked deserted. I eventually quit my job and Steven Plummer hired me to work at St. Johns. I like to work with the children of St. Johns. The congregation is small, everyone primarily speaks Navajo, so I read the gospel in Navajo and conduct service in Navajo.
+                                    At st johns we have really bad water, so i come to St. Christopher's to haul water. We are in need of water right now.
                                 </div>
                             </div>
                         </div>
@@ -225,12 +238,15 @@
 
                                         <img src="/lib/img/Paula.PNG">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Deacon Paula Henson</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    I have been part of the church of many many years. I was baptized here in 1959 at Good Shepherd Mission and now I am a parish administrator her at GSM.  I attended the Deacons Formation Academy in 2010. I attended the academy for over a year to become a Deacon. I was Ordained as Deacon in 2011, and started working in 2011. I serve St. Josephs Church in Many Farms, Arizona on the second Sunday of every month since 2011. My job here at GSM is mostly administration work and make sure the church is ready for services of many kinds. I also lead morning prayer Tuesday thru Friday and am available every Sunday for services. I also assist with hospitality work.
+                                    In order for  to keep myself in balance and in harmony, i do various arts and crafts with yarn. Some things i make are kleenex boxes, crosses.
                                 </div>
                             </div>
                         </div>
@@ -248,12 +264,16 @@
 
                                         <img src="/lib/img/cynthia.jpg">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
-                                    <h3>Rev. Cynthia Hizer</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    <h3>Vicar and Priest in Charge of the Southeast Region Cynthia Hizer</h3>
+                                    I was ordained in 2006, took my M.Div. at Candler School of Theology Emory University in Atlanta and went on to Advance Studies at the General Seminary in New York City.
+                                    I was an organic farmer for 25 years, and a food writer. So now I'm a Vicar and Priest and I'm writing food and farming. I was also a soap maker, I had a cottage industry business of soap making. So i am using those skills also for the good of ECN. In my spare time i love to hike.
+
                                 </div>
                             </div>
                         </div>
@@ -271,12 +291,14 @@
 
                                         <img src="/lib/img/catsmom.JPG">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Cathrine Plummer</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>
@@ -294,13 +316,14 @@
 
                                         <img src="/lib/img/cat.jpg">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Cathlena Plummer</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
-                                </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                             </div>
                         </div>
                     </div>
@@ -317,12 +340,15 @@
 
                                         <img src="/lib/img/leon.JPG">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Deacon Leon Sampson</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    I was raised here on St. Christopher's grounds. I sat here in the same pews as a child and live in the same house I grew up in.  I'm allowing my family to be here to  experience the exact same thing I went through as a kid, Its important to understand that my parents had the same life cycle as I have here now, and my kids will also enjoy the same benefits of being here. I was raised here, grew up here and have a passion for being here. My mission is to give back to the youth. Get them involved in the church, so they can remember their experiences and come back later.
+                                    I will go off to Virginia for seminary in august, and will be able to come back in 3 years as a priest and continue to serve the people as a priest and help develop more of the projects.
                                 </div>
                             </div>
                         </div>
@@ -340,12 +366,14 @@
 
                                         <img src="/lib/img/carol.png">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Carol Tookey</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>
@@ -363,12 +391,14 @@
 
                                         <img src="/lib/img/inez.PNG">
                                     </div>
-
+                                    <p>
+                                        E-Mail: ecncanaya@gmail.com
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Inez Velarde</h3>
-                                    Rt. Rev. Daivd Bailey was ordained into priest hood in 1970 and practiced as vicor in Scottsdale AZ
-                                    for 15 years before retiring. Daivd came to Navajo land in 1979 and was consecrated as bishop of Navajoland in 2004.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>
