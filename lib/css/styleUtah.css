@@ -1,49 +1,75 @@
-.jumbotron {
-    text-align: center;
-    color: teal;
+.carousel-caption {
+    top: 0;
+    bottom: auto;
 }
 
-.utahMission {
-    text-align: center;
-    color: teal;
+
+.tales {
+    width: 100%;
+}
+.carousel-inner{
+    width:100%;
+    max-height: 650px !important;
+    background-size: cover;
 }
 
-.pictures img {
-    alignment: center;
-}
 
-.thumbnail img {
-    padding: 10px, 5px, 10px, 5px;
-    border: solid;
-    width: 400px;
-    height: 100px;
-}
 
-.thumbnail li {
-    text-align: center;
-}
 
 body {
     background-color: darkturquoise;
-    text-align: center;
 }
 
-.container {
-    padding-right: 10px;
-    padding-bottom: -50px;
+
+
+h1 {
+    color: white;
+    font-size: 50px;
 }
 
-.btn-lg {
-    font-size: 18px;
-    line-height: 1.3333333;
-    border-radius: 6px;
-    width: 150px;
-    padding-bottom: -100px;
+p {
+    color: black;
 }
 
-.logoimage {
-    width: 350px;
-    height: 250px;
-    padding-left: 50px;
-    padding-top: 75px;
+h3 {
+    color: black;
+}
+
+
+h6 {
+    color: black;
+}
+
+}
+
+dl {
+    padding-top: px;
+}
+
+dt {
+    color: black;
+}
+
+dd {
+    color: darkgreen;
+}
+#info {
+    font-size: 50px;
+}
+
+.glyphicon.glyphicon-chevron-right{
+    font-size: 75px;
+    color: darkturquoise;
+}
+.glyphicon.glyphicon-chevron-left{
+    font-size: 75px;
+    color: darkturquoise;
+}
+
+#test {
+    padding-top: 200px;
+}
+
+p {
+    font-size: 50px;
 }

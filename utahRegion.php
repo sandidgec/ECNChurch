@@ -60,81 +60,64 @@
 </div>
 
 
-<div class="jumbotron">
-    <div class="row logo-container">
-        <div id="logo" class="col-lg-5">
-            <div class="row no-pad">
-                <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
-                     class="img-responsive"  alt="Awesome.jpg">
+<div class="text-center" id="title">
+    <h1>Welcome to the Utah Region</h1>
+</div>
+
+<div class="text-center" id="info">
+    <p></p>
+</div>
+
+<div class="row" id="learn-more">
+
+            <div class="col-lg-4">
+                <h3>St. Christopher's</h3>
+                <h6>P.O. Box 28</h6>
+                <h6>Bluff, UT 84512</h6>
+                <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
+
+                <dl>
+                    <dt>Rev. Deacon Leon Sampson</dt>
+                    <dd>Cell No. (435)-444-0485</dd>
+                    <dd>Email: sampsonl74@yahoo.com</dd>
+                    <dd>Head Deacon in Charge</dd>
+                </dl>
+
+            </div>
+
+
+            <div class="col-lg-4">
+                <h3>St. Mary's of the Moonlight</h3>
+                <h6>P.O Box 360397</h6>
+                <h6>Oljato, UT 84536</h6>
+                <h6>Office:(435) 727-0200</h6>
+
+                <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
+
+                <dl>
+                    <dt>Rev. Catherine Plummer</dt>
+                    <dd>Cell No. (435) 979-5611</dd>
+                    <dd>Priest In Charge at St. Mary's</dd>
+                    <br>
+                </dl>
+            </div>
+
+
+            <div class="col-lg-4">
+                <h3>St. John the Baptizer</h3>
+                <h6>P.O. Box 28</h6>
+                <h6>Montezuma Creek, UT 84534</h6>
+                <h6>Office No. (435) 651-3225</h6>
+                <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
+
+                <dl>
+                    <dt>Lillie Henderson</dt>
+                    <dd>Cell No. (435) 444-0484</dd>
+                    <dd>Lay Pastor/Children's Ministry Director</dd>
+                </dl>
+
             </div>
         </div>
-        <div class="col-lg-7">
-            <h1>Welcome to the Utah Region</h1>
-        </div>
-
-    </div>
-
-</div>
-<div class="jumbotron">
-    <div class="row utahMission-container">
-        <div class="col-lg-6">
-            <h2>The Rt. Rev. David Bailey</h2>
-            <h3>Bishop of Navajoland</h3>
-            <h3>Email: ecnbailey@gmail.com</h3>
-        </div>
-        <div class="col-lg-6">
-            <h2>Rev. Chan Anaya</h2>
-            <h3>Priest in Charge St. Michael's Canon Missioner</h3>
-            <h3>Email: ecnanaya@gmail.com</h3>
-        </div>
-    </div>
-</div>
-<div class="jumbotron">
-    <div class="row utahMission-container">
-        <div class="col-lg-4">
-            <h2>Leon Sampson</h2>
-            <h3>Deacon in Charge at St. Christopher's</h3>
-            <h3>Cell:(435) 444-0485</h3>
-            <h3>sampson174@yahoo.com</h3>
-        </div>
-        <div class="col-lg-4">
-            <h2>Catherine Plummer</h2>
-            <h3>Priest in Charge at St. Mary's</h3>
-            <h3>Cell:(435) 979-5611</h3>
-        </div>
-        <div class="col-lg-4">
-            <h2>Lillie Henderson</h2>
-            <h3>Lay Pastor/Children's Ministry Director at St. John's</h3>
-            <h3>Cell:(435)444-0484</h3>
-        </div>
-    </div>
-</div>
-<div class="jumbotron2">
-    <div class="row utahMission-container">
-        <div class="col-lg-4">
-            <h2>St. Christopher's Mission</h2>
-            <h3>Office:(435)-672-2206 </h3>
-            <h3>P.O. Box 28 Bluff</h3>
-            <h3>Utah, 84512</h3>
-            <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
-        </div>
-        <div class="col-lg-4">
-            <h2>St. Mary's of the Moonlight</h2>
-            <h3>Office:(435) 727-0200</h3>
-            <h3>P.O. Box 360397 Oljato</h3>
-            <h3>Utah, 84536</h3>
-            <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
-        </div>
-        <div class="col-lg-4">
-            <h2>St. John the Baptizer</h2>
-            <h3>Office:(435) 651-3225</h3>
-            <h3>Montezuma Creek</h3>
-            <h3>Utah, 84534</h3>
-            <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
-        </div>
-    </div>
-</div>
-
 
 
 </div>
