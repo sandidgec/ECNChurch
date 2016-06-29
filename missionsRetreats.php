@@ -26,7 +26,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="/lib/img/gsmParish.JPG" alt="...">
+                        <img src="/lib/img/gsmretreat.jpg" alt="...">
                         <div class="carousel-caption">
                             <div class="container col-md-7" id="test">
                                 <h1>Retreat Centers </h1>
@@ -42,7 +42,12 @@
                         </div>
                     </div>
 
-
+                    <div class="item">
+                        <img src="/lib/img/gsmParish.JPG" alt="...">
+                        <div class="carousel-caption">
+                            ...
+                        </div>
+                    </div>
 
                     ...
                 </div>
