@@ -40,8 +40,6 @@ h6 {
     color: black;
 }
 
-}
-
 dl {
     padding-top: px;
 }
@@ -54,7 +52,7 @@ dd {
     color: darkgreen;
 }
 #info {
-    font-size: 50px;
+    font-size: 25px;
 }
 
 .glyphicon.glyphicon-chevron-right{
@@ -72,4 +70,26 @@ dd {
 
 p {
     font-size: 50px;
+}
+
+.container {
+    padding-right: 10px;
+    padding-bottom: -50px;
+
+.info {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+.pictures img {
+    alignment: center;
+}
+
+.thumbnail img {
+    padding: 10px, 5px, 10px, 5px;
+    border: solid;
+    width: 500px;
+    height: 200px;
 }

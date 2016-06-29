@@ -59,6 +59,74 @@
     </a>
 </div>
 
+<div class="row logo-container">
+    <div id="logo" class="col-lg-4">
+        <div class="row no-pad">
+            <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
+                 class="img-responsive"  alt="Awesome.jpg">
+        </div>
+    </div>
+
+    <div class="col-lg-offset-4 col-lg-4">
+        <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
+    </div>
+</div>
+
+<div class="container info" id="info">
+    <div class="row bulliten">
+
+        <div class="col-lg-4">
+            <h2>St. Christopher's Bee Project is Happening</h2>
+            <h4>100 Pounds is Ready to be Packaged!</h4>
+            <h6>Contact office for more Information</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>ECN's 40th Annual Convocation was a Success!</h2>
+            <h4>Hosted by the San Juan Region @
+                All Saints Church Farmington, NM</h4>
+            <h6>Thank You For Your Support!</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>Staff meeting "TODAY" at 9am, St. Christopher's</h2>
+            <h4></h4>
+            <h6>Contact office for more Information</h6>
+        </div>
+
+    </div>
+</div>
+
+<div class="container bulliten" id="bulletin">
+    <div class="row bulliten">
+
+        <div class="col-lg-4">
+            <h2>St. Christopher's Bee Project is Happening</h2>
+            <img src="/lib/img/stChristopher.jpg" alt="...">
+            <h4>100 Pounds is Ready to be Packaged!</h4>
+            <h6>Contact office for more Info.</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>ECN's 40th Annual Convocation was a Success!</h2>
+            <img src="/lib/img/stMarys.jpg" alt="...">
+            <h4>Hosted by the San Juan Region @
+                All Saints Church Farmington, NM</h4>
+            <h6>Thank You For Your Support!</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>St. Marks Church VBS will be held @ GSM</h2>
+            <img src="/lib/img/stJohns.jpg" alt="...">
+            <h4> Prepare to be outdoors, and to have some fun!</h4>
+            <h6>Last week of July from 2pm to 6pm
+                Snack, Dinner and a take home meal provided!</h6>
+        </div>
+
+    </div>
+</div>
+
+
 
 <div class="text-center" id="title">
     <h1>Welcome to the Utah Region</h1>
