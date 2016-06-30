@@ -127,7 +127,6 @@
 </div>
 
 
-
 <div class="text-center" id="title">
     <h1>Welcome to the Utah Region</h1>
 </div>
