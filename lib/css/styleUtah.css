@@ -3,24 +3,19 @@
     bottom: auto;
 }
 
-
 .tales {
     width: 100%;
 }
+
 .carousel-inner{
     width:100%;
     max-height: 650px !important;
     background-size: cover;
 }
 
-
-
-
 body {
     background-color: darkturquoise;
 }
-
-
 
 h1 {
     color: white;
@@ -35,13 +30,12 @@ h3 {
     color: black;
 }
 
-
 h6 {
     color: black;
 }
 
 dl {
-    padding-top: px;
+    padding-top: 25px;
 }
 
 dt {
@@ -75,6 +69,7 @@ p {
 .container {
     padding-right: 10px;
     padding-bottom: -50px;
+}
 
 .info {
     padding-bottom: 25px;
@@ -87,9 +82,25 @@ p {
     alignment: center;
 }
 
-.thumbnail img {
-    padding: 10px, 5px, 10px, 5px;
+.inform {
+    width: 365px;
+    height: 210px;
+    padding: 1px;
+    border: 1px;
     border: solid;
-    width: 500px;
-    height: 200px;
+    border-color: white;
+    background-color: transparent;
+}
+
+.inform {
+    align-self: center;
+    border-color: transparent;
+}
+
+.bulletin {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    background-color: lightseagreen;
 }

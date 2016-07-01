@@ -72,8 +72,8 @@
     </div>
 </div>
 
-<div class="container info" id="info">
-    <div class="row bulliten">
+<div class="container bulletin" id="bulletin">
+    <div class="row bulletin">
 
         <div class="col-lg-4">
             <h2>St. Christopher's Bee Project is Happening</h2>
@@ -97,32 +97,35 @@
     </div>
 </div>
 
-<div class="container bulliten" id="bulletin">
-    <div class="row bulliten">
-
-        <div class="col-lg-4">
-            <h2>St. Christopher's Bee Project is Happening</h2>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="thumbnail">
+            <h2>St. Christopher</h2>
             <img src="/lib/img/stChristopher.jpg" alt="...">
-            <h4>100 Pounds is Ready to be Packaged!</h4>
-            <h6>Contact office for more Info.</h6>
+            <h4>St. Christopher's in Bluff, Utah was built in 1943. It's located 1.7 miles east of the Bluff on Utah
+            highway 162. The grounds also includes a museum and community farm. A free well on the mission ground is used
+            today by many Navajo, as their main water source.</h4>
         </div>
+    </div>
 
+    <div class="row">
         <div class="col-lg-4">
-            <h2>ECN's 40th Annual Convocation was a Success!</h2>
-            <img src="/lib/img/stMarys.jpg" alt="...">
-            <h4>Hosted by the San Juan Region @
-                All Saints Church Farmington, NM</h4>
-            <h6>Thank You For Your Support!</h6>
+            <div class="thumbnail">
+                <h2>St. Mary's of the Moonlight</h2>
+                <img src="/lib/img/stMarys.jpg" alt="...">
+                <h4> </h4>
+            </div>
         </div>
 
-        <div class="col-lg-4">
-            <h2>St. Marks Church VBS will be held @ GSM</h2>
-            <img src="/lib/img/stJohns.jpg" alt="...">
-            <h4> Prepare to be outdoors, and to have some fun!</h4>
-            <h6>Last week of July from 2pm to 6pm
-                Snack, Dinner and a take home meal provided!</h6>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="thumbnail">
+                    <h2>St. John the Baptizer</h2>
+                    <img src="/lib/img/stJohns.jpg" alt="...">
+                    <h4></h4>
+                </div>
+            </div>
         </div>
-
     </div>
 </div>
 
