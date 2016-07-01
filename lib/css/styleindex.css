@@ -56,7 +56,9 @@ body {
 <!-- src: http://subtlepatterns.com/?p=1045 -->
     background: url('dark_geometric.png');
 }
-
+.b {
+    background-color: #333333;
+}
 .jumbotron {
     background-color: teal;
 }
@@ -108,6 +110,7 @@ body {
 }
 .bulliten .container {
     padding-top: 10%;
+
 }
 
 .bulliten .row {
@@ -115,6 +118,10 @@ body {
     color: black;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 10%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+
 }
 
 #logoimg {

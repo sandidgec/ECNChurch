@@ -6,7 +6,8 @@
     <title>Governance</title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/styleGov.css" rel="stylesheet">
-
+    <link href='https://fonts.googleapis.com/css?family=Arapey:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -134,16 +135,11 @@
                             </a>
                         </div>
                         <div class="row logo-container">
-                            <div id="logo" class="col-lg-4">
-                                <div class="row no-pad">
-                                    <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
-                                         class="img-responsive"  alt="Awesome.jpg">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-offset-4 col-lg-4">
-                                <h1>2016 Convocation</h1>
-                                <p>40th Annual</p>
+                            
+                            <div class="col-lg-offset-1 col-lg-10">
+                                <h1 id="large">2016 40th Annual Convocation</h1>
+                                June 10-12, 2016
+                                Farmington, New Mexico 
                             </div>
                         </div>
                     </div>
@@ -163,6 +159,20 @@
 
                         <div class="council-container">
                             <h2>40th Annual Convocation News</h2>
+                            <h3>
+                            <ul>
+                                <li>
+                                    Grants for renovation of the Old Hospital (old church) has been raised! Construction to commence in July.
+                                </li>
+                                <br>
+                                <li>
+                                    The Old Hospital will be renovated and turned into The Hozho Center. It will house the ECN offices, meeting rooms for AA and other types of meetings to help the community. The basement will be home to The Dev Shop. A Web Development shop started by ECN to help with our goal of becoming a Self Sustaining Diocese.
+                                </li>
+                                <li>
+                                    The 41st Annual ECN Convocation will be hosted by the Southeast Region. We hope to see you there!
+                                </li>
+                            </ul>
+                            </h3>
                         </div>
 
 
@@ -178,6 +188,21 @@
 
                         <div class="council-container">
                             <h2>San Juan Region Council News</h2>
+                            <h3>
+                                <ul>
+                                    <li>
+                                        “The Episcopal Church welcomes all who worship Jesus Christ, in 109 dioceses and three regional areas in 17 nations.  The Episcopal Church is a member province of the worldwide Anglican Communion.”
+                                    </li>
+                                    <br>
+                                    <li>
+                                        In the Navajo creation story, the Holy People gave Spider Woman the gift of weaving the web of the universe. When the Holy People saw that Spider Woman had learned to use her gift, they visited her again and taught her how to build the loom that would be used by the Navajo (Dine) to weave beauty.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        The Next San Juan Region Council meeting is scheduled for July 17th at 1pm.
+                                    </li>
+                                </ul>
+                            </h3>
                         </div>
 
 
@@ -193,6 +218,21 @@
 
                         <div class="council-container">
                            <h2> Southeast Region Council News</h2>
+                            <h3>
+                                <ul>
+                                    <li>
+                                        “The Episcopal Church welcomes all who worship Jesus Christ, in 109 dioceses and three regional areas in 17 nations.  The Episcopal Church is a member province of the worldwide Anglican Communion.”
+                                    </li>
+                                    <br>
+                                    <li>
+                                        In the Navajo creation story, the Holy People gave Spider Woman the gift of weaving the web of the universe. When the Holy People saw that Spider Woman had learned to use her gift, they visited her again and taught her how to build the loom that would be used by the Navajo (Dine) to weave beauty.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        The Next Southeast Region Council meeting is scheduled for July 17th at 1pm.
+                                    </li>
+                                </ul>
+                            </h3>
                         </div>
 
 
@@ -208,6 +248,21 @@
 
                         <div class="council-container">
                             <h2>Utah Region Council News</h2>
+                            <h3>
+                                <ul>
+                                    <li>
+                                        “The Episcopal Church welcomes all who worship Jesus Christ, in 109 dioceses and three regional areas in 17 nations.  The Episcopal Church is a member province of the worldwide Anglican Communion.”
+                                    </li>
+                                    <br>
+                                    <li>
+                                        In the Navajo creation story, the Holy People gave Spider Woman the gift of weaving the web of the universe. When the Holy People saw that Spider Woman had learned to use her gift, they visited her again and taught her how to build the loom that would be used by the Navajo (Dine) to weave beauty.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        The Next Utah Region Council meeting is scheduled for July 17th at 1pm.
+                                    </li>
+                                </ul>
+                            </h3>
                         </div>
 
 

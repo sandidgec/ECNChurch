@@ -129,7 +129,7 @@
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="thumbnail">
-                                        <img src="/lib/img/placeholder.jpg">
+                                        <img src="/lib/img/elliot.jpg">
                                     </div>
                                     <p>
                                     Elliot Mason
@@ -378,8 +378,8 @@
                                 </div>
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Cathlena Plummer</h3>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
-                                </div>
+                                    I went to the Church Divinity School of the Pacific at Berkley, California for my Master of Divinity degree.  My title is the Reverend Canon of Communications.  I keep everyone informed of meetings and schedules, and just maintain the flow of communication from the ECN office in Farmington, NM.  I am also the priest in charge for All Saints, I take care of the Farmington community and continue to provide pastoral care.
+                                    Right now, my hobbies includes watching movies about history and gardening on my spare time.</div>
                             </div>
                         </div>
                     </div>

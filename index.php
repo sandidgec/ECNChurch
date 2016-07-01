@@ -111,20 +111,23 @@
     <div class="container bulliten" id="bulletin">
         <div class="row bulliten">
 
-            <div class="col-lg-4">
+            <div class="col-lg-4" id="rcorners">
+                <div id="b">Utah Region's Latest News</div>
                 <h2>St. Christopher's Bee Project is Happening</h2>
                 <h4>100 Pounds is Ready to be Packaged!</h4>
                 <h6>Contact office for more Info.</h6>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4" id="rcorners">
+                <div id="b">S.J. Region's Latest News</div>
                 <h2>ECN's 40th Annual Convocation was a Success!</h2>
                 <h4>Hosted by the San Juan Region @
                     All Saints Church Farmington, NM</h4>
                 <h6>Thank You For Your Support!</h6>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4" id="rcorners">
+                <div class="container" id="b">S.E. Region's Latest News</div>
                 <h2>St. Marks Church VBS will be held @ GSM</h2>
                 <h4> Prepare to be outdoors, and to have some fun!</h4>
                 <h6>Last week of July from 2pm to 6pm
