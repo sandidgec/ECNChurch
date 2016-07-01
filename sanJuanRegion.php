@@ -23,11 +23,7 @@
         <div class="item active">
             <img src="/lib/img/allsaint.jpg" alt="...">
             <div class="carousel-caption">
-                <div class="container col-md-7" id="test">
-                    <h1>San Juan Region </h1>
-                    <p>New Mexico Churches</p>
-                    <a href="#learn-more" role="button" class="btn btn-info btn-large">Learn more</a>
-                </div>
+                ...
             </div>
         </div>
         <div class="item">
@@ -36,7 +32,12 @@
                 ...
             </div>
         </div>
-        ...
+        <div class="item">
+            <img src="/lib/img/stLukesChurch.jpg" alt="...">
+            <div class="carousel-caption">
+                ...
+            </div>
+        </div>
     </div>
 
     <!-- Controls -->
@@ -50,13 +51,89 @@
     </a>
 </div>
 
-<div class="text-center" id="title">
-    <h1>Welcome to the San Juan Region</h1>
+
+
+<div class="container">
+        <div class="text-center">
+            <h1>Welcome to the San Juan Region</h1>
+            <p>New Mexico Churches</p>
+        </div>
 </div>
 
-<div class="text-center" id="info">
-    <p>New Mexico Churches</p>
+<div class="row logo-container">
+    <div id="logo" class="col-lg-4">
+        <div class="row no-pad">
+            <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
+                 class="img-responsive"  alt="Awesome.jpg">
+        </div>
+    </div>         
+
+    <div class="col-lg-offset-4 col-lg-4">
+        <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
+    </div>
 </div>
+
+
+<div class="container bulliten" id="bulletin">
+    <div class="row bulliten">
+
+        <div class="col-lg-4">
+            <h2>St. Michael's Upcoming Events</h2>
+            <h4>News News News</h4>
+            <h6>Contact office for more Info.</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>All Saints Church</h2>
+            <h4> Info Info Info Info</h4>
+            <h6>Contact office for more Info!</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>St. Lukes in the Desert</h2>
+            <h4>Vacation Bible School</h4>
+            <h4>June 27, 2016 - July 1, 2016</h4>
+            <h4>9AM - 1PM</h4>
+            <h4>Come Join us for arts & crafts and activities</h4>
+            <h6>Contact Rev. Inez Velarde @ (505) 635-9026</h6>
+        </div>
+
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="row" id="history">
+    <div class="col-md-4">
+        <h1>St. Michael's Church History</h1>
+        <img src="/lib/img/stMichaels1.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <h2>St. Michael's</h2>
+        <p>Located in Upper Fruitland, New Mexico. </p>
+
+    </div>
+
+    <div class="col-md-4">
+        <h1>All Saints Church History</h1>
+        <img src="/lib/img/allsaint.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <h2>All Saints</h2>
+        <p>Information about the church. A brief paragraph.</p>
+
+    </div>
+
+    <div class="col-md-4">
+        <h1>St. Luke's Church History</h1>
+        <img src="/lib/img/stLukesChurch.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <h2>St Lukes in the Desert</h2>
+        <p>Information about the church. A brief paragraph.</p>
+
+    </div>
+
+
+</div>
+
+
+
 
 <div class="row" id="learn-more">
 

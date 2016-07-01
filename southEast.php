@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php require_once("lib/head-utils.php"); ?>
+    <?php require_once("lib/head-utils.php");?>
     <?php require_once("indexNavBar.php");?>
+
     <!-- Custom styles for this template -->
     <link href="lib/css/stylesSouthEast.css" rel="stylesheet">
-    <title>South East Region</title>
-</head>
 
-<body>
+    <title>South East Region</title>
+
+</head>
 
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -26,23 +27,19 @@
         <div class="item active">
             <img src="/lib/img/gsm1.jpg" alt="...">
             <div class="carousel-caption">
-                <div class="container col-md-11" id="test">
-                    <h1>South East Region </h1>
-                    <p>Arizona and New Mexico Churches</p>
-                    <a href="#learn-more" role="button" class="btn btn-info btn-large">Learn more</a>
-                </div>
+
             </div>
         </div>
         <div class="item">
             <img src="/lib/img/GSMBell.JPG" alt="...">
             <div class="carousel-caption">
-                ...
+
             </div>
         </div>
         <div class="item">
             <img src="/lib/img/stMarks.jpg" alt="...">
             <div class="carousel-caption">
-                ...
+
             </div>
         </div>
         ...
@@ -59,15 +56,118 @@
     </a>
 </div>
 
+<div class="row logo-container">
+    <div id="logo" class="col-lg-4">
+        <div class="row no-pad">
+            <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
+                 class="img-responsive"  alt="Awesome.jpg">
+        </div>
+    </div>
 
-
-<div class="text-center" id="title">
-    <h1>Welcome to the South East Region</h1>
+    <div class="col-lg-offset-4 col-lg-4">
+        <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
+    </div>
 </div>
 
-<div class="text-center" id="info">
-    <p>Arizona and New Mexico Churches</p>
+<div class="container">
+    <div class="text-center">
+        <h1>Welcome to the South East Region</h1>
+        <p>Arizona and New Mexico Churches</p>
+    </div>
 </div>
+
+
+
+<div class="container" id="bulletin">
+    <div class="row">
+
+        <div class="col-lg-4">
+            <h2>St. Josephs Church Upcoming Events</h2>
+            <h4>Morning Prayer: 2 nd Sunday of each month @ 11:30am (English &amp; Navajo)</h4>
+            <h4>Service Type: Gospel in English &amp; Navajo; homily in English &amp; Navajo</h4>
+            <h4>Conducted by Deacon Paula Henson</h4>
+            <h6>Contact GSM office for more Info.</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>Good Shepherd Mission</h2>
+            <h4>Sunday Service: 10:30 a.m.</h4>
+            <h4>Service type: English &amp; Navajo the Gospel</h4>
+            <h4>Conducted by Rev. Cynthia Hizer</h4>
+            <h4>GSM Morning Prayers @9am</h4>
+            <h4>Tuesday - Friday</h4>
+
+            <h2>Month of July:</h2>
+            <h4>Youth Works</h4>
+            <h4>July 8 – 14, 2016: University of Georgia Christian Veterinary Mission</h4>
+            <h4>July 8-14, 2016: Demmer Sabbatical Group</h4>
+            <h4>July 18-21, 2016: Christ Church Cincinnati: VBS @ GSM</h4>
+            <h4>July 25 – 30, 2016: Agape MCC Texas</h4>
+            <h6>Contact GSM office for more Info.</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>St. Marks Church</h2>
+            <h4>Sunday Service: 8am</h4>
+            <h4>Service type: English</h4>
+            <h4>Conducted by Rev. Cynthia Hizer</h4>
+
+            <h2>VBS will be held @ GSM</h2>
+            <h4>Prepare to be outdoors, and to have some fun!</h4>
+            <h4>Last week of July from 2pm to 6pm
+                Snack, Dinner and a take home meal provided!</h4>
+            <h6>Contact GSM office for more Info.</h6>
+        </div>
+
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="row" id="history">
+    <div class="col-md-4">
+        <h1>St. Joesph's Church History</h1>
+        <img src="/lib/img/stjoes.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <h2>St. josephs</h2>
+            <p>St. Joseph in Many Farms Arizona is a house church next to the red bluffs. Gardens grow and sheep
+                and horses graze nearby. The traditional hogan is being outfitted to be the next Episcopal church
+                in Navajoland! We are getting ready to put on a new roof and repair the inside, including a repair
+                to the wood stove, shown in the picture below.  If you would like to partner with St. Joseph, please
+                give us a call. We would be so happy to have partners on this part of the Reservation and with St. Joseph.</p>
+
+    </div>
+
+    <div class="col-md-4">
+        <h1>Good Shepherd Mission History</h1>
+        <img src="/lib/img/gsm1.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <h2>Good Shepherd Mission</h2>
+        <p>Good Shepherd Mission is part of the Episcopal Church of Navajoland area mission. We have three churches:
+            St. Mark’s in Coalmine NM and St. Joseph’s in Many Farms, AZ.
+            A nonprofit organization started in 1880’s as a medical mission to the Navajo.
+            We have 50 acres in this high desert and canyon land. 12 buildings, most of them 100 years old. We
+            incorporate many elements of Navajo spirituality, including our version of the Blessingway Prayer and are a
+            destination for mission groups and retreatants looking for beauty, quiet and harmony with the earth.</p>
+
+    </div>
+
+    <div class="col-md-4">
+        <h1>St. Marks Church History</h1>
+        <img src="/lib/img/stMarks.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <h2>St. Marks</h2>
+        <p>St Mark's is located in Coalmine, New Mexico, a beautiful place nestled in the curve of the mountains,
+            an 8-mile drive from Good Shepherd Mission. Sunday Holy Communion is at 8 a.m. Watch out for lots of
+            cakewalks, busy vacation bible school and a committed core who love their church. Facebook page is St.
+            Marks Church Navajoland.</p>
+
+    </div>
+
+
+</div>
+
+
+
+
 
 <div class="row" id="learn-more">
 
@@ -114,8 +214,6 @@
         </dl>
 
     </div>
-
-
 
 
 
