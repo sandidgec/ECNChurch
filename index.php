@@ -222,7 +222,7 @@
                     infrastructure, providing resistance to the strenuous winds which sweep through the Reservation.
                     Today’s hogans are often built on a concrete slab for durability.<br>
                     <br>
-                    The Financials: The cost of a hogan varies greatly depending on its location. Proximity to
+                    The Financial's: The cost of a hogan varies greatly depending on its location. Proximity to
                     electricity and water, availability of materials and labor, and accessibility for the delivery
                     of them are some of the factors which contribute to variable cost. Thus, we estimate that each 800
                     square foot hogan will cost approximately $40,000 to construct.<br>
@@ -236,6 +236,28 @@
     </div>
 
 
+            <div class="row">
+            
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="circle" id="sms">
+                        <a href="https://shima-of-navajoland.myshopify.com/">
+                            <h3>ShiMa' Soaps</h3>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="circle"  id="cds">
+                            <a href="https://www.facebook.com/cheiidevshop/">
+                                <h3>Cheii's DevShop</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
 
         </div>
     </div>
@@ -246,8 +268,8 @@
     <ol class="breadcrumb">
         <li><a href="index.php">Home</a></li>
         <li><a href="areaMissContact.php">Area Mission Contact</a></li>
-        <li><a href="calendar.php">Calendar</a></li>
-        <li><a href="governance.php"></a></li>
+        <li><a href="Calendar.php">Calendar</a></li>
+        <li><a href="findaChurch.php">Find A Church</a></li>
         <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
         <li class="active"></li>
     </ol>

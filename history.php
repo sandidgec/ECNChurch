@@ -108,14 +108,19 @@
     </div>
 </div>
 
-<div class="footer">
-    <div class="col-xs-6 col-xs-offset-3">
-    <p> Episcopal Church in Navajoland P.O. Box 720 Farmington, NM 87499 </br> Phone: (505) 327-7549 — Main</p>
-    </div>
-</div>
 
 
 
+
+
+    <ol class="breadcrumb">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="areaMissContact.php">Area Mission Contact</a></li>
+        <li><a href="Calendar.php">Calendar</a></li>
+        <li><a href="findaChurch.php">Find A Church</a></li>
+        <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
+        <li class="active"></li>
+    </ol>
 
 </body>
 

@@ -6,6 +6,7 @@
     <title>Missions & Retreats</title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/styleMissRetreat.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -33,8 +34,7 @@
                                     <img src="/lib/img/gsmretreat.jpg" alt="...">
                                     <div class="carousel-caption">
                                         <div class="container col-md-7" id="test">
-                                            <h1>Retreat Centers </h1>
-                                            <p>Episcopal Church In Navajoland</p>
+                                         
                                             <a href="#learn-more" role="button" class="btn btn-info btn-large">Learn more</a>
                                         </div>
                                     </div>
@@ -69,11 +69,10 @@
 
 
                         <div class="row logo-container">
-                            <div id="logo" class="col-lg-4">
-                                <div class="row no-pad">
-                                    <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
-                                         class="img-responsive"  alt="Awesome.jpg">
-                                </div>
+
+                            <div class="col-lg-offset-1 col-lg-10">
+                                <h1 id="large">ECN Retreats and Retreat Centers</h1>
+                                
                             </div>
                         </div>
                     </div>
@@ -125,8 +124,8 @@
 <ol class="breadcrumb">
     <li><a href="index.php">Home</a></li>
     <li><a href="areaMissContact.php">Area Mission Contact</a></li>
-    <li><a href="calendar.php">Calendar</a></li>
-    <li><a href="governance.php"></a></li>
+    <li><a href="Calendar.php">Calendar</a></li>
+    <li><a href="findaChurch.php">Find A Church</a></li>
     <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
     <li class="active"></li>
 </ol>
