@@ -59,41 +59,49 @@
     </a>
 </div>
 
-<div class="row logo-container">
-    <div id="logo" class="col-lg-4">
-        <div class="row no-pad">
-            <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
-                 class="img-responsive"  alt="Awesome.jpg">
+<div>
+    <div class="row logo-container">
+        <div id="logo" class="col-lg-4">
+            <div class="row no-pad">
+                <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
+                     class="img-responsive"  alt="Awesome.jpg">
+            </div>
         </div>
-    </div>
 
-    <div class="col-lg-offset-4 col-lg-4">
-        <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
+
+        <div id="title" class="col-lg-6">
+            <div class="text-center" id="title">
+                <h1>Welcome to the Utah Region</h1>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="container bulletin" id="bulletin">
-    <div class="row bulletin">
 
-        <div class="col-lg-4">
-            <h2>St. Christopher's Bee Project is Happening</h2>
-            <h4>100 Pounds is Ready to be Packaged!</h4>
-            <h6>Contact office for more Information</h6>
+<div>
+    <div class="container bulliten" id="bulliten">
+        <div class="row bulliten">
+
+            <div class="col-lg-4" id="rcorners">
+                <h2>St. Christopher's Bee Project is Happening</h2>
+                <h4>100 Pounds is Ready to be Packaged!</h4>
+                <h6>Contact office for more Information</h6>
+            </div>
+
+            <div class="col-lg-4" id="rcorners">
+                <h2>Staff meeting EVERY Tuesday at 9am, St. Christopher's</h2>
+                <h4></h4>
+                <h6>Contact office for more Information</h6>
+            </div>
+
+            <div class="col-lg-4" id="rcorners">
+                <h2>40th Annual Convocation was a Success!</h2>
+                <h4>Hosted by the San Juan Region @
+                    All Saints Church Farmington, NM</h4>
+                <h6>Thank You For Your Support!</h6>
+            </div>
+
         </div>
-
-        <div class="col-lg-4">
-            <h2>ECN's 40th Annual Convocation was a Success!</h2>
-            <h4>Hosted by the San Juan Region @
-                All Saints Church Farmington, NM</h4>
-            <h6>Thank You For Your Support!</h6>
-        </div>
-
-        <div class="col-lg-4">
-            <h2>Staff meeting "TODAY" at 9am, St. Christopher's</h2>
-            <h4></h4>
-            <h6>Contact office for more Information</h6>
-        </div>
-
     </div>
 </div>
 
@@ -113,7 +121,8 @@
             <div class="thumbnail">
                 <h2>St. Mary's of the Moonlight</h2>
                 <img src="/lib/img/stMarys.jpg" alt="...">
-                <h4> </h4>
+                <h4>In the heart of Monument Valley, on the Utah section of the Navajo Reservation, St. Mary's of the
+                Moonlight is there.</h4>
             </div>
         </div>
 
@@ -122,17 +131,14 @@
                 <div class="thumbnail">
                     <h2>St. John the Baptizer</h2>
                     <img src="/lib/img/stJohns.jpg" alt="...">
-                    <h4></h4>
+                    <h4>The Episcopal church, St. John's the Baptizer, is located in the city of Montezuma Creek. Montezuma
+                    Creek is located in the beautiful state of Utah.</h4>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-
-<div class="text-center" id="title">
-    <h1>Welcome to the Utah Region</h1>
-</div>
 
 <div class="text-center" id="info">
     <p></p>
@@ -195,11 +201,11 @@
 
 <ol class="breadcrumb">
     <li><a href="index.php">Home</a></li>
-    <li><a href="contact.php">Contact</a></li>
-    <li><a href="currentEvents.php">NewsLetter</a></li>
-    <li><a href="governance.php">Calendar</a></li>
-    <li><a href="support.php">Ministries</a></li>
-    <li class="active">Data</li>
+    <li><a href="areaMissContact.php">Area Mission Contact</a></li>
+    <li><a href="Calendar.php">Calendar</a></li>
+    <li><a href="findaChurch.php">Find A Church</a></li>
+    <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
+    <li class="active"></li>
 </ol>
 
 </body>

@@ -20,6 +20,7 @@ body {
 h1 {
     color: white;
     font-size: 50px;
+    text-align: center;
 }
 
 p {
@@ -97,7 +98,22 @@ p {
     border-color: transparent;
 }
 
-.bulletin {
+.bulliten .container {
+    padding-top: 10%;
+
+}
+
+.bulliten .row {
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 10%;
+    border-radius: 25px;
+    border: 2px solid #232323 ;
+    padding: 20px;
+}
+
+#title {
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
