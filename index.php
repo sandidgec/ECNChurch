@@ -5,7 +5,8 @@
     <?php require_once("indexNavBar.php");?>
     <!-- Custom styles for this template -->
     <link href="/lib/css/styleindex.css" rel="stylesheet">
-    
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
     <title>Home</title>
 </head>
 <body>
@@ -108,28 +109,37 @@
         </div>
     </div>
 
-    <div class="container bulliten" id="bulletin">
-        <div class="row bulliten">
+    <div class="container bulletin" id="bulletin">
+        <div class="row bulletin">
 
-            <div class="col-lg-4" id="rcorners">
-                <div id="b">Utah Region's Latest News</div>
+            <div class="col-lg-4" id="dhead">
+                <h3>Utah Region's Latest News</h3>
+            </div>
+
+            <div class="col-lg-4" id="dhead">
+                <h3>S.J. Region's Latest News</h3>
+            </div>
+
+            <div class="col-lg-4" id="dhead">
+                <h3>S.E. Region's Latest News</h3>
+            </div>
+            
+            <div class="col-lg-4">
                 <h2>St. Christopher's Bee Project is Happening</h2>
-                <h4>100 Pounds is Ready to be Packaged!</h4>
+                <h5>100 Pounds is Ready to be Packaged!</h5>
                 <h6>Contact office for more Info.</h6>
             </div>
 
-            <div class="col-lg-4" id="rcorners">
-                <div id="b">S.J. Region's Latest News</div>
+            <div class="col-lg-4">
                 <h2>ECN's 40th Annual Convocation was a Success!</h2>
-                <h4>Hosted by the San Juan Region @
-                    All Saints Church Farmington, NM</h4>
+                <h5>Hosted by the San Juan Region @
+                    All Saints Church Farmington, NM</h5>
                 <h6>Thank You For Your Support!</h6>
             </div>
 
-            <div class="col-lg-4" id="rcorners">
-                <div class="container" id="b">S.E. Region's Latest News</div>
+            <div class="col-lg-4">
                 <h2>St. Marks Church VBS will be held @ GSM</h2>
-                <h4> Prepare to be outdoors, and to have some fun!</h4>
+                <h5> Prepare to be outdoors, and to have some fun!</h5>
                 <h6>Last week of July from 2pm to 6pm
                 Snack, Dinner and a take home meal provided!</h6>
             </div>
@@ -268,7 +278,7 @@
     <ol class="breadcrumb">
         <li><a href="index.php">Home</a></li>
         <li><a href="areaMissContact.php">Area Mission Contact</a></li>
-        <li><a href="Calendar.php">Calendar</a></li>
+        <li><a href="calendarNew.php">Calendar</a></li>
         <li><a href="findaChurch.php">Find A Church</a></li>
         <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
         <li class="active"></li>

@@ -24,7 +24,7 @@
                 <li><a class="label label-info" href="findaChurch.php">Find A Church</a></li>
                 <li><a class="label label-info" href="areaMissContact.php">Staff/Contact Us</a></li>
                 <li><a class="label label-info" href="missionsRetreats.php">Missions/Retreats</a></li>
-                <li><a class="label label-info" href="calendar.php">Calendar</a></li>
+                <li><a class="label label-info" href="calendarNew.php">Calendar</a></li>
                 <li><a href="https://www.facebook.com/EpiscopalChurchInNavajolandecn/?fref=ts" class = "navbar-btn" class="btn-social-icon btn-facebook">
                         <span class="fa fa-facebook-official fa-lg"></span></li></a>
 

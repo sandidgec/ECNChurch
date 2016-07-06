@@ -5,14 +5,16 @@
     <?php require_once("indexNavBar.php"); ?>
     <title>History</title>
     <!-- Custom styles for this template -->
-    <link href="/lib/css/style.css" rel="stylesheet">
+
     <style>
         body {
             background-image: url("/lib/img/historyAndBeliefs.jpg");
             background-size: cover;
             background-repeat: no-repeat;
+            text-align: center;
 
     }
+
         .historyJumbo {
             padding-top: 5px;
         }
@@ -22,9 +24,7 @@
             padding-left: 50px;
             padding-top: 75px;
         }
-        .footer {
-            padding-top: 40px;
-        }
+
         p {
             color: white;
             text-align: center;
@@ -38,9 +38,53 @@
             font-size: 15px;
         }
 
+        .addressinfo {
+            padding-bottom: 100px;
+        }
+        .img-responsive {
+
+            max-width: 50%;
+        }
+        .firstline {
+            padding-top: 0px;
+            padding-bottom: -100px;
+            margin-top: -130px;
+            margin-bottom: -50px;
+        }
+        .pictures img {
+            alignment: center;
+        }
+
+        .thumbnail img {
+            padding: 10px 5px 10px 5px;
+            border: solid;
+            width: 500px;
+            height: 200px;
+        }
+
+        .imaginefirst img {
+            width: 700px;
+            height: 500px;
+            padding-left: 250px;
+            padding-right: 50px;
+        }
+
+        .thumbnail li {
+            text-align: center;
+        }
+
+        header {
+            padding-bottom: 40px;
+            padding-top: 25px;
+        }
+
+
+
     </style>
 </head>
 <body>
+
+
     <div class="logoImage">
         <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png" class="img-responsive" alt="Awesome.jpg">
     </div>
@@ -51,8 +95,8 @@
         </div>
     </div>
     
-    <div class="historycontainer">
-        <div class="col-xs-6 col-xs-offset-3">
+    <div class="row container">
+        <div class="col-xs-6 col-xs-offset-4">
             <div id="accordion" class="panel-group">
 
             <div class="panel panel-default">
@@ -105,23 +149,18 @@
             </div>
 
         </div>
+     </div>
     </div>
-</div>
-
-
-
-
 
 
     <ol class="breadcrumb">
         <li><a href="index.php">Home</a></li>
         <li><a href="areaMissContact.php">Area Mission Contact</a></li>
-        <li><a href="Calendar.php">Calendar</a></li>
+        <li><a href="calendarNew.php">Calendar</a></li>
         <li><a href="findaChurch.php">Find A Church</a></li>
         <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
         <li class="active"></li>
     </ol>
-
 </body>
 
 </html>

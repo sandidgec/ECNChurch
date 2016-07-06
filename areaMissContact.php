@@ -5,7 +5,7 @@
     <?php require_once("indexNavBar.php");?>
     <title>Area Mission Office Contact</title>
     <!-- Custom styles for this template -->
-    <link href="/lib/css/style.css" rel="stylesheet">
+
 
 </head>
 <body>
@@ -15,6 +15,72 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .logoimage {
+        width: 350px;
+        height: 250px;
+        padding-left: 50px;
+        padding-top: 75px;
+    }
+
+    .rotate90 {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    
+    .pictures img {
+        alignment: center;
+    }
+
+    .thumbnail img {
+        padding: 10px, 5px, 10px, 5px;
+        border: solid;
+        width: 500px;
+        height: 200px;
+    }
+
+    .imaginefirst img {
+        width: 700px;
+        height: 500px;
+        padding-left: 250px;
+        padding-right: 50px;
+    }
+
+    .thumbnail li {
+        text-align: center;
+    }
+    
+    body{
+        background-color: darkturquoise;
+        text-align: center;
+    }
+
+    .container {
+        padding-right: 10px;
+        padding-bottom: -50px;
+    }
+    
+    header {
+        padding-bottom: 40px;
+        padding-top: 25px;
+    }
+
+    .btn-lg {
+        font-size: 18px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+        width: 150px;
+        padding-bottom: -100px;
+    }
+
+
+
+
+
+
+
     #bg {
         background-position: center top;
         padding: 20px 90px 20px 90px;
@@ -265,7 +331,7 @@
                                 <div class="col-lg-4">
                                     <div class="thumbnail">
 
-                                        <img src="/lib/img/lily.JPG">
+                                        <img src="/lib/img/lillie.JPG" class="rotate90">
                                     </div>
                                     <p>
                                         E-Mail: teabimasaani@yahoo.com<br>
@@ -475,10 +541,10 @@
         <div class="container">
 
         <header>
-            <h1>Have any questions?</h1>
+            <h1 id="questions">Have any questions?</h1>
         </header>
 
-        <form method="post" action="contact.php" class="col-md-6 col-md-offset-3" id="contactForm" name="contactForm">
+        <form method="post" action="areaMissContact.php" class="col-md-6 col-md-offset-3" id="contactForm" name="contactForm">
             <div class="form-group">
                 <label for="email">Email address</label>
                 <input type="email" class="form-control" id="email" name="email" placeholder="Email">
@@ -501,7 +567,7 @@
 <ol class="breadcrumb">
     <li><a href="index.php">Home</a></li>
     <li><a href="areaMissContact.php">Area Mission Contact</a></li>
-    <li><a href="Calendar.php">Calendar</a></li>
+    <li><a href="calendarNew.php">Calendar</a></li>
     <li><a href="findaChurch.php">Find A Church</a></li>
     <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
     <li class="active"></li>

@@ -56,9 +56,7 @@ body {
 <!-- src: http://subtlepatterns.com/?p=1045 -->
     background: url('dark_geometric.png');
 }
-.b {
-    background-color: #333333;
-}
+
 .jumbotron {
     background-color: teal;
 }
@@ -86,7 +84,6 @@ body {
 #flower {
     background-color: darkslategray;
 }
-
 .circle {
     width: 175px;
     height: 175px;
@@ -108,18 +105,26 @@ body {
 #text {
     text-align: left;
 }
-.bulliten .container {
+.bulletin .container {
     padding-top: 10%;
 }
 
-.bulliten .row {
+.bulletin .row {
     background-color: white;
     color: black;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quattrocento', serif;
     margin-top: 10%;
     border-radius: 25px;
     border: 2px solid #232323;
     padding: 20px;
+}
+#dhead {
+    background-color: teal;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    border-radius: 20px;
+    border: 1px solid #232323;
 }
 
 #logoimg {
