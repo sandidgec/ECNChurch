@@ -5,35 +5,17 @@
     <?php require_once("indexNavBar.php");?>
     <!-- Custom styles for this template -->
     <link href="/lib/css/styleFindaChurch.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+
+
 
     <title>Find a Church</title>
 </head>
 <body>
-
-<div class="row logo-container">
-    <div id="logo" class="col-lg-4">
-        <div class="row no-pad">
-            <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
-                     class="img-responsive"  alt="Awesome.jpg">
-        </div>
-    </div>
-    <div class="col-lg-8">
-        <div class="row no-pad">
-            <img src="/lib/img/allchurchmap.PNG"
-                 class="img-responsive" alt="Awesome.jpg">
-        </div>
-    </div>
-</div>
-
-
-
-
-
 <div id="bg">
     <div id="search-container">
         <div id="search-bg"></div>
         <div id="search">
-
 
                 <div class="historyJumbo">
                     <div class="firstline">

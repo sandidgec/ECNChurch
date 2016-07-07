@@ -168,6 +168,13 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        Utah Region Council Mtg<!--UTR---------------->
+                                    </a>
+                                </div>
+                            </div>
                         </li>
                         <li class="day">
                             <div class="date">8</div>
@@ -450,6 +457,14 @@
                         </li>
                         <li class="day">
                             <div class="date">30</div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        Leon's farwell Dinner<!--UTR---------------->
+                                    </a>
+                                </div>
+                            </div>
+
                         </li>
                         <li class="day">
                             <div class="date">31</div>
@@ -463,7 +478,7 @@
                             <div class="event-sjr">
                                 <div class="event-desc">
                                     <a href="utahRegion.php">
-                                        Combined Service @ 10AM St. Lukes Rev. Inez Retirement Dinner<!--SJR---------------->
+                                        Combined Service @ 10AM St. Luke's Rev. Inez Retirement Dinner<!--SJR---------------->
                                     </a>
                                 </div>
                             </div>

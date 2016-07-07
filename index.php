@@ -96,8 +96,8 @@
         </a>
     </div>
 
-    <div class="row logo-container">
-        <div id="logo" class="col-lg-4">
+    <div class="row logo-container" id="indexLogo">
+        <div class="col-lg-4">
             <div class="row no-pad">
                 <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
                                            class="img-responsive"  alt="Awesome.jpg">

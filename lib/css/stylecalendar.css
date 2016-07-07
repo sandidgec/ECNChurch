@@ -1,6 +1,10 @@
 body{
     font-family: Tahoma;
     background-color: gainsboro;
+    text-align: center;
+}
+header {
+    padding-top: 100px;
 }
 #calendar {
     width: 100%;

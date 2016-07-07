@@ -26,6 +26,7 @@
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                             </ol>
 
                             <!-- Wrapper for slides -->
@@ -39,6 +40,15 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="item">
+                                    <img src="/lib/img/hospitality.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        ...
+                                    </div>
+                                </div>
+
+
                                 <div class="item">
                                     <img src="/lib/img/stchrishall.jpg" alt="...">
                                     <div class="carousel-caption">
@@ -104,7 +114,7 @@
                     <div class="col-lg-4" id="programs">
                         <h2>Year Around Programs</h2>
                         <div class="thumbnail">
-                        <img src="/lib/img/summerprogram.jpg" alt="...">
+                            <img src="/lib/img/summerprogram.jpg" alt="...">
                         </div>
                         <h4>Prayer, Meditation, and Singing</h4>
                         <h6>Bible Study, Morning Prayer, Navajo Song and Prayer are just a few programs offered. Each location has different needs and environments for programs, so call or visit the region pages and facebook pages of the area you would like more information about. </h6>

@@ -1,16 +1,15 @@
 body{
-    background-image: url("/lib/img/trees.JPG");
+    background-image: url("/lib/img/findback.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Quattrocento', serif;
+}
+h1 {
+    color: darkturquoise;
 }
 .historyJumbo {
-    padding-top: 5px;
-}
-.logoImage {
-    width: 350px;
-    height: 350px;
-    padding-left: 150px;
-    padding-top: 75px;
+    padding: 0;
 }
 .find {
     text-align: left;
@@ -89,5 +88,5 @@ body {
 }
 
 .firstline {
-    padding-top: 100px;
+    padding-top: 50px;
 }

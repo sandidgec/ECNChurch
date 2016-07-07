@@ -11,7 +11,7 @@
 <body>
 <style>
     body {
-        background-image: url("/lib/img/staffback.JPG");
+        background-image: url("/lib/img/clergybackg.JPG");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -35,7 +35,7 @@
     }
 
     .thumbnail img {
-        padding: 10px, 5px, 10px, 5px;
+        padding: 10px 5px 10px 5px;
         border: solid;
         width: 500px;
         height: 200px;
@@ -75,11 +75,9 @@
         padding-bottom: -100px;
     }
 
-
-
-
-
-
+    #questions {
+        color: darkturquoise;
+    }
 
     #bg {
         background-position: center top;
@@ -546,11 +544,11 @@
 
         <form method="post" action="areaMissContact.php" class="col-md-6 col-md-offset-3" id="contactForm" name="contactForm">
             <div class="form-group">
-                <label for="email">Email address</label>
+                <label for="email" id="questions">Email address</label>
                 <input type="email" class="form-control" id="email" name="email" placeholder="Email">
             </div>
             <div class="form-group">
-                <label for="message">Message</label>
+                <label for="message" id="questions">Message</label>
                 <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message"></textarea>
             </div>
             <button class="btn btn-success" id="submit" name="submit" type="submit">Send</button>
@@ -561,7 +559,7 @@
 
     </div>
 </section>
-    <div class="addressinfo">
+    <div class="addressinfo" id="questions">
     <p>Episcopal Church in Navajoland P.O. Box 720 Farmington, NM 87499 Phone: (505) 327-7549 — Main</p>
     </div>
 <ol class="breadcrumb">
