@@ -7,6 +7,9 @@
     <!-- Custom styles for this template -->
     <link href="lib/css/stylesSouthEast.css" rel="stylesheet">
 
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
     <title>South East Region</title>
 
 </head>
@@ -56,7 +59,7 @@
     </a>
 </div>
 
-<div class="row logo-container">
+<div class="row ecn-container">
     <div id="logo" class="col-lg-4">
         <div class="row no-pad">
             <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
@@ -77,50 +80,62 @@
 </div>
 
 
+        <div class="container bulletin" id="bulletin">
+            <div class="row bulletin">
 
-<div class="container" id="bulletin">
-    <div class="row">
+                <div class="col-lg-4" id="dhead">
+                    <h3>St. Josephs Latest News</h3>
+                </div>
 
-        <div class="col-lg-4">
-            <h2>St. Josephs Church Upcoming Events</h2>
-            <h4>Morning Prayer: 2 nd Sunday of each month @ 11:30am (English &amp; Navajo)</h4>
-            <h4>Service Type: Gospel in English &amp; Navajo; homily in English &amp; Navajo</h4>
-            <h4>Conducted by Deacon Paula Henson</h4>
-            <h6>Contact GSM office for more Info.</h6>
+                <div class="col-lg-4" id="dhead">
+                    <h3>Good Shepherd Latest News</h3>
+                </div>
+
+                <div class="col-lg-4" id="dhead">
+                    <h3>Saint Marks Latest News</h3>
+                </div>
+
+                <div class="col-lg-4">
+                    <h2>St. Josephs Church Upcoming Events</h2>
+                    <h4>Morning Prayer: 2 nd Sunday of each month @ 11:30am (English &amp; Navajo)</h4>
+                    <h4>Service Type: Gospel in English &amp; Navajo; homily in English &amp; Navajo</h4>
+                    <h4>Conducted by Deacon Paula Henson</h4>
+                    <h6>Contact GSM office for more Info.</h6>
+                </div>
+
+                <div class="col-lg-4">
+                    <h2>Good Shepherd Mission</h2>
+                    <h4>Sunday Service: 10:30 a.m.</h4>
+                    <h4>Service type: English &amp; Navajo the Gospel</h4>
+                    <h4>Conducted by Rev. Cynthia Hizer</h4>
+                    <h4>GSM Morning Prayers @9am</h4>
+                    <h4>Tuesday - Friday</h4>
+
+                    <h2>Month of July:</h2>
+                    <h4>Youth Works</h4>
+                    <h4>July 8 – 14, 2016: University of Georgia Christian Veterinary Mission</h4>
+                    <h4>July 8-14, 2016: Demmer Sabbatical Group</h4>
+                    <h4>July 18-21, 2016: Christ Church Cincinnati: VBS @ GSM</h4>
+                    <h4>July 25 – 30, 2016: Agape MCC Texas</h4>
+                    <h6>Contact GSM office for more Info.</h6>
+                </div>
+
+                <div class="col-lg-4">
+                    <h2>St. Marks Church</h2>
+                    <h4>Sunday Service: 8am</h4>
+                    <h4>Service type: English</h4>
+                    <h4>Conducted by Rev. Cynthia Hizer</h4>
+
+                    <h2>VBS will be held @ GSM</h2>
+                    <h4>Prepare to be outdoors, and to have some fun!</h4>
+                    <h4>Last week of July from 2pm to 6pm
+                        Snack, Dinner and a take home meal provided!</h4>
+                    <h6>Contact GSM office for more Info.</h6>
+                </div>
+
+            </div>
         </div>
 
-        <div class="col-lg-4">
-            <h2>Good Shepherd Mission</h2>
-            <h4>Sunday Service: 10:30 a.m.</h4>
-            <h4>Service type: English &amp; Navajo the Gospel</h4>
-            <h4>Conducted by Rev. Cynthia Hizer</h4>
-            <h4>GSM Morning Prayers @9am</h4>
-            <h4>Tuesday - Friday</h4>
-
-            <h2>Month of July:</h2>
-            <h4>Youth Works</h4>
-            <h4>July 8 – 14, 2016: University of Georgia Christian Veterinary Mission</h4>
-            <h4>July 8-14, 2016: Demmer Sabbatical Group</h4>
-            <h4>July 18-21, 2016: Christ Church Cincinnati: VBS @ GSM</h4>
-            <h4>July 25 – 30, 2016: Agape MCC Texas</h4>
-            <h6>Contact GSM office for more Info.</h6>
-        </div>
-
-        <div class="col-lg-4">
-            <h2>St. Marks Church</h2>
-            <h4>Sunday Service: 8am</h4>
-            <h4>Service type: English</h4>
-            <h4>Conducted by Rev. Cynthia Hizer</h4>
-
-            <h2>VBS will be held @ GSM</h2>
-            <h4>Prepare to be outdoors, and to have some fun!</h4>
-            <h4>Last week of July from 2pm to 6pm
-                Snack, Dinner and a take home meal provided!</h4>
-            <h6>Contact GSM office for more Info.</h6>
-        </div>
-
-    </div>
-</div>
 
 <br>
 <br>
@@ -195,7 +210,7 @@
         <h6>Fort Defiance, AZ 86504</h6>
 
 
-                <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
+                <a href="https://www.facebook.com/goodshepherdmissionnavajonation/?fref=ts"> <i class="fa fa-facebook-official fa-2x"></i></a>
 
 
         <dl id="space">
@@ -223,7 +238,7 @@
         <h6>Office No. (928) 729-2322</h6>
         <h6>P.O. Box 618</h6>
         <h6>Fort Defiance, AZ 86504</h6>
-        <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
+        <a href="https://www.facebook.com/St-Marks-Church-Navajo-Land-285168183860/"> <i class="fa fa-facebook-official fa-2x"></i></a>
 
         <dl>
             <dt>Rev. Mother Cynthia Hizer</dt>
@@ -236,7 +251,7 @@
     </div>
 </div>
 
-<ol class="breadcrumb">
+<ol class="breadcrumb text-center">
     <li><a href="index.php">Home</a></li>
     <li><a href="contact.php">Contact</a></li>
     <li><a href="currentEvents.php">NewsLetter</a></li>

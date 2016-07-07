@@ -5,6 +5,8 @@
     <?php require_once("indexNavBar.php");?>
     <!-- Custom styles for this template -->
     <link href="lib/css/styleSanJuan.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
     <title>San Juan Region</title>
 </head>
 
@@ -74,23 +76,33 @@
 </div>
 
 
-<div class="container bulliten" id="bulletin">
-    <div class="row bulliten">
+
+<div class="container bulletin" id="bulletin">
+    <div class="row bulletin">
+
+        <div class="col-lg-4" id="dhead">
+            <h3>St. Michael's Latest News</h3>
+        </div>
+
+        <div class="col-lg-4" id="dhead">
+            <h3>All Saints Latest News</h3>
+        </div>
+
+        <div class="col-lg-4" id="dhead">
+            <h3>St. Luke's Latest News</h3>
+        </div>
 
         <div class="col-lg-4">
-            <h2>St. Michael's Upcoming Events</h2>
             <h4>News News News</h4>
             <h6>Contact office for more Info.</h6>
         </div>
 
         <div class="col-lg-4">
-            <h2>All Saints Church</h2>
             <h4> Info Info Info Info</h4>
             <h6>Contact office for more Info!</h6>
         </div>
 
         <div class="col-lg-4">
-            <h2>St. Lukes in the Desert</h2>
             <h4>Vacation Bible School</h4>
             <h4>June 27, 2016 - July 1, 2016</h4>
             <h4>9AM - 1PM</h4>
@@ -100,6 +112,7 @@
 
     </div>
 </div>
+
 
 <br>
 <br>
@@ -124,7 +137,7 @@
     <div class="col-md-4">
         <h1>St. Luke's Church History</h1>
         <img src="/lib/img/stLukesChurch.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
-        <h2>St Lukes in the Desert</h2>
+        <h2>St Luke's in the Desert</h2>
         <p>Information about the church. A brief paragraph.</p>
 
     </div>
@@ -182,7 +195,7 @@
 
 
     <div class="col-lg-4">
-        <h3>St. Lukes In The Desert</h3>
+        <h3>St. Luke's In The Desert</h3>
         <h6>Carson, New Mexico</h6>
         <h6>P.O. Box 720</h6>
         <h6>Farmington, NM 87401</h6>
@@ -197,7 +210,7 @@
     </div>
 </div>
 
-<ol class="breadcrumb">
+<ol class="breadcrumb text-center">
     <li><a href="index.php">Home</a></li>
     <li><a href="contact.php">Contact</a></li>
     <li><a href="currentEvents.php">NewsLetter</a></li>

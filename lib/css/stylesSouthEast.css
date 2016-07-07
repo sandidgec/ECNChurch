@@ -28,14 +28,38 @@ body {
 }
 
 
-#bulletin {
-    background-color: white;
+.bulletin .container {
+    padding-top: 10%;
 }
+
+.bulletin .row {
+    background-color: white;
+    color: black;
+    font-family: 'Quattrocento', serif;
+    margin-top: 0%;
+    border-radius: 25px;
+    border: 2px solid #232323 ;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#dhead {
+    background-color: teal;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    border-radius: 20px;
+    border: 1px solid #232323 ;
+    text-align: center;
+}
+
 
 #history {
     padding-top: 35px;
     padding-bottom: 25px;
     background-color: teal;
+    text-align: center;
 }
 
 h1 {
@@ -88,15 +112,23 @@ dd {
     color: darkturquoise;
 }
 
-.logo-container {
+.ecn-container {
     position: absolute;
     top: 25px;
     left: 25px;
-    width: 100%;
+    width: 50%;
+    height: 50%;
     padding-top: 5%;
     display: flex;
     align-items: center;
+
 }
-.logo-container .btn {
+.ecn-container .btn {
     background-color: black;
+    margin-left: 600px;
+}
+
+
+#learn-more {
+    text-align: center;
 }
