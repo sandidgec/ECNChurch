@@ -5,7 +5,9 @@
     <?php require_once("indexNavBar.php");?>
     <!-- Custom styles for this template -->
     <link href="lib/css/styleSanJuan.css" rel="stylesheet">
-    <title>San Juan Region</title>
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <title>Utah Region</title>
 </head>
 
 <body>
@@ -78,26 +80,40 @@
 
 
 
-<div>
-    <div class="container bulliten" id="bulliten">
-        <div class="row bulliten">
-            <div class="col-lg-4" id="rcorners">
-                <h2>St. Christopher's Bee Project is Happening</h2>
-                <h4>100 Pounds is Ready to be Packaged!</h4>
-                <h6>Contact office for more Information</h6>
-            </div>
-            <div class="col-lg-4" id="rcorners">
-                <h2>Staff meeting EVERY Tuesday at 9am, St. Christopher's</h2>
-                <h4></h4>
-                <h6>Contact office for more Information</h6>
-            </div>
-            <div class="col-lg-4" id="rcorners">
-                <h2>40th Annual Convocation was a Success!</h2>
-                <h4>Hosted by the San Juan Region @
-                    All Saints Church Farmington, NM</h4>
-                <h6>Thank You For Your Support!</h6>
-            </div>
+<div class="container bulletin" id="bulletin">
+    <div class="row bulletin">
+
+        <div class="col-lg-4" id="dhead">
+            <h3>St. Christopher's</h3>
         </div>
+
+        <div class="col-lg-4" id="dhead">
+            <h3>St. Mary's of the Moonlight</h3>
+        </div>
+
+        <div class="col-lg-4" id="dhead">
+            <h3>St. John's the Baptizer</h3>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>St. Christopher's Bee Project is Happening</h2>
+            <h5>100 Pounds is Ready to be Packaged!</h5>
+            <h6>Contact office for more Info.</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>ECN's 40th Annual Convocation was a Success!</h2>
+            <h5>Hosted by the San Juan Region @
+                All Saints Church Farmington, NM</h5>
+            <h6>Thank You For Your Support!</h6>
+        </div>
+
+        <div class="col-lg-4">
+            <h2>Staff meeting EVERY Tuesday at 9am, St. Christopher's</h2>
+            <h5>St. Marys and St. John's are welcomed to attend</h5>
+            <h6>Contact office for more Information</h6>
+        </div>
+
     </div>
 </div>
 
@@ -107,7 +123,7 @@
 
 <div class="row" id="history">
     <div class="col-md-4">
-        <h1>St.Christopher History</h1>
+        <h1>St. Christopher History</h1>
         <img src="/lib/img/stChris1943.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Christophers</h2>
         <p>St. Christopher's in Bluff, Utah was built in 1943 . It's located 1.7 miles east of the Bluff on Utah
@@ -122,7 +138,7 @@
             A few miles west of the Oljato trading post at Monument Valley, 60 miles south of Bluff, on the Arizona border.</p>
     </div>
     <div class="col-md-4">
-        <h1>St. John the Baptizer</h1>
+        <h1>St. John the Baptizer History</h1>
         <img src="/lib/img/stJohns1965.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. John the Baptizer</h2>
         <p>The Episcopal church, St. John the Baptizer, is located in the city of Montezuma Creek. Montezuma
