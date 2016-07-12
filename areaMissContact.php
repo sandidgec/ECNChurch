@@ -15,9 +15,9 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .logoimage {
-        width: 350px;
-        height: 250px;
+    .logoImage {
+        width: 200px;
+        height: 125px;
         padding-left: 50px;
         padding-top: 75px;
     }
@@ -35,19 +35,26 @@
     }
 
     .thumbnail img {
-        padding: 10px 5px 10px 5px;
         border: solid;
-        width: 500px;
+        width: 300px;
         height: 200px;
+        background-color: #666666;
+        border-color: #666666;
+        color: #666666;
     }
-
-    .imaginefirst img {
-        width: 700px;
-        height: 500px;
-        padding-left: 250px;
-        padding-right: 50px;
+    #clergy {
+        border: solid;
+        width: 200px;
+        height: 155px;
+        background-color: #666666;
+        border-color: #666666;
+        color: #666666;
     }
-
+    #clergy img {
+        width: 200px;
+        height: 146px;
+        text-align: center;
+    }
     .thumbnail li {
         text-align: center;
     }
@@ -129,7 +136,7 @@
     * {margin: 0; padding: 0;}
 </style>
 
-    <div class="logoimage">
+    <div class="logoImage">
         <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png" class="img-responsive" alt="Awesome.jpg">
     </div>
     <div class="container">
@@ -156,56 +163,56 @@
                         <div id="search">
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="amStaff">
                                         <img src="/lib/img/dave2.jpg">
                                     </div>
                                     <p>
+                                        Rt. Rev. David E. Bailey<br>
                                         Bishop of Navajoland Area Mission
-                                        Rt. Rev. David E. Bailey
                                     </p>
                                 </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="amStaff">
                                         <img src="/lib/img/chan.JPG">
                                     </div>
                                     <p>
+                                        Rev. Chan Osborn de Anaya<br>
                                         Cannon Missioner for ECN
-                                        Rev. Chan Osborn de Anaya
                                     </p>
                                 </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="amStaff">
                                         <img src="/lib/img/cat.jpg">
                                     </div>
                                     <p>
+                                        Rev. Cathlena Plummer<br>
                                         Priest In Charge-All Saints
-                                        Rev. Cathlena Plummer
                                     </p>
                                 </div>
-                                <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                <div class="col-lg-4" >
+                                    <div class="thumbnail" id="amStaff">
                                         <img src="/lib/img/halana.jpg">
                                     </div>
                                     <p>
-                                       Bookkeeper
-                                        Halena Begay
+                                        Halena Begay<br>
+                                        Bookkeeper
                                     </p>
                                 </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="amStaff">
                                         <img src="/lib/img/elliot.jpg">
                                     </div>
                                     <p>
-                                    Elliot Mason
+                                    Elliot Mason<br>
                                         Maintenance
                                     </p>
                                 </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="amStaff">
                                         <img src="/lib/img/floyd.jpg">
                                     </div>
                                     <p>
-                                        Floyd Dawes
+                                        Floyd Dawes<br>
                                         Maintenance
                                     </p>
                                 </div>
@@ -222,7 +229,7 @@
                         <div id="search">
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="clergy">
                                         <img src="/lib/img/chan.JPG">
                                     </div>
                                     <p>
@@ -251,8 +258,16 @@
                         <div id="search">
 
                             <div class="row">
+
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rt. Rev. David E. Bailey</h3>
+                                    I was the rector of St. Stephens Parish in Phoenix, AZ when I became involved with the Episcopal Church in Navajoland. During that time I met people of Navajoland in my position in Coalition 14. I also developed a retreat center in the Phoenix area that held 60 beds. When Families from Navajoland would come into town for advanced medical treatment, they often were in need of a place to stay where they can sleep and cook. They were offered the retreat center free of charge if there were no retreats booked.
+                                    Then in 1994, the Presiding Bishop appointed me as part-time administrative mentor for Bishop Steven Plummer. I would work with Bishop Plummer for 5-6 weeks a year.
+                                    In my youth, i loved to down hill ski. My other hobbies are reading, golf, hiking and participating in 5ks.
+                                    I am really honored to be serving in Navajoland. I am excited about what we have accomplished and equally excited about our future.
+                                </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="clergy">
 
                                         <img src="/lib/img/dave.JPG">
                                     </div>
@@ -260,10 +275,6 @@
                                         E-Mail: ecndbailey@gmail.com<br>
                                         Phone: (505) 327-7549
                                     </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rt. Rev. David E. Bailey</h3>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>
@@ -277,7 +288,7 @@
 
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="clergy">
 
                                         <img src="/lib/img/pat.JPG">
                                     </div>
@@ -301,8 +312,13 @@
                         <div id="search">
 
                             <div class="row">
+
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rev. Cornelia Eaton</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
+                                </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="clergy">
 
                                         <img src="/lib/img/cornelia.JPG">
                                     </div>
@@ -310,10 +326,6 @@
                                         Contact ECN Office<br>
                                         Phone: (505) 327-7549
                                     </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rev. Cornelia Eaton</h3>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>
@@ -327,8 +339,7 @@
 
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
-
+                                    <div class="thumbnail" id="clergy">
                                         <img src="/lib/img/lillie.JPG" class="rotate90">
                                     </div>
                                     <p>
@@ -352,8 +363,14 @@
                         <div id="search">
 
                             <div class="row">
+
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rev. Deacon Paula Henson</h3>
+                                    I have been part of the church of many many years. I was baptized here in 1959 at Good Shepherd Mission and now I am a parish administrator her at GSM.  I attended the Deacons Formation Academy in 2010. I attended the academy for over a year to become a Deacon. I was Ordained as Deacon in 2011, and started working in 2011. I serve St. Josephs Church in Many Farms, Arizona on the second Sunday of every month since 2011. My job here at GSM is mostly administration work and make sure the church is ready for services of many kinds. I also lead morning prayer Tuesday thru Friday and am available every Sunday for services. I also assist with hospitality work.
+                                    In order for  to keep myself in balance and in harmony, i do various arts and crafts with yarn. Some things i make are kleenex boxes, crosses.
+                                </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="clergy">
 
                                         <img src="/lib/img/Paula.PNG">
                                     </div>
@@ -361,11 +378,6 @@
                                         E-Mail: officegoodshepherdmission@gmail.com<br>
                                         Phone: (928) 729-2322
                                     </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rev. Deacon Paula Henson</h3>
-                                    I have been part of the church of many many years. I was baptized here in 1959 at Good Shepherd Mission and now I am a parish administrator her at GSM.  I attended the Deacons Formation Academy in 2010. I attended the academy for over a year to become a Deacon. I was Ordained as Deacon in 2011, and started working in 2011. I serve St. Josephs Church in Many Farms, Arizona on the second Sunday of every month since 2011. My job here at GSM is mostly administration work and make sure the church is ready for services of many kinds. I also lead morning prayer Tuesday thru Friday and am available every Sunday for services. I also assist with hospitality work.
-                                    In order for  to keep myself in balance and in harmony, i do various arts and crafts with yarn. Some things i make are kleenex boxes, crosses.
                                 </div>
                             </div>
                         </div>
@@ -379,7 +391,7 @@
 
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="clergy">
 
                                         <img src="/lib/img/cynthia.jpg">
                                     </div>
@@ -405,19 +417,19 @@
                         <div id="search">
 
                             <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="thumbnail">
 
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rev. Cathrine Plummer</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="thumbnail" id="clergy">
                                         <img src="/lib/img/catsmom.JPG">
                                     </div>
                                     <p>
                                         St. Mary's Office<br>
                                         Phone: (435) 727-0200
                                     </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rev. Cathrine Plummer</h3>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>
@@ -431,8 +443,7 @@
 
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
-
+                                    <div class="thumbnail" id="clergy">
                                         <img src="/lib/img/cat.jpg">
                                     </div>
                                     <p>
@@ -455,8 +466,14 @@
                         <div id="search">
 
                             <div class="row">
+
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rev. Deacon Leon Sampson</h3>
+                                    I was raised here on St. Christopher's grounds. I sat here in the same pews as a child and live in the same house I grew up in.  I'm allowing my family to be here to  experience the exact same thing I went through as a kid, Its important to understand that my parents had the same life cycle as I have here now, and my kids will also enjoy the same benefits of being here. I was raised here, grew up here and have a passion for being here. My mission is to give back to the youth. Get them involved in the church, so they can remember their experiences and come back later.
+                                    I will go off to Virginia for seminary in august, and will be able to come back in 3 years as a priest and continue to serve the people as a priest and help develop more of the projects.
+                                </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="clergy">
 
                                         <img src="/lib/img/leon.JPG">
                                     </div>
@@ -464,11 +481,6 @@
                                         E-Mail: sampsonl74@yahoo.com<br>
                                         Phone:  (435)-444-0485
                                     </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rev. Deacon Leon Sampson</h3>
-                                    I was raised here on St. Christopher's grounds. I sat here in the same pews as a child and live in the same house I grew up in.  I'm allowing my family to be here to  experience the exact same thing I went through as a kid, Its important to understand that my parents had the same life cycle as I have here now, and my kids will also enjoy the same benefits of being here. I was raised here, grew up here and have a passion for being here. My mission is to give back to the youth. Get them involved in the church, so they can remember their experiences and come back later.
-                                    I will go off to Virginia for seminary in august, and will be able to come back in 3 years as a priest and continue to serve the people as a priest and help develop more of the projects.
                                 </div>
                             </div>
                         </div>
@@ -482,7 +494,7 @@
 
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="clergy">
 
                                         <img src="/lib/img/carol.png">
                                     </div>
@@ -506,8 +518,13 @@
                         <div id="search">
 
                             <div class="row">
+
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rev. Inez Velarde</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
+                                </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail">
+                                    <div class="thumbnail" id="clergy">
 
                                         <img src="/lib/img/inez.PNG">
                                     </div>
@@ -515,10 +532,6 @@
                                         Contact ECN Office<br>
                                         Phone: (505) 327-7549
                                     </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rev. Inez Velarde</h3>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
                                 </div>
                             </div>
                         </div>

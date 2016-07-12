@@ -251,11 +251,16 @@
                             <h3>
                                 <ul>
                                     <li>
-                                        “The Episcopal Church welcomes all who worship Jesus Christ, in 109 dioceses and three regional areas in 17 nations.  The Episcopal Church is a member province of the worldwide Anglican Communion.”
+                                        We had a transition session about how the congregation would take on roles when Rev. Deacon Leon leaves for Seminary. Talked about who would take on different responsibilities.
                                     </li>
                                     <br>
                                     <li>
-                                        In the Navajo creation story, the Holy People gave Spider Woman the gift of weaving the web of the universe. When the Holy People saw that Spider Woman had learned to use her gift, they visited her again and taught her how to build the loom that would be used by the Navajo (Dine) to weave beauty.
+                                        Provided information about a biking group that will spend some time on grounds. The group of 29 cyclist will be biking from North Carolina to Los Angeles
+                                        while raising funds for various organizations. They will be donating some funds to Hud Homes, Design Build Bluff. We petition to have a building built on Mission Grounds, an eco friendly green house
+                                    </li>
+                                    <br>
+                                    <li>
+                                        ECW will put in time to help maintain the beauty of St. Christopher's grounds by planting flowers.
                                     </li>
                                     <br>
                                     <li>
