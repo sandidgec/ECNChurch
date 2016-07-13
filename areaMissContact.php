@@ -156,72 +156,39 @@
         <div id="search-container">
             <div id="search-bg"></div>
             <div id="search">
-                <h1>Area Mission Staff</h1>
+
+            <h1>The Episcopal Church in Navajoland Missioners</h1>
+
+
                 <div id="bg">
                     <div id="search-container">
                         <div id="search-bg"></div>
                         <div id="search">
+
                             <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="amStaff">
-                                        <img src="/lib/img/dave2.jpg">
-                                    </div>
-                                    <p>
-                                        Rt. Rev. David E. Bailey<br>
-                                        Bishop of Navajoland Area Mission
-                                    </p>
+
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rt. Rev. David E. Bailey</h3>
+                                    I was the rector of St. Stephens Parish in Phoenix, AZ when I became involved with the Episcopal Church in Navajoland. During that time I met people of Navajoland in my position in Coalition 14. I also developed a retreat center in the Phoenix area that held 60 beds. When Families from Navajoland would come into town for advanced medical treatment, they often were in need of a place to stay where they can sleep and cook. They were offered the retreat center free of charge if there were no retreats booked.
+                                    Then in 1994, the Presiding Bishop appointed me as part-time administrative mentor for Bishop Steven Plummer. I would work with Bishop Plummer for 5-6 weeks a year.
+                                    In my youth, i loved to down hill ski. My other hobbies are reading, golf, hiking and participating in 5ks.
+                                    I am really honored to be serving in Navajoland. I am excited about what we have accomplished and equally excited about our future.
                                 </div>
                                 <div class="col-lg-4">
-                                    <div class="thumbnail" id="amStaff">
-                                        <img src="/lib/img/chan.JPG">
+                                    <div class="thumbnail" id="clergy">
+
+                                        <img src="/lib/img/dave.JPG">
                                     </div>
                                     <p>
-                                        Rev. Chan Osborn de Anaya<br>
-                                        Cannon Missioner for ECN
-                                    </p>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="amStaff">
-                                        <img src="/lib/img/cat.jpg">
-                                    </div>
-                                    <p>
-                                        Rev. Cathlena Plummer<br>
-                                        Priest In Charge-All Saints
-                                    </p>
-                                </div>
-                                <div class="col-lg-4" >
-                                    <div class="thumbnail" id="amStaff">
-                                        <img src="/lib/img/halana.jpg">
-                                    </div>
-                                    <p>
-                                        Halena Begay<br>
-                                        Bookkeeper
-                                    </p>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="amStaff">
-                                        <img src="/lib/img/elliot.jpg">
-                                    </div>
-                                    <p>
-                                    Elliot Mason<br>
-                                        Maintenance
-                                    </p>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="amStaff">
-                                        <img src="/lib/img/floyd.jpg">
-                                    </div>
-                                    <p>
-                                        Floyd Dawes<br>
-                                        Maintenance
+                                        E-Mail: ecndbailey@gmail.com<br>
+                                        Phone: (505) 327-7549
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        </div>
                     </div>
+                </div>
 
-            <h1>The Episcopal Church in Navajoland Clergy</h1>
 
                 <div id="bg">
                     <div id="search-container">
@@ -252,34 +219,101 @@
                     </div>
                 </div>
 
+
                 <div id="bg">
                     <div id="search-container">
                         <div id="search-bg"></div>
                         <div id="search">
 
                             <div class="row">
-
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rt. Rev. David E. Bailey</h3>
-                                    I was the rector of St. Stephens Parish in Phoenix, AZ when I became involved with the Episcopal Church in Navajoland. During that time I met people of Navajoland in my position in Coalition 14. I also developed a retreat center in the Phoenix area that held 60 beds. When Families from Navajoland would come into town for advanced medical treatment, they often were in need of a place to stay where they can sleep and cook. They were offered the retreat center free of charge if there were no retreats booked.
-                                    Then in 1994, the Presiding Bishop appointed me as part-time administrative mentor for Bishop Steven Plummer. I would work with Bishop Plummer for 5-6 weeks a year.
-                                    In my youth, i loved to down hill ski. My other hobbies are reading, golf, hiking and participating in 5ks.
-                                    I am really honored to be serving in Navajoland. I am excited about what we have accomplished and equally excited about our future.
+                                <div class="col-lg-4">
+                                    <div class="thumbnail" id="clergy">
+                                        <img src="/lib/img/cat.jpg">
+                                    </div>
+                                    <p>
+                                        E-Mail: ecncplummer@gmail.com<br>
+                                        Phone: (505) 327-7549
+                                    </p>
                                 </div>
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rev. Cathlena Plummer</h3>
+                                    I went to the Church Divinity School of the Pacific at Berkley, California for my Master of Divinity degree.  My title is the Reverend Canon of Communications.  I keep everyone informed of meetings and schedules, and just maintain the flow of communication from the ECN office in Farmington, NM.  I am also the priest in charge for All Saints, I take care of the Farmington community and continue to provide pastoral care.
+                                    Right now, my hobbies includes watching movies about history and gardening on my spare time.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bg">
+                    <div id="search-container">
+                        <div id="search-bg"></div>
+                        <div id="search">
+
+                            <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
 
-                                        <img src="/lib/img/dave.JPG">
+                                        <img src="/lib/img/halana.jpg">
                                     </div>
                                     <p>
-                                        E-Mail: ecndbailey@gmail.com<br>
-                                        Phone: (505) 327-7549
+                                        E-Mail: ecnbegay@gmail.com <br>
+                                        Message Phone:(505)-327-7549
                                     </p>
+                                </div>
+                                <div class="col-lg-8" id="text">
+                                    <h3>Bookkeeper for the main ECN office, Halena Begay</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div id="bg">
+                    <div id="search-container">
+                        <div id="search-bg"></div>
+                        <div id="search">
+
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="thumbnail" id="clergy">
+
+                                        <img src="/lib/img/elliot.jpg">
+                                    </div>
+                                    <p>
+                                        Message Phone:(505)-327-7549
+                                    </p>
+                                </div>
+                                <div class="col-lg-8" id="text">
+                                    <h3>Maintenance Staff, Elliot Mason</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bg">
+                    <div id="search-container">
+                        <div id="search-bg"></div>
+                        <div id="search">
+
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="thumbnail" id="clergy">
+
+                                        <img src="/lib/img/floyd.jpg">
+                                    </div>
+                                    <p>
+                                        Message Phone:(505)-327-7549
+                                    </p>
+                                </div>
+                                <div class="col-lg-8" id="text">
+                                    <h3>Maintenance Staff, Floyd Dawes</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div id="bg">
                     <div id="search-container">
@@ -315,7 +349,10 @@
 
                                 <div class="col-lg-8" id="text">
                                     <h3>Rev. Cornelia Eaton</h3>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
+                                    Rev. Canon Cornelia Eaton, seminarian at Virginia Theological Seminary, Alexandria, VA served many roles in the Episcopal Church as laity before being ordained to the priesthood on February 7, 2015. She is currently the canon to the ordinary.
+
+                                    Cornelia is dedicated to serving the beloved people of God and to encourage laity to have active roles in the life of the Church, believing that we all live into our baptismal covenant. She enjoys sharing God’s love, hope and grace with all of God’s people through Holy Scripture and Navajo spirituality of Hozhó—Peace and Beauty Way. She is a storyteller and a writer of poetry with a particular focus on the Navajo way of life known as Iina Biké Hozhó–being in harmony with divine creation through spirituality, culture, tradition and relationship. She has deep love and appreciation for the outdoors and enjoys mountain biking, fly-fishing, camping, hiking, and tending to her family sheep camp.
+
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
@@ -436,29 +473,6 @@
                     </div>
                 </div>
 
-                <div id="bg">
-                    <div id="search-container">
-                        <div id="search-bg"></div>
-                        <div id="search">
-
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/cat.jpg">
-                                    </div>
-                                    <p>
-                                        E-Mail: ecncplummer@gmail.com<br>
-                                        Phone: (505) 327-7549
-                                    </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rev. Cathlena Plummer</h3>
-                                    I went to the Church Divinity School of the Pacific at Berkley, California for my Master of Divinity degree.  My title is the Reverend Canon of Communications.  I keep everyone informed of meetings and schedules, and just maintain the flow of communication from the ECN office in Farmington, NM.  I am also the priest in charge for All Saints, I take care of the Farmington community and continue to provide pastoral care.
-                                    Right now, my hobbies includes watching movies about history and gardening on my spare time.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div id="bg">
                     <div id="search-container">
