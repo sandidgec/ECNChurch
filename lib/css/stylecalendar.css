@@ -1,10 +1,25 @@
 body{
     font-family: Tahoma;
-    background-color: gainsboro;
+    background-color: aqua;
     text-align: center;
 }
 header {
     padding-top: 100px;
+}
+#buttonTop {
+    padding-bottom: 0;
+}
+#ewe {
+    background-color: #c4f2f2;
+}
+#sjrb {
+    background-color: #e35dff;
+}
+#serb {
+    background-color: #6489ff;
+}
+#urb {
+    background-color: #5cff5b;
 }
 #calendar {
     width: 100%;

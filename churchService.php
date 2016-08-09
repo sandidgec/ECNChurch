@@ -23,7 +23,7 @@
     <div class="jumbotron">
         <h1>Calendar Events</h1>
         <p>July 2016</p>
-        <p><a class="btn btn-primary btn-lg" href="Calendar.php" role="button">Calendar</a></p>
+        <p><a class="btn btn-primary btn-lg" href="calendarNew.php" role="button">Calendar</a></p>
     </div>
 </div>
 

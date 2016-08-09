@@ -97,14 +97,9 @@
     </div>
 
     <div class="row logo-container" id="indexLogo">
-        <div class="col-lg-4">
-            <div class="row no-pad">
-                <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
-                                           class="img-responsive"  alt="Awesome.jpg">
-            </div>
-        </div>
+      
 
-        <div class="col-lg-offset-4 col-lg-4">
+        <div class="col-lg-offset-8 col-lg-4">
             <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
         </div>
     </div>
