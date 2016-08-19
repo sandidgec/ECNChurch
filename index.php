@@ -120,23 +120,21 @@
             </div>
             
             <div class="col-lg-4">
-                <h2>St. Christopher's Bee Project is Happening</h2>
-                <h5>100 Pounds is Ready to be Packaged!</h5>
+                <h2>St. Christopher's sends off Leon Sampson to seminary!</h2>
+                <h5>Virginia Theological Seminary recruited Leon on August 9, 2016.</h5>
+                <h6>Navajoland miss you.</h6>
+            </div>
+
+            <div class="col-lg-4">
+                <h2>Another Cultivating Coders Bootcamp at All Saints!</h2>
+                <h5>Classes will start September 12th!</h5>
                 <h6>Contact office for more Info.</h6>
             </div>
 
             <div class="col-lg-4">
-                <h2>ECN's 40th Annual Convocation was a Success!</h2>
-                <h5>Hosted by the San Juan Region @
-                    All Saints Church Farmington, NM</h5>
-                <h6>Thank You For Your Support!</h6>
-            </div>
-
-            <div class="col-lg-4">
-                <h2>St. Marks Church VBS will be held @ GSM</h2>
-                <h5> Prepare to be outdoors, and to have some fun!</h5>
-                <h6>Last week of July from 2pm to 6pm
-                Snack, Dinner and a take home meal provided!</h6>
+                <h2>Good Shepherd will be taking ShiMa Soap Mobile!</h2>
+                <h5>ShiMa Soap will be selling at the Santa Fe Indian Market, August 20 and 21!</h5>
+                <h6>Come and support ECN.</h6>
             </div>
 
         </div>

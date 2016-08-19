@@ -111,13 +111,10 @@
                     <h4>GSM Morning Prayers @9am</h4>
                     <h4>Tuesday - Friday</h4>
 
-                    <h2>Month of July:</h2>
-                    <h4>Youth Works</h4>
-                    <h4>July 8 – 14, 2016: University of Georgia Christian Veterinary Mission</h4>
-                    <h4>July 8-14, 2016: Demmer Sabbatical Group</h4>
-                    <h4>July 18-21, 2016: Christ Church Cincinnati: VBS @ GSM</h4>
-                    <h4>July 25 – 30, 2016: Agape MCC Texas</h4>
-                    <h6>Contact GSM office for more Info.</h6>
+                    <h2>Month of August:</h2>
+                    <h4>ShiMa Soap will have a booth at the Indian market in the trader's market adjacent to the square this coming Saturday and Sunday!</h4>
+                    <h4>Come and out and support ECN</h4>
+                    <h6>Contact GSM office for more Info</h6>
                 </div>
 
                 <div class="col-lg-4">
@@ -126,10 +123,7 @@
                     <h4>Service type: English</h4>
                     <h4>Conducted by Rev. Cynthia Hizer</h4>
 
-                    <h2>VBS will be held @ GSM</h2>
-                    <h4>Prepare to be outdoors, and to have some fun!</h4>
-                    <h4>Last week of July from 2pm to 6pm
-                        Snack, Dinner and a take home meal provided!</h4>
+                    <h2>Youth meeting once a month!</h2>
                     <h6>Contact GSM office for more Info.</h6>
                 </div>
 
@@ -143,7 +137,7 @@
 <div class="row" id="history">
     <div class="col-md-4">
         <h1>St. Joesph's Church History</h1>
-        <img src="/lib/img/stjoes.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <img src="/lib/img/stJosephs.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. josephs</h2>
             <p>St. Joseph in Many Farms Arizona is a house church next to the red bluffs. Gardens grow and sheep
                 and horses graze nearby. The traditional hogan is being outfitted to be the next Episcopal church

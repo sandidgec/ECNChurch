@@ -136,9 +136,6 @@
     * {margin: 0; padding: 0;}
 </style>
 
-    <div class="logoImage">
-        <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png" class="img-responsive" alt="Awesome.jpg">
-    </div>
     <div class="container">
         <div class="row">
             <div class="firstline">
@@ -149,6 +146,8 @@
             </div>
         </div>
     </div>
+<br>
+<br>
 
 
 
@@ -219,15 +218,22 @@
                     </div>
                 </div>
 
-
                 <div id="bg">
                     <div id="search-container">
                         <div id="search-bg"></div>
                         <div id="search">
 
                             <div class="row">
+
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rev. Cathlena Plummer</h3>
+                                    I went to the Church Divinity School of the Pacific at Berkley, California for my Master of Divinity degree.  My title is the Reverend Canon of Communications.  I keep everyone informed of meetings and schedules, and just maintain the flow of communication from the ECN office in Farmington, NM.  I am also the priest in charge for All Saints, I take care of the Farmington community and continue to provide pastoral care.
+                                    Right now, my hobbies includes watching movies about history and gardening on my spare time.
+
+                                </div>
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
+
                                         <img src="/lib/img/cat.jpg">
                                     </div>
                                     <p>
@@ -235,14 +241,67 @@
                                         Phone: (505) 327-7549
                                     </p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="bg">
+                    <div id="search-container">
+                        <div id="search-bg"></div>
+                        <div id="search">
+
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="thumbnail" id="clergy">
+
+                                        <img src="/lib/img/catsmom.JPG">
+                                    </div>
+                                    <p>
+                                        St. Mary's Office<br>
+                                        Phone: (435) 727-0200
+                                    </p>
+                                </div>
                                 <div class="col-lg-8" id="text">
-                                    <h3>Rev. Cathlena Plummer</h3>
+                                    <h3>Rev. Cathrine Plummer</h3>
+                                    In the beginning, I got involved with the Episcopal church itself and not so much of ECN. I am a fifth generation Episcopalian in the family. I was baptized by Father Liebler in 1950 and confirmed in 1959. I grew up getting my education through the church in Bluff, because I lived near St. Christopher's. As I got older I went to Utah Technical College in Provo to get training in secretarial work. I didn't complete it because I got involved with my first husband, Keith Tso. When I lost my first husband, I got back into church at St. Christopher's. I obtained a position with church as Christian education teacher and director. As I was working, I got involved with the politics of the church with in the diocese of Utah and became apart of the various committees. I eventually moved from Bluff to Montezuma Creek for  evangelist work at St. John's the Baptizer. I went door to door to find those who were baptized by Father Liebler, trying to create a congregation at St. Johns. When I married Bishop Steven Plummer, my going forward in ministry was put on hold because I knew I had to be my husbands support system. I worked at with the Bluff school district for more than 20 years. And when Bailey became our Bishop, that's when he got me involved and asked me if I wanted to continue with my ministry. I didn't see any reason why couldn't because Steven was gone. I felt that I was needed and I was being called to serve the people. I was ordained a deacon than a priest, just one year between. I am now the priest at St. Mary's of the Moonlight and I go out in the field to find my relatives who suffer from alcoholism or who are shut-ins at the nursing home. My hobby is taking care of my sheep. That's what makes me happy. Makes me feel energized. Being with them and make sure they have enough food and water, just in the hopes that I have a good meal myself when the time comes to butcher. I know that when their healthy, I am healthy. It's like we take care of each other.
+
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+
+  
+                  <div id="bg">
+                      <div id="search-container">
+                          <div id="search-bg"></div>
+                          <div id="search">
+
+                              <div class="row">
+
+                                  <div class="col-lg-8" id="text">
+                                      <h3>Rev. Carol Tookey</h3>
                                     I went to the Church Divinity School of the Pacific at Berkley, California for my Master of Divinity degree.  My title is the Reverend Canon of Communications.  I keep everyone informed of meetings and schedules, and just maintain the flow of communication from the ECN office in Farmington, NM.  I am also the priest in charge for All Saints, I take care of the Farmington community and continue to provide pastoral care.
-                                    Right now, my hobbies includes watching movies about history and gardening on my spare time.</div>
+                                    Right now, my hobbies includes watching movies about history and gardening on my spare time.
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="thumbnail" id="clergy">
+
+                                        <img src="/lib/img/carol.png">
+                                    </div>
+                                    <p>
+                                        Contact ECN Office<br>
+                                        Phone: (505) 327-7549
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
 
                 <div id="bg">
                     <div id="search-container">
@@ -253,20 +312,52 @@
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
 
-                                        <img src="/lib/img/halana.jpg">
+                                        <img src="/lib/img/cynthia.jpg">
                                     </div>
                                     <p>
-                                        E-Mail: ecnbegay@gmail.com <br>
-                                        Message Phone:(505)-327-7549
+                                        E-Mail:  vicargoodshepherdmission@gmail.com<br>
+                                        Phone: (928)729-2322
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
-                                    <h3>Bookkeeper for the main ECN office, Halena Begay</h3>
+                                    <h3>Vicar and Priest in Charge of the Southeast Region Cynthia Hizer</h3>
+                                    I was ordained in 2006, took my M.Div. at Candler School of Theology Emory University in Atlanta and went on to Advance Studies at the General Seminary in New York City.
+                                    I was an organic farmer for 25 years, and a food writer. So now I'm a Vicar and Priest and I'm writing food and farming. I was also a soap maker, I had a cottage industry business of soap making. So i am using those skills also for the good of ECN. In my spare time i love to hike.
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+                <div id="bg">
+                    <div id="search-container">
+                        <div id="search-bg"></div>
+                        <div id="search">
+
+                            <div class="row">
+
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rev. Inez Velarde</h3>
+                                    The first time I went to church was when Frederick Putnam was Bishop.  I got to know the people in each region. I knew the late Margret Hardy and Pauline Dick, later on I met the late Steven Plummer when he was just a priest. When he became the Bishop of Navajoland, that's when I really started getting involved and we were called an Area Mission. From there, we've been doing our ministry and we began the ECN meeting for all regions each month, to discuss our plans, vision and finances. That's how we communicated with each other and we started to bond with one another. Steven had a vision, he wanted Navajo leadership in the church and we all are apart of it. We look forward and wanted young people to become our leaders. I went to Cook School in Tempe, AZ and began the courses there for three years. Than I went to Education for Minitry for four years, I also did chaplin work at the San Jaun hospital for another  year and went to preaching school. I did alot of training with the other priests that were coming in. We trained each other. We went to the different regions for training. We did our pastoral care by  going out there and find out the needs of the community. To bring the people to church. That's how I started, back in 1974  on the role grant, training with the late Father Ben Ford Abrams and Henry Bird, the priests at the time. I did some training with them. My role was to go out there be there for my the community. Each region is different. I would go to nurisng homes and jails. I see  and have prayers with them, like doing sunday services. I would attend meeting with the ECN, get my congreation get involved in the church and have my church members gain more leadership. The people that left the church, I try to reach out them and get them back into church. It doesn't matter if they aren't Episcopalian. My hobbies are reading, taking walks, just being with my loved ones and play basketball. I just like to be there for them.
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="thumbnail" id="clergy">
+
+                                        <img src="/lib/img/inez.PNG">
+                                    </div>
+                                    <p>
+                                        Contact ECN Office<br>
+                                        Phone: (505) 327-7549
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div id="bg">
                     <div id="search-container">
@@ -276,20 +367,24 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-
-                                        <img src="/lib/img/elliot.jpg">
+                                        <img src="/lib/img/lillie.JPG" class="rotate90">
                                     </div>
                                     <p>
-                                        Message Phone:(505)-327-7549
+                                        E-Mail: teabimasaani@yahoo.com<br>
+                                        Phone: (435) 651-3225
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
-                                    <h3>Maintenance Staff, Elliot Mason</h3>
+                                    <h3>Lay Pastor of St. Johns the Baptizer Lillie Henderson</h3>
+                                    I have been at St Johns for 19 years. I was exposed to the Episcopal Church by attending  St. Christopher's Mission and St. Marys of the Moonlight as a child with my grandmother. I use to pass by St. Johns as I go through to Blanding, Utah and think it looked deserted. I eventually quit my job and Steven Plummer hired me to work at St. Johns. I like to work with the children of St. Johns. The congregation is small, everyone primarily speaks Navajo, so I read the gospel in Navajo and conduct service in Navajo.
+                                    At st johns we have really bad water, so i come to St. Christopher's to haul water. We are in need of water right now.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
 
                 <div id="bg">
                     <div id="search-container">
@@ -297,22 +392,28 @@
                         <div id="search">
 
                             <div class="row">
+
+                                <div class="col-lg-8" id="text">
+                                    <h3>Rev. Deacon Paula Henson</h3>
+                                    I have been part of the church of many many years. I was baptized here in 1959 at Good Shepherd Mission and now I am a parish administrator her at GSM.  I attended the Deacons Formation Academy in 2010. I attended the academy for over a year to become a Deacon. I was Ordained as Deacon in 2011, and started working in 2011. I serve St. Josephs Church in Many Farms, Arizona on the second Sunday of every month since 2011. My job here at GSM is mostly administration work and make sure the church is ready for services of many kinds. I also lead morning prayer Tuesday thru Friday and am available every Sunday for services. I also assist with hospitality work.
+                                    In order for  to keep myself in balance and in harmony, i do various arts and crafts with yarn. Some things i make are kleenex boxes, crosses.
+                                </div>
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
 
-                                        <img src="/lib/img/floyd.jpg">
+                                        <img src="/lib/img/Paula.PNG">
                                     </div>
                                     <p>
-                                        Message Phone:(505)-327-7549
+                                        E-Mail: officegoodshepherdmission@gmail.com<br>
+                                        Phone: (928) 729-2322
                                     </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Maintenance Staff, Floyd Dawes</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
 
 
                 <div id="bg">
@@ -369,30 +470,6 @@
                     </div>
                 </div>
 
-                <div id="bg">
-                    <div id="search-container">
-                        <div id="search-bg"></div>
-                        <div id="search">
-
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/lillie.JPG" class="rotate90">
-                                    </div>
-                                    <p>
-                                        E-Mail: teabimasaani@yahoo.com<br>
-                                        Phone: (435) 651-3225
-                                    </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Lay Pastor of St. Johns the Baptizer Lillie Henderson</h3>
-                                    I have been at St Johns for 19 years. I was exposed to the Episcopal Church by attending  St. Christopher's Mission and St. Marys of the Moonlight as a child with my grandmother. I use to pass by St. Johns as I go through to Blanding, Utah and think it looked deserted. I eventually quit my job and Steven Plummer hired me to work at St. Johns. I like to work with the children of St. Johns. The congregation is small, everyone primarily speaks Navajo, so I read the gospel in Navajo and conduct service in Navajo.
-                                    At st johns we have really bad water, so i come to St. Christopher's to haul water. We are in need of water right now.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div id="bg">
                     <div id="search-container">
@@ -400,92 +477,6 @@
                         <div id="search">
 
                             <div class="row">
-
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rev. Deacon Paula Henson</h3>
-                                    I have been part of the church of many many years. I was baptized here in 1959 at Good Shepherd Mission and now I am a parish administrator her at GSM.  I attended the Deacons Formation Academy in 2010. I attended the academy for over a year to become a Deacon. I was Ordained as Deacon in 2011, and started working in 2011. I serve St. Josephs Church in Many Farms, Arizona on the second Sunday of every month since 2011. My job here at GSM is mostly administration work and make sure the church is ready for services of many kinds. I also lead morning prayer Tuesday thru Friday and am available every Sunday for services. I also assist with hospitality work.
-                                    In order for  to keep myself in balance and in harmony, i do various arts and crafts with yarn. Some things i make are kleenex boxes, crosses.
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="clergy">
-
-                                        <img src="/lib/img/Paula.PNG">
-                                    </div>
-                                    <p>
-                                        E-Mail: officegoodshepherdmission@gmail.com<br>
-                                        Phone: (928) 729-2322
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="bg">
-                    <div id="search-container">
-                        <div id="search-bg"></div>
-                        <div id="search">
-
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="clergy">
-
-                                        <img src="/lib/img/cynthia.jpg">
-                                    </div>
-                                    <p>
-                                        E-Mail:  vicargoodshepherdmission@gmail.com<br>
-                                        Phone: (928)729-2322
-                                    </p>
-                                </div>
-                                <div class="col-lg-8" id="text">
-                                    <h3>Vicar and Priest in Charge of the Southeast Region Cynthia Hizer</h3>
-                                    I was ordained in 2006, took my M.Div. at Candler School of Theology Emory University in Atlanta and went on to Advance Studies at the General Seminary in New York City.
-                                    I was an organic farmer for 25 years, and a food writer. So now I'm a Vicar and Priest and I'm writing food and farming. I was also a soap maker, I had a cottage industry business of soap making. So i am using those skills also for the good of ECN. In my spare time i love to hike.
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="bg">
-                    <div id="search-container">
-                        <div id="search-bg"></div>
-                        <div id="search">
-
-                            <div class="row">
-
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rev. Cathrine Plummer</h3>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/catsmom.JPG">
-                                    </div>
-                                    <p>
-                                        St. Mary's Office<br>
-                                        Phone: (435) 727-0200
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div id="bg">
-                    <div id="search-container">
-                        <div id="search-bg"></div>
-                        <div id="search">
-
-                            <div class="row">
-
-                                <div class="col-lg-8" id="text">
-                                    <h3>Rev. Deacon Leon Sampson</h3>
-                                    I was raised here on St. Christopher's grounds. I sat here in the same pews as a child and live in the same house I grew up in.  I'm allowing my family to be here to  experience the exact same thing I went through as a kid, Its important to understand that my parents had the same life cycle as I have here now, and my kids will also enjoy the same benefits of being here. I was raised here, grew up here and have a passion for being here. My mission is to give back to the youth. Get them involved in the church, so they can remember their experiences and come back later.
-                                    I will go off to Virginia for seminary in august, and will be able to come back in 3 years as a priest and continue to serve the people as a priest and help develop more of the projects.
-                                </div>
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
 
@@ -496,35 +487,16 @@
                                         Phone:  (435)-444-0485
                                     </p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="bg">
-                    <div id="search-container">
-                        <div id="search-bg"></div>
-                        <div id="search">
-
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="thumbnail" id="clergy">
-
-                                        <img src="/lib/img/carol.png">
-                                    </div>
-                                    <p>
-                                        Contact ECN Office<br>
-                                        Phone: (505) 327-7549
-                                    </p>
-                                </div>
                                 <div class="col-lg-8" id="text">
-                                    <h3>Rev. Carol Tookey</h3>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
+                                    <h3>Rev. Deacon Leon Sampson</h3>
+                                    I was raised here on St. Christopher's grounds. I sat here in the same pews as a child and live in the same house I grew up in.  I'm allowing my family to be here to  experience the exact same thing I went through as a kid, Its important to understand that my parents had the same life cycle as I have here now, and my kids will also enjoy the same benefits of being here. I was raised here, grew up here and have a passion for being here. My mission is to give back to the youth. Get them involved in the church, so they can remember their experiences and come back later.
+                                    I will go off to Virginia for seminary in august, and will be able to come back in 3 years as a priest and continue to serve the people as a priest and help develop more of the projects.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
 
                 <div id="bg">
                     <div id="search-container">
@@ -534,24 +506,26 @@
                             <div class="row">
 
                                 <div class="col-lg-8" id="text">
-                                    <h3>Rev. Inez Velarde</h3>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis eget justo et posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam laoreet quam vitae mollis dictum. Vestibulum finibus id metus sit amet interdum. Proin at efficitur est. Morbi enim risus, ornare quis turpis nec, iaculis lobortis nisl. Ut condimentum enim sagittis sem auctor sodales efficitur vel neque.
+                                    <h3>Michael Sells, Postulant</h3>
+                                    I developed somewhat of a church habit when I was in college and the Army.  So, when I returned to the Navajo Nation I asked to speak with a priest.  We talked for a while on the phone, and he invited me to Bible study that evening.  At church, I met two retired Navajo men who were eager to share their life experience and wisdom, and two feisty retired Navajo women who reminded me of my grandmother.  I was hooked and started attending church regularly.  The next year, I was nominated and elected to the vestry.  The church encouraged me to attend a summer school at Vancouver School of Theology.  I was accepted into the low-residential program, and later, I was also accepted into law school.  After a semester of law school, I put school on hold, and continued to work in commercial real estate research and eventually worked for GE.  In the meantime, I was volunteering at Community Legal Services in Phoenix.  It was there that I realized I was the happiest when I was serving.
+
+                                    I currently attend The Church Divinity School of the Pacific in Berkeley, California.  It was tough being a student again.  In the beginning, I really missed my family, friends, and church. Chapel services were exciting, and I was going three times a day.  However, it soon began to interfere with my studies.  Now, I have decided to focus on morning and evening prayer.  The professors are amazing.  They challenge me and are concerned about my well-being.  I love re-reading my books.  When I am not mentally exhausted, I love riding my bike down to the marina and back up “holy hill.”  I love watching the college football games at the Cal stadium, and as an added bonus Cal is a member of the PAC-12 conference.  Go Sundevils!  When I have time, I work in the gardens around campus, or just spend time laughing with my crazy seminarian friends.
+
+
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
 
-                                        <img src="/lib/img/inez.PNG">
+                                        <img src="/lib/img/sells.jpg">
                                     </div>
                                     <p>
-                                        Contact ECN Office<br>
-                                        Phone: (505) 327-7549
+                                        Contact ECN Office <br>
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
 
 
 
