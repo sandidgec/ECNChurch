@@ -84,19 +84,19 @@
             <div class="row bulletin">
 
                 <div class="col-lg-4" id="dhead">
-                    <h3>St. Josephs Latest News</h3>
+                    <h3>St. Joseph's Latest News</h3>
                 </div>
 
                 <div class="col-lg-4" id="dhead">
-                    <h3>Good Shepherd Latest News</h3>
+                    <h3>Good Shepherd's Latest News</h3>
                 </div>
 
                 <div class="col-lg-4" id="dhead">
-                    <h3>Saint Marks Latest News</h3>
+                    <h3>Saint Mark's Latest News</h3>
                 </div>
 
                 <div class="col-lg-4">
-                    <h2>St. Josephs Church Upcoming Events</h2>
+                    <h2>St. Joseph's Church Upcoming Events</h2>
                     <h4>Morning Prayer: 2 nd Sunday of each month @ 11:30am (English &amp; Navajo)</h4>
                     <h4>Service Type: Gospel in English &amp; Navajo; homily in English &amp; Navajo</h4>
                     <h4>Conducted by Deacon Paula Henson</h4>
@@ -112,13 +112,13 @@
                     <h4>Tuesday - Friday</h4>
 
                     <h2>Month of August:</h2>
-                    <h4>ShiMa Soap will have a booth at the Indian market in the trader's market adjacent to the square this coming Saturday and Sunday!</h4>
-                    <h4>Come and out and support ECN</h4>
+                    <h4>ShiMa' Soap was a success at the Santa Fe Indian Market!</h4>
+                    <h4>Thanks for all the support!</h4>
                     <h6>Contact GSM office for more Info</h6>
                 </div>
 
                 <div class="col-lg-4">
-                    <h2>St. Marks Church</h2>
+                    <h2>St. Mark's Church</h2>
                     <h4>Sunday Service: 8am</h4>
                     <h4>Service type: English</h4>
                     <h4>Conducted by Rev. Cynthia Hizer</h4>
@@ -138,8 +138,8 @@
     <div class="col-md-4">
         <h1>St. Joesph's Church History</h1>
         <img src="/lib/img/stJosephs.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
-        <h2>St. josephs</h2>
-            <p>St. Joseph in Many Farms Arizona is a house church next to the red bluffs. Gardens grow and sheep
+        <h2>St. Joseph's</h2>
+            <p>St. Joseph's in Many Farms Arizona is a house church next to the red bluffs. Gardens grow and sheep
                 and horses graze nearby. The traditional hogan is being outfitted to be the next Episcopal church
                 in Navajoland! We are getting ready to put on a new roof and repair the inside, including a repair
                 to the wood stove, shown in the picture below.  If you would like to partner with St. Joseph, please
@@ -161,9 +161,9 @@
     </div>
 
     <div class="col-md-4">
-        <h1>St. Marks Church History</h1>
+        <h1>St. Mark's Church History</h1>
         <img src="/lib/img/stMarks.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
-        <h2>St. Marks</h2>
+        <h2>St. Mark's</h2>
         <p>St Mark's is located in Coalmine, New Mexico, a beautiful place nestled in the curve of the mountains,
             an 8-mile drive from Good Shepherd Mission. Sunday Holy Communion is at 8 a.m. Watch out for lots of
             cakewalks, busy vacation bible school and a committed core who love their church. Facebook page is St.
@@ -181,7 +181,7 @@
 <div class="row" id="learn-more">
 
     <div class="col-lg-4">
-        <h3>St. Josephs Church</h3>
+        <h3>St. Joseph's Church</h3>
         <h6>Many Farms, Arizona</h6>
         <h6>P.O. Box 618</h6>
         <h6>Fort Defiance, AZ 86504</h6>

@@ -120,9 +120,9 @@
             </div>
             
             <div class="col-lg-4">
-                <h2>St. Christopher's sends off Leon Sampson to seminary!</h2>
+                <h2>Leon Sampson is now at seminary!</h2>
                 <h5>Virginia Theological Seminary recruited Leon on August 9, 2016.</h5>
-                <h6>Navajoland miss you.</h6>
+                <h6>Navajoland will miss you!</h6>
             </div>
 
             <div class="col-lg-4">
@@ -132,9 +132,9 @@
             </div>
 
             <div class="col-lg-4">
-                <h2>Good Shepherd will be taking ShiMa Soap Mobile!</h2>
-                <h5>ShiMa Soap will be selling at the Santa Fe Indian Market, August 20 and 21!</h5>
-                <h6>Come and support ECN.</h6>
+                <h2>ShiMa' Soap was a success at the Santa Fe Indian Market!</h2>
+                <h5>ShiMa' Soap has made it's mark.</h5>
+                <h6>Thanks for all the support!</h6>
             </div>
 
         </div>
@@ -163,9 +163,9 @@
                                 <a href="http://www.goodshepmission.org/">
                                 <h6>Good Shepherd Mission</h6>
                                </a>
-                                <h6>St. Josephs Church</h6>
+                                <h6>St. Joseph's Church</h6>
                                 <h6 span class="state">New Mexico Churches</h6></span>
-                                <h6>St. Marks Church</h6>
+                                <h6>St. Mark's Church</h6>
                             </div>
                             <div class="col-lg-4">
                                 <a href="sanJuanRegion.php">
@@ -269,7 +269,7 @@
 
 
 
-    <ol class="breadcrumb">
+    <ol class="breadcrumb text-center">
         <li><a href="index.php">Home</a></li>
         <li><a href="areaMissContact.php">Area Mission Contact</a></li>
         <li><a href="calendarNew.php">Calendar</a></li>
