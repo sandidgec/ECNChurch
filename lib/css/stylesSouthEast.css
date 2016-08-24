@@ -1,23 +1,22 @@
-.carousel-caption {
-    padding-bottom: 390px;
-
-}
 .tales {
     width: 100%;
 }
+
 .carousel-inner{
     width:100%;
-    max-height: 650px !important;
 }
+
 .container {
      font-size: 50px;
  }
 
 .carousel img {
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
+    background-size: cover;
 }
+
 body {
     background-color: darkturquoise;
 }
@@ -31,6 +30,7 @@ body {
 .bulletin .container {
     padding-top: 10%;
 }
+
 
 .bulletin .row {
     background-color: white;
@@ -75,6 +75,11 @@ h3 {
     color: black;
 }
 
+h5 {
+    color:white;
+    font-size: 25px;
+}
+
 
 h6 {
     color: black;
@@ -99,6 +104,7 @@ dd {
 #info {
     font-size: 50px;
 }
+
 #space{
     padding-top: 15px;
 }
@@ -107,6 +113,7 @@ dd {
     font-size: 75px;
     color: darkturquoise;
 }
+
 .glyphicon.glyphicon-chevron-left{
     font-size: 75px;
     color: darkturquoise;
@@ -123,6 +130,7 @@ dd {
     align-items: center;
 
 }
+
 .ecn-container .btn {
     background-color: black;
     margin-left: 600px;
@@ -132,3 +140,4 @@ dd {
 #learn-more {
     text-align: center;
 }
+

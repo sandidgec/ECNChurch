@@ -252,13 +252,12 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="circle"  id="cds">
-                            <a href="https://www.facebook.com/cheiidevshop/">
+                            <a href="http://www.cheiidevshop.com/">
                                 <h3>Cheii's DevShop</h3>
                             </a>
                         </div>
                     </div>
                 </div>
-
             </div>
 
 

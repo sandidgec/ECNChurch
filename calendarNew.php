@@ -581,14 +581,14 @@
                             </div>
                             <div class="event-utah">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Food Bank 10-1<!--UTR---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Bible Study<br><!--SJR---------------->
                                     </a>
                                 </div>
@@ -651,7 +651,7 @@
                             </div>
                             <div class="event-utah">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Bible Study<!--UTR---------------->
                                     </a>
                                 </div>
@@ -662,14 +662,14 @@
                             <div class="date">6</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<!--SER---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Bible Study<!--SJR---------------->
                                     </a>
                                 </div>
@@ -680,14 +680,14 @@
                             <div class="date">7</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<!--SER---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-utah">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Utah Region Council Mtg<!--UTR---------------->
                                     </a>
                                 </div>
@@ -697,7 +697,7 @@
                             <div class="date">8</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<!--SER---------------->
                                     </a>
                                 </div>
@@ -712,7 +712,7 @@
                             <div class="date">10</div>
                             <div class="event">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Sunday Services
                                     </a>
                                 </div>
@@ -730,14 +730,14 @@
                             <div class="date">12</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<!--SER---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-utah">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Bible Study<!--UTR---------------->
                                     </a>
                                 </div>
@@ -747,21 +747,21 @@
                             <div class="date">13</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<!--SER---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-utah">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Food Bank 10-1<!--UTR---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Bible Study<!--SJR------------------>
                                     </a>
                                 </div>
@@ -771,7 +771,7 @@
                             <div class="date">14</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                     </a>
                                 </div>
@@ -781,7 +781,7 @@
                             <div class="date">15</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                     </a>
                                 </div>
@@ -796,21 +796,21 @@
                             <div class="date">17</div>
                             <div class="event">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Sunday Services<br>
                                     </a>
                                 </div>
                             </div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         S.E.R. Council Mtg. 1pm<!--SER---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         S.J.R. Council Mtg. 1pm<!--SJR------------------>
                                     </a>
                                 </div>
@@ -825,7 +825,7 @@
                             </div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         PM V.B.S. St. Marks<!--SER---------------->
                                     </a>
                                 </div>
@@ -835,7 +835,7 @@
                             <div class="date">19</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                         PM V.B.S. @ St. Marks
                                     </a>
@@ -843,7 +843,7 @@
                             </div>
                             <div class="event-utah">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Bible Study<br><!--UTR---------------->
                                     </a>
                                 </div>
@@ -853,7 +853,7 @@
                             <div class="date">20</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                         PM V.B.S. @ St. Marks
                                     </a>
@@ -861,7 +861,7 @@
                             </div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Bible Study<br><!--SJR---------------->
                                     </a>
                                 </div>
@@ -871,7 +871,7 @@
                             <div class="date">21</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                         PM V.B.S. @ St. Marks
                                     </a>
@@ -882,7 +882,7 @@
                             <div class="date">22</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                     </a>
                                 </div>
@@ -897,7 +897,7 @@
                             <div class="date">24</div>
                             <div class="event">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Sunday Services<br>
                                     </a>
                                 </div>
@@ -915,14 +915,14 @@
                             <div class="date">26</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-utah">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Bible Study<br><!--UTR---------------->
                                     </a>
                                 </div>
@@ -932,21 +932,21 @@
                             <div class="date">27</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-utah">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Food Bank 10-1<!--UTR---------------->
                                     </a>
                                 </div>
                             </div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Bible Study<br><!--SJR---------------->
                                     </a>
                                 </div>
@@ -956,7 +956,7 @@
                             <div class="date">28</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                     </a>
                                 </div>
@@ -966,7 +966,7 @@
                             <div class="date">29</div>
                             <div class="event-ser">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
                                     </a>
                                 </div>
@@ -976,7 +976,7 @@
                             <div class="date">30</div>
                             <div class="event-utah">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Leon's farwell Dinner<!--UTR---------------->
                                     </a>
                                 </div>
@@ -987,14 +987,14 @@
                             <div class="date">31</div>
                             <div class="event">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Sunday Services<br>
                                     </a>
                                 </div>
                             </div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
+                                    <a href="churchService.php">
                                         Combined Service @ 10AM St. Luke's Rev. Inez Retirement Dinner<!--SJR---------------->
                                     </a>
                                 </div>

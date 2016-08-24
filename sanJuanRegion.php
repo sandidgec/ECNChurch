@@ -18,26 +18,48 @@
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+
+
+
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <img src="/lib/img/allsaint.jpg" alt="...">
-            <div class="carousel-caption">
-                ...
+            <div class="carousel-caption" id="caption">
+                <h1>All Siants Church</h1>
+                <h5>Farmington, New Mexico</h5>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/lib/img/allsaint5.jpg" alt="...">
+            <div class="carousel-caption" id="caption">
+                <h1>All Saints</h1>
+                <h5>Farmington, New Mexico</h5>
             </div>
         </div>
         <div class="item">
             <img src="/lib/img/stMichaels1.jpg" alt="...">
-            <div class="carousel-caption">
-                ...
+            <div class="carousel-caption" id="caption">
+                <h1>St. Michael's</h1>
+                <h5>Upper Fruitland, New Mexico</h5>
             </div>
         </div>
         <div class="item">
-            <img src="/lib/img/stLukesChurch.jpg" alt="...">
-            <div class="carousel-caption">
-                ...
+            <img src="/lib/img/stlukes3.jpg" alt="...">
+            <div class="carousel-caption" id="caption">
+                <h1>St. Luke's</h1>
+                <h5>Carson Post, New Mexico</h5>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/lib/img/stlukes4.jpg" alt="...">
+            <div class="carousel-caption" id="caption">
+                <h1>St. Luke's</h1>
+                <h5>Carson Post, New Mexico</h5>
             </div>
         </div>
     </div>
@@ -65,10 +87,10 @@
 <div class="row logo-container">
     <div id="logo" class="col-lg-4">
         <div class="row no-pad">
-            <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
-                 class="img-responsive"  alt="Awesome.jpg">
+            <img src=""
+                 class="img-responsive"  alt="">
         </div>
-    </div>         
+    </div>
 
     <div class="col-lg-offset-4 col-lg-4">
         <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
@@ -98,21 +120,23 @@
         </div>
 
         <div class="col-lg-4">
-            <h4> Info Info Info Info</h4>
-            <h6>Contact office for more Info!</h6>
+            <h4>Flea Market SALE</h4>
+            <h4>Saturday, August 6, 2016</h4>
+            <h4>8am-2pm</h4>
+            <h6>Contact office for more Info.</h6>
         </div>
 
         <div class="col-lg-4">
-            <h4>Vacation Bible School</h4>
-            <h4>June 27, 2016 - July 1, 2016</h4>
-            <h4>9AM - 1PM</h4>
-            <h4>Come Join us for arts & crafts and activities</h4>
-            <h6>Contact Rev. Inez Velarde @ (505) 635-9026</h6>
+            <h4>Rev. Inez Velarde's Retirement Dinner</h4>
+            <h4>being held at St. Lukes in the Desert</h4>
+            <h4>along with Sundays Eucharistic Service at 10 AM</h4>
+            <h4>Celebrate a special occasion and join us in </h4>
+            <h4>honoring Rev. Inez retiring after 42 years.</h4>
+            <h4><strong>Sunday, July 31, 2016</strong></h4>
         </div>
 
     </div>
 </div>
-
 
 <br>
 <br>
@@ -130,17 +154,26 @@
         <h1>All Saints Church History</h1>
         <img src="/lib/img/allsaint.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>All Saints</h2>
-        <p>Information about the church. A brief paragraph.</p>
+        <p>The original vision for San Juan Mission came from the Rt. Rev. Frederick B.
+            Howden, Bishop of the Missionary District of New Mexico and Texas West of the Pecos
+            River. He saw the need for work among the Navajo people and dedicated resources of
+            the Missionary District to the end of establishing a mission among them. His leadership
+            helped inspire medical work which led to the hospital being built.</p>
 
     </div>
 
     <div class="col-md-4">
         <h1>St. Luke's Church History</h1>
-        <img src="/lib/img/stLukesChurch.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <img src="/lib/img/stlukes3.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St Luke's in the Desert</h2>
-        <p>Information about the church. A brief paragraph.</p>
+        <p>St. Luke's began in 1922 when Lena Wilcox was assigned to take the gospel to the Dine.
+        She set up a dispensary near the trading post and began to teach. The Carson
+        Family, owners of the trading post donated 5 acres of land for the mission.
+        By 1930 the local Navajo people built a chapel with sandstone. That year Bishop
+        Frederick B. Howden dedicated the building.</p>
 
     </div>
+
 
 
 </div>
@@ -183,7 +216,7 @@
             <dd>Priest In Charge All Saints Canon for Communications</dd>
             <br>
             <dt>Helena Begay</dt>
-            <dd>Cell No. 505-860-2987</dd>
+            <dd>Office No.  (505) 327-0326</dd>
             <dd>Email: ecnhbegay@gmail.com</dd>
             <dd>Bookkeeper for ECN </dd>
             <br>
@@ -199,11 +232,12 @@
         <h6>Carson, New Mexico</h6>
         <h6>P.O. Box 720</h6>
         <h6>Farmington, NM 87401</h6>
-        <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
+        <a href="https://www.facebook.com/St-Lukes-in-the-Desert-Episcopal-Church-in-Navajoland-1103524973026385/?ref=aymt_homepage_panel"> <i class="fa fa-facebook-official fa-2x"></i></a>
 
         <dl>
             <dt>Rev. Inez Velarde</dt>
             <dd>Cell No. (505) 635-9026</dd>
+            <dd>Email: velarde.inez@gmail.com</dd>
             <dd>Priest In Charge at St. Luke's</dd>
         </dl>
 
