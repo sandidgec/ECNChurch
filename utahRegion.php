@@ -123,7 +123,7 @@
 <div class="row" id="history">
     <div class="col-md-4">
         <h1>St. Christopher's History</h1>
-        <img src="/lib/img/stChris1943.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <img src="/lib/img/stchirschurch.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Christophers</h2>
         <p>St. Christopher's in Bluff, Utah was built in 1943 . It's located 1.7 miles east of the Bluff on Utah
             highway 162. The grounds also includes a museum and community farm. A free well on the mission ground is used
@@ -131,14 +131,14 @@
     </div>
     <div class="col-md-4">
         <h1>St. Mary's of the Moonlight History</h1>
-        <img src="/lib/img/stMarys1966.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <img src="/lib/img/stMarysoftheMoonlight.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Mary's of the Moonlight</h2>
         <p>In 1966, Father Liebler retired and built St. Mary's of the Moonlight.
             A few miles west of the Oljato trading post at Monument Valley, 60 miles south of Bluff, on the Arizona border.</p>
     </div>
     <div class="col-md-4">
         <h1>St. John the Baptizer History</h1>
-        <img src="/lib/img/stJohns1965.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <img src="/lib/img/StJohntheBaptizer.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. John the Baptizer</h2>
         <p>The Episcopal church, St. John the Baptizer, is located in the city of Montezuma Creek. Montezuma
             Creek is located in the beautiful state of Utah.</p>
