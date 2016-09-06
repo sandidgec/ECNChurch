@@ -6,7 +6,7 @@ body{
     font-family: 'Quattrocento', serif;
 }
 h1 {
-    color: darkturquoise;
+    color: black;
 }
 .historyJumbo {
     padding: 0;
@@ -74,19 +74,36 @@ body {
 }
 
 #SJ {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 206, 209, 0.8);
+    display: inline-block;
+    border-radius: 25px;
 }
 
 #SE {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 206, 209, 0.8);
+    display: inline-block;
+    border-radius: 25px;
 }
 
 #UR {
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 206, 209, 0.8);
+    display: inline-block;
+    border-radius: 25px;
 }
 
 .firstline {
     padding-top: 50px;
 }
+

@@ -126,13 +126,16 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3209.225151390471!2d-108.00953048471982!3d36.45211478002172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x873c82e46e0daa83%3A0xb51d0ea439edfc2!2sSt.+Luke&#39;s+in+the+Desert+Episcopal+Church+in+Navajoland!5e0!3m2!1sen!2sus!4v1468252829220" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 </div>
-
+<br>
+<br>
 <div class="row" id="SE">
     <h1>South East Region</h1>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.2087554742916!2d-109.0705667600941!3d35.74249031533021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87253349d1249e79%3A0x1c47bb254486d3b7!2sGood+Shepherd+Mission!5e0!3m2!1sen!2sus!4v1467047644763" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3853.2138984367316!2d-108.96882182169969!3d35.69783381028325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f7abcd506f57d4a!2sSt.+Mark&#39;s+Episcopal+Church+of+Navajoland!5e0!3m2!1sen!2sus!4v1467047742685" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51414.902145279295!2d-109.66428114589186!3d36.3503285710563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x873080f0cd87ee01%3A0xf1b083280e0855aa!2sMany+Farms%2C+AZ!5e0!3m2!1sen!2sus!4v1467049714293" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
+<br>
+<br>
 
 <div class="row" id="UR">
     <h1>Utah Region</h1>
@@ -140,7 +143,6 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3186.4337519059122!2d-110.27835181295775!3d36.999447289934366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87372903d6882cef%3A0xdbd64e35aebf7057!2sHogan+Church!5e0!3m2!1sen!2sus!4v1467055865183" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50807.75162614793!2d-109.34118708885372!3d37.259937106758976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8739eef185f006e5%3A0x90d170622c5a2f4a!2sMontezuma+Creek%2C+UT+84534!5e0!3m2!1sen!2sus!4v1467049618274" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
-
 
 <div class="footer">
 

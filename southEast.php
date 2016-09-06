@@ -136,7 +136,7 @@
 
 <div class="row" id="history">
     <div class="col-md-4">
-        <h1>St. Joesph's Church History</h1>
+        <h1>St. Joseph's Church History</h1>
         <img src="/lib/img/stJosephs.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Joseph's</h2>
             <p>St. Joseph's in Many Farms Arizona is a house church next to the red bluffs. Gardens grow and sheep

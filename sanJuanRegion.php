@@ -116,23 +116,24 @@
 
         <div class="col-lg-4">
             <h4>News News News</h4>
+            <h4>September</h4>
             <h6>Contact office for more Info.</h6>
         </div>
 
         <div class="col-lg-4">
-            <h4>Flea Market SALE</h4>
-            <h4>Saturday, August 6, 2016</h4>
-            <h4>8am-2pm</h4>
+            <h4>Navajo Hymnal Study</h4>
+            <h4>We will continue on September 21</h4>
+            <h4>6pm</h4>
             <h6>Contact office for more Info.</h6>
         </div>
 
         <div class="col-lg-4">
-            <h4>Rev. Inez Velarde's Retirement Dinner</h4>
-            <h4>being held at St. Lukes in the Desert</h4>
-            <h4>along with Sundays Eucharistic Service at 10 AM</h4>
-            <h4>Celebrate a special occasion and join us in </h4>
-            <h4>honoring Rev. Inez retiring after 42 years.</h4>
-            <h4><strong>Sunday, July 31, 2016</strong></h4>
+            <h4>News News News</h4>
+            <h4>September</h4>
+            <h4></h4>
+            <h4></h4>
+            <h4></h4>
+            <h4><strong></strong></h4>
         </div>
 
     </div>
