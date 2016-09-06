@@ -39,6 +39,472 @@
                 </div>
             </div>
 
+            <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
+
+                <h1>September 2016</h1>
+
+                <div id="calendar">
+                    <ul class="weekdays">
+                        <li>Sunday</li>
+                        <li>Monday</li>
+                        <li>Tuesday</li>
+                        <li>Wednesday</li>
+                        <li>Thursday</li>
+                        <li>Friday</li>
+                        <li>Saturday</li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day other-month">
+                            <div class="date">28</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">29</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        Navajo Nation Food Distribution<br><!--UTR---------------->
+                                        10am
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">30</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        9AM Staff Meeting<br><!--UTR---------------->
+                                        <br>
+                                        10AM Bible Study @ St. Johns
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">31</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        Bible Study<!--SJR---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        10:30 to 1PM Food Bank & Closet @ St. Christopher's<br><!--UTR---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">1</div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        6PM Utah Region Council Meeting @ St. Christophers<br><!--UTR---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">2</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">3</div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                       
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">4</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">5</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">6</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        9AM Staff Meeting<br><!--UTR---------------->
+                                        <br>
+                                        10AM Bible Study @ St. Johns
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">7</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        10:30 to 1PM Food Bank & Closet @ St. Christopher's<br><!--UTR---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">8</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">9</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">10</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">11</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">12</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">13</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        9AM Staff Meeting<br><!--UTR---------------->
+                                        <br>
+                                        10AM Bible Study @ St. Johns
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">14</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        10:30 to 1PM Food Bank & Closet @ St. Christopher's<br><!--UTR---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    <a href="">
+                                        Coder Bootcamp Info/Sigh Up<br>
+                                        11am-1pm call for info
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">15</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">16</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">17</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        ECN Council MTG<br>
+                                        Bluff, UT 10am-3pm
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">18</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">19</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">20</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        9AM Staff Meeting<br><!--UTR---------------->
+                                        <br>
+                                        10AM Bible Study @ St. Johns
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">21</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        10:30 to 1PM Food Bank & Closet @ St. Christopher's<br><!--UTR---------------->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">22</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">23</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">24</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">25</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">26</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">27</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        9AM Staff Meeting<br><!--UTR---------------->
+                                        <br>
+                                        10AM Bible Study @ St. Johns
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">28</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    <a href="utahRegion.php">
+                                        10:30 to 1PM Food Bank & Closet @ St. Christopher's<br><!--UTR---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">29</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">30</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">1</div>
+                        </li>
+                    </ul>
+                </div><!--/. calendar -->
+            </div> <!--/. wrap -->
+
+
 
             <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
 
@@ -225,13 +691,6 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="event-sjr">
-                                <div class="event-desc">
-                                    <a href="utahRegion.php">
-                                        Bible Study<!--SJR---------------->
-                                    </a>
-                                </div>
-                            </div>
                         </li>
                         <li class="day">
                             <div class="date">11</div>
@@ -313,10 +772,6 @@
                             </div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
-                                        Bible Study<br><!--SJR---------------->
-                                    </a>
-                                    <br>
                                     <a href="">
                                         Coder Bootcamp Info/Sigh Up<br>
                                     11am-1pm call for info
@@ -410,13 +865,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="event-sjr">
-                                <div class="event-desc">
-                                    <a href="utahRegion.php">
-                                        Bible Study<!--SJR---------------->
-                                    </a>
-                                </div>
-                            </div>
+
                         </li>
                         <li class="day">
                             <div class="date">25</div>
@@ -493,13 +942,6 @@
                                 <div class="event-desc">
                                     <a href="utahRegion.php">
                                         10:30 to 1PM Food Bank & Closet @ St. Christopher's<br><!--UTR---------------->
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="event-sjr">
-                                <div class="event-desc">
-                                    <a href="utahRegion.php">
-                                        Bible Study<!--SJR---------------->
                                     </a>
                                 </div>
                             </div>

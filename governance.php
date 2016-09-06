@@ -146,17 +146,18 @@
                 </div>
             </div>
 
+</div>
 
 
+        <div id="bg">
+            <div id="search-container">
+                <div id="search-bg"></div>
+                <div id="search">
 
-
-
-            <div id="bg">
-                <div id="search-container">
-                    <div id="search-bg"></div>
-                    <div id="search">
-
-
+                    <div id="bg">
+                    <div id="search-container">
+                        <div id="search-bg"></div>
+                        <div id="search">
                         <div class="council-container">
                             <h2>40th Annual Convocation News</h2>
                             <h3>
@@ -174,182 +175,40 @@
                             </ul>
                             </h3>
                         </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div id="bg">
-                <div id="search-container">
-                    <div id="search-bg"></div>
-                    <div id="search">
-
-
-                        <div class="council-container">
-                            <h2>San Juan Region Council News</h2>
-                            <h3>
-                                <ul>
-                                    <li>
-                                        “The Episcopal Church welcomes all who worship Jesus Christ, in 109 dioceses and three regional areas in 17 nations.  The Episcopal Church is a member province of the worldwide Anglican Communion.”
-                                    </li>
-                                    <br>
-                                    <li>
-                                        In the Navajo creation story, the Holy People gave Spider Woman the gift of weaving the web of the universe. When the Holy People saw that Spider Woman had learned to use her gift, they visited her again and taught her how to build the loom that would be used by the Navajo (Dine) to weave beauty.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        The Next San Juan Region Council meeting is scheduled for July 17th at 1pm.
-                                    </li>
-                                </ul>
-                            </h3>
                         </div>
-
-
                     </div>
-                </div>
-            </div>
+                    </div>
 
-            <div id="bg">
-                <div id="search-container">
-                    <div id="search-bg"></div>
-                    <div id="search">
-
-
-                        <div class="council-container">
-                            <h2>ECN Council News</h2>
-                            <h3>
-                                <ul>
-                                    <li>
-                                        Cornelia will be priest in charge at Bluff this summer between 1st and second years of seminary.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        Three Bishops from Native Bishops Collaborative met during the annual convocation to discuss how to implement training and enrichment programs to liftup local leaders, both lay and deacons.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        Bishop Bailey lifted up two pastors who will be retiring: Lily Henderson, lay pastor for 19 years at St John’s in Montezuma Creek, Ut, and Inez Valarde, lay pastor for 49 years from St. Luke's? Both will continue to serve on a limited basis. Congrats and thanks yous to both of them and standing ovation from the congregations present.
-                                    </li>
-                                </ul>
-                            </h3>
+                    <div id="bg">
+                        <div id="search-container">
+                            <div id="search-bg"></div>
+                            <div id="search">
+                                <div class="council-container">
+                                    <h2>41st Annual Convocation to be Hosted by Good Shepherd Mission and the Southeast Region</h2>
+                                    <h3>
+                                        <ul>
+                                            <li>
+                                                
+                                            </li>
+                                        </ul>
+                                    </h3>
+                                </div>
+                            </div>
                         </div>
-
-
                     </div>
+
                 </div>
             </div>
-
-
-            <div id="bg">
-                <div id="search-container">
-                    <div id="search-bg"></div>
-                    <div id="search">
-
-
-                        <div class="council-container">
-                            <h2>San Juan Region Council News</h2>
-                            <h3>
-                                <ul>
-                                    <li>
-                                        “The Episcopal Church welcomes all who worship Jesus Christ, in 109 dioceses and three regional areas in 17 nations.  The Episcopal Church is a member province of the worldwide Anglican Communion.”
-                                    </li>
-                                    <br>
-                                    <li>
-                                        In the Navajo creation story, the Holy People gave Spider Woman the gift of weaving the web of the universe. When the Holy People saw that Spider Woman had learned to use her gift, they visited her again and taught her how to build the loom that would be used by the Navajo (Dine) to weave beauty.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        The Next San Juan Region Council meeting is scheduled for July 17th at 1pm.
-                                    </li>
-                                </ul>
-                            </h3>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div id="bg">
-                <div id="search-container">
-                    <div id="search-bg"></div>
-                    <div id="search">
-
-
-                        <div class="council-container">
-                           <h2> Southeast Region Council News</h2>
-                            <h3>
-                                <ul>
-                                    <li>
-                                        An Artist Market will be held on Monday nights during June and July in the Thorne Building. If you are an artist, or you would like to be a storyteller – and tell your own story of history at Good Shepherd Mission, contact Mother Cynthia.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        Safeguarding God’s Children is to be (WAS now since it is past) held June 20 at Good Shepherd Mission. This is a training for all adults who work with children or mission groups.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        SER is now paying its own insurance and workers compensation bills. This helps lower the burden of bills for ECN and gets us one step closer to financial independence.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        The Next Southeast Region Council meeting is scheduled for July 17th at 1pm.
-                                    </li>
-                                </ul>
-                            </h3>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div id="bg">
-                <div id="search-container">
-                    <div id="search-bg"></div>
-                    <div id="search">
-
-
-                        <div class="council-container">
-                            <h2>Utah Region Council News</h2>
-                            <h3>
-                                <ul>
-                                    <li>
-                                        We had a transition session about how the congregation would take on roles when Rev. Deacon Leon leaves for Seminary. Talked about who would take on different responsibilities.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        Provided information about a biking group that will spend some time on grounds. The group of 29 cyclist will be biking from North Carolina to Los Angeles
-                                        while raising funds for various organizations. They will be donating some funds to Hud Homes, Design Build Bluff. We petition to have a building built on Mission Grounds, an eco friendly green house
-                                    </li>
-                                    <br>
-                                    <li>
-                                        ECW will put in time to help maintain the beauty of St. Christopher's grounds by planting flowers.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        The Next Utah Region Council meeting is scheduled for July 17th at 1pm.
-                                    </li>
-                                </ul>
-                            </h3>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-            
         </div>
-    </div>
-</div>
+
+
+
 
 
 <ol class="breadcrumb">
     <li><a href="index.php">Home</a></li>
     <li><a href="areaMissContact.php">Area Mission Contact</a></li>
-    <li><a href="Calendar.php">Calendar</a></li>
+    <li><a href="calendarNew.php">Calendar</a></li>
     <li><a href="findaChurch.php">Find A Church</a></li>
     <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
     <li class="active"></li>

@@ -126,9 +126,9 @@
             </div>
 
             <div class="col-lg-4">
-                <h2>Another Cultivating Coders Bootcamp at All Saints!</h2>
-                <h5>Classes will start September 12th!</h5>
+                <h2>Coding Boot Camp Re-Scheduled date TBA</h2>
                 <h6>Contact office for more Info.</h6>
+                <h2>Navajo Hymnal Study Continuing Sept 21 @6pm Bring dish to share for dinner!</h2>
             </div>
 
             <div class="col-lg-4">
@@ -203,37 +203,42 @@
                     <div class="thumbnail">
                         <img src="/lib/img/gsmhoganproject.jpg">
                     </div>
+                    <div id="button-blue">
+                        <a class="btn btn-info btn-lg" href="https://www.razoo.com/story/Build-A-Hogan?referral_code=share" role="button">Help Build a Hogan Here!</a>
+                    </div>
                 </div>
                 <div class="col-lg-8" id="text">
                     <h3>The Hogan Project</h3>
                     Rebuilding the spiritual and physical homes.
                     A Spiritual Place: Navajo spirituality recognizes a sacred web of life which encompasses all living
-                    things.And Navajo ceremonies are designed to restore this harmony with all of creation to those who
-                    are ill or hurting in any way. These ceremonies take place in hogans.<br>
+                    things. Navajo ceremonies are designed to restore this harmony with all of creation to those who
+                    are ill or hurting in any way. These ceremonies take place in hogans. <br>
                     <br>
                     A Place Home: The hogan is also the traditional Navajo home. Its shape reflects the universe.
                     The one door opens to the East, to greet the dawn. All inside activities move in a clockwise fashion,
                     following the sun’s path. The domed roof is the sky, the floor is the earth, and the smoke hole is a
                     window to the North Star. Literally translated, hogan means “place home”, and the Navajo take their
-                    identity from it.<br>
+                    identity from it. <br>
                     <br>
                     The Project: Through harsh weather, neglect, and decaying materials, many of the hogans on the
                     Reservation have fallen into ruin. The Episcopal Church in Navajoland has begun a campaign to
                     build new hogans, for ceremonial, educational, and spiritual purposes. There will be two hogans
-                    in each state the Reservation touches: Arizona, New Mexico, and Utah.<br>
+                    in each state the Reservation touches: Arizona, New Mexico, and Utah. <br>
                     <br>
-                    A hogan is built of wood, usually cedar or ponderosa or pinyon pine. Today, there is often a steel
+                    A hogan is built of wood, usually cedar or ponderosa or pinion pine. Today, there is often a steel
                     infrastructure, providing resistance to the strenuous winds which sweep through the Reservation.
-                    Today’s hogans are often built on a concrete slab for durability.<br>
+                    Today’s hogans are often built on a concrete slab for durability. <br>
                     <br>
-                    The Financial's: The cost of a hogan varies greatly depending on its location. Proximity to
+                    The Financials’: The cost of a hogan varies greatly depending on its location. Proximity to
                     electricity and water, availability of materials and labor, and accessibility for the delivery
                     of them are some of the factors which contribute to variable cost. Thus, we estimate that each 800
-                    square foot hogan will cost approximately $40,000 to construct.<br>
+                    square foot hogan will cost approximately $40,000 to construct. <br>
                     <br>
                     The Follow-up: As the hogans are funded, watch the building progress on our website,
-                    www.navajoland.org. We’ll have pictures and updates that show you how your generosity empowers as
-                    it preserves the beauty of Navajo culture.<br>
+                    www.ecnavajoland.com. We’ll have pictures and updates that show you how your generosity empowers as
+                    it preserves the beauty of Navajo culture. <br>
+
+
                 </div>
             </div>
         </div>
@@ -244,14 +249,14 @@
             
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="circle" id="sms">
+                        <div id="sms">
                         <a href="https://shima-of-navajoland.myshopify.com/">
                             <h3>ShiMa' Soaps</h3>
                         </a>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="circle"  id="cds">
+                        <div id="cds">
                             <a href="http://www.cheiidevshop.com/">
                                 <h3>Cheii's DevShop</h3>
                             </a>
