@@ -121,7 +121,7 @@ body {
 .bulletin .row {
     background-color: white;
     color: black;
-    font-family: 'Quattrocento', serif;
+    font-family: 'Pontano Sans', sans-serif;
     margin-top: 10%;
     border-radius: 25px;
     border: 2px solid #232323;
@@ -130,10 +130,13 @@ body {
 #dhead {
     background-color: teal;
     color: black;
-    font-family: 'Oswald', sans-serif;
     margin-top: 0;
     border-radius: 20px;
     border: 1px solid #232323;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 #indexLogo img {

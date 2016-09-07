@@ -6,7 +6,8 @@
     <!-- Custom styles for this template -->
     <link href="/lib/css/styleindex.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
@@ -108,33 +109,33 @@
         <div class="row bulletin">
 
             <div class="col-lg-4" id="dhead">
-                <h3>Utah Region's Latest News</h3>
+                <h2>Utah Region's Latest News</h2>
             </div>
 
             <div class="col-lg-4" id="dhead">
-                <h3>S.J. Region's Latest News</h3>
+                <h2>S.J. Region's Latest News</h2>
             </div>
 
             <div class="col-lg-4" id="dhead">
-                <h3>S.E. Region's Latest News</h3>
+                <h2>S.E. Region's Latest News</h2>
             </div>
             
             <div class="col-lg-4">
-                <h2>Leon Sampson is now at seminary!</h2>
-                <h5>Virginia Theological Seminary recruited Leon on August 9, 2016.</h5>
-                <h6>Navajoland will miss you!</h6>
+                <h2>September 10th Combined Service</h2><!--- Input Bulletin Heading here ----------------------------------->
+                <h3>Rev. Pat Cook will conduct service at 10am </h3><!--- Input Bulletin Med. Text here ----------------------------------->
+                <h3>Hope to see you there!</h3><!--- Input Bulletin Small Text here ----------------------------------->
             </div>
 
             <div class="col-lg-4">
-                <h2>Coding Boot Camp Re-Scheduled date TBA</h2>
-                <h6>Contact office for more Info.</h6>
-                <h2>Navajo Hymnal Study Continuing Sept 21 @6pm Bring dish to share for dinner!</h2>
+                <h2>Coding Boot Camp Re-Scheduled</h2><!--- Input Bulletin Heading here ----------------------------------->
+                <h3>New Date TBA Contact ECN office for more Info.</h3><!--- Input Bulletin Med. Text here ----------------------------------->
+                <h2>Navajo Hymnal Study Continuing Sept 21 @6pm</h2><!--- Input Bulletin large Text here ----------------------------------->
             </div>
 
             <div class="col-lg-4">
-                <h2>ShiMa' Soap was a success at the Santa Fe Indian Market!</h2>
-                <h5>ShiMa' Soap has made it's mark.</h5>
-                <h6>Thanks for all the support!</h6>
+                <h2>Welcome Our New Assisting Priest</h2><!--- Input Bulletin Heading here ----------------------------------->
+                <h2>Rev. Richard Mendez</h2><!--- Input Bulletin Med. Text here ----------------------------------->
+                <h4>Thanks for all the support!</h4><!--- Input Bulletin Small Text here ----------------------------------->
             </div>
 
         </div>

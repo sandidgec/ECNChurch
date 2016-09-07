@@ -27,12 +27,16 @@
      background-image: url("/lib/img/oldgsmcross.jpg");
      background-size: cover;
      background-repeat: no-repeat;
-     font-family: 'Arapey', serif;
+     font-family: 'Pontano Sans', sans-serif;
      text-align: center;
  }
  #large {
      font-family: 'Architects Daughter', cursive;
      font-size: 50px;
+     text-align: center;
+ }
+ li {
+     text-align: left;
  }
 .historyJumbo {
     padding-top: 5px;

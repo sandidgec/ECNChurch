@@ -6,7 +6,7 @@
     <title>Governance</title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/styleGov.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Arapey:400,400italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 </head>
 <body>
