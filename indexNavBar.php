@@ -13,8 +13,7 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-
-
+        
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active">
