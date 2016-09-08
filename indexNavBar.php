@@ -18,7 +18,7 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active">
-
+                <li><a class="label" href="bishopsPage.php">Bishop's Page</a></li>
                 <li><a class="label" href="history.php">History/Beliefs</a></li>
                 <li><a class="label" href="governance.php">Governance</a></li>
                 <li><a class="label" href="findaChurch.php">Find A Church</a></li>
