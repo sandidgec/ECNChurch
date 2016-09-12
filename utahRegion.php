@@ -139,7 +139,7 @@
     <div class="col-md-4">
         <h1>St. John the Baptizer History</h1>
         <img src="/lib/img/StJohntheBaptizer.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
-        <h2>St. John the Baptizer</h2>
+        <h2>St. John the Baptizer</h2>6sz zzdzsX
         <p>The Episcopal church, St. John the Baptizer, is located in the city of Montezuma Creek. Montezuma
             Creek is located in the beautiful state of Utah.</p>
     </div>
