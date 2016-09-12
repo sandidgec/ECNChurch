@@ -52,48 +52,25 @@
                         </li>
                         <li class="day other-month">
                             <div class="date">29</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                       Cabo San Lucas
-                                </div>
-                            </div>
                         </li>
                         <li class="day other-month">
                             <div class="date">30</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Cabo San Lucas
-                                </div>
-                            </div>
                         </li>
                         <li class="day other-month">
                             <div class="date">31</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Cabo San Lucas
-                                </div>
-                            </div>
+
                         </li>
                         <li class="day">
                             <div class="date">1</div>
                             <div class="event-bishop">
                                 <div class="event-desc">
-                                    Cabo San Lucas
+                                   Bishop Bailey's Surgery
+                                    Please keep in prayer
                                 </div>
                             </div>
                         </li>
                         <li class="day">
                             <div class="date">2</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Cabo San Lucas
-                                </div>
-                            </div>
                         </li>
                         <li class="day">
                             <div class="date">3</div>

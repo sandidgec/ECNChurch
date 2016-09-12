@@ -21,8 +21,8 @@
 
 <div class="container-fluid">
     <div class="jumbotron">
-        <h1>Calendar Events</h1>
-        <p>July 2016</p>
+        <h1>Episcopal Church in Navajoland Events</h1>
+        <p>2016</p>
         <p><a class="btn btn-primary btn-lg" href="calendarNew.php" role="button">Calendar</a></p>
     </div>
 </div>
@@ -77,14 +77,14 @@
 
 </div>
 
-<ol class="breadcrumb text-center">
-    <li><a href="index.php">Home</a></li>
-    <li><a href="contact.php">Contact</a></li>
-    <li><a href="currentEvents.php">NewsLetter</a></li>
-    <li><a href="governance.php">Calendar</a></li>
-    <li><a href="support.php">Ministries</a></li>
-    <li class="active">Data</li>
-</ol>
+    <ol class="breadcrumb text-center">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="areaMissContact.php">Area Mission Contact</a></li>
+        <li><a href="calendarNew.php">Calendar</a></li>
+        <li><a href="findaChurch.php">Find A Church</a></li>
+        <li><a href="missionsRetreats.php">Missions/Retreats</a></li>
+        <li class="active"></li>
+    </ol>
 
 
 

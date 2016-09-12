@@ -108,13 +108,6 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="event-sjr">
-                                <div class="event-desc">
-                                    <a href="utahRegion.php">
-                                        Bible Study<!--SJR---------------->
-                                    </a>
-                                </div>
-                            </div>
                             <div class="event-utah">
                                 <div class="event-desc">
                                     <a href="utahRegion.php">
@@ -127,9 +120,8 @@
                             <div class="date">1</div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="utahRegion.php">
-
-                                    </a>
+                                    Bishop Baileys Surgery<!--SJR---------------->
+                                    Please keep him in prayer
                                 </div>
                             </div>
                             <div class="event-ser">
@@ -153,6 +145,13 @@
                                 <div class="event-desc">
                                     <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Rev. Cathlena Away until the 20th<!--SJR---------------->
                                     </a>
                                 </div>
                             </div>
@@ -219,6 +218,13 @@
                                 <div class="event-desc">
                                     <a href="utahRegion.php">
                                         10:30 to 1PM Food Bank & Closet @ St. Christopher's<br><!--UTR---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        No Hymnal Study<!--SJR---------------->
                                     </a>
                                 </div>
                             </div>
@@ -303,9 +309,8 @@
                             </div>
                             <div class="event-sjr">
                                 <div class="event-desc">
-                                    <a href="">
-                                        Coder Bootcamp Info/Sigh Up<br>
-                                        11am-1pm call for info
+                                    <a href="churchService.php">
+                                        No Hymnal Study<!--SJR---------------->
                                     </a>
                                 </div>
                             </div>
@@ -332,14 +337,6 @@
                         </li>
                         <li class="day">
                             <div class="date">17</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    <a href="churchService.php">
-                                        ECN Council MTG<br>
-                                        Bluff, UT 10am-3pm
-                                    </a>
-                                </div>
-                            </div>
                         </li>
                     </ul>
                     <ul class="days">
@@ -396,7 +393,13 @@
                                     </a>
                                 </div>
                             </div>
-
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Navajo Hymnal Study @6pm<!--SJR---------------->
+                                    </a>
+                                </div>
+                            </div>
                         </li>
                         <li class="day">
                             <div class="date">22</div>
@@ -476,6 +479,13 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Navajo Hymnal Study @6pm<!--SJR---------------->
+                                    </a>
+                                </div>
+                            </div>
                         </li>
                         <li class="day">
                             <div class="date">29</div>
@@ -483,6 +493,14 @@
                                 <div class="event-desc">
                                     <a href="churchService.php">
                                         Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Feast Day of St. Michaels of
+                                        All Angels<!--SJR---------------->
                                     </a>
                                 </div>
                             </div>

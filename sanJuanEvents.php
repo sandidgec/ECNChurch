@@ -91,7 +91,7 @@
 
 <div class="container-fluid" id="top">
     <div class="jumbotron">
-        <h1>Event Discription</h1>
+        <h1>Event Description</h1>
     </div>
 </div>
 
@@ -115,8 +115,9 @@
                 </div>
                 <div class="col-lg-9" id="text">
                     <h2>All Saints Event</h2>
-                    Cultivating Coders Bootcamp Info/Sigh Up <br>
-                    11am-1pm call for info
+                    Cultivating Coders Boot camp<br>
+                    Postponed until Further Notice.<br>
+                    Sorry for the inconvenience.
                 </div>
             </div>
         </div>

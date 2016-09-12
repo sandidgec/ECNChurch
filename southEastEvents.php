@@ -93,7 +93,7 @@
 
 <div class="container-fluid" id="top">
     <div class="jumbotron">
-        <h1>Event Discription</h1>
+        <h1>Event Description</h1>
     </div>
 </div>
 

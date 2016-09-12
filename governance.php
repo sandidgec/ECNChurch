@@ -163,14 +163,11 @@
                             <h3>
                             <ul>
                                 <li>
-                                    Grants for renovation of the Old Hospital (old church) has been raised! Construction to commence in July.
+                                    Great news! We have raised enough in grants to start construction on the old church in Farmington, NM. Bids for construction will be taken starting mid July.
                                 </li>
                                 <br>
                                 <li>
-                                    The Old Hospital will be renovated and turned into The Hozho Center. It will house the ECN offices, meeting rooms for AA and other types of meetings to help the community. The basement will be home to The Dev Shop. A Web Development shop started by ECN to help with our goal of becoming a Self Sustaining Diocese.
-                                </li>
-                                <li>
-                                    The 41st Annual ECN Convocation will be hosted by the Southeast Region. We hope to see you there!
+                                    The plan is to turn the Old Hospital, that is not utilized at the time, into a Hozho Center. It will house various meeting spaces targeted to help the community, like AA. The basement will be home to Cheii's Web Development Shop, a development shop aimed at creating web sites and web apps all for the well being of The Episcopal Church in Navajoland and the goal of becoming a Self Sustaining Diocese.
                                 </li>
                             </ul>
                             </h3>
@@ -188,7 +185,7 @@
                                     <h3>
                                         <ul>
                                             <li>
-                                                
+                                                The 41st Annual ECN Convocation will be hosted by the Southeast Region. The next convocation dates are June 9th thru the 11th, 2017. We hope to see you there!
                                             </li>
                                         </ul>
                                     </h3>
