@@ -203,7 +203,7 @@
                                     </div>
                                     <p> Rev. Chan Osborn de Anaya<br>
                                         E-Mail: ecncanaya@gmail.com<br>
-                                        Phone: (505) 327-7549
+                                        Phone: (505) 716-8445
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">

@@ -193,7 +193,7 @@
 
         <dl>
             <dt>Rev. Chan Anaya</dt>
-            <dd>Office No. (505) 327-0326</dd>
+            <dd>Office No. (505) 716-8445</dd>
             <dd>Email: ecncanaya@gmail.com</dd>
             <dd>Priest in Charge St. Michael's Canon Missioner</dd>
         </dl>
@@ -237,9 +237,8 @@
 
         <dl>
             <dt>Rev. Inez Velarde</dt>
-            <dd>Cell No. (505) 635-9026</dd>
-            <dd>Email: velarde.inez@gmail.com</dd>
-            <dd>Priest In Charge at St. Luke's</dd>
+            <dd>Office No.  (505) 327-0326</dd>
+            <dd>Retired Priest at St. Luke's</dd>
         </dl>
 
     </div>

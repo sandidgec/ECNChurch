@@ -4,7 +4,7 @@
     <?php require_once("lib/head-utils.php"); ?>
     <?php require_once("indexNavBar.php");?>
     <!-- Custom styles for this template -->
-    <link href="lib/css/styleSanJuan.css" rel="stylesheet">
+    <link href="lib/css/styleUtah.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
     <title>Utah Region</title>
@@ -66,12 +66,7 @@
 </div>
 
 <div class="row logo-container">
-    <div id="logo" class="col-lg-4">
-        <div class="row no-pad">
-            <img src="/lib/img/episcopalchurchinnavajolandlogo_480.png"
-                 class="img-responsive"  alt="Awesome.jpg">
-        </div>
-    </div>
+
 
     <div class="col-lg-offset-4 col-lg-4">
         <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
@@ -96,20 +91,20 @@
         </div>
 
         <div class="col-lg-4">
-            <h2>St. Christopher's Bee Project is Happening</h2>
+            <h2>St. Christopher's Bee Project is Happening!</h2>
             <h5>100 Pounds is Ready to be Packaged!</h5>
-            <h6>Contact office for more Info.</h6>
+            <h6>Contact office for more Information</h6>
         </div>
 
         <div class="col-lg-4">
             <h2>Leon Sampson is now at seminary!</h2>
             <h5>Virginia Theological Seminary recruited Leon on August 9, 2016.</h5>
-            <h6>Navajoland will miss you.</h6>
+            <h6>Navajoland will miss you</h6>
         </div>
 
         <div class="col-lg-4">
-            <h2>Staff meeting EVERY Tuesday at 9am, St. Christopher's</h2>
-            <h5>St. Marys and St. John's are welcomed to attend</h5>
+            <h2>Staff meeting EVERY Tuesday at 9am, St. Christopher's.</h2>
+            <h5>St. Marys and St. John's are welcomed to attend.</h5>
             <h6>Contact office for more Information</h6>
         </div>
 
@@ -123,9 +118,9 @@
 <div class="row" id="history">
     <div class="col-md-4">
         <h1>St. Christopher's History</h1>
-        <img src="/lib/img/stchirschurch.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <img src="/lib/img/stChristophers.JPG" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Christophers</h2>
-        <p>St. Christopher's in Bluff, Utah was built in 1943 . It's located 1.7 miles east of the Bluff on Utah
+        <p>St. Christopher's in Bluff, Utah was built in 1942 . It's located 1.7 miles east of the Bluff on Utah
             highway 162. The grounds also includes a museum and community farm. A free well on the mission ground is used
             today by many Navajo, as their main water source.</p>
     </div>
@@ -139,7 +134,7 @@
     <div class="col-md-4">
         <h1>St. John the Baptizer History</h1>
         <img src="/lib/img/StJohntheBaptizer.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
-        <h2>St. John the Baptizer</h2>6sz zzdzsX
+        <h2>St. John the Baptizer</h2>
         <p>The Episcopal church, St. John the Baptizer, is located in the city of Montezuma Creek. Montezuma
             Creek is located in the beautiful state of Utah.</p>
     </div>
