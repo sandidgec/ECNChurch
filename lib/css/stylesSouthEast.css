@@ -1,22 +1,36 @@
-.tales {
-    width: 100%;
-}
-
-.carousel-inner{
-
-}
-
 .container {
-     font-size: 50px;
- }
+    font-size: 50px;
+}
 
-.carousel-inner > .item > img{
-    width:1400px;
-    height:800px;
+.carousel-inner > .item > img {
+    width: 900px;
+    height: 560px;
+    border-radius: 25px;
+
+}
+
+
+#carousel-example-generic {
+    width: 900px;
+    height: 560px;
+    border-radius: 25px;
+}
+
+#buttons {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+
+}
+
+#carousel {
+    padding-left: 30px;
+
 }
 body {
     background-color: darkturquoise;
 }
+
 
 #test {
     padding-top: 125px;
@@ -84,10 +98,12 @@ h6 {
 
 #title {
     background-color: darkturquoise;
+    border-radius: 25px;
+
 }
 
 dl {
-    padding-top: px;
+
 }
 
 dt {
@@ -137,4 +153,3 @@ dd {
 #learn-more {
     text-align: center;
 }
-
