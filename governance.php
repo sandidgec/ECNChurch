@@ -169,7 +169,7 @@
                                 <li>
                                     The plan is to turn the Old Hospital, that is not utilized at the time, into a Hozho Center. It will house various meeting spaces targeted to help the community, like AA. The basement will be home to Cheii's Web Development Shop, a development shop aimed at creating web sites and web apps all for the well being of The Episcopal Church in Navajoland and the goal of becoming a Self Sustaining Diocese.
                                 </li>
-                            </ul>
+                            </ul>MySQL - ecnchurch@104.236.85.29
                             </h3>
                         </div>
                         </div>

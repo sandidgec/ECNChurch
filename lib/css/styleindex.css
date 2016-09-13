@@ -84,22 +84,14 @@ body {
 #flower {
     background-color: darkslategray;
 }
-.circle {
-    width: 175px;
-    height: 175px;
-    border-radius: 175px;
-    background-color: aqua;
-    text-align: center;
-    display: inline-block;
-    overflow: hidden;
-}
+
 .thumbnail {
     width: 365px;
     height: 210px;
     padding: 1px;
     border: 1px;
     border: solid;
-    border-color: black;
+    border-color: transparent;
     background-color: transparent;
 }
 .thumbnail img {
@@ -119,8 +111,9 @@ body {
 }
 
 .bulletin .row {
-    background-color: white;
-    color: black;
+    text-align: left;
+    background: rgba(43, 43, 43, 0.76);
+    color: white;
     font-family: 'Pontano Sans', sans-serif;
     margin-top: 10%;
     border-radius: 25px;
@@ -135,6 +128,7 @@ body {
     border: 1px solid #232323;
     font-size: xx-large;
     font-weight: bold;
+    text-align: center;
     font-family: 'Oswald', sans-serif;
 
 }
@@ -178,32 +172,16 @@ body {
 .logo-container .btn {
     background-color: black;
 }
-.circle {
-    width: 275px;
-    height: 275px;
-    border-radius: 275px;
-    background-color: aqua;
-    text-align: center;
+
+#shimaLink {
+    width: 500px;
+    height: 200px;
     display: inline-block;
-    overflow: hidden;
-    padding-top: 100px;
 }
-#cds {
-    background-image: url("/lib/img/cheiidevshoplogo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+
+#cheiiLink {
     width: 200px;
     height: 200px;
     display: inline-block;
 }
-#sms {
-    background-image: url("/lib/img/shima.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 350px;
-    height: 200px;
-    display: inline-block;
 
-}

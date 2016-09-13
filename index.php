@@ -250,16 +250,16 @@
             
                 <div class="row">
                     <div class="col-lg-6">
-                        <div id="sms">
-                        <a href="https://shima-of-navajoland.myshopify.com/">
-                            <h3>ShiMa' Soaps</h3>
-                        </a>
-                        </div>
+                            <div id="shimaLink" class="thumbnail">
+                                <a href="http://www.https://shima-of-navajoland.myshopify.com//">
+                                <img src="/lib/img/shima.jpg">
+                                </a>
+                            </div>
                     </div>
                     <div class="col-lg-6">
-                        <div id="cds">
+                        <div id="cheiiLink" class="thumbnail">
                             <a href="http://www.cheiidevshop.com/">
-                                <h3>Cheii's DevShop</h3>
+                            <img src="/lib/img/cheiidevshoplogo.png">
                             </a>
                         </div>
                     </div>

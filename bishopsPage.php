@@ -7,6 +7,7 @@
     <!-- Custom styles for this template -->
     <link href="/lib/css/styleBp.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    
 </head>
 <title>Calendar</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +20,11 @@
 <div id="news" class="row" >
 
     <h1>News From the Bishop</h1>
-    <h3>From the Episcopal Church in Navajoland, we wish you a great September. Stay safe, stay warm and stay blessed.</h3>
+    <h3>From the Episcopal Church in Navajoland, we wish you a great September.<br>
+        Stay safe, stay warm and stay blessed.<br><br>
+        Bishop Dave is steadily Recovering from Surgery. Please keep <br>
+        Bishop Dave and Anne in your thoughts and Prayers.<br>
+    </h3>
 
 </div>
     
