@@ -193,7 +193,7 @@
 
         <dl>
             <dt>Rev. Chan Anaya</dt>
-            <dd>Office No. (505) 716-8445</dd>
+            <dd>Cell No. (505) 716-8445</dd>
             <dd>Email: ecncanaya@gmail.com</dd>
             <dd>Priest in Charge St. Michael's Canon Missioner</dd>
         </dl>
@@ -235,7 +235,7 @@
         <h6>Farmington, NM 87401</h6>
         <a href="https://www.facebook.com/St-Lukes-in-the-Desert-Episcopal-Church-in-Navajoland-1103524973026385/?ref=aymt_homepage_panel"> <i class="fa fa-facebook-official fa-2x"></i></a>
 
-        <dl>
+        <dl> 
             <dt>Rev. Inez Velarde</dt>
             <dd>Office No.  (505) 327-0326</dd>
             <dd>Retired Priest at St. Luke's</dd>
