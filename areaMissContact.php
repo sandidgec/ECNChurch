@@ -165,7 +165,6 @@
 
             <br>
             <h2>Office of the Bishop</h2>
-            <br>
 
                 <div id="bg">
                     <div id="search-container">
@@ -227,7 +226,7 @@
 
                 <br>
                 <h2>San Juan Region</h2>
-                <br>
+
 
                 <div id="bg">
                     <div id="search-container">
@@ -289,7 +288,6 @@
 
                 <br>
                 <h2>South East Region</h2>
-                <br>
 
                 <div id="bg">
                     <div id="search-container">
@@ -378,31 +376,6 @@
             <h2>Utah Region</h2>
             <br>
 
-
-        <div id="bg">
-            <div id="search-container">
-                <div id="search-bg"></div>
-                <div id="search">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="thumbnail" id="clergy">
-                                <img src="/lib/img/kayStMay.jpg">
-                            </div>
-                            <p> Rev. Kay Rohde<br>
-                                ECN Office: (505)327-7549
-                            </p>
-                        </div>
-                        <div class="col-lg-8" id="text">
-                            <h3>Regional Ministry Developer</h3>
-                            The Rev. Kay Rohde will be joining ECN as Regional Ministry Developer for the Utah Region.
-                            She will be working with St. Christopher’s and St. John the Baptizer.
-                            Kay will be moving to Bluff from Sacramento, California where she is currently the Ministry Development Coordinator for the Diocese of Northern California.
-                            Kay has a son, Alex, living near Roosevelt, Utah and enjoyed a 31 year career as a National Park Ranger. She will be starting on November 1.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
             <div id="bg">
