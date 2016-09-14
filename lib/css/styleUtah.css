@@ -2,25 +2,18 @@
     width: 100%;
 }
 
-.carousel-inner > .item > img{
-    width:1400px;
-    height:800px;
-}
-
-.caption {
-    color: white;
-
-}
-
 .container {
     font-size: 50px;
 }
 
+.carousel-inner > .item > img{
+    width:1300px;
+    height:600px;
+    border-radius: 25px;
 
-.carousel img {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+}
+#carousel-example-generic {
+    padding-top: 50px;
 }
 
 caption {

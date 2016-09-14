@@ -1,33 +1,21 @@
+.tales {
+    width: 100%;
+}
+
 .container {
     font-size: 50px;
 }
 
-.carousel-inner > .item > img {
-    width: 900px;
-    height: 560px;
+.carousel-inner > .item > img{
+    width:1300px;
+    height:600px;
     border-radius: 25px;
 
 }
-
-
 #carousel-example-generic {
-    width: 900px;
-    height: 560px;
-    border-radius: 25px;
+    padding-top: 50px;
 }
 
-#buttons {
-    padding-top: 10px;
-    padding-bottom: 25px;
-    border-radius: 25px;
-
-}
-
-#carousel {
-    padding-left: 30px;
-    background-color: #666666;
-
-}
 
 body {
     background-color: darkturquoise;

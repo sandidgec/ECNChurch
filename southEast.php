@@ -13,83 +13,59 @@
     <title>South East Region</title>
 
 </head>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-<div class="row" id="carousel">
-    <div class="col-md-8">
+<div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    </ol>
 
-        <div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            </ol>
+    <!-- Wrapper for slides -->
 
-
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="/lib/img/gsm1.jpg" alt="...">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="/lib/img/gsm1.jpg" alt="...">
                     <div class="carousel-caption">
                         <h1>Good Shepherd Church</h1>
                     </div>
-                </div>
+            </div>
 
-                <div class="item">
-                    <img src="/lib/img/DSC_0169.JPG" alt="...">
+            <div class="item">
+                <img src="/lib/img/DSC_0169.JPG" alt="...">
                     <div class="carousel-caption">
                         <h1>Good Shepherd Church</h1>
                     </div>
-                </div>
-                <div class="item">
-                    <img src="/lib/img/GSMBell.JPG" alt="...">
+            </div>
+            <div class="item">
+                <img src="/lib/img/GSMBell.JPG" alt="...">
                     <div class="carousel-caption">
                         <h1>Good Shepherd Bell</h1>
                     </div>
-                </div>
-                <div class="item">
-                    <img src="/lib/img/stMarks.jpg" alt="...">
+            </div>
+            <div class="item">
+                <img src="/lib/img/stMarks.jpg" alt="...">
                     <div class="carousel-caption">
                         <h1>Saint Marks Church</h1>
                     </div>
-                </div>
             </div>
-
-
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
 
-    </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
 
-    <div class="col-md-4" id="buttons">
-        <span style="display: inline-block; width: 100px; vertical-align: top;">
-            <button type="button" class="btn btn-default" style="width: 200px; height: 90px;">Button</button>
-            <button type="button" class="btn btn-primary" style="width: 200px; height: 90px;">Button</button>
-            <button type="button" class="btn btn-success" style="width: 200px; height: 90px;">Button</button>
-            <button type="button" class="btn btn-success" style="width: 200px; height: 90px;">Button</button>
-            <button type="button" class="btn btn-info" style="width: 200px; height: 90px;">Button</button>
-            <button type="button" class="btn btn-info" style="width: 200px; height: 90px;">Button</button>
-        </span>
-    </div>
+
 </div>
-
-
 
 <div class="row ecn-container">
     <div id="logo" class="col-lg-4">
@@ -104,6 +80,7 @@
         <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
     </div>
 </div>
+
 
 <div class="container">
     <div class="text-center">
