@@ -145,20 +145,42 @@ body {
 }
 
 
-.carousel-inner {
-    width:100%;
-    max-height:1055px !important;
-    background-size: cover;
+.carousel-inner > .item > img {
+    width: 1100px;
+    height: 560px;
 }
 
-.carousel {
-    height: auto;
+
+#carousel-example-generic {
+    width: 1100px;
+    height: 560px;
+    margin-top: 90px;
 }
-.carousel img {
-    width: 100%;
-    display: inline;
-    text-align: center;
+
+#buttons {
+    padding-right: 90px;
+    border-radius: 25px;
+    text-align: right;
+    margin-top: 100px;
+
 }
+
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:visited,
+.btn-default:focus {
+    background-color: #DAA520
+;
+    border-color: #DAA520
+;
+}
+
+#carousel {
+    padding-left: 50px;
+    background: rgba(43, 43, 43, 0.76);
+}
+
 
 .logo-container {
     position: absolute;
