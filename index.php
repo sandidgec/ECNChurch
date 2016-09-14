@@ -11,7 +11,7 @@
     <title>Home</title>
 </head>
 <body>
-
+<!---------Beginning Carousel ----------------------------------------------------------------------------------------->
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -24,7 +24,6 @@
             <li data-target="#carousel-example-generic" data-slide-to="6"></li>
             <li data-target="#carousel-example-generic" data-slide-to="7"></li>
             <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-
         </ol>
 
         <!-- Wrapper for slides -->
@@ -96,15 +95,18 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+<!---------End Carousel ----------------------------------------------------------------------------------------------->
 
+<!-------- Navajoland logo and bulletin button on home page------------------------------------------------------------>
     <div class="row logo-container" id="indexLogo">
-      
-
         <div class="col-lg-offset-8 col-lg-4">
             <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
         </div>
     </div>
+<!-------- End Navajoland logo and bulletin button on home page-------------------------------------------------------->
 
+
+<!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
     <div class="container bulletin" id="bulletin">
         <div class="row bulletin">
 
@@ -121,35 +123,37 @@
             </div>
             
             <div class="col-lg-4">
-                <h2>September 10th Combined Service</h2><!--- Input Bulletin Heading here ----------------------------------->
-                <h3>Rev. Pat Cook will conduct service at 10am </h3><!--- Input Bulletin Med. Text here ----------------------------------->
+                <h2>September 10th Combined Service</h2><!--- Input Bulletin Heading here ----------------------------->
+                <h3>Rev. Pat Cook will conduct service at 10am </h3><!--- Input Bulletin Med. Text here --------------->
                 <h3>Hope to see you there!</h3><!--- Input Bulletin Small Text here ----------------------------------->
             </div>
 
             <div class="col-lg-4">
-                <h2>Coding Boot Camp Re-Scheduled</h2><!--- Input Bulletin Heading here ----------------------------------->
-                <h3>New Date TBA Contact ECN office for more Info.</h3><!--- Input Bulletin Med. Text here ----------------------------------->
-                <h2>Navajo Hymnal Study Continuing Sept 21 @6pm</h2><!--- Input Bulletin large Text here ----------------------------------->
+                <h2>Coding Boot Camp Re-Scheduled</h2><!--- Input Bulletin Heading here ------------------------------->
+                <h3>New Date TBA Contact ECN office for more Info.</h3><!--- Input Bulletin Med. Text here ------------>
+                <h2>Navajo Hymnal Study Continuing Sept 21 @6pm</h2><!--- Input Bulletin large Text here -------------->
             </div>
 
             <div class="col-lg-4">
-                <h2>Welcome Our New Assisting Priest</h2><!--- Input Bulletin Heading here ----------------------------------->
-                <h2>Rev. Richard Mendez</h2><!--- Input Bulletin Med. Text here ----------------------------------->
-                <h4>Thanks for all the support!</h4><!--- Input Bulletin Small Text here ----------------------------------->
+                <h2>Welcome Our New Assisting Priest</h2><!--- Input Bulletin Heading here ---------------------------->
+                <h2>Rev. Richard Mendez</h2><!--- Input Bulletin Med. Text here --------------------------------------->
+                <h4>Thanks for all the support!</h4><!--- Input Bulletin Small Text here ------------------------------>
             </div>
 
         </div>
     </div>
+<!---------End Bulletin Space on Home page----------------------------------------------------------------------------->
 
-    
 
 
-<div id="bg">
+<!---------List of all churches on Home page--------------------------------------------------------------------------->
+
+<div id="bg"><!-----------Beginning of outer grey container box/ 4 lines of code---------->
     <div id="search-container">
         <div id="search-bg"></div>
         <div id="search">
 
-            <div id="bg">
+            <div id="bg"><!-----Beginning of inner grey container box/ 4 lines of code around churches---------->
                 <div id="search-container">
                     <div id="search-bg"></div>
                     <div id="search">
@@ -191,12 +195,17 @@
 
                     </div>
                 </div>
-            </div>
+            </div><!-----------End of inner grey container box/ 4 lines of code around churches---------->
 
-    <div id="search-container">
+<!---------End list of all churches on Home page----------------------------------------------------------------------->
+
+
+    <div id="search-container"><!-----------Beginning of grey container box/ 4 lines of code---------->
         <div id="search-bg"></div>
         <div id="search">
             <div class="row">
+
+<!---------Hogan section on Home page---------------------------------------------------------------------------------->
                 <div class="col-lg-4">
                     <div class="thumbnail">
                         <img src="/lib/img/slide3.jpg">
@@ -238,42 +247,38 @@
                     The Follow-up: As the hogans are funded, watch the building progress on our website,
                     www.ecnavajoland.com. We’ll have pictures and updates that show you how your generosity empowers as
                     it preserves the beauty of Navajo culture. <br>
-
-
                 </div>
             </div>
         </div>
     </div>
+<!---------End Hogan section on Home page------------------------------------------------------------------------------>
 
-
-            <div class="row">
-            
-                <div class="row">
-                    <div class="col-lg-6">
-                            <div id="shimaLink" class="thumbnail">
-                                <a href="http://www.https://shima-of-navajoland.myshopify.com//">
-                                <img src="/lib/img/shima.jpg">
-                                </a>
-                            </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div id="cheiiLink" class="thumbnail">
-                            <a href="http://www.cheiidevshop.com/">
-                            <img src="/lib/img/cheiidevshoplogo.png">
-                            </a>
-                        </div>
-                    </div>
+<!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
+    <div class="row">
+        <div class="row">
+            <div class="col-lg-6">
+                <div id="shimaLink" class="thumbnail">
+                    <a href="http://www.https://shima-of-navajoland.myshopify.com//">
+                        <img src="/lib/img/shima.jpg">
+                    </a>
                 </div>
             </div>
-
-
-
+            <div class="col-lg-6">
+                <div id="cheiiLink" class="thumbnail">
+                    <a href="http://www.cheiidevshop.com/">
+                        <img src="/lib/img/cheiidevshoplogo.png">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+<!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
+        </div>
+    </div>
+</div><!-----------End of outer grey container box/ 4 lines of code around churches---------->
 
 
-
+<!---------Footer sticky links----------------------------------------------------------------------------------------->
     <ol class="breadcrumb text-center">
         <li><a href="index.php">Home</a></li>
         <li><a href="areaMissContact.php">Area Mission Contact</a></li>
