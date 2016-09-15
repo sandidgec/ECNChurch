@@ -6,6 +6,8 @@
     <title>Calendar</title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/stylecalendar.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+
 </head>
 <title>Calendar</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +23,7 @@
                 <div id="search-container">
                     <div id="search-bg"></div>
                     <div id="search">
+                        
                         <div id="buttonTop" class="row">
                             <div class="col-xs-3">
                                 <a href="sanJuanEvents.php" id="sjrb" class="btn btn-default btn-lg btn-block active" role="button">San Juan Region Events</a>

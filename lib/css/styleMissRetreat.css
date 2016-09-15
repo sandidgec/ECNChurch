@@ -38,15 +38,27 @@ body {
 }
 #centers {
     background-color: coral;
+    border-radius: 20px;
+    width: 385px;
+    height: 450px;
 }
 #summer {
     background-color: teal;
+    border-radius: 20px;
+    width: 385px;
+    height: 450px;
 }
 #programs {
     background-color: coral;
+    border-radius: 20px;
+    width: 385px;
+    height: 450px;
 }
 #retreat {
     padding-left: 0;
+    border-radius: 20px;
+
+
 }
 .thumbnail {
     align-self: center;
@@ -55,15 +67,18 @@ body {
 .thumbnail {
     width: 365px;
     height: 210px;
-    padding: 1px;
     border: 1px;
     border: solid;
-    border-color: white;
+    border-color: transparent;
     background-color: transparent;
 }
 .thumbnail img {
     width: 360px;
     height: 203px;
+    border-radius: 20px;
+    padding-left: 0;
+
+
 }
 .logo-container {
     position: absolute;
@@ -110,6 +125,7 @@ body {
     position: relative;
     z-index: 100;
     padding: 20px;
+    border-radius: 20px;
     background: rgba(35, 35, 35, 0.85); /* for IE */
     background: rgba(43, 43, 43, 0.76);
     color: white;

@@ -12,6 +12,7 @@
 </head>
 <body>
 <!---------Beginning Carousel ----------------------------------------------------------------------------------------->
+
 <div class="row " id="carousel">
     <div class="col-md-8">
 
@@ -28,6 +29,8 @@
                 <li data-target="#carousel-example-generic" data-slide-to="7"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="8"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+
             </ol>
 
 
@@ -45,6 +48,12 @@
                     <div class="carousel-caption">
                         <h1>Hozho Center Chapel</h1>
                     </div>
+            </div>
+            <div class="item">
+                <img src="/lib/img/sheepCamp.jpg" alt="...">
+                <div class="carousel-caption">
+                    <h1>Upper Fruitland Sheep Camp</h1>
+                </div>
             </div>
             <div class="item">
                 <img src="/lib/img/WRYouth.jpg" alt="...">
@@ -65,9 +74,9 @@
                     </div>
             </div>
             <div class="item">
-                <img src="/lib/img/lilyFlower.JPG" alt="...">
+                <img src="/lib/img/4sunFlowers.JPG" alt="...">
                     <div class="carousel-caption">
-                        <h1>St. Christopher's Lily</h1>
+                        <h1>Sun Flowers</h1>
                     </div>
             </div>
             <div class="item">
@@ -88,6 +97,12 @@
                         <h1> WindowRock Monument</h1>
                     </div>
             </div>
+            <div class="item">
+                <img src="/lib/img/gsmCross2.JPG" alt="...">
+                <div class="carousel-caption">
+                    <h1>Good Shepherd Mission Cross</h1>
+                </div>
+            </div>
         </div>
 
 
@@ -104,24 +119,23 @@
         </div>
 
     </div>
+<!---------End Carousel ----------------------------------------------------------------------------------------------->
 
+
+<!---------Begin side 6 Buttons --------------------------------------------------------------------------------------->
     <div class="col-md-4" id="buttons">
         <span style="display: inline-block; width: 100px; vertical-align: top;">
             <a type="button" href="#bulletin" class="btn btn-default" style="width: 200px; height: 90px;" >Bulletin</a>
-            <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;">Bishop's Page</a>
-            <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" >How to Help</a>
+            <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;">Bishop's Page<br>& Calendar</a>
+            <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" >How to Help<br>Donate</a>
             <a type="button" href="" class="btn btn-default" style="width: 200px; height: 90px;" >Newsletter</a>
-            <a type="button" href="" class="btn btn-default" style="width: 200px; height: 90px;" >ECN</a>
-            <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" >Cheii's Web Development</a>
+            <a type="button" href="" class="btn btn-default" style="width: 200px; height: 90px;" >ECN Seal<br>& beginnings</a>
+            <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" >Cheii's Web<br> Development</a>
         </span>
     </div>
 </div>
+<!---------End side 6 Buttons ----------------------------------------------------------------------------------------->
 
-<!---------End Carousel ----------------------------------------------------------------------------------------------->
-
-<!-------- Navajoland logo and bulletin button on home page------------------------------------------------------------>
-
-<!-------- End Navajoland logo and bulletin button on home page-------------------------------------------------------->
 
 
 <!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
@@ -271,7 +285,7 @@
     </div>
 <!---------End Hogan section on Home page------------------------------------------------------------------------------>
 
-<!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
+<!---------logo links on Home page------------------------------------------------------------------------------------->
     <div class="row">
         <div class="row">
             <div class="col-lg-6">
@@ -290,13 +304,13 @@
             </div>
         </div>
     </div>
-<!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
+<!---------End logo links on Home page--------------------------------------------------------------------------------->
         </div>
     </div>
 </div><!-----------End of outer grey container box/ 4 lines of code around churches---------->
 
 
-<!---------Footer sticky links----------------------------------------------------------------------------------------->
+<!---------Footer/sticky links----------------------------------------------------------------------------------------->
     <ol class="breadcrumb text-center">
         <li><a href="index.php">Home</a></li>
         <li><a href="areaMissContact.php">Area Mission Contact</a></li>

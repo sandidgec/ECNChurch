@@ -3,143 +3,136 @@
 <head>
     <?php require_once("lib/head-utils.php"); ?>
     <?php require_once("indexNavBar.php");?>
+    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+
     <title>Area Mission Office Contact</title>
     <!-- Custom styles for this template -->
+    <style>
+        body {
+            background-image: url("/lib/img/clergybackg.JPG");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .pictures img {
+            alignment: center;
+        }
+
+        .thumbnail img {
+            border: solid;
+            width: 325px;
+            height: 325px;
+            background-color: transparent;
+            border-color: transparent;
+            color: transparent;
+            border-radius: 20px;
 
 
+        }
+        #clergy {
+            border: solid;
+            width: 200px;
+            height: 155px;
+            background-color: transparent;
+            border-color: transparent;
+            color: transparent;
+            margin-left: 13%;
+
+        }
+        #clergy img {
+            width: 200px;
+            height: 146px;
+            text-align: center;
+        }
+        .thumbnail li {
+            text-align: center;
+        }
+
+        body{
+            background-color: darkturquoise;
+            text-align: center;
+            font-family: 'Pontano Sans', sans-serif;
+        }
+
+        .container {
+            padding-right: 10px;
+            padding-bottom: -50px;
+        }
+
+        header {
+            padding-bottom: 40px;
+            padding-top: 25px;
+        }
+
+        .btn-lg {
+            font-size: 18px;
+            line-height: 1.3333333;
+            border-radius: 6px;
+            width: 150px;
+            padding-bottom: -100px;
+        }
+
+        #questions {
+            color: darkturquoise;
+        }
+
+        #bg {
+            background-position: center top;
+            padding: 20px 90px 20px 90px;
+        }
+
+        #search-container {
+            position: relative;
+        }
+
+
+        #search-bg {
+            /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 99;
+
+            /* Pull the background 70px higher to the same place as #bg's */
+            background-position: center -70px;
+
+            -webkit-filter: blur(10px);
+            filter: url('/media/blur.svg#blur');
+            filter: blur(10px);
+        }
+
+        #search {
+            /* Put this on top of the blurred layer */
+            position: relative;
+            z-index: 100;
+            padding: 20px;
+            border-radius: 20px;
+
+            background: rgba(35, 35, 35, 0.50); /* for IE */
+            background: rgba(43, 43, 43, 0.50);
+            color: white;
+        }
+
+        @media (max-width: 600px ) {
+            #bg { padding: 10px; }
+            #search-bg { background-position: center -10px; }
+        }
+
+        h2 {
+            color: white;
+        }
+
+        #search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
+        #search h2 { margin-bottom: 50px }
+        #search h5 { margin-top: 70px }
+
+
+        * {margin: 0; padding: 0;}
+
+    </style>
 </head>
 <body>
-<style>
-    body {
-        background-image: url("/lib/img/clergybackg.JPG");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .logoImage {
-        width: 200px;
-        height: 125px;
-        padding-left: 50px;
-        padding-top: 75px;
-    }
-
-    .rotate90 {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-    
-    .pictures img {
-        alignment: center;
-    }
-
-    .thumbnail img {
-        border: solid;
-        width: 300px;
-        height: 200px;
-        background-color: #666666;
-        border-color: #666666;
-        color: #666666;
-    }
-    #clergy {
-        border: solid;
-        width: 200px;
-        height: 155px;
-        background-color: #666666;
-        border-color: #666666;
-        color: #666666;
-    }
-    #clergy img {
-        width: 200px;
-        height: 146px;
-        text-align: center;
-    }
-    .thumbnail li {
-        text-align: center;
-    }
-    
-    body{
-        background-color: darkturquoise;
-        text-align: center;
-    }
-
-    .container {
-        padding-right: 10px;
-        padding-bottom: -50px;
-    }
-    
-    header {
-        padding-bottom: 40px;
-        padding-top: 25px;
-    }
-
-    .btn-lg {
-        font-size: 18px;
-        line-height: 1.3333333;
-        border-radius: 6px;
-        width: 150px;
-        padding-bottom: -100px;
-    }
-
-    #questions {
-        color: darkturquoise;
-    }
-
-    #bg {
-        background-position: center top;
-        padding: 20px 90px 20px 90px;
-    }
-
-    #search-container {
-        position: relative;
-    }
-
-
-    #search-bg {
-        /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 99;
-
-        /* Pull the background 70px higher to the same place as #bg's */
-        background-position: center -70px;
-
-        -webkit-filter: blur(10px);
-        filter: url('/media/blur.svg#blur');
-        filter: blur(10px);
-    }
-
-    #search {
-        /* Put this on top of the blurred layer */
-        position: relative;
-        z-index: 100;
-        padding: 20px;
-        background: rgba(35, 35, 35, 0.50); /* for IE */
-        background: rgba(43, 43, 43, 0.50);
-        color: white;
-    }
-
-    @media (max-width: 600px ) {
-        #bg { padding: 10px; }
-        #search-bg { background-position: center -10px; }
-    }
-
-    h2 {
-        color: white;
-    }
-
-    #search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
-    #search h2 { margin-bottom: 50px }
-    #search h5 { margin-top: 70px }
-
-
-    * {margin: 0; padding: 0;}
-
-</style>
 
     <div class="container">
         <div class="row">
@@ -151,25 +144,21 @@
             </div>
         </div>
     </div>
-<br>
-<br>
-
-
 
     <div id="bg">
         <div id="search-container">
             <div id="search-bg"></div>
             <div id="search">
 
-            <h1>The Episcopal Church in Navajoland</h1>
+            <h1>---The Episcopal Church in Navajoland---</h1>
 
-            <br>
-            <h2>Office of the Bishop</h2>
+            <h1>Office of the Bishop</h1>
 
                 <div id="bg">
                     <div id="search-container">
                         <div id="search-bg"></div>
                         <div id="search">
+
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
@@ -224,9 +213,7 @@
                     </div>
                 </div>
 
-                <br>
-                <h2>San Juan Region</h2>
-
+                <h1>San Juan Region</h1>
 
                 <div id="bg">
                     <div id="search-container">
@@ -286,8 +273,7 @@
                     </div>
                 </div>
 
-                <br>
-                <h2>South East Region</h2>
+                <h1>South East Region</h1>
 
                 <div id="bg">
                     <div id="search-container">
@@ -316,7 +302,6 @@
                         </div>
                     </div>
                 </div>
-                </div>
 
             <div id="bg">
                 <div id="search-container">
@@ -341,7 +326,6 @@
                     </div>
                 </div>
             </div>
-        </div>
 
 
 
@@ -372,11 +356,7 @@
                 </div>
             </div>
 
-            <br>
-            <h2>Utah Region</h2>
-            <br>
-
-
+            <h1>Utah Region</h1>
 
             <div id="bg">
                 <div id="search-container">
@@ -432,10 +412,7 @@
                 </div>
             </div>
 
-            <br>
-            <h2>Seminarians</h2>
-            <br>
-
+            <h1>Seminarians</h1>
 
             <div id="bg">
                 <div id="search-container">

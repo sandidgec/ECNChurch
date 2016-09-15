@@ -63,6 +63,8 @@
             position: relative;
             z-index: 100;
             padding: 20px;
+            border-radius: 20px;
+
             background: rgba(43, 43, 43, 0.76);
             color: white;
         }
