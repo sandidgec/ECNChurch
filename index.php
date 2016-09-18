@@ -127,7 +127,7 @@
         <span style="display: inline-block; width: 100px; vertical-align: top;">
             <a type="button" href="#bulletin" class="btn btn-default" style="width: 200px; height: 90px;" >Bulletin</a>
             <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;">Bishop's Page<br>& Calendar</a>
-            <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" >How to Help<br>Donate</a>
+            <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" >How to Help/<br>Donate</a>
             <a type="button" href="" class="btn btn-default" style="width: 200px; height: 90px;" >Newsletter</a>
             <a type="button" href="" class="btn btn-default" style="width: 200px; height: 90px;" >ECN Seal<br>& beginnings</a>
             <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" >Cheii's Web<br> Development</a>
