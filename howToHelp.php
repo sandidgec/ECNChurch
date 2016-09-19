@@ -5,7 +5,6 @@
     <?php require_once("indexNavBar.php");?>
     <title>Calendar</title>
     <!-- Custom styles for this template -->
-    <link href="/lib/css/styleBp.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
 
@@ -18,7 +17,12 @@
             background-position: center;
             background-size: cover;
         }
-        .container {
+        #first {
+            padding-top: 100px;
+            padding-bottom: 5px;
+        }
+        #second {
+            padding-top: 25px;
             padding-bottom: 20px;
         }
         .bulletin .row {
@@ -40,6 +44,7 @@
             font-size: xx-large;
             font-weight: bold;
             font-family: 'Oswald', sans-serif;
+
         }
         #button-blue {
             text-align: center;
@@ -51,6 +56,9 @@
             text-align: center;
             float: bottom;
         }
+        #second {
+            padding-top: 25px;
+        }
     </style>
 </head>
 <title>How to Help</title>
@@ -60,7 +68,7 @@
 
 </header>
 
-<div class="container">
+<div id="first" class="container">
     <div class="container bulletin" id="bulletin">
         <div class="row bulletin">
 
@@ -107,7 +115,7 @@
                     <br>
                     <br>
                     <ul>
-                    <li>Paint for rental unit - $330 <br>
+                        <li>Paint for rental unit - $330 <br>
                         <li>Fencing, fence posts, hardware - $438 <br>
                         <li>Screen door - $100 <br>
                         <li> Natural gas wall heater - $2350 <br>
@@ -120,6 +128,59 @@
                         <li>Evaporative cooler - $1900 <br>
                         <li>Drywall repair - $400 <br>
                         <li>Office hardware and supplies - $868 <br>
+                    </ul>
+                </h4>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="second" class="container">
+    <div class="container bulletin" id="bulletin">
+        <div class="row bulletin">
+
+            <div class="col-lg-4" id="hth">
+                <h2>Forms:</h2>
+            </div>
+
+            <div class="col-lg-8" id="hth">
+                <h2>Who's Needed: </h2>
+            </div>
+
+            <div class="col-lg-4">
+                <h4>
+                    Download Forms Here:<br>
+                    <a href="chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/http://s3.amazonaws.com/dfc_attachments/public/documents/3187582/qualifying_certificate.pdf">V
+                    HOW TO OBTAIN A QUALIFYING PARTY CERTIFICATE<br>
+                    </a><br>
+                    <a href="chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/http://s3.amazonaws.com/dfc_attachments/public/documents/3187581/contractor_licence.pdf">
+                    HOW TO OBTAIN A NEW CONTRACTOR LICENSE<br>
+                    </a><br>
+                    <a href="chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/http://s3.amazonaws.com/dfc_attachments/public/documents/3187580/mechanical_license.pdf">
+                    PSI MECHANICAL/PLUMBING EXPERIENCE VERIFICATION<br>
+                    </a><br>
+                </h4>
+
+                <div id="button-blue">
+                    <a class="btn btn-success btn-lg" href="https://episcopalchurch.thankyou4caring.org/navajoland-our-american-heritage" role="button">Help Support Us Here!</a>
+                </div>
+            </div>
+
+
+            <div class="col-lg-8">
+                <h4>
+                   The Following Un Licensed Volunteers Are Needed:
+                    <br>
+                    <br>
+                    <ul>
+                        <li>Carpenters<br>
+                        <li>Experienced Roofers <br>
+                        <li>Experienced Electricians <br>
+                        <li> Experienced Plumbers<br>
+                        <li>Painters<br>
+                        <br>
+                        To volunteer please email Chan Anaya at: ecncanaya@gmail.com
                     </ul>
                 </h4>
             </div>
