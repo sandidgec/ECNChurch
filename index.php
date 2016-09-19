@@ -129,7 +129,7 @@
             <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;">Bishop's Page<br>& Calendar</a>
             <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" >How to Help/<br>Donate</a>
             <a type="button" href="newsLetterEvents.php" class="btn btn-default" style="width: 200px; height: 90px;" >Newsletter/<br>Events</a>
-            <a type="button" href="" class="btn btn-default" style="width: 200px; height: 90px;" >ECN Seal<br>& Beginnings</a>
+            <a type="button" href="ecnSeal&Beginning.php" class="btn btn-default" style="width: 200px; height: 90px;" >ECN Seal<br>& Beginnings</a>
             <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" >Cheii's Web<br> Development</a>
         </span>
     </div>
