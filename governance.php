@@ -142,49 +142,39 @@
             Farmington, New Mexico
         </div>
     </div>
+                        <div class="council-container">
+                            <h2>40th Annual Convocation News</h2>
+                            <h3>
+                                <ul>
+                                    <li>
+                                        Thank You San Juan Region for a great 40th Annual Convocation!<br><br>
+                                        All of your hard work and planning has not gone un-noticed. Everyone in attendance was well taking care of and came out with many memories to keep and share. Thank you. 
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Great news! We have raised enough in grants to start construction on the old church in Farmington, NM. Bids for construction will be taken starting mid July.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        The plan is to turn the Old Hospital, that is not utilized at the time, into a Hozho Center. It will house various meeting spaces targeted to help the community, like AA. The basement will be home to Cheii's Web Development Shop, a development shop aimed at creating web sites and web apps all for the well being of The Episcopal Church in Navajoland and the goal of becoming a Self Sustaining Diocese.
+                                    </li>
+                                </ul>
+                            </h3>
+                        </div>
 <!---------End text overlay on carousel-------------------------------------------------------------------------------->
                     </div><!-----------End of outer grey container box/ 4 lines of code around churches---------->
                 </div>
             </div>
 
 
-            <div id="bg"><!-----------Beginning of outer grey container box/ 4 lines of code---------->
-             <div id="search-container">
-                 <div id="search-bg"></div>
-                 <div id="search">
-
-<!---------Begin text overlay on carousel------------------------------------------------------------------------------>
-                     <div class="council-container">
-                         <h2>40th Annual Convocation News</h2>
-                         <h3>
-                             <ul>
-                                 <li>
-                                     Great news! We have raised enough in grants to start construction on the old church in Farmington, NM. Bids for construction will be taken starting mid July.
-                                 </li>
-                                 <br>
-                                 <li>
-                                     The plan is to turn the Old Hospital, that is not utilized at the time, into a Hozho Center. It will house various meeting spaces targeted to help the community, like AA. The basement will be home to Cheii's Web Development Shop, a development shop aimed at creating web sites and web apps all for the well being of The Episcopal Church in Navajoland and the goal of becoming a Self Sustaining Diocese.
-                                 </li>
-                             </ul>
-                         </h3>
-                     </div>
-                 </div>
-             </div>
-         </div><!-----------End of outer grey container box/ 4 lines of code around churches---------->
-
         <div id="bg"><!-----------Beginning of outer grey container box/ 4 lines of code---------->
             <div id="search-container">
                 <div id="search-bg"></div>
                 <div id="search">
                     <div class="council-container">
-                        <h2>41st Annual Convocation to be Hosted by Good Shepherd Mission and the Southeast Region</h2>
-                        <h3>
-                            <ul>
-                                <li>
-                                    The 41st Annual ECN Convocation will be hosted by the Southeast Region. The next convocation dates are June 9th thru the 11th, 2017. We hope to see you there!
-                                </li>
-                            </ul>
-                        </h3>
+
+                                        <img src="/lib/img/gsm-olympicHosting.jpg" alt="Mountain View" style="width:850px;height:600px;">
+
                     </div>
                 </div>
             </div>
