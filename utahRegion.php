@@ -19,32 +19,47 @@
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+
+
+
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <img src="/lib/img/stChristopherSign.jpg" alt="...">
-            <div class="carousel-caption">
-                ...
+            <div class="carousel-caption" id="caption">
+                <h1>St. Christopher Sign</h1>
+                <h5></h5>
             </div>
         </div>
         <div class="item">
-            <img src="/lib/img/blueCorn (2).jpg" alt="...">
-            <div class="carousel-caption">
-                ...
+            <img src="/lib/img/stJohnsChristmas.jpg" alt="...">
+            <div class="carousel-caption" id="caption">
+                <h1>Christmas at St. Johns</h1>
+                <h5></h5>
             </div>
         </div>
         <div class="item">
-            <img src="/lib/img/stMaryInterior.jpg" alt="...">
-            <div class="carousel-caption">
-                ...
+            <img src="/lib/img/airbandb.JPG" alt="...">
+            <div class="carousel-caption" id="caption">
+                <h1>Air B and B</h1>
+                <h5></h5>
             </div>
         </div>
         <div class="item">
-            <img src="/lib/img/christmasStChristophers.jpg" alt="...">
-            <div class="carousel-caption">
-                ...
+            <img src="/lib/img/maryOfTheMoonlight.jpg" alt="...">
+            <div class="carousel-caption" id="caption">
+                <h1>St. Marys of the Moonlight</h1>
+                <h5></h5>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/lib/img/stChrisAlter.JPG" alt="...">
+            <div class="carousel-caption" id="caption">
+                <h1>St. Christopher's Alter</h1>
+                <h5></h5>
             </div>
         </div>
     </div>
@@ -129,7 +144,7 @@
 <div class="row" id="history">
     <div class="col-md-4">
         <h1>St. Christopher's History</h1>
-        <img src="/lib/img/stChristophers.JPG" alt="..." width="400" height="200" img style="border:5px solid white">
+        <img src="/lib/img/stChristopherChurch.JPG" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Christophers</h2>
         <p>St. Christopher's in Bluff, Utah was built in 1942 . It's located 1.7 miles east of the Bluff on Utah
             highway 162. The grounds also includes a museum and community farm. A free well on the mission ground is used
@@ -144,7 +159,7 @@
     </div>
     <div class="col-md-4">
         <h1>St. John the Baptizer History</h1>
-        <img src="/lib/img/StJohntheBaptizer.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
+        <img src="/lib/img/stJohns.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. John the Baptizer</h2>
         <p>The Episcopal church, St. John the Baptizer, is located in the city of Montezuma Creek. Montezuma
             Creek is located in the beautiful state of Utah.</p>
