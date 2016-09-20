@@ -49,9 +49,9 @@
             </div>
         </div>
         <div class="item">
-            <img src="/lib/img/maryOfTheMoonlight.jpg" alt="...">
+            <img src="/lib/img/stMarysBell.jpg" alt="...">
             <div class="carousel-caption" id="caption">
-                <h1>St. Marys of the Moonlight</h1>
+                <h1>St. Marys Bell</h1>
                 <h5></h5>
             </div>
         </div>
