@@ -193,7 +193,7 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/chan.JPG">
+                                        <img src="/lib/img/chanAnaya.jpg">
                                     </div>
                                     <p> Rev. Chan Osborn de Anaya<br>
                                         E-Mail: ecncanaya@gmail.com<br>
@@ -201,11 +201,38 @@
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
-                                    <h3>Cannon Missioner for Justice and Spiritual Development for the Bishops Office and Priest in Charge of St. Michaels</h3>
+                                    <h3>Cannon to the Ordinary for the Bishops Office and Priest in Charge of St. Michaels</h3>
                                     The Rev. Canon Chan Osborn de Anaya came to Navajoland in 2010, serving the Southeast Region as Regional Ministry Developer and Priest in Charge.
                                     Prior to her call into Priesthood, she was an ICU-CCU Nurse and a Real Estate Broker. She graduated from the Seminary of the Southwest in 2000 and served a Civil War Church in Vicksburg Mississippi.
-                                    While there, Chan was deeply involved in reconciliation. Currently Chan is in the Bishops Office providing oversite, troubleshooting is developing in Environmental Justice Issues.
-                                    She has a husband and 2 grown children. In her down time, if any, Chan enjoys kayaking and gardening in her back yard.
+                                    While there, Chan was deeply involved in reconciliation.  Chan is in the Bishops office providing oversight, troubleshooting across the regions and helping turn our Vision into reality.
+                                    She has a passion for environmental and social justice. Chan loves Jesus and sharing that love with those she encounters is at the core of her ministry.
+                                    Family, spread across the country, includes husband Vernon, 4 children and 3 grandchildren. "Gardening and Kayaking  connect me with my healing found in nature."
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bg">
+                    <div id="search-container">
+                        <div id="search-bg"></div>
+                        <div id="search">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="thumbnail" id="clergy">
+                                        <img src="/lib/img/helenaBegay3.jpg">
+                                    </div>
+                                    <p>Helena Begay<br>
+                                        Email: ecnhbegay@gmail.com<br>
+                                        Cellular: (505)860-2987
+                                    </p>
+                                </div>
+                                <div class="col-lg-8" id="text">
+                                    <h3>ECN Accounting Administrator</h3>
+                                    Helena started with the Farmington office in August 2015.
+                                    She oversees the finance’s, the accounts payable and receivables for the Episcopal church of Navajoland. Helena loves basketball, she enjoys watching the Woman Professional Basketball games with friends and family.
+                                    Helena and her husband own motorcycles and take the annual trip to Montana.
 
                                 </div>
                             </div>
@@ -393,7 +420,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="thumbnail" id="clergy">
-                                    <img src="/lib/img/lillie.JPG">
+                                    <img src="/lib/img/lillieHenderson.jpg">
                                 </div>
                                 <p> Lillie Henderson<br>
                                     E-Mail: teabimasaani@yahoo.com<br>
@@ -428,7 +455,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-8" id="text">
-                                <h3>Cannon to the Ordinary, Seminarian at Virginia Theological Seminary</h3>
+                                <h3>Seminarian at Virginia Theological Seminary</h3>
                                 Rev. Canon Cornelia Eaton served many roles in the Episcopal Church as laity before being ordained to the priesthood on February 7, 2015.
                                 She is currently the canon to the ordinary.  Cornelia is dedicated to serving the beloved people of God and to encourage laity to have active roles in the life of the Church, believing that we all live into our baptismal covenant.
                                 She enjoys sharing God’s love, hope and grace with all of God’s people through Holy Scripture and Navajo spirituality of Hozhó—Peace and Beauty Way.
