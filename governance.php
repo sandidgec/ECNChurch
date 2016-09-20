@@ -173,7 +173,7 @@
                 <div id="search">
                     <div class="council-container">
 
-                                        <img src="/lib/img/gsm-olympicHosting.jpg" alt="Mountain View" style="width:850px;height:600px;">
+                                        <img src="/lib/img/gsm-olympicHosting - Copy.jpg" alt="Mountain View" style="width:850px;height:600px;">
 
                     </div>
                 </div>
