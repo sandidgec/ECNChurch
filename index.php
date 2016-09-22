@@ -14,7 +14,7 @@
 <!---------Beginning Carousel ----------------------------------------------------------------------------------------->
 
         <div class="row " id="carousel">
-            <div class="col-md-8">
+            <div class="col-sm-8">
 
                 <div id="header-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -55,7 +55,7 @@
 
 
 <!---------Begin side 6 Buttons --------------------------------------------------------------------------------------->
-            <div class="col-md-4" id="buttons">
+            <div class="col-sm-4" id="buttons">
                 <span style="display: inline-block; width: 100px; vertical-align: top;">
                     <a type="button" href="#bulletin" class="btn btn-default" style="width: 200px; height: 90px;" >Bulletin</a>
                     <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;">Bishop's Page<br>& Calendar</a>
@@ -73,31 +73,31 @@
     <div class="container bulletin" id="bulletin">
         <div class="row bulletin">
 
-            <div class="col-lg-4" id="dhead">
+            <div class="col-xs-4" id="dhead">
                 <h2><a class="black" href="utahRegion.php">Utah Region's Latest News</a></h2>
             </div>
 
-            <div class="col-lg-4" id="dhead">
+            <div class="col-xs-4" id="dhead">
                 <h2><a class="black" href="sanJuanRegion.php">S.J. Region's Latest News</a></h2>
             </div>
 
-            <div class="col-lg-4" id="dhead">
+            <div class="col-xs-4" id="dhead">
                 <h2><a class="black" href="southEast.php">S.E. Region's Latest News</a></h2>
             </div>
             
-            <div class="col-lg-4">
+            <div class="col-xs-4">
                 <h2>September 10th Combined Service</h2><!--- Input Bulletin Heading here ----------------------------->
                 <h3>Rev. Pat Cook will conduct service at 10am </h3><!--- Input Bulletin Med. Text here --------------->
                 <h3>Hope to see you there!</h3><!--- Input Bulletin Small Text here ----------------------------------->
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-xs-4">
                 <h2>Coding Boot Camp Re-Scheduled</h2><!--- Input Bulletin Heading here ------------------------------->
                 <h3>New Date TBA Contact ECN office for more Info.</h3><!--- Input Bulletin Med. Text here ------------>
                 <h2>Navajo Hymnal Study Continuing Sept 21 @6pm</h2><!--- Input Bulletin large Text here -------------->
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-xs-4">
                 <h2>Welcome Our New Assisting Priest</h2><!--- Input Bulletin Heading here ---------------------------->
                 <h2>Rev. Richard Mendez</h2><!--- Input Bulletin Med. Text here --------------------------------------->
                 <h4>Thanks for all the support!</h4><!--- Input Bulletin Small Text here ------------------------------>

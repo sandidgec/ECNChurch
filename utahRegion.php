@@ -99,8 +99,6 @@
 
 
 
-
-
 <div class="container bulletin" id="bulletin">
     <div class="row bulletin">
 
