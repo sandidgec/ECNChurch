@@ -78,26 +78,10 @@
 
 
 <div class="container">
-    <div class="text-center">
-        <h1>Welcome to the Utah Region</h1>
-    </div>
-</div>
-
-<div class="row logo-container">
-    <div id="logo" class="col-lg-4">
-        <div class="row no-pad">
-            <img src=""
-                 class="img-responsive"  alt="">
+        <div class="text-center">
+            <h1>Welcome to the Utah Region</h1>
         </div>
     </div>
-
-
-    <div class="col-lg-offset-4 col-lg-4">
-        <a href="#bulletin" class="btn btn-lg btn-primary text-center">Bulletins</a>
-    </div>
-</div>
-
-
 
 <div class="container bulletin" id="bulletin">
     <div class="row bulletin">
