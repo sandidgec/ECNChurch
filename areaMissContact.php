@@ -312,12 +312,12 @@
                                         <img src="/lib/img/cynthia.jpg">
                                     </div>
                                     <p> Rev. Cynthia Hizer<br>
-                                        E-Mail: vicargoodshepherdmission@gmail.com<br>
+                                        E-Mail:  ecnchizer@gmail.com<br>
                                         Good Shepherd Office: (928)729-2322
                                     </p>
                                 </div>
                                 <div class="col-lg-8" id="text">
-                                    <h3>Priest in Charge of Southeast Region</h3>
+                                    <h3>Canon for Development and Social Enterprise</h3>
                                     Prior to coming to Navajoland, Rev. Cynthia served a parish in Atlanta GA.
                                     She was ordained in 2006 from the Candler School of Theology Emory University in Atlanta receiving her Masters of Divinity Degree.
                                     She then went on to Advanced Studies at the General Seminary in New York City.
