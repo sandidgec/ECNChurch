@@ -51,6 +51,7 @@
             background-color: darkturquoise;
             text-align: center;
             font-family: 'Pontano Sans', sans-serif;
+            padding-top: 85px;
         }
 
         .container {

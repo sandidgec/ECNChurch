@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
 <head>
     <?php require_once("lib/head-utils.php"); ?>
-    <?php require_once("indexNavBar.php");?>
-    <title>Calendar</title>
-    <!-- Custom styles for this template -->
+    <?php require_once("indexNavBar.php"); ?>
     <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+    <title>News Letter & Events</title>
+    <!-- Custom styles for this template -->
 
     <style>
         body{
@@ -34,28 +34,26 @@
             padding-top: 100px;
             padding-bottom: 50px;
         }
+        .responsive-image {
+            height: auto;
+            width: 100%;
+        }
     </style>
-</head>
-<title>News Letter & Events</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<body>
-<header>
 
-</header>
+</head>
+
+<body>
+
 
 
     <div id="first" class="container">
         <div class="container bulletin" id="bulletin">
             <div class="row bulletin">
-
-
-    <div class="container" id="flyer">
-        <h3>Corn Ripening Retreat @ Good Shepherd Mission</h3>
-        <h3>Previous Retreat</h3>
-        <img src="/lib/img/cornRipening.JPG" alt="Mountain View" style="width:850px;height:600px;">
-    </div>
-
-
+            <div class="container" id="flyer">
+                <h3>Corn Ripening Retreat @ Good Shepherd Mission</h3>
+                <h3>Previous Retreat</h3>
+                <img src="/lib/img/cornRipening.JPG" border="0" class="responsive-image" alt="Null">
+            </div>
             </div>
         </div>
     </div>

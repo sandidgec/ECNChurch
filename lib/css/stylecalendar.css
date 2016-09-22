@@ -3,6 +3,7 @@ body{
     background-color: aqua;
     text-align: center;
     font-weight: bold;
+    padding-top: 100px;
 }
 header {
     padding-top: 100px;

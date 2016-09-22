@@ -1,30 +1,25 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
 <head>
     <?php require_once("lib/head-utils.php"); ?>
     <?php require_once("indexNavBar.php");?>
-    <title>Calendar</title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/styleBp.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-    
+    <title>Bishops Page</title>
 </head>
-<title>Calendar</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-<header>
-</header>
 
+<div id="bg">
 <div id="search-container">
     <div id="search-bg"></div>
     <div id="search">
 
-        <div class="row">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-sm-6">
                     <img src="/lib/img/daveNewPic.GIF" border="0" class="responsive-image" alt="Null">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-sm-6">
                     <h1>News From the Bishop</h1>
                     <h3>"Thanks to all who have held me in prayer following my accident.<br>
                         For those who don't know, I fell August 17th crushing my heel bone<br>
@@ -41,17 +36,13 @@
                     </h3>
                 </div>
             </div>
+
+
+
+
         </div>
-
-
-
-
     </div>
 </div>
-
-<
-
-
 
 <div id="bg">
     <div id="search-container">

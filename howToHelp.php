@@ -2,11 +2,11 @@
 <html>
 <head>
     <?php require_once("lib/head-utils.php"); ?>
-    <?php require_once("indexNavBar.php");?>
-    <title>Calendar</title>
+    <?php require_once("indexNavBar.php"); ?>
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+    <title>How To Help/Donate</title>
 
     <style>
         body{
@@ -16,6 +16,7 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            padding-top: 80px;
         }
         #first {
             padding-top: 100px;
@@ -61,12 +62,8 @@
         }
     </style>
 </head>
-<title>How to Help</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-<header>
 
-</header>
 
 <div id="first" class="container">
     <div class="container bulletin" id="bulletin">

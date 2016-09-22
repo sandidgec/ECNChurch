@@ -3,17 +3,14 @@
 <head>
     <?php require_once("lib/head-utils.php"); ?>
     <?php require_once("indexNavBar.php");?>
-    <title>Calendar</title>
     <!-- Custom styles for this template -->
     <link href="/lib/css/stylecalendar.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+    <title>Calendar</title>
 
 </head>
-<title>Calendar</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-<header>
-</header>
+
 <div id="bg">
     <div id="search-container">
         <div id="search-bg"></div>

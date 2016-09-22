@@ -2,9 +2,7 @@ body{
     font-family: 'Dosis', sans-serif;;
     background-color: aqua;
     text-align: center;
-}
-header {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 #buttonTop {
     padding-bottom: 0;
@@ -111,18 +109,6 @@ header {
     background:#f5f5f5;
     color:#666;
 }
-#bpDave {
-    background-size: cover;
-    background-color: black;
-    padding: 30px 50px 30px 50px;
-    height: 600px;
-    text-align: center;
-    background-position: center;
-    color: white;
-    background-image: url("/lib/img/daveNewPic.GIF");
-
-}
-
 #news {
     background: rgba(35, 35, 35, 0.85); /* for IE */
     background: rgba(43, 43, 43, 0.76);
@@ -132,7 +118,6 @@ header {
     text-align: center;
     font-family: 'Dosis', sans-serif;
     border-radius: 20px;
-
 }
 
 @media (max-width:768px) {
@@ -155,7 +140,7 @@ header {
 #bg {
     background-position: center top;
     padding: 20px 90px 20px 90px;
-    padding-top: 47%;
+
 }
 
 #search-container {
