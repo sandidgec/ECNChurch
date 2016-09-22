@@ -17,119 +17,54 @@
         <div id="search">
 
 <!---------Beginning Carousel ----------------------------------------------------------------------------------------->
+
             <div id="bg"><!-----------Beginning of outer grey container box/ 4 lines of code---------->
                 <div id="search-container">
                     <div id="search-bg"></div>
                     <div id="search">
 
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="10"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="11"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="/lib/img/c161.jpg" alt="...">
-                    </div>
+                        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+                                </ol>
 
-                    <div class="item">
-                        <img src="/lib/img/c162.jpg" alt="...">
-                        <div class="carousel-caption">
-                            Wellbriety
+                                <div id="cazza1" class="item active"></div>
+                                <div id="cazza2" class="item"></div>
+                                <div id="cazza3" class="item"></div>
+                                <div id="cazza4" class="item"></div>
+                                <div id="cazza5" class="item"></div>
+                                <div id="cazza6" class="item"></div>
+                                <div id="cazza7" class="item"></div>
+                                <div id="cazza8" class="item"></div>
+                                <div id="cazza9" class="item"></div>
+                                <div id="cazza10" class="item"></div>
+                                <div id="cazza11" class="item"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item">
-                        <img src="/lib/img/c163.jpg" alt="...">
-                        <div class="carousel-caption">
-                            Jewelery Making
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="/lib/img/c164.jpg" alt="...">
-                        <div class="carousel-caption">
-                            Arts and Crafts
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="/lib/img/c165.jpg" alt="...">
-                        <div class="carousel-caption">
-                            First Reading
-                        </div>
-                    </div>
 
 
-                    <div class="item">
-                        <img src="/lib/img/c166.jpg" alt="...">
-                        <div class="carousel-caption">
-                            Song and Dance
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="/lib/img/c167.jpg" alt="...">
-                        <div class="carousel-caption">
-                            Bishops
-                        </div>
-                    </div>
-
-
-                    <div class="item">
-                        <img src="/lib/img/c169.jpg" alt="...">
-                        <div class="carousel-caption">
-                            Sunday Service
-                        </div>
-                    </div>
-
-
-                    <div class="item">
-                        <img src="/lib/img/c1610.jpg" alt="...">
-                        <div class="carousel-caption">
-                            Confirmations
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="/lib/img/c1611.jpg" alt="...">
-                        <div class="carousel-caption">
-                            Awards
-                        </div>
-                    </div>
-
-
-                    <div class="item">
-                        <img src="/lib/img/c1612.jpg" alt="...">
-                        <div class="carousel-caption">
-                            Singing
-                        </div>
-                    </div>
-
-
-                    ...
-                </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <!-- Controls -->
+                <a class="left carousel-control" href="#header-carousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <a class="right carousel-control" href="#header-carousel" role="button" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
+
 
 
 <!---------End Carousel ----------------------------------------------------------------------------------------------->
@@ -143,6 +78,7 @@
         </div>
     </div>
                         <div class="council-container">
+                            <br>
                             <h2>40th Annual Convocation News</h2>
                             <h3>
                                 <ul>
@@ -172,9 +108,7 @@
                 <div id="search-bg"></div>
                 <div id="search">
                     <div class="council-container">
-
-                                        <img src="/lib/img/gsm-olympicHosting - Copy.jpg" alt="Mountain View" style="width:850px;height:600px;">
-
+                        <img src="/lib/img/gsm-olympicHosting - Copy.jpg" border="0" class="responsive-image" alt="Null">
                     </div>
                 </div>
             </div>

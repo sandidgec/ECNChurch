@@ -29,7 +29,7 @@
                                 <a href="sanJuanEvents.php" id="sjrb" class="btn btn-default btn-lg btn-block active" role="button">San Juan Region Events</a>
                             </div>
                             <div class="col-xs-3">
-                                <a href="southEastEvents.php" id="serb" class="btn btn-default btn-lg btn-block active" role="button">South East Region Events</a>
+                                <a href="southEastEvents.php" id="serb" class="btn btn-default btn-lg btn-block active" role="button">South E. Region Events</a>
                             </div>
                             <div class="col-xs-3">
                                 <a href="utahEvents.php" id="urb" class="btn btn-default btn-lg btn-block active" role="button">Utah Region Events</a>
@@ -525,6 +525,7 @@
                 </div><!--/. calendar -->
             </div> <!--/. wrap -->
 
+<?php /*
 
 
             <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
@@ -1679,7 +1680,7 @@
                     </ul>
                 </div><!--/. calendar -->
             </div> <!--/. wrap -->
-
+*/?>
             Episcopal Church in Navajoland P.O. Box 720 Farmington, NM 87499 Phone: (505) 327-7549 — Main
 
         </div>

@@ -119,7 +119,7 @@ header {
     text-align: center;
     background-position: center;
     color: white;
-    background-image: url("/lib/img/bishopDsnow.jpg");
+    background-image: url("/lib/img/daveNewPic.GIF");
 
 }
 
@@ -127,7 +127,7 @@ header {
     background: rgba(35, 35, 35, 0.85); /* for IE */
     background: rgba(43, 43, 43, 0.76);
     width: 50%;
-    height: 300px;
+    height: 450px;
     float: right;
     text-align: center;
     font-family: 'Dosis', sans-serif;

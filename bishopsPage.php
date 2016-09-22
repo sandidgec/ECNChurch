@@ -15,19 +15,42 @@
 <header>
 </header>
 
-<div class="hero-unit" id="bpDave">
+<div id="search-container">
+    <div id="search-bg"></div>
+    <div id="search">
 
-<div id="news" class="row" >
+        <div class="row">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="/lib/img/daveNewPic.GIF" border="0" class="responsive-image" alt="Null">
+                </div>
+                <div class="col-lg-6">
+                    <h1>News From the Bishop</h1>
+                    <h3>"Thanks to all who have held me in prayer following my accident.<br>
+                        For those who don't know, I fell August 17th crushing my heel bone<br>
+                        and requiring surgery on September 1st. After 8 screws and a plate <br>
+                        to put me back together I was released on the 4th to return home<br>
+                        for bed rest, elevated food, and very limited travel. I return to<br>
+                        the Doctor tomorrow (the 23rd) to have the stitches removed- I am<br>
+                        still limited regarding travel but hope the Doctor will release me <br>
+                        to go to Navajoland the week of October 3rd, Anne driving. I want <br>
+                        to thank all who have held things together and have continued to <br>
+                        move ECN forward during my absence. I will continue to participate<br>
+                        by phone and email till I can get back on a regular basis."<br>
+                        -Bishop Dave Bailey
+                    </h3>
+                </div>
+            </div>
+        </div>
 
-    <h1>News From the Bishop</h1>
-    <h3>From the Episcopal Church in Navajoland, we wish you a great September.<br>
-        Stay safe, stay warm and stay blessed.<br><br>
-        Bishop Dave is steadily Recovering from Surgery. Please keep <br>
-        Bishop Dave and Anne in your thoughts and Prayers.<br>
-    </h3>
 
+
+
+    </div>
 </div>
-    
+
+<
+
 
 
 <div id="bg">
@@ -197,7 +220,377 @@
             </div> <!--/. wrap -->
 
 
+            <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
 
+                <h1>Bishops October Calendar 2016</h1>
+
+                <div id="calendar">
+                    <ul class="weekdays">
+                        <li>Sunday</li>
+                        <li>Monday</li>
+                        <li>Tuesday</li>
+                        <li>Wednesday</li>
+                        <li>Thursday</li>
+                        <li>Friday</li>
+                        <li>Saturday</li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day other-month">
+                            <div class="date">25</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">26</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">27</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">28</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">29</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">30</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">1</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">2</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">3</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    Bishop Dave @ GSM
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">4</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    Bishop Dave @ GSM
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">5</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    Bishop Dave @ ECN Office
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">6</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    Bishop Dave @ ECN Office
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">7</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">8</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">9</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">10</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">11</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">12</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">13</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">14</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">15</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">16</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">17</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">18</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">19</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    Bishop Dave @ Executive Council in New Brunswick, New Jersey
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">20</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    Bishop Dave @ Executive Council in New Brunswick, New Jersey
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">21</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    Bishop Dave @ Executive Council in New Brunswick, New Jersey
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">22</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    Bishop Dave @ Executive Council in New Brunswick, New Jersey
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">23</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">24</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">25</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">26</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">27</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">28</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">29</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">30</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">31</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">1</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">2</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">3</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">4</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">5</div>
+                        </li>
+                    </ul>
+                </div><!--/. calendar -->
+            </div> <!--/. wrap -->
+
+            <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
+
+                <h1>Bishops November Calendar 2016</h1>
+
+                <div id="calendar">
+                    <ul class="weekdays">
+                        <li>Sunday</li>
+                        <li>Monday</li>
+                        <li>Tuesday</li>
+                        <li>Wednesday</li>
+                        <li>Thursday</li>
+                        <li>Friday</li>
+                        <li>Saturday</li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day other-month">
+                            <div class="date">30</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">31</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">1</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">2</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">3</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">4</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">5</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">6</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">7</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">8</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">9</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">10</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">11</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">12</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">13</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">14</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">15</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">16</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">17</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">18</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">19</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">20</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">21</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">22</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">23</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">24</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">25</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">26</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">27</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">28</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">29</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">30</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">1</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">2</div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">3</div>
+                        </li>
+                    </ul>
+                </div><!--/. calendar -->
+            </div> <!--/. wrap -->
 
             Episcopal Church in Navajoland P.O. Box 720 Farmington, NM 87499 Phone: (505) 327-7549 — Main
 

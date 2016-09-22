@@ -13,129 +13,60 @@
 <body>
 <!---------Beginning Carousel ----------------------------------------------------------------------------------------->
 
-<div class="row " id="carousel">
-    <div class="col-md-8">
+        <div class="row " id="carousel">
+            <div class="col-md-8">
 
-        <div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="9"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+                <div id="header-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <ol class="carousel-indicators">
+                            <li data-target="# header-carousel " data-slide-to="0" class="active"></li>
+                            <li data-target="# header-carousel " data-slide-to="1"></li>
+                            <li data-target="# header-carousel " data-slide-to="2"></li>
+                            <li data-target="# header-carousel " data-slide-to="3"></li>
+                            <li data-target="# header-carousel " data-slide-to="4"></li>
+                            <li data-target="# header-carousel " data-slide-to="5"></li>
+                            <li data-target="# header-carousel " data-slide-to="6"></li>
+                            <li data-target="# header-carousel " data-slide-to="7"></li>
+                            <li data-target="# header-carousel " data-slide-to="8"></li>
+                            <li data-target="# header-carousel " data-slide-to="9"></li>
+                            <li data-target="# header-carousel " data-slide-to="10"></li>
+                        </ol>
 
-            </ol>
+                        <div id="indexcaro1" class="item active"></div>
+                        <div id="indexcaro2" class="item"></div>
+                        <div id="indexcaro3" class="item"></div>
+                        <div id="indexcaro4" class="item"></div>
+                        <div id="indexcaro5" class="item"></div>
+                        <div id="indexcaro6" class="item"></div>
+                        <div id="indexcaro7" class="item"></div>
+                        <div id="indexcaro8" class="item"></div>
+                        <div id="indexcaro9" class="item"></div>
+                        <div id="indexcaro10" class="item"></div>
+                        <div id="indexcaro11" class="item"></div>
 
-
-
-            <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="/lib/img/oldHosp.jpg" alt="...">
-                    <div class="carousel-caption">
-                        <h1>Hozho Center</h1>
                     </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/oldHosInterior.jpg" alt="...">
-                    <div class="carousel-caption">
-                        <h1>Hozho Center Chapel</h1>
-                    </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/sheepCamp.jpg" alt="...">
-                <div class="carousel-caption">
-                    <h1>Upper Fruitland Sheep Camp</h1>
                 </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/WRYouth.jpg" alt="...">
-                    <div class="carousel-caption">
-                        <h1>Southeast Region Youth</h1>
-                    </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/GSMBell.JPG" alt="...">
-                    <div class="carousel-caption">
-                        <h1>Good Shepherd Mission Bell</h1>
-                    </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/HDF.JPG" alt="...">
-                    <div class="carousel-caption">
-                        <h1> Homer Dell Farm</h1>
-                    </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/4sunFlowers.JPG" alt="...">
-                    <div class="carousel-caption">
-                        <h1>Sun Flowers</h1>
-                    </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/ruinsCDc.JPG" alt="...">
-                    <div class="carousel-caption">
-                        <h1> Canyon Ruins</h1>
-                    </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/stCBell.JPG" alt="...">
-                    <div class="carousel-caption">
-                        <h1>St. Christopher's Bell</h1>
-                    </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/windowR.JPG" alt="...">
-                    <div class="carousel-caption">
-                        <h1> WindowRock Monument</h1>
-                    </div>
-            </div>
-            <div class="item">
-                <img src="/lib/img/gsmCross2.JPG" alt="...">
-                <div class="carousel-caption">
-                    <h1>Good Shepherd Mission Cross</h1>
-                </div>
-            </div>
-        </div>
 
 
+            </div>
 
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
 
-    </div>
-<!---------End Carousel ----------------------------------------------------------------------------------------------->
+            <!---------End Carousel ----------------------------------------------------------------------------------------------->
 
 
 <!---------Begin side 6 Buttons --------------------------------------------------------------------------------------->
-    <div class="col-md-4" id="buttons">
-        <span style="display: inline-block; width: 100px; vertical-align: top;">
-            <a type="button" href="#bulletin" class="btn btn-default" style="width: 200px; height: 90px;" >Bulletin</a>
-            <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;">Bishop's Page<br>& Calendar</a>
-            <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" >How to Help/<br>Donate</a>
-            <a type="button" href="newsLetterEvents.php" class="btn btn-default" style="width: 200px; height: 90px;" >Newsletter/<br>Events</a>
-            <a type="button" href="ecnSeal&Beginning.php" class="btn btn-default" style="width: 200px; height: 90px;" >ECN Seal<br>& Beginnings</a>
-            <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" >Cheii's Web<br> Development</a>
-        </span>
-    </div>
+            <div class="col-md-4" id="buttons">
+                <span style="display: inline-block; width: 100px; vertical-align: top;">
+                    <a type="button" href="#bulletin" class="btn btn-default" style="width: 200px; height: 90px;" >Bulletin</a>
+                    <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;">Bishop's Page<br>& Calendar</a>
+                    <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" >How to Help/<br>Donate</a>
+                    <a type="button" href="newsLetterEvents.php" class="btn btn-default" style="width: 200px; height: 90px;" >Newsletter/<br>Events</a>
+                    <a type="button" href="ecnSeal&Beginning.php" class="btn btn-default" style="width: 200px; height: 90px;" >ECN Seal<br>& Beginnings</a>
+                    <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" >Cheii's Web<br> Development</a>
+                </span>
+            </div>
 </div>
 <!---------End side 6 Buttons ----------------------------------------------------------------------------------------->
-
 
 
 <!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
@@ -143,15 +74,15 @@
         <div class="row bulletin">
 
             <div class="col-lg-4" id="dhead">
-                <h2>Utah Region's Latest News</h2>
+                <h2><a class="black" href="utahRegion.php">Utah Region's Latest News</a></h2>
             </div>
 
             <div class="col-lg-4" id="dhead">
-                <h2>S.J. Region's Latest News</h2>
+                <h2><a class="black" href="sanJuanRegion.php">S.J. Region's Latest News</a></h2>
             </div>
 
             <div class="col-lg-4" id="dhead">
-                <h2>S.E. Region's Latest News</h2>
+                <h2><a class="black" href="southEast.php">S.E. Region's Latest News</a></h2>
             </div>
             
             <div class="col-lg-4">

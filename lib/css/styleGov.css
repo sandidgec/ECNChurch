@@ -1,16 +1,74 @@
-.tales {
-    width: 100%;
+
+#header-carousel {
+    height: 500px;
+    padding-top: 30px;
+    margin-top: 30px;
 }
-
-.container {
-    font-size: 50px;
+#cazza1 {
+     height: 500px;
+     background-image: url(/lib/img/c161.jpg);
+     background-position: center center;
+     background-size: cover;
+ }
+#cazza2 {
+      height: 500px;
+      background-image: url(/lib/img/c162.jpg);
+      background-position: center center;
+      background-size: cover;
+  }
+#cazza3 {
+       height: 500px;
+       background-image: url(/lib/img/c163.jpg);
+       background-position: center center;
+       background-size: cover;
+   }
+#cazza4 {
+    height: 500px;
+    background-image: url(/lib/img/c164.jpg);
+    background-position: center center;
+    background-size: cover;
 }
-
-.carousel-inner > .item > img{
-    width:1000px;
-    height:500px;
-    border-radius: 25px;
-
+#cazza5 {
+    height: 500px;
+    background-image: url(/lib/img/c165.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#cazza6 {
+    height: 500px;
+    background-image: url(/lib/img/c166.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#cazza7 {
+    height: 500px;
+    background-image: url(/lib/img/c167.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#cazza8 {
+    height: 500px;
+    background-image: url(/lib/img/c169.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#cazza9 {
+    height: 500px;
+    background-image: url(/lib/img/c1610.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#cazza10 {
+    height: 500px;
+    background-image: url(/lib/img/c1611.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#cazza11 {
+    height: 500px;
+    background-image: url(/lib/img/c1612.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 h2 {
     text-align: left;
@@ -79,7 +137,10 @@ p {
 #search-container {
     position: relative;
 }
-
+.responsive-image {
+    height: auto;
+    width: 100%;
+}
 
 #search-bg {
     /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
