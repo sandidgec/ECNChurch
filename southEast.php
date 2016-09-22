@@ -67,7 +67,7 @@
 
 </div>
 
-<div class="row ecn-container">
+<div class="row logo-container">
     <div id="logo" class="col-lg-4">
         <div class="row no-pad">
             <img src=""
@@ -93,19 +93,19 @@
         <div class="container bulletin" id="bulletin">
             <div class="row bulletin">
 
-                <div class="col-lg-4" id="dhead">
+                <div class="col-xs-4" id="dhead">
                     <h3>St. Joseph's Latest News</h3>
                 </div>
 
-                <div class="col-lg-4" id="dhead">
+                <div class="col-xs-4" id="dhead">
                     <h3>Good Shepherd's Latest News</h3>
                 </div>
 
-                <div class="col-lg-4" id="dhead">
+                <div class="col-xs-4" id="dhead">
                     <h3>Saint Mark's Latest News</h3>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-xs-4">
                     <h2>St. Joseph's Church Upcoming Events</h2>
                     <h4>Morning Prayer: 2 nd Sunday of each month @ 11:30am (English &amp; Navajo)</h4>
                     <h4>Service Type: Gospel in English &amp; Navajo; homily in English &amp; Navajo</h4>
@@ -113,7 +113,7 @@
                     <h6>Contact GSM office for more Info.</h6>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-xs-4">
                     <h2>Good Shepherd Mission</h2>
                     <h4>Sunday Service: 10:30 a.m.</h4>
                     <h4>Service type: English &amp; Navajo the Gospel</h4>
@@ -127,7 +127,7 @@
                     <h6>Contact GSM office for more Info</h6>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-xs-4">
                     <h2>St. Mark's Church</h2>
                     <h4>Sunday Service: 8am</h4>
                     <h4>Service type: English</h4>

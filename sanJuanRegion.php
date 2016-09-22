@@ -102,32 +102,32 @@
 <div class="container bulletin" id="bulletin">
     <div class="row bulletin">
 
-        <div class="col-lg-4" id="dhead">
+        <div class="col-xs-4" id="dhead">
             <h3>St. Michael's Latest News</h3>
         </div>
 
-        <div class="col-lg-4" id="dhead">
+        <div class="col-xs-4" id="dhead">
             <h3>All Saints Latest News</h3>
         </div>
 
-        <div class="col-lg-4" id="dhead">
+        <div class="col-xs-4" id="dhead">
             <h3>St. Luke's Latest News</h3>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <h4>News News News</h4>
             <h4>September</h4>
             <h6>Contact office for more Info.</h6>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <h4>Navajo Hymnal Study</h4>
             <h4>We will continue on September 21</h4>
             <h4>6pm</h4>
             <h6>Contact office for more Info.</h6>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <h4>News News News</h4>
             <h4>September</h4>
             <h4></h4>

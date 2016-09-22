@@ -104,31 +104,31 @@
 <div class="container bulletin" id="bulletin">
     <div class="row bulletin">
 
-        <div class="col-lg-4" id="dhead">
+        <div class="col-xs-4" id="dhead">
             <h3>St. Christopher's</h3>
         </div>
 
-        <div class="col-lg-4" id="dhead">
+        <div class="col-xs-4" id="dhead">
             <h3>St. Mary's of the Moonlight</h3>
         </div>
 
-        <div class="col-lg-4" id="dhead">
+        <div class="col-xs-4" id="dhead">
             <h3>St. John's the Baptizer</h3>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <h2>St. Christopher's Bee Project is Happening!</h2>
             <h5>100 Pounds is Ready to be Packaged!</h5>
             <h6>Contact office for more Information</h6>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <h2>Leon Sampson is now at seminary!</h2>
             <h5>Virginia Theological Seminary recruited Leon on August 9, 2016.</h5>
             <h6>Navajoland will miss you</h6>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <h2>Staff meeting EVERY Tuesday at 9am, St. Christopher's.</h2>
             <h5>St. Marys and St. John's are welcomed to attend.</h5>
             <h6>Contact office for more Information</h6>
