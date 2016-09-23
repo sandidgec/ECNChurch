@@ -1,7 +1,7 @@
 <link href="lib/css/styleNavbar.css" rel="stylesheet">
 
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
+    <div class="container-fullwidth">
         <div class="navbar-header">
             <a class="navbar-brand" href="index.php" id="logo">
                 <img alt="Brand" src="/lib/img/EpiscopalChurchInNavajoLandLogo_3.png" width="450" height="70">

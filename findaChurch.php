@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="container find" id="find">
-                    <h3>San Juan Region <a href="sanJuanRegion.php">Page</a></h3>
+                    <h3>San Juan Region <a href="sanJuanRegion.php" target="_blank">Page</a></h3>
                     <div class="row">
 
                         <div class="col-lg-3">
@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="container find" id="find">
-                    <h3>Southeast Region <a href="southEast.php">Page</a></h3>
+                    <h3>Southeast Region <a href="southEast.php" target="_blank">Page</a></h3>
                     <div class="row">
 
                         <div class="col-lg-3">
@@ -86,7 +86,7 @@
                 </div>
 
                 <div class="container find" id="find">
-                    <h3>Utah Region <a href="utahRegion.php">Page</a></h3>
+                    <h3>Utah Region <a href="utahRegion.php" target="_blank">Page</a></h3>
                     <div class="row">
 
                         <div class="col-lg-3">

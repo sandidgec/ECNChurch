@@ -57,12 +57,12 @@
 <!---------Begin side 6 Buttons --------------------------------------------------------------------------------------->
             <div class="col-sm-4" id="buttons">
                 <span style="display: inline-block; width: 100px; vertical-align: top;">
-                    <a type="button" href="#bulletin" class="btn btn-default" style="width: 200px; height: 90px;" >Bulletin</a>
-                    <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;">Bishop's Page<br>& Calendar</a>
-                    <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" >How to Help/<br>Donate</a>
-                    <a type="button" href="newsLetterEvents.php" class="btn btn-default" style="width: 200px; height: 90px;" >Newsletter/<br>Events</a>
-                    <a type="button" href="ecnSeal&Beginning.php" class="btn btn-default" style="width: 200px; height: 90px;" >ECN Seal<br>& Beginnings</a>
-                    <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" >Cheii's Web<br> Development</a>
+                    <a type="button" href="#bulletin" class="btn btn-default" style="width: 200px; height: 90px;">Bulletin</a>
+                    <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Bishop's Page<br>& Calendar</a>
+                    <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">How to Help/<br>Donate</a>
+                    <a type="button" href="newsLetterEvents.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Newsletter/<br>Events</a>
+                    <a type="button" href="ecnSeal&Beginning.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">ECN Seal<br>& Beginnings</a>
+                    <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Cheii's Web<br> Development</a>
                 </span>
             </div>
 </div>
@@ -74,15 +74,15 @@
         <div class="row bulletin">
 
             <div class="col-xs-4" id="dhead">
-                <h2><a class="black" href="utahRegion.php">Utah Region's Latest News</a></h2>
+                <h2><a class="black" href="utahRegion.php" target="_blank">Utah Region's Latest News</a></h2>
             </div>
 
             <div class="col-xs-4" id="dhead">
-                <h2><a class="black" href="sanJuanRegion.php">S.J. Region's Latest News</a></h2>
+                <h2><a class="black" href="sanJuanRegion.php" target="_blank">S.J. Region's Latest News</a></h2>
             </div>
 
             <div class="col-xs-4" id="dhead">
-                <h2><a class="black" href="southEast.php">S.E. Region's Latest News</a></h2>
+                <h2><a class="black" href="southEast.php" target="_blank">S.E. Region's Latest News</a></h2>
             </div>
             
             <div class="col-xs-4">
@@ -124,11 +124,11 @@
 
                         <div class="row">
                             <div class="col-lg-4">
-                                <a href="southEast.php">
+                                <a href="southEast.php" target="_blank">
                                 <h3>South East Region</h3>
                                 </a>
                                 <h6 span class="state">Arizona Churches</h6></span>
-                                <a href="http://www.goodshepmission.org/">
+                                <a href="http://www.goodshepmission.org/" target="_blank">
                                 <h6>Good Shepherd Mission</h6>
                                </a>
                                 <h6>St. Joseph's Church</h6>
@@ -136,7 +136,7 @@
                                 <h6>St. Mark's Church</h6>
                             </div>
                             <div class="col-lg-4">
-                                <a href="sanJuanRegion.php">
+                                <a href="sanJuanRegion.php" target="_blank">
                                 <h3>San Juan Region</h3>
                                 </a>
                                 <h6 span class="state">New Mexico Churches</h6></span>
@@ -145,7 +145,7 @@
                                 <h6>St. Luke's In the Desert</h6>
                             </div>
                             <div class="col-lg-4">
-                                <a href="utahRegion.php">
+                                <a href="utahRegion.php" target="_blank">
                                 <h3>Utah Region</h3>
                                 </a>
                                 <h6>St. Christopher's Mission</h6>
@@ -177,7 +177,7 @@
                         <img src="/lib/img/gsmhoganproject.jpg">
                     </div>
                     <div id="button-blue">
-                        <a class="btn btn-info btn-lg" href="https://www.razoo.com/story/Build-A-Hogan?referral_code=share" role="button">Help Build a Hogan Here!</a>
+                        <a class="btn btn-info btn-lg" href="https://www.razoo.com/story/Build-A-Hogan?referral_code=share" role="button" target="_blank">Help Build a Hogan Here!</a>
                     </div>
                 </div>
                 <div class="col-lg-8" id="text">
@@ -221,14 +221,14 @@
         <div class="row">
             <div class="col-lg-6">
                 <div id="shimaLink" class="thumbnail">
-                    <a href="http://www.https://shima-of-navajoland.myshopify.com//">
+                    <a href="https://shima-of-navajoland.myshopify.com/" target="_blank">
                         <img src="/lib/img/shima.jpg">
                     </a>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div id="cheiiLink" class="thumbnail">
-                    <a href="http://www.cheiidevshop.com/">
+                    <a href="http://www.cheiidevshop.com/" target="_blank">
                         <img src="/lib/img/cheiidevshoplogo.png">
                     </a>
                 </div>
