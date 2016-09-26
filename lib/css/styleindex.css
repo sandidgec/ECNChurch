@@ -62,34 +62,6 @@ body {
     background: url('dark_geometric.png');
 }
 
-.jumbotron {
-    background-color: teal;
-}
-#ecnMain {
-    background-color: teal;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#mainImg {
-    height: 800px;
-    width: 1400px;
-    align-content: center;
-}
-#bunnies {
-    background-size: cover;
-    background-color: black;
-    padding: 30px 50px 30px 50px;
-    height: 800px;
-    text-align: center;
-    background-position: center;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: xx-large;
-}
-#flower {
-    background-color: darkslategray;
-}
-
 .thumbnail {
     width: 365px;
     height: 210px;
@@ -136,52 +108,12 @@ body {
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
-
-#indexLogo img {
-    width: 200px;
-    height: 200px;
-    border: 0 none;
-    box-shadow: none;
-    background: transparent;
-}
 .state {
     color: #ff36ad;
 }
 .black {
     color: black;
 }
-.carousel-inner {
-    width: 1100px;
-    height: 560px;
-}
-#header-carousel {
-    width: 1100px;
-    height: 560px;
-    margin-top: 100px;
-}
-
-#buttons {
-    padding-right: 130px;
-    border-radius: 25px;
-    text-align: right;
-    margin-top: 100px;
-    font-family: 'Pontano Sans', sans-serif;
-    color: white;
-}
-
-.btn-default,
-.btn-default:hover,
-.btn-default:active,
-.btn-default:visited,
-.btn-default:focus {
-    background-color: #DAA520;
-    border-color: #333333;
-    color: white;
-    font-size: x-large;
-
-}
-
-
 .logo-container {
     position: absolute;
     top: 25px;
@@ -194,7 +126,6 @@ body {
 .logo-container .btn {
     background-color: black;
 }
-
 #shimaLink {
     width: 500px;
     height: 200px;
@@ -207,70 +138,38 @@ body {
     display: inline-block;
 }
 
+.tales {
+    width: 100%;
+}
 
-#indexcaro1 {
-    height: 500px;
-    background-image: url(/lib/img/oldHosp.jpg);
-    background-position: center center;
-    background-size: cover;
+.container {
+    font-size: 50px;
 }
-#indexcaro2 {
-    height: 500px;
-    background-image: url(/lib/img/oldHosInterior.jpg);
-    background-position: center center;
-    background-size: cover;
+
+.carousel-inner > .item > img{
+    width:1300px;
+    height:600px;
+    border-radius: 25px;
+    border: 0%;
 }
-#indexcaro3 {
-    height: 500px;
-    background-image: url(/lib/img/sheepCamp.jpg);
-    background-position: center center;
-    background-size: cover;
+#carousel-example-generic {
+    padding-top: 100px;
 }
-#indexcaro4 {
-    height: 500px;
-    background-image: url(/lib/img/WRYouth.jpg);
-    background-position: center center;
-    background-size: cover;
+#buttons {
+    border-radius: 25px;
+    text-align: right;
+    font-family: 'Pontano Sans', sans-serif;
+    color: white;
+    padding-top: 100px;
 }
-#indexcaro5 {
-    height: 500px;
-    background-image: url(/lib/img/GSMBell.JPG);
-    background-position: center center;
-    background-size: cover;
-}
-#indexcaro6 {
-    height: 500px;
-    background-image: url(/lib/img/HDF.JPG);
-    background-position: center center;
-    background-size: cover;
-}
-#indexcaro7 {
-    height: 500px;
-    background-image: url(/lib/img/4sunFlowers.JPG);
-    background-position: center center;
-    background-size: cover;
-}
-#indexcaro8 {
-    height: 500px;
-    background-image: url(/lib/img/ruinsCDc.JPG);
-    background-position: center center;
-    background-size: cover;
-}
-#indexcaro9 {
-    height: 500px;
-    background-image: url(/lib/img/stCBell.JPG);
-    background-position: center center;
-    background-size: cover;
-}
-#indexcaro10 {
-    height: 500px;
-    background-image: url(/lib/img/windowR.JPG);
-    background-position: center center;
-    background-size: cover;
-}
-#indexcaro11 {
-    height: 500px;
-    background-image: url(/lib/img/gsmCross2.JPG);
-    background-position: center center;
-    background-size: cover;
+
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:visited,
+.btn-default:focus {
+    background-color: #DAA520;
+    border-color: #333333;
+    color: white;
+    font-size: x-large;
 }

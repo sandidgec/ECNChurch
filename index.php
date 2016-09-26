@@ -12,48 +12,101 @@
 </head>
 <body>
 <!---------Beginning Carousel ----------------------------------------------------------------------------------------->
+    <div id="inCarousel" class="container">
+        <div class="row">
+            
+            <div id="inCarMain" class="col-sm-8">
+                <div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+                    </ol>
 
-        <div class="row " id="carousel">
-            <div class="col-sm-8">
-
-                <div id="header-carousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <ol class="carousel-indicators">
-                            <li data-target="# header-carousel " data-slide-to="0" class="active"></li>
-                            <li data-target="# header-carousel " data-slide-to="1"></li>
-                            <li data-target="# header-carousel " data-slide-to="2"></li>
-                            <li data-target="# header-carousel " data-slide-to="3"></li>
-                            <li data-target="# header-carousel " data-slide-to="4"></li>
-                            <li data-target="# header-carousel " data-slide-to="5"></li>
-                            <li data-target="# header-carousel " data-slide-to="6"></li>
-                            <li data-target="# header-carousel " data-slide-to="7"></li>
-                            <li data-target="# header-carousel " data-slide-to="8"></li>
-                            <li data-target="# header-carousel " data-slide-to="9"></li>
-                            <li data-target="# header-carousel " data-slide-to="10"></li>
-                        </ol>
-
-                        <div id="indexcaro1" class="item active"></div>
-                        <div id="indexcaro2" class="item"></div>
-                        <div id="indexcaro3" class="item"></div>
-                        <div id="indexcaro4" class="item"></div>
-                        <div id="indexcaro5" class="item"></div>
-                        <div id="indexcaro6" class="item"></div>
-                        <div id="indexcaro7" class="item"></div>
-                        <div id="indexcaro8" class="item"></div>
-                        <div id="indexcaro9" class="item"></div>
-                        <div id="indexcaro10" class="item"></div>
-                        <div id="indexcaro11" class="item"></div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="/lib/img/oldHosp.jpg " alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>The Old Hospital, Farmington, NM</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/oldHosInterior.jpg " alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>Inside the Old Hospital, Farmington, NM</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/sheepCamp.jpg " alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>Sheep Camp Upper Fruitland, New Mexico</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/WRYouth.jpg " alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>South East Region Youth</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/GSMBell.JPG " alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>Good Shepherd Mission Bell Ft. Defiance, AZ </h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/HDF.JPG" alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>Homer Dell Farm Bluff, UT</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/4sunFlowers.JPG" alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>New Mexico Sun Flowers</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/ruinsCDc.JPG" alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>Canyon De Chelly Chinle, AZ</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/stCBell.JPG" alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>St. Christopher’s Bell Bluff, UT</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/windowR.JPG" alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>Window Rock Monument</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/gsmCross2.JPG" alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>Good Shepherd Mission Cross Ft. Defiance, AZ</h2>
+                            </div>
+                        </div>
 
                     </div>
+
                 </div>
-
-
             </div>
 
-
-            <!---------End Carousel ----------------------------------------------------------------------------------------------->
-
-
+<!---------End Carousel ----------------------------------------------------------------------------------------------->
 <!---------Begin side 6 Buttons --------------------------------------------------------------------------------------->
             <div class="col-sm-4" id="buttons">
                 <span style="display: inline-block; width: 100px; vertical-align: top;">
@@ -65,7 +118,9 @@
                     <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Cheii's Web<br> Development</a>
                 </span>
             </div>
-</div>
+          
+        </div>
+    </div>
 <!---------End side 6 Buttons ----------------------------------------------------------------------------------------->
 
 
@@ -123,7 +178,7 @@
 
 
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-xs-4">
                                 <a href="southEast.php" target="_blank">
                                 <h3>South East Region</h3>
                                 </a>
@@ -135,7 +190,7 @@
                                 <h6 span class="state">New Mexico Churches</h6></span>
                                 <h6>St. Mark's Church</h6>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-xs-4">
                                 <a href="sanJuanRegion.php" target="_blank">
                                 <h3>San Juan Region</h3>
                                 </a>
@@ -144,7 +199,7 @@
                                 <h6>St. Michael's Church</h6>
                                 <h6>St. Luke's In the Desert</h6>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-xs-4">
                                 <a href="utahRegion.php" target="_blank">
                                 <h3>Utah Region</h3>
                                 </a>
@@ -219,14 +274,14 @@
 <!---------logo links on Home page------------------------------------------------------------------------------------->
     <div class="row">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-xs-6">
                 <div id="shimaLink" class="thumbnail">
                     <a href="https://shima-of-navajoland.myshopify.com/" target="_blank">
                         <img src="/lib/img/shima.jpg">
                     </a>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-xs-6">
                 <div id="cheiiLink" class="thumbnail">
                     <a href="http://www.cheiidevshop.com/" target="_blank">
                         <img src="/lib/img/cheiidevshoplogo.png">
