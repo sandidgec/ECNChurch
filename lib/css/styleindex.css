@@ -147,13 +147,14 @@ body {
 }
 
 .carousel-inner > .item > img{
-    width:1300px;
+    width:1020px;
     height:600px;
     border-radius: 25px;
     border: 0%;
 }
 #carousel-example-generic {
     padding-top: 100px;
+
 }
 #buttons {
     border-radius: 25px;
