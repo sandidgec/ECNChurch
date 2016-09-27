@@ -12,10 +12,12 @@
 </head>
 <body>
 <!---------Beginning Carousel ----------------------------------------------------------------------------------------->
-    <div id="inCarousel" class="container">
+
+
+    <div class="container-fluid">
         <div class="row">
             
-            <div id="inCarMain" class="col-sm-8 pull left">
+            <div id="inCarMain" class="col-sm-8">
                 <div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -104,6 +106,7 @@
                     </div>
 
                 </div>
+
             </div>
 
 <!---------End Carousel ----------------------------------------------------------------------------------------------->
