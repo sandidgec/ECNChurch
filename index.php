@@ -32,6 +32,7 @@
                         <li data-target="#carousel-example-generic" data-slide-to="8"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="9"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="11"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
@@ -67,9 +68,15 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="/lib/img/HDF.JPG" alt="...">
+                            <img src="/lib/img/greenField.JPG" alt="...">
                             <div class="carousel-caption" id="caption">
-                                <h2>Homer Dell Farm Bluff, UT</h2>
+                                <h2>Harvest Time</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/lib/img/groundBlueCorn.JPG" alt="...">
+                            <div class="carousel-caption" id="caption">
+                                <h2>Ground Blue Corn</h2>
                             </div>
                         </div>
                         <div class="item">
