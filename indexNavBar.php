@@ -4,7 +4,7 @@
     <div class="container-fullwidth">
         <div class="navbar-header">
             <a class="navbar-brand" href="index.php" id="logo">
-                <img alt="Brand" src="/lib/img/EpiscopalChurchInNavajoLandLogo_3.png" width="450" height="70">
+                <img alt="Brand" src="/lib/img/navLogo4.png" width="600" height="110">
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>

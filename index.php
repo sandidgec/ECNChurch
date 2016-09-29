@@ -291,6 +291,13 @@
                     </a>
                 </div>
             </div>
+            <div class="col-xs-6" >
+                <div id="episcopalLink" class="thumbnail">
+                    <a href="http://www.episcopalchurch.org/" target="_blank">
+                        <img src="/lib/img/episcopalShieldIcon2.png">
+                    </a>
+                </div>
+            </div>
             <div class="col-xs-6">
                 <div id="cheiiLink" class="thumbnail">
                     <a href="http://www.cheiidevshop.com/" target="_blank">

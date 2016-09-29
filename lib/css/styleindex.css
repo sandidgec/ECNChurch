@@ -132,6 +132,14 @@ body {
     display: inline-block;
 }
 
+#episcopalLink{
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    padding-top: 50px;
+
+}
+
 #cheiiLink {
     width: 200px;
     height: 200px;
