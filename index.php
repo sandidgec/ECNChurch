@@ -283,29 +283,27 @@
 
 <!---------logo links on Home page------------------------------------------------------------------------------------->
     <div class="row">
-        <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-4">
                 <div id="shimaLink" class="thumbnail">
                     <a href="https://shima-of-navajoland.myshopify.com/" target="_blank">
                         <img src="/lib/img/shima.jpg">
                     </a>
                 </div>
             </div>
-            <div class="col-xs-6" >
+            <div class="col-xs-4">
                 <div id="episcopalLink" class="thumbnail">
                     <a href="http://www.episcopalchurch.org/" target="_blank">
                         <img src="/lib/img/episcopalShieldIcon2.png">
                     </a>
                 </div>
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-4">
                 <div id="cheiiLink" class="thumbnail">
                     <a href="http://www.cheiidevshop.com/" target="_blank">
                         <img src="/lib/img/cheiidevshoplogo.png">
                     </a>
-                </div>
+                </div> 
             </div>
-        </div>
     </div>
 <!---------End logo links on Home page--------------------------------------------------------------------------------->
         </div>

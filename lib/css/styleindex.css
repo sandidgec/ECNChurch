@@ -130,13 +130,15 @@ body {
     width: 500px;
     height: 200px;
     display: inline-block;
+    padding-top: 30px;
+
 }
 
-#episcopalLink{
-    width: 400px;
+#episcopalLink {
+    width: 200px;
     height: 200px;
     display: inline-block;
-    padding-top: 50px;
+    padding-top: 20px;
 
 }
 
@@ -144,6 +146,7 @@ body {
     width: 200px;
     height: 200px;
     display: inline-block;
+    padding-top: 20px;
 }
 
 .tales {
