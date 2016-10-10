@@ -99,9 +99,9 @@
         </div>
 
         <div class="col-xs-4">
-            <h2>St. Christopher's Bee Project is Happening!</h2>
-            <h5>100 Pounds is Ready to be Packaged!</h5>
-            <h6>Contact office for more Information</h6>
+            <h2>Bluff Arts Festival 2016</h2>
+            <h5>October 14, 15, 16</h5>
+            <h6>www.bluffartsfestival.org</h6>
         </div>
 
         <div class="col-xs-4">
