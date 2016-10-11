@@ -95,11 +95,9 @@
                     Phone: (505) 327-7549
                     <br>
                     <br>
-                    Click here to make an online donation now
+                    
                 </h4>
-                <div id="button-blue">
-                    <a class="btn btn-success btn-lg" href="https://episcopalchurch.thankyou4caring.org/navajoland-our-american-heritage" role="button">Help Support Us Here!</a>
-                </div>
+
             </div>
 
 
@@ -159,9 +157,7 @@
                     </a><br>
                 </h4>
 
-                <div id="button-blue">
-                    <a class="btn btn-success btn-lg" href="https://episcopalchurch.thankyou4caring.org/navajoland-our-american-heritage" role="button">Help Support Us Here!</a>
-                </div>
+
             </div>
 
 
