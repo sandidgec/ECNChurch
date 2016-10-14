@@ -131,7 +131,7 @@
 
 <div class="row" id="history">
     <div class="col-md-4">
-        <h1>St. Michael's Church History</h1>
+        <h1>St. Michael's Episcopal Church History</h1>
         <img src="/lib/img/stMichaels1.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Michael's</h2>
         <p>Located in Upper Fruitland, New Mexico. </p>
@@ -139,7 +139,7 @@
     </div>
 
     <div class="col-md-4">
-        <h1>All Saints Church History</h1>
+        <h1>All Saints Episcopal Church History</h1>
         <img src="/lib/img/allsaint.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>All Saints</h2>
         <p>The original vision for San Juan Mission came from the Rt. Rev. Frederick B.
@@ -151,7 +151,7 @@
     </div>
 
     <div class="col-md-4">
-        <h1>St. Luke's Church History</h1>
+        <h1>St. Luke's Episcopal Church History</h1>
         <img src="/lib/img/stlukes3.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St Luke's in the Desert</h2>
         <p>St. Luke's began in 1922 when Lena Wilcox was assigned to take the gospel to the Dine.
@@ -172,7 +172,7 @@
 <div class="row" id="learn-more">
 
     <div class="col-lg-4">
-        <h3>St. Michael's Church </h3>
+        <h3>St. Michael's Episcopal Church </h3>
         <h6>Upper Fruitland</h6>
         <h6>P.O. Box 720</h6>
         <h6>Farmington, NM 87401</h6>
@@ -189,7 +189,7 @@
 
 
     <div class="col-lg-4">
-        <h3>All Saints Church </h3>
+        <h3>All Saints Episcopal Church </h3>
             <h6>1271 Mission Ave</h6>
             <h6>P.O. Box 720</h6>
             <h6>Phone:(505) 327-0326</h6>
@@ -216,7 +216,7 @@
 
 
     <div class="col-lg-4">
-        <h3>St. Luke's In The Desert</h3>
+        <h3>St. Luke's Episcopal Church</h3>
         <h6>Carson, New Mexico</h6>
         <h6>P.O. Box 720</h6>
         <h6>Farmington, NM 87401</h6>

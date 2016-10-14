@@ -30,7 +30,7 @@
             <div class="item active">
                 <img src="/lib/img/gsm1.jpg" alt="...">
                     <div class="carousel-caption">
-                        <h1>Good Shepherd Church</h1>
+                        <h1>Good Shepherd Episcopal Church</h1>
                     </div>
             </div>
 
@@ -112,7 +112,7 @@
                 </div>
 
                 <div class="col-xs-4">
-                    <h2>St. Mark's Church</h2>
+                    <h2>St. Mark's Episcopal Church</h2>
                     <h4>Sunday Service: 8am</h4>
                     <h4>Service type: English</h4>
                     <h4>Conducted by Rev. Cynthia Hizer</h4>
@@ -130,7 +130,7 @@
 
 <div class="row" id="history">
     <div class="col-md-4">
-        <h1>St. Joseph's Church History</h1>
+        <h1>St. Joseph's Episcopal Church History</h1>
         <img src="/lib/img/stjoesSheep.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Joseph's</h2>
             <p>St. Joseph's in Many Farms Arizona is a house church next to the red bluffs. Gardens grow and sheep
@@ -155,7 +155,7 @@
     </div>
 
     <div class="col-md-4">
-        <h1>St. Mark's Church History</h1>
+        <h1>St. Mark's Episcopal Church History</h1>
         <img src="/lib/img/stMarks.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Mark's</h2>
         <p>St Mark's is located in Coalmine, New Mexico, a beautiful place nestled in the curve of the mountains,
@@ -175,7 +175,7 @@
 <div class="row" id="learn-more">
 
     <div class="col-lg-4">
-        <h3>St. Joseph's Church</h3>
+        <h3>St. Joseph's Episcopal Church</h3>
         <h6>Many Farms, Arizona</h6>
         <h6>P.O. Box 618</h6>
         <h6>Fort Defiance, AZ 86504</h6>
@@ -221,7 +221,7 @@
 
 
     <div class="col-lg-4">
-        <h3>St. Marks Church</h3>
+        <h3>St. Marks Episcopal Church</h3>
         <h6>Coalmine, New Mexico</h6>
         <h6>Office No. (928) 729-2322</h6>
         <h6>P.O. Box 618</h6>

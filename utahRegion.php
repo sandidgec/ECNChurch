@@ -125,7 +125,7 @@
 
 <div class="row" id="history">
     <div class="col-md-4">
-        <h1>St. Christopher's History</h1>
+        <h1>St. Christopher's Episcopal Church History</h1>
         <img src="/lib/img/stChristopherChurch.JPG" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Christophers</h2>
         <p>St. Christopher's in Bluff, Utah was built in 1942 . It's located 1.7 miles east of the Bluff on Utah
@@ -133,14 +133,14 @@
             today by many Navajo, as their main water source.</p>
     </div>
     <div class="col-md-4">
-        <h1>St. Mary's of the Moonlight History</h1>
+        <h1>St. Mary's of the Moonlight Episcopal Church History</h1>
         <img src="/lib/img/stMarysoftheMoonlight.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. Mary's of the Moonlight</h2>
         <p>In 1966, Father Liebler retired and built St. Mary's of the Moonlight.
             A few miles west of the Oljato trading post at Monument Valley, 60 miles south of Bluff, on the Arizona border.</p>
     </div>
     <div class="col-md-4">
-        <h1>St. John the Baptizer History</h1>
+        <h1>St. John the Baptizer Episcopal Church History</h1>
         <img src="/lib/img/stJohns.jpg" alt="..." width="400" height="200" img style="border:5px solid white">
         <h2>St. John the Baptizer</h2>
         <p>The Episcopal church, St. John the Baptizer, is located in the city of Montezuma Creek. Montezuma
@@ -154,7 +154,7 @@
 
 <div class="row" id="learn-more">
     <div class="col-lg-4">
-        <h3>St. Christopher's</h3>
+        <h3>St. Christopher's Episcopal Church</h3>
         <h6>P.O. Box 28</h6>
         <h6>Bluff, UT 84512</h6>
         <a href="http://www.facebook.com"> <i class="fa fa-facebook-official fa-2x"></i></a>
@@ -166,7 +166,7 @@
         </dl>
     </div>
     <div class="col-lg-4">
-        <h3>St. Mary's of the Moonlight</h3>
+        <h3>St. Mary's of the Moonlight Episcopal Church</h3>
         <h6>P.O Box 360397</h6>
         <h6>Oljato, UT 84536</h6>
         <h6>Office:(435) 727-0200</h6>
@@ -178,7 +178,7 @@
         </dl>
     </div>
     <div class="col-lg-4">
-        <h3>St. John the Baptizer</h3>
+        <h3>St. John the Baptizer Episcopal Church</h3>
         <h6>P.O. Box 28</h6>
         <h6>Montezuma Creek, UT 84534</h6>
         <h6>Office No. (435) 651-3225</h6>

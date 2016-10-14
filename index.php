@@ -194,29 +194,29 @@
                                 </a>
                                 <h6 span class="state">Arizona Churches</h6></span>
                                 <a href="http://www.goodshepmission.org/" target="_blank">
-                                <h6>Good Shepherd Mission</h6>
+                                <h6>Good Shepherd Mission Episcopal Church</h6>
                                </a>
-                                <h6>St. Joseph's Church</h6>
+                                <h6>St. Joseph's Episcopal Church</h6>
                                 <h6 span class="state">New Mexico Churches</h6></span>
-                                <h6>St. Mark's Church</h6>
+                                <h6>St. Mark's Episcopal Church</h6>
                             </div>
                             <div class="col-xs-4">
                                 <a href="sanJuanRegion.php" target="_blank">
                                 <h3>San Juan Region</h3>
                                 </a>
                                 <h6 span class="state">New Mexico Churches</h6></span>
-                                <h6>All Saints Church</h6>
-                                <h6>St. Michael's Church</h6>
-                                <h6>St. Luke's In the Desert</h6>
+                                <h6>All Saints Episcopal Church</h6>
+                                <h6>St. Michael's Episcopal Church</h6>
+                                <h6>St. Luke's In the Desert Episcopal Church</h6>
                             </div>
                             <div class="col-xs-4">
                                 <a href="utahRegion.php" target="_blank">
                                 <h3>Utah Region</h3>
                                 </a>
-                                <h6>St. Christopher's Mission</h6>
-                                <h6>St. Mary's of the Moonlight</h6>
-                                <h6>St. John the Baptizer</h6>
-                                <h6>St. David's House</h6>
+                                <h6>St. Christopher's Episcopal Church</h6>
+                                <h6>St. Mary's of the Moonlight Episcopal Church</h6>
+                                <h6>St. John the Baptizer Episcopal Church</h6>
+                                <h6>St. David's House Episcopal Church</h6>
                             </div>
                         </div>
 

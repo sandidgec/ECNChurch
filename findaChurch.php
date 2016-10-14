@@ -28,9 +28,9 @@
                     <div class="row">
 
                         <div class="col-lg-3">
-                            <h4>San Juan Mission-All Saints Church</h4>
-                            <h4>St. Michaels Church</h4>
-                            <h4>St. Lukes</h4>
+                            <h4>All Saints Episcopal Church</h4>
+                            <h4>St. Michaels Episcopal Church</h4>
+                            <h4>St. Lukes Episcopal Church</h4>
 
                         </div>
 
@@ -59,9 +59,9 @@
                     <div class="row">
 
                         <div class="col-lg-3">
-                            <h4>Good Shepherd Mission</h4>
-                            <h4>St. Marks Church</h4>
-                            <h4>St. Josephs</h4>
+                            <h4>Good Shepherd Mission Episcopal Church</h4>
+                            <h4>St. Marks Church Episcopal Church</h4>
+                            <h4>St. Josephs Episcopal Church</h4>
 
                         </div>
 
@@ -90,9 +90,9 @@
                     <div class="row">
 
                         <div class="col-lg-3">
-                            <h4>St. Christophers Mission</h4>
-                            <h4>St. Marys of the Moonlight</h4>
-                            <h4>St. Johns the Baptizer</h4>
+                            <h4>St. Christophers Episcopal Church</h4>
+                            <h4>St. Marys of the Moonlight Episcopal Church</h4>
+                            <h4>St. Johns the Baptizer Episcopal Church</h4>
 
                         </div>
 

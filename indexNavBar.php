@@ -24,7 +24,7 @@
                 <li><a class="label" href="missionsRetreats.php">Missions/Retreats</a></li>
                 <li><a class="label" href="calendarNew.php">Calendar</a></li>
                 <li><a href="https://www.facebook.com/EpiscopalChurchInNavajolandecn/?fref=ts" class= "navbar-btn" class="btn-social-icon btn-facebook">
-                        <span class="fa fa-facebook-official fa-lg"></span></li></a>
+                        <span class="fa fa-facebook-official fa-lg"></span></li></a> 
 
             </ul>
         </div><!--/.nav-collapse -->
