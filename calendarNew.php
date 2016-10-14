@@ -221,6 +221,11 @@
                         </li>
                         <li class="day">
                             <div class="date">15</div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    Corn Harvesting  8:00 am @ HomerDale CommunityFarm
+                                </div>
+                            </div>
                         </li>
                     </ul>
                     <ul class="days">
@@ -408,6 +413,12 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    Fall Festival @6pm All Saints <!--SJR---------------->
+                                   Food, games, cake walk and more!
+                                </div>
+                            </div>
                             <div class="event">
                                 <div class="event-desc">
                                     Diocese of Rio Grande Convention
@@ -419,6 +430,12 @@
                             <div class="event">
                                 <div class="event-desc">
                                     Diocese of Rio Grande Convention
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    Halloween Party @ StChristopher  5 -8 pm<br>
+                                    Costume Contest,Food, Cake WalkLots of Fun!
                                 </div>
                             </div>
                         </li>
