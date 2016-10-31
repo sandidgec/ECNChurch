@@ -133,7 +133,9 @@
     </div>
 <!---------End side 6 Buttons ----------------------------------------------------------------------------------------->
 
-
+<div id="button-blue">
+    <a class="btn btn-primary btn-lg btn-block" href="http://www.episcopalchurch.org/posts/publicaffairs/call-issued-episcopal-church-stand-standing-rock-november-3-" role="button" target="_blank">Call is issued to the Episcopal Church to stand with Standing Rock on November 3</a>
+</div>
 <!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
     <div class="container bulletin" id="bulletin">
         <div class="row bulletin">
@@ -151,15 +153,16 @@
             </div>
             
             <div class="col-xs-4">
-                <h2>September 10th Combined Service</h2><!--- Input Bulletin Heading here ----------------------------->
-                <h3>Rev. Pat Cook will conduct service at 10am </h3><!--- Input Bulletin Med. Text here --------------->
+                <h2>Halloween Party</h2><!--- Input Bulletin Heading here ----------------------------->
+                <h3>Saturday October 29, 2016 @ 6pm </h3><!--- Input Bulletin Med. Text here --------------->
                 <h3>Hope to see you there!</h3><!--- Input Bulletin Small Text here ----------------------------------->
+
             </div>
 
             <div class="col-xs-4">
-                <h2>Coding Boot Camp Re-Scheduled</h2><!--- Input Bulletin Heading here ------------------------------->
-                <h3>New Date TBA Contact ECN office for more Info.</h3><!--- Input Bulletin Med. Text here ------------>
-                <h2>Navajo Hymnal Study Continuing Sept 21 @6pm</h2><!--- Input Bulletin large Text here -------------->
+                <h2>Fall Harvest Party</h2><!--- Input Bulletin Heading here ------------------------------->
+                <h3>Friday October 28, 2016 @ 6pm</h3><!--- Input Bulletin Med. Text here ------------>
+                <h2>Come and join in on the fun!</h2><!--- Input Bulletin large Text here -------------->
             </div>
 
             <div class="col-xs-4">
@@ -232,8 +235,61 @@
         <div id="search-bg"></div>
         <div id="search">
             <div class="row">
+<!---------Begin Media Release section on Home page-------------------------------------------------------------------->
+                <div id="search-container"><!-----------Beginning of grey container box/ 4 lines of code---------->
+                    <div id="search-bg"></div>
+                    <div id="search">
+                        <div class="row">
 
-<!---------Hogan section on Home page---------------------------------------------------------------------------------->
+                            <div class="col-lg-4">
+                                <div class="thumbnail">
+                                    <img src="/lib/img/ens_092616_PBwitness (1).jpg">
+                                </div>
+                                <p>Presiding Bishop Michael Curry stands along North Dakota Highway 1806 on Sept. 24 to witness as law enforcement officers arrive at a small anti-Dakota Access Pipeline encampment to arrest people accused of removing no-trespass signs from neighboring ranch land recently purchased by the pipeline construction company. Photo: Mary Frances Schjonberg/Episcopal News Service</p>
+
+                                <div class="thumbnail">
+                                    <img src="/lib/img/ens_092616_Circle.jpg">
+                                </div>
+                                <p>George Fulford of Mandan, North Dakota, right foreground, speaks during a listening time arranged Sept. 24 for Presiding Bishop Michael Curry, center top, at Oceti Skowin Camp. Seated to Curry’s right are South Dakota Bishop John Tarrant and Bishop Mark Narum of the ELCA Western North Dakota Synod. Photo: Mary Frances Schjonberg/Episcopal News Service</p>
+
+
+                            </div>
+                            <div class="col-lg-8" id="text">
+                                <h3>Call is issued to the Episcopal Church to stand with Standing Rock on November 3</h3>
+                                October 28, 2016
+                                The Episcopal Church community on the Standing Rock Sioux Nation in North Dakota has issued a call for the Episcopal Church to stand in solidarity and witness with those protecting water on the Standing Rock Sioux Nation in North Dakota.
+                                <br><br>
+                                Concerned by the increased repression of non-violent water protectors whose ranks include men, women and youth, and supported by the wisdom of Standing Rock Sioux Chairman Dave Archambault, the Rev. John Floberg has appealed for clergy and laity around the Episcopal Church to come together on the banks of the Missouri River in North Dakota to stand in witness and solidarity on November 3.
+                                <br><br>
+                                The militarized police presence near the camps of water protectors, compounded by the mass arrests of some of those protectors in recent days, have stirred the Executive Council of the Episcopal Church and other Episcopalians to advocacy and action. Over the past month, Episcopalians have called upon the U.S. Department of Justice to monitor the actions of local law enforcement, state police, and the U.S. National Guard, urging law-enforcement officials to “de-escalate military and police provocation in and near the campsites of peaceful protest and witness of the Dakota Access Pipeline project.” The Episcopal Church also stands with Archambault in his request of U.S. Attorney General Loretta Lynch to investigate potential civil rights violations involving the law enforcement response.
+                                <br><br>
+                                In a letter to the Episcopal Church on October 23, Floberg wrote:
+                                <br>
+                                “In recent days, the repressive power of the state has increased: armed riot police are guarding ongoing pipeline construction, increased arrests and repression of non-violent prayerful action. At the same time, Oceti Sakowin water protectors have reclaimed land never relinquished by treaty directly in the path of the pipeline and established a new camp.  Our duty as people of faith and clergy could not be clearer: to stand on the side of the oppressed and to pray for God’s mercy in these challenging times.”
+                                <br><br>
+                                Presiding Bishop Michael Curry issued a statement on August 25 in support of the people gathered at Standing Rock.  He traveled to Standing Rock and the Oceti Sakowin Camp of water protectors, demonstrating support and solidarity through his presence. Presiding Bishop Curry called this historic gathering of over two hundred Indigenous Nations from North America and other parts of the world “the new Selma,” and his statement has been echoed by the Episcopal bishops of North and South Dakota and others. The Evangelical Lutheran Church in America, the United Methodist Church, the Presbyterian Church USA, and the United Church of Christ are also standing in solidarity with the Standing Rock camps.
+                                <br><br>
+                                To learn more about this powerful opportunity to exercise our shared baptismal ministry as lay and clergy members see here
+                                <br><br>
+                                Information from Episcopal News Service
+                                <br><br>
+                                <a href="http://episcopaldigitalnetwork.com/ens/2016/09/27/presiding-bishop-tells-standing-rock-protectors-the-way-of-jesus-honors-the-water/" target="_blank">
+                                    <h6>Presiding Bishop tells Standing Rock protectors ‘the way of Jesus honors the water’</h6>
+                                </a>
+                                <a href="http://episcopaldigitalnetwork.com/ens/2016/10/22/episcopal-church-executive-council-stands-with-standing-rock/" target="_blank">
+                                    <h6>Executive Council Stands with Standing Rock</h6>
+                                </a>
+                                <a href="http://episcopaldigitalnetwork.com/ens/2016/10/24/evolving-standing-rock-protests-expands-episcopal-churchs-ministry/" target="_blank">
+                                    <h6>Evolving Standing Rock protests expand Episcopal Church’s ministry</h6>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div><!-----------End of outer grey container box/ 4 lines of code around Media Release--------------->
+
+
+                <!---------Hogan section on Home page---------------------------------------------------------------------------------->
                 <div class="col-lg-4">
                     <div class="thumbnail">
                         <img src="/lib/img/slide3.jpg">
