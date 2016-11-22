@@ -16,7 +16,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            
+
             <div id="inCarMain" class="col-sm-8">
                 <div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
                     <!-- Indicators -->
@@ -128,14 +128,12 @@
                     <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Cheii's Web<br> Development</a>
                 </span>
             </div>
-          
+
         </div>
     </div>
 <!---------End side 6 Buttons ----------------------------------------------------------------------------------------->
 
-<div id="button-blue">
-    <a class="btn btn-primary btn-lg btn-block" href="http://www.episcopalchurch.org/posts/publicaffairs/call-issued-episcopal-church-stand-standing-rock-november-3-" role="button" target="_blank">Call is issued to the Episcopal Church to stand with Standing Rock on November 3</a>
-</div>
+
 <!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
     <div class="container bulletin" id="bulletin">
         <div class="row bulletin">
@@ -151,24 +149,24 @@
             <div class="col-xs-4" id="dhead">
                 <h2><a class="black" href="southEast.php" target="_blank">S.E. Region's Latest News</a></h2>
             </div>
-            
+
             <div class="col-xs-4">
-                <h2>Halloween Party</h2><!--- Input Bulletin Heading here ----------------------------->
-                <h3>Saturday October 29, 2016 @ 6pm </h3><!--- Input Bulletin Med. Text here --------------->
-                <h3>Hope to see you there!</h3><!--- Input Bulletin Small Text here ----------------------------------->
+                <h2>Thanksgiving Dinner</h2><!--- Input Bulletin Heading here ----------------------------->
+                <h3>Sunday Nov. 20, 2016 @ 12pm St. Johns</h3><!--- Input Bulletin Med. Text here --------------->
+                <h3>Pot Luck Style, hope to see you there!</h3><!--- Input Bulletin Small Text here ----------------------------------->
 
             </div>
 
             <div class="col-xs-4">
-                <h2>Fall Harvest Party</h2><!--- Input Bulletin Heading here ------------------------------->
-                <h3>Friday October 28, 2016 @ 6pm</h3><!--- Input Bulletin Med. Text here ------------>
-                <h2>Come and join in on the fun!</h2><!--- Input Bulletin large Text here -------------->
+                <h2>Thanksgiving Dinner</h2><!--- Input Bulletin Heading here ------------------------------->
+                <h3>Sunday Nov. 20, 2016 @ 11am</h3><!--- Input Bulletin Med. Text here ------------>
+                <h2>Pot Luck Style After the 10am Service</h2><!--- Input Bulletin large Text here -------------->
             </div>
 
             <div class="col-xs-4">
-                <h2>Welcome Our New Assisting Priest</h2><!--- Input Bulletin Heading here ---------------------------->
-                <h2>Rev. Richard Mendez</h2><!--- Input Bulletin Med. Text here --------------------------------------->
-                <h4>Thanks for all the support!</h4><!--- Input Bulletin Small Text here ------------------------------>
+                <h2>Thanksgiving Dinner</h2><!--- Input Bulletin Heading here ---------------------------->
+                <h2>Sunday Nov. 20, 2016 @ 12pm</h2><!--- Input Bulletin Med. Text here --------------------------------------->
+                <h4>Pot Luck Style After the 1030am Service</h4><!--- Input Bulletin Small Text here ------------------------------>
             </div>
 
         </div>
@@ -358,14 +356,19 @@
                     <a href="http://www.cheiidevshop.com/" target="_blank">
                         <img src="/lib/img/cheiidevshoplogo.png">
                     </a>
-                </div> 
+                </div>
             </div>
     </div>
 <!---------End logo links on Home page--------------------------------------------------------------------------------->
         </div>
     </div>
 </div><!-----------End of outer grey container box/ 4 lines of code around churches---------->
-
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="FER9BAE5Q2XNE">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 
 <!---------Footer/sticky links----------------------------------------------------------------------------------------->
     <ol class="breadcrumb text-center">
