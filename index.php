@@ -151,21 +151,21 @@ Welcome
             </div>
 
             <div class="col-xs-4">
-                <h2>Thanksgiving Dinner</h2><!--- Input Bulletin Heading here ----------------------------->
-                <h3>Sunday Nov. 20, 2016 @ 12pm St. Johns</h3><!--- Input Bulletin Med. Text here --------------->
+                <h2>Chirstmas Dinner TBA</h2><!--- Input Bulletin Heading here ----------------------------->
+                <h3>TBA</h3><!--- Input Bulletin Med. Text here --------------->
                 <h3>Pot Luck Style, hope to see you there!</h3><!--- Input Bulletin Small Text here ----------------------------------->
 
             </div>
 
             <div class="col-xs-4">
-                <h2>Thanksgiving Dinner</h2><!--- Input Bulletin Heading here ------------------------------->
-                <h3>Sunday Nov. 20, 2016 @ 11am</h3><!--- Input Bulletin Med. Text here ------------>
+                <h2>Chirstmas Dinner TBA</h2><!--- Input Bulletin Heading here ------------------------------->
+                <h3>TBA</h3><!--- Input Bulletin Med. Text here ------------>
                 <h2>Pot Luck Style After the 10am Service</h2><!--- Input Bulletin large Text here -------------->
             </div>
 
             <div class="col-xs-4">
-                <h2>Thanksgiving Dinner</h2><!--- Input Bulletin Heading here ---------------------------->
-                <h2>Sunday Nov. 20, 2016 @ 12pm</h2><!--- Input Bulletin Med. Text here --------------------------------------->
+                <h2>Chirstmas Dinner TBA</h2><!--- Input Bulletin Heading here ---------------------------->
+                <h2>TBA</h2><!--- Input Bulletin Med. Text here --------------------------------------->
                 <h4>Pot Luck Style After the 1030am Service</h4><!--- Input Bulletin Small Text here ------------------------------>
             </div>
 
