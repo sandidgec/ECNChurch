@@ -125,7 +125,7 @@
                     <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">How to Help/<br>Donate</a>
                     <a type="button" href="newsLetterEvents.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Newsletter/<br>Events</a>
                     <a type="button" href="ecnSeal&Beginning.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">ECN Seal<br>& Beginnings</a>
-                    <a type="button" href="http://www.cheiidevshop.com/" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Cheii's Web<br> Development</a>
+                    <a type="button" href="http://www.cheiiswebdev.com/" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Cheii's Web<br> Development</a>
                 </span>
             </div>
 
@@ -133,7 +133,7 @@
     </div>
 <!---------End side 6 Buttons ----------------------------------------------------------------------------------------->
 
-Welcome
+
 <!---------Bulletin Space on Home page--------------------------------------------------------------------------------->
     <div class="container bulletin" id="bulletin">
         <div class="row bulletin">
@@ -151,22 +151,31 @@ Welcome
             </div>
 
             <div class="col-xs-4">
-                <h2>Chirstmas Dinner TBA</h2><!--- Input Bulletin Heading here ----------------------------->
-                <h3>TBA</h3><!--- Input Bulletin Med. Text here --------------->
-                <h3>Pot Luck Style, hope to see you there!</h3><!--- Input Bulletin Small Text here ----------------------------------->
+                <h2>Christmas Dinner </h2><!--- Input Bulletin Heading here ----------------------------->
+                <h3>December 23, 2016 6pm</h3><!--- Input Bulletin Med. Text here --------------->
+                <h2>December 24, 2016</h2>
+                <h3>Eucharist & Christmas Dinner @ St Johns 6pm</h3><!--- Input Bulletin Small Text here ----------------------------------->
+                <h3>9:00 pm Christmas Mass @ StChristopher’s</h3><!--- Input Bulletin Small Text here ----------------------------------->
 
             </div>
 
             <div class="col-xs-4">
-                <h2>Chirstmas Dinner TBA</h2><!--- Input Bulletin Heading here ------------------------------->
-                <h3>TBA</h3><!--- Input Bulletin Med. Text here ------------>
-                <h2>Pot Luck Style After the 10am Service</h2><!--- Input Bulletin large Text here -------------->
+                <h2>Christmas Pagent Practice</h2><!--- Input Bulletin Heading here ------------------------------->
+                <h3>December 18 @ noon, Pizza Dinner After</h3><!--- Input Bulletin Med. Text here ------------>
+                <h3>Help needed after Church December 18 with Angel Tree Gift Wrapping if able.</h3><!--- Input Bulletin large Text here -------------->
+                <h3>  Weds—Dec 21, 2016 6PM Christmas Carol Practice for Christmas Eve.</h3>
+                    <h3> Saturday- December 24, 2016 Christmas Carol Eucharist with silent Nativity Scene.</h3>
             </div>
 
             <div class="col-xs-4">
-                <h2>Chirstmas Dinner TBA</h2><!--- Input Bulletin Heading here ---------------------------->
-                <h2>TBA</h2><!--- Input Bulletin Med. Text here --------------------------------------->
-                <h4>Pot Luck Style After the 1030am Service</h4><!--- Input Bulletin Small Text here ------------------------------>
+                <h2>St. Marks Christmas Dinner</h2><!--- Input Bulletin Heading here ---------------------------->
+                <h3>December 11 @ 1PM</h3><!--- Input Bulletin Med. Text here --------------------------------------->
+                <h2>December 24</h2>
+                <h3>Christmas Eve Nativity @ 6pm</h3>
+                <h3>Christmas Eve Service @10pm</h3>
+                <h2>December 25</h2>
+                <h3>Christmas Service @ 10am Good Shepherd Mission</h3>
+                <h3>Feeding the Jail Inmates @ Noon</h3>
             </div>
 
         </div>
@@ -353,7 +362,7 @@ Welcome
             </div>
             <div class="col-xs-4">
                 <div id="cheiiLink" class="thumbnail">
-                    <a href="http://www.cheiidevshop.com/" target="_blank">
+                    <a href="http://www.cheiiswebdev.com/" target="_blank">
                         <img src="/lib/img/cheiidevshoplogo.png">
                     </a>
                 </div>

@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-sm-6">
                     <h1>News From the Bishop</h1>
-                    <h3>"Thanks to all who have held me in prayer following my accident.<br>
+                    <h4>"Thanks to all who have held me in prayer following my accident.<br>
                         For those who don't know, I fell August 17th crushing my heel bone<br>
                         and requiring surgery on September 1st. After 8 screws and a plate <br>
                         to put me back together I was released on the 4th to return home<br>
@@ -33,7 +33,7 @@
                         move ECN forward during my absence. I will continue to participate<br>
                         by phone and email till I can get back on a regular basis."<br>
                         -Bishop Dave Bailey
-                    </h3>
+                    </h4>
                 </div>
             </div>
 
@@ -51,9 +51,10 @@
 
 
 
+
             <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
 
-                <h1>Bishops September Calendar 2016</h1>
+                <h1>Bishops December Calendar 2016</h1>
 
                 <div id="calendar">
                     <ul class="weekdays">
@@ -67,6 +68,9 @@
                     </ul>
                     <ul class="days">
                         <li class="day other-month">
+                            <div class="date">27</div>
+                        </li>
+                        <li class="day other-month">
                             <div class="date">28</div>
                         </li>
                         <li class="day other-month">
@@ -75,18 +79,8 @@
                         <li class="day other-month">
                             <div class="date">30</div>
                         </li>
-                        <li class="day other-month">
-                            <div class="date">31</div>
-
-                        </li>
                         <li class="day">
                             <div class="date">1</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                   Bishop Bailey's Surgery
-                                    Please keep in prayer
-                                </div>
-                            </div>
                         </li>
                         <li class="day">
                             <div class="date">2</div>
@@ -109,6 +103,12 @@
                         </li>
                         <li class="day">
                             <div class="date">6</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    EDC MTG in ABQ
+                                </div>
+                            </div>
+
                         </li>
                         <li class="day">
                             <div class="date">7</div>
@@ -121,11 +121,23 @@
                         </li>
                         <li class="day">
                             <div class="date">10</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    ECN MTG @ All Saints
+                                </div>
+                            </div>
+
                         </li>
                     </ul>
                     <ul class="days">
                         <li class="day">
                             <div class="date">11</div>
+                            <div class="event-bishop">
+                                <div class="event-desc">
+                                    Bishop Dave with us @ All Saints and Presiding over Eucarist
+                                </div>
+                            </div>
+
                         </li>
                         <li class="day">
                             <div class="date">12</div>
@@ -203,381 +215,8 @@
                         <li class="day">
                             <div class="date">30</div>
                         </li>
-                        <li class="day other-month">
-                            <div class="date">1</div>
-                        </li>
-                    </ul>
-                </div><!--/. calendar -->
-            </div> <!--/. wrap -->
-
-
-            <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
-
-                <h1>Bishops October Calendar 2016</h1>
-
-                <div id="calendar">
-                    <ul class="weekdays">
-                        <li>Sunday</li>
-                        <li>Monday</li>
-                        <li>Tuesday</li>
-                        <li>Wednesday</li>
-                        <li>Thursday</li>
-                        <li>Friday</li>
-                        <li>Saturday</li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day other-month">
-                            <div class="date">25</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">26</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">27</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">28</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">29</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">30</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">1</div>
-                        </li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day">
-                            <div class="date">2</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">3</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Bishop Dave @ GSM
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">4</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Bishop Dave @ GSM
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">5</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Bishop Dave @ ECN Office
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">6</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Bishop Dave @ ECN Office
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">7</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">8</div>
-                        </li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day">
-                            <div class="date">9</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">10</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">11</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">12</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">13</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">14</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">15</div>
-                        </li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day">
-                            <div class="date">16</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">17</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">18</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">19</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Bishop Dave @ Executive Council in New Brunswick, New Jersey
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">20</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Bishop Dave @ Executive Council in New Brunswick, New Jersey
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">21</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Bishop Dave @ Executive Council in New Brunswick, New Jersey
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">22</div>
-                            <div class="event-bishop">
-                                <div class="event-desc">
-                                    Bishop Dave @ Executive Council in New Brunswick, New Jersey
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day">
-                            <div class="date">23</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">24</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">25</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">26</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">27</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">28</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">29</div>
-                        </li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day">
-                            <div class="date">30</div>
-                        </li>
                         <li class="day">
                             <div class="date">31</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">1</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">2</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">3</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">4</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">5</div>
-                        </li>
-                    </ul>
-                </div><!--/. calendar -->
-            </div> <!--/. wrap -->
-
-            <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
-
-                <h1>Bishops November Calendar 2016</h1>
-
-                <div id="calendar">
-                    <ul class="weekdays">
-                        <li>Sunday</li>
-                        <li>Monday</li>
-                        <li>Tuesday</li>
-                        <li>Wednesday</li>
-                        <li>Thursday</li>
-                        <li>Friday</li>
-                        <li>Saturday</li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day other-month">
-                            <div class="date">30</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">31</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">1</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">2</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">3</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">4</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">5</div>
-                        </li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day">
-                            <div class="date">6</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">7</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">8</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">9</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">10</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">11</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">12</div>
-                        </li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day">
-                            <div class="date">13</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">14</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">15</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">16</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">17</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">18</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">19</div>
-                        </li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day">
-                            <div class="date">20</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">21</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">22</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">23</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">24</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">25</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">26</div>
-                        </li>
-                    </ul>
-                    <ul class="days">
-                        <li class="day">
-                            <div class="date">27</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">28</div>
-                            <div class="event">
-                                <div class="event-desc">
-                                    Offices Closed
-                                </div>
-                            </div>
-                        </li>
-                        <li class="day">
-                            <div class="date">29</div>
-                        </li>
-                        <li class="day">
-                            <div class="date">30</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">1</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">2</div>
-                        </li>
-                        <li class="day other-month">
-                            <div class="date">3</div>
                         </li>
                     </ul>
                 </div><!--/. calendar -->
