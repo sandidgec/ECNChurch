@@ -160,18 +160,14 @@
             </div>
 
             <div class="col-xs-4">
-                <h2>Christmas Pagent Practice</h2><!--- Input Bulletin Heading here ------------------------------->
-                <h3>December 18 @ noon, Pizza Dinner After</h3><!--- Input Bulletin Med. Text here ------------>
-                <h3>Help needed after Church December 18 with Angel Tree Gift Wrapping if able.</h3><!--- Input Bulletin large Text here -------------->
-                <h3>  Weds—Dec 21, 2016 6PM Christmas Carol Practice for Christmas Eve.</h3>
-                    <h3> Saturday- December 24, 2016 Christmas Carol Eucharist with silent Nativity Scene.</h3>
+                <h3>Help needed after Church December 18 with Angel Tree Gift Wrapping if able.</h3><!--- Input Bulletin Heading here ------------------------------->
+                <h3>  Weds—Dec 21, 2016 6PM Christmas Carol Practice for Christmas Eve.</h3><!--- Input Bulletin Med. Text here ------------>
+                <h3> Saturday- December 24, 2016 Christmas Carol Eucharist with silent Nativity Scene.</h3><!--- Input Bulletin large Text here -------------->
             </div>
 
             <div class="col-xs-4">
-                <h2>St. Marks Christmas Dinner</h2><!--- Input Bulletin Heading here ---------------------------->
-                <h3>December 11 @ 1PM</h3><!--- Input Bulletin Med. Text here --------------------------------------->
-                <h2>December 24</h2>
-                <h3>Christmas Eve Nativity @ 6pm</h3>
+                <h2>December 24</h2><!--- Input Bulletin Heading here ---------------------------->
+                <h3>Christmas Eve Nativity @ 6pm</h3><!--- Input Bulletin Med. Text here --------------------------------------->
                 <h3>Christmas Eve Service @10pm</h3>
                 <h2>December 25</h2>
                 <h3>Christmas Service @ 10am Good Shepherd Mission</h3>

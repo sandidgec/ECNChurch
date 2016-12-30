@@ -4,7 +4,17 @@
 <link rel="icon" href="../lib/img/ecn.ico" type="image/x-icon">
 
 <link rel="icon" type="image/png" href="http://localhostC:/xampp/htdocs/ECNChurch/lib/img/myicon-16x16.png" sizes="16x16"/>
-<link rel="icon" type="image/png" href="http://localhostC:/xampp/htdocs/ECNChurch/lib/img/myicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="i
+
+
+
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Tangerine">
 
 <!-- Bootstrap - Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
@@ -41,9 +51,3 @@
 
 <!-- Angular -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
-
-
-<link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
-
-<link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Tangerine">

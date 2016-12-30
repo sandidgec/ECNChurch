@@ -33,6 +33,7 @@
                         move ECN forward during my absence. I will continue to participate<br>
                         by phone and email till I can get back on a regular basis."<br>
                         -Bishop Dave Bailey
+                  
                     </h4>
                 </div>
             </div>
