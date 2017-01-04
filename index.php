@@ -191,7 +191,7 @@
                 <div id="search-bg"></div>
                 <div id="search">
                     <div id="nyBanner">
-                        <img src="/lib/img/ps2.jpg" alt="" height="220px" width="900px">
+                        <img id="bogo" src="/lib/img/newWhiteGoldB.png" alt="" height="230px" width="900px">
                     </div>
                 </div>
             </div>

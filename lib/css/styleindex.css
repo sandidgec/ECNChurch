@@ -64,6 +64,14 @@ body {
 
 #nyBanner {
     text-align: center;
+    border-color: transparent;
+
+    border-radius: 50px;
+}
+#bogo {
+    border-color: transparent;
+
+    border-radius: 50px;
 }
 .thumbnail {
     width: 365px;
