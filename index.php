@@ -151,27 +151,25 @@
             </div>
 
             <div class="col-xs-4">
-                <h2>Christmas Dinner </h2><!--- Input Bulletin Heading here ----------------------------->
-                <h3>December 23, 2016 6pm</h3><!--- Input Bulletin Med. Text here --------------->
-                <h2>December 24, 2016</h2>
-                <h3>Eucharist & Christmas Dinner @ St Johns 6pm</h3><!--- Input Bulletin Small Text here ----------------------------------->
-                <h3>9:00 pm Christmas Mass @ StChristopher’s</h3><!--- Input Bulletin Small Text here ----------------------------------->
+                <h3>Come Celebrate Lilly Hendersons Retirement</h3><!--- Input Bulletin Heading here ------------------------------->
+                <h3>Sunday January, 22 After Service</h3><!--- Input Bulletin Med. Text here ------------>
+                <h3>Lunch is Scheduled</h3><!--- Input Bulletin Heading here ------------------------------->
+                <!--- Input Bulletin Med. Text here ------------>
 
             </div>
 
             <div class="col-xs-4">
-                <h3>Help needed after Church December 18 with Angel Tree Gift Wrapping if able.</h3><!--- Input Bulletin Heading here ------------------------------->
-                <h3>  Weds—Dec 21, 2016 6PM Christmas Carol Practice for Christmas Eve.</h3><!--- Input Bulletin Med. Text here ------------>
-                <h3> Saturday- December 24, 2016 Christmas Carol Eucharist with silent Nativity Scene.</h3><!--- Input Bulletin large Text here -------------->
+                <h3>All Saints Council Meeting</h3><!--- Input Bulletin Heading here ------------------------------->
+                <h3>Sunday January, 08 After the Service</h3><!--- Input Bulletin Med. Text here ------------>
+                <h3>St. Luke's Council Meeting</h3><!--- Input Bulletin Heading here ------------------------------->
+                <h3>Sunday January, 22 After the Service</h3><!--- Input Bulletin Med. Text here ------------>
             </div>
 
             <div class="col-xs-4">
-                <h2>December 24</h2><!--- Input Bulletin Heading here ---------------------------->
-                <h3>Christmas Eve Nativity @ 6pm</h3><!--- Input Bulletin Med. Text here --------------------------------------->
-                <h3>Christmas Eve Service @10pm</h3>
-                <h2>December 25</h2>
-                <h3>Christmas Service @ 10am Good Shepherd Mission</h3>
-                <h3>Feeding the Jail Inmates @ Noon</h3>
+                <h3>SE Region Council Meeting</h3><!--- Input Bulletin Heading here ------------------------------->
+                <h3>Sunday January, 08 After the Service</h3><!--- Input Bulletin Med. Text here ------------>
+                <!--- Input Bulletin Heading here ------------------------------->
+                <!--- Input Bulletin Med. Text here ------------>
             </div>
 
         </div>
@@ -182,10 +180,23 @@
 
 <!---------List of all churches on Home page--------------------------------------------------------------------------->
 
-<div id="bg"><!-----------Beginning of outer grey container box/ 4 lines of code---------->
+<!-----------Beginning of outer grey container box/ 4 lines of code---------->
+<div id="bg">
     <div id="search-container">
         <div id="search-bg"></div>
         <div id="search">
+
+            <!---------Begin Media Release section on Home page-------------------------------------------------------------------->
+            <div id="search-container"><!-----------Beginning of grey container box/ 4 lines of code---------->
+                <div id="search-bg"></div>
+                <div id="search">
+                    <div id="nyBanner">
+                        <img src="/lib/img/ps2.jpg" alt="" height="220px" width="900px">
+                    </div>
+                </div>
+            </div>
+
+            <!-----------End of outer grey container box/ 4 lines of code around Media Release--------------->
 
             <div id="bg"><!-----Beginning of inner grey container box/ 4 lines of code around churches---------->
                 <div id="search-container">
@@ -233,11 +244,6 @@
 
 <!---------End list of all churches on Home page----------------------------------------------------------------------->
 
-
-    <div id="search-container"><!-----------Beginning of grey container box/ 4 lines of code---------->
-        <div id="search-bg"></div>
-        <div id="search">
-            <div class="row">
 <!---------Begin Media Release section on Home page-------------------------------------------------------------------->
                 <div id="search-container"><!-----------Beginning of grey container box/ 4 lines of code---------->
                     <div id="search-bg"></div>
@@ -290,20 +296,26 @@
                         </div>
                     </div>
                 </div><!-----------End of outer grey container box/ 4 lines of code around Media Release--------------->
+        <br>
+        <br>
 
+            <div id="search-container"><!-----------Beginning of grey container box/ 4 lines of code---------->
+                <div id="search-bg"></div>
+                <div id="search">
+                    <div class="row">
+<!---------Hogan section on Home page---------------------------------------------------------------------------------->
+        <div class="col-lg-4">
+            <div class="thumbnail">
+                <img src="/lib/img/slide3.jpg">
+            </div>
+            <div class="thumbnail">
+                <img src="/lib/img/gsmhoganproject.jpg">
+            </div>
+            <div id="button-blue">
+                <a class="btn btn-info btn-lg" href="https://www.razoo.com/story/Build-A-Hogan?referral_code=share" role="button" target="_blank">Help Build a Hogan Here!</a>
+            </div>
+        </div>
 
-                <!---------Hogan section on Home page---------------------------------------------------------------------------------->
-                <div class="col-lg-4">
-                    <div class="thumbnail">
-                        <img src="/lib/img/slide3.jpg">
-                    </div>
-                    <div class="thumbnail">
-                        <img src="/lib/img/gsmhoganproject.jpg">
-                    </div>
-                    <div id="button-blue">
-                        <a class="btn btn-info btn-lg" href="https://www.razoo.com/story/Build-A-Hogan?referral_code=share" role="button" target="_blank">Help Build a Hogan Here!</a>
-                    </div>
-                </div>
                 <div class="col-lg-8" id="text">
                     <h3>The Hogan Project</h3>
                     Rebuilding the spiritual and physical homes.
@@ -335,9 +347,9 @@
                     www.ecnavajoland.com. We’ll have pictures and updates that show you how your generosity empowers as
                     it preserves the beauty of Navajo culture. <br>
                 </div>
+                    </div>
             </div>
         </div>
-    </div>
 <!---------End Hogan section on Home page------------------------------------------------------------------------------>
 
 <!---------logo links on Home page------------------------------------------------------------------------------------->
@@ -367,7 +379,10 @@
 <!---------End logo links on Home page--------------------------------------------------------------------------------->
         </div>
     </div>
-</div><!-----------End of outer grey container box/ 4 lines of code around churches---------->
+</div>
+
+<!-----------End of outer grey container box/ 4 lines of code around churches---------->
+
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="FER9BAE5Q2XNE">

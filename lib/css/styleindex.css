@@ -62,6 +62,9 @@ body {
     background: url('dark_geometric.png');
 }
 
+#nyBanner {
+    text-align: center;
+}
 .thumbnail {
     width: 365px;
     height: 210px;
