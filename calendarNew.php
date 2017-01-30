@@ -110,6 +110,11 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                    6 PM Council Meeting in St. Christopher's Community Center.<!--UTR---------------->
+                                </div>
+                            </div>
                         </li>
                         <li class="day">
                             <div class="date">6</div>
@@ -139,6 +144,11 @@
                                 <div class="event-desc">
                                     All Saints Council Meeting<!--SJR---------------->
                                     After Service Pot Luck Lunch
+                                </div>
+                            </div>
+                            <div class="event-utah">
+                                <div class="event-desc">
+                                   ECW Meeting in St. Christopher's Community Center after Coffee Hour.<!--UTR---------------->
                                 </div>
                             </div>
                         </li>
