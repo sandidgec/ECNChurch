@@ -120,7 +120,7 @@
 <!---------Begin side 6 Buttons --------------------------------------------------------------------------------------->
             <div class="col-sm-4" id="buttons">
                 <span style="display: inline-block; width: 100px; vertical-align: top;">
-                    <a type="button" href="#bulletin" class="btn btn-default" style="width: 200px; height: 90px;">Bulletin</a>
+                    <a type="button" href="#bulletin" class="btn btn-default" style="width: 200px; height: 90px;">Recent News</a>
                     <a type="button" href="bishopsPage.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Bishop's Page<br>& Calendar</a>
                     <a type="button" href="howToHelp.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">How to Help/<br>Donate</a>
                     <a type="button" href="newsLetterEvents.php" class="btn btn-default" style="width: 200px; height: 90px;" target="_blank">Newsletter/<br>Events</a>

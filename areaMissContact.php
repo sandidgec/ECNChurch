@@ -124,6 +124,14 @@
             color: white;
         }
 
+        .rotate90 {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
         #search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
         #search h2 { margin-bottom: 50px }
         #search h5 { margin-top: 70px }
@@ -194,7 +202,7 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/chanAnaya.jpg">
+                                        <img src="/lib/img/chan2017.jpg">
                                     </div>
                                     <p> Rev. Chan Osborn de Anaya<br>
                                         E-Mail: ecncanaya@gmail.com<br>
@@ -222,7 +230,7 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/helenaBegay3.jpg">
+                                        <img src="/lib/img/Helena2.jpg">
                                     </div>
                                     <p>Helena Begay<br>
                                         Email: ecnhbegay@gmail.com<br>
@@ -279,7 +287,7 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/inez.PNG">
+                                        <img src="/lib/img/Inez3.jpg">
                                     </div>
                                     <p> Rev. Inez Velarde<br>
                                         ECN Office: (505)327-7549
@@ -338,7 +346,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="thumbnail" id="clergy">
-                                    <img src="/lib/img/richardGSM.JPG">
+                                    <img src="/lib/img/mendez2.JPG" class="rotate90">
                                 </div>
                                 <p> Rev. Richard Mendez<br>
                                     Good Shepherd Office: (928)729-2322
@@ -386,7 +394,39 @@
 
             <h1>Utah Region</h1>
 
-            <div id="bg">
+                <div id="bg">
+                    <div id="search-container">
+                        <div id="search-bg"></div>
+                        <div id="search">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="thumbnail" id="clergy">
+                                        <img src="/lib/img/kay3.jpg">
+                                    </div>
+                                    <p> Rev. Kay Rohde<br>
+                                        Office No. (307) 277-3421
+                                        Email: kayrangerrev@gmail.com
+                                    </p>
+                                </div>
+                                <div class="col-lg-8" id="text">
+                                    <h3>Priest of St. Christopher’s</h3>
+                                    Kay is originally from Northern California, the Redwood area. She has 1 son, Alex, who is getting married in
+                                    April and is a soon to be dad. In Kay’s career prior to becoming a priest, she was a national park ranger. While
+                                    she was stationed at Lake Mead National Recreation Area, she was called to become a priest at St. Christopher’s
+                                    in Boulder City, NV. Kay attended seminary locally at the Diocesan School of Theology and was ordained in 1993.
+                                    Kay became a non-stipendiary priest at St. Christopher’s and moved on after 15 years when she retired from the
+                                    National Park Service in 2007. Kay moved to the Diocese of Wyoming, then to the diocese of Northern California
+                                    where she was the ministry development coordinator serving total ministry congregations and small rural congregations.
+                                    Kay was called to Navajoland to bring her gift, which fulfills her the most, helping others identify their gifts in
+                                    ministry, nurturing it and helping them use it. “This is not just a ministry of the church, it is a ministry of the world.”
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="bg">
                 <div id="search-container">
                     <div id="search-bg"></div>
                     <div id="search">
@@ -502,7 +542,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="thumbnail" id="clergy">
-                                    <img src="/lib/img/sells.jpg">
+                                    <img src="/lib/img/michael1.jpg">
                                 </div>
                                 <p>Michael Sells<br>
                                     ECN Office: (505)327-7549
