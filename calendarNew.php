@@ -38,6 +38,388 @@
                     </div>
                 </div>
             </div>
+            <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
+
+                <h1>February 2017</h1>
+
+                <div id="calendar">
+                    <ul class="weekdays">
+                        <li>Sunday</li>
+                        <li>Monday</li>
+                        <li>Tuesday</li>
+                        <li>Wednesday</li>
+                        <li>Thursday</li>
+                        <li>Friday</li>
+                        <li>Saturday</li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day other-month">
+                            <div class="date">29</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month"">
+                            <div class="date">30</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month"">
+                            <div class="date">31</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">1</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Happy Groundhog Day!
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">2</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">3</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">4</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Prayers for Bishop as he heads to Executive Council
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">5</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                        Super Bowl Sunday
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    9AM St. Michael’s (Rev. Cathlena) <br>
+                                    10AM St. Luke’s (Morning Prayer)<br>
+                                    11AM All Saints (Rev. Cathlena)<br>
+                                </div>
+                            </div>
+
+
+                        </li>
+                        <li class="day">
+                            <div class="date">6</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">7</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    Morning Prayer<br><!--SER---------------->
+                                    Bible Study @5:30 pm
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">8</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                    Craft Class @7pm
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    6PM All Saints Parish <br>
+                                    Council Meeting <br>
+                                    (Pot Luck)<br>
+                                    Shi Heart Planning Mtg<br>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">9</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">10</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">11</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">12</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    9AM St. Michael’s (Rev. Chan) <br>
+                                    10AM St. Luke’s (Rev. Carol) <br>
+                                    11AM All Saints (Rev. Cathlena <br>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">13</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">14</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">15</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">16</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">17</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">18</div>
+
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">19</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    9AM St. Michael’s (Rev. Chan)<br>
+                                    10AM St. Luke’s (Rev. Inez)<br>
+                                    11AM All Saints (Rev. Cathlena)<br>
+
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">20</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">21</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">22</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="day">
+                            <div class="date">23</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">24</div>
+                        </li>
+                        <li class="day">
+                            <div class="date">25</div>
+                        </li>
+                    </ul>
+                    <ul class="days">
+                        <li class="day">
+                            <div class="date">26</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Sunday Services<br>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    9AM St. Michael’s (Rev. Chan)<br>
+                                    10AM St. Luke’s (Rev. Inez)<br>
+                                    11AM All Saints (Rev. Cathlena)<br>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">27</div>
+                            <div class="event">
+                                <div class="event-desc">
+                                    Offices Closed
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day">
+                            <div class="date">28</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">1</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">2</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">3</div>
+                            <div class="event-ser">
+                                <div class="event-desc">
+                                    <a href="churchService.php">
+                                        Morning Prayer<br><!--SER---------------->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="day other-month">
+                            <div class="date">4</div>
+                        </li>
+                    </ul>
+                </div><!--/. calendar -->
+            </div> <!--/. wrap -->
+
+            <?php /*
 
             <div id="calendar-wrap"><!--start month------------------------------------------------------------------------------------------>
 
@@ -100,6 +482,12 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="event-sjr">
+                                <div class="event-desc">
+                                    All Saints Council Meeting<!--SJR---------------->
+                                    After Service Pot Luck Lunch
+                                </div>
+                            </div>
                         </li>
                         <li class="day">
                             <div class="date">5</div>
@@ -110,11 +498,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="event-utah">
-                                <div class="event-desc">
-                                    6 PM Council Meeting in St. Christopher's Community Center.<!--UTR---------------->
-                                </div>
-                            </div>
+
                         </li>
                         <li class="day">
                             <div class="date">6</div>
@@ -140,12 +524,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="event-sjr">
-                                <div class="event-desc">
-                                    All Saints Council Meeting<!--SJR---------------->
-                                    After Service Pot Luck Lunch
-                                </div>
-                            </div>
+
                             <div class="event-utah">
                                 <div class="event-desc">
                                    ECW Meeting in St. Christopher's Community Center after Coffee Hour.<!--UTR---------------->

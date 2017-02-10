@@ -151,18 +151,18 @@
             </div>
 
             <div class="col-xs-4">
-                <h3>Come Celebrate Lilly Hendersons Retirement</h3><!--- Input Bulletin Heading here ------------------------------->
-                <h3>Sunday January, 22 After Service</h3><!--- Input Bulletin Med. Text here ------------>
-                <h3>Lunch is Scheduled</h3><!--- Input Bulletin Heading here ------------------------------->
-                <!--- Input Bulletin Med. Text here ------------>
+                <h3>Come Celebrate Valentine's Day Dinner</h3><!--- Input Bulletin Heading here ------------------------------->
+                <h3>Sunday February 11 th , 2017 from 5 to 8 pm</h3><!--- Input Bulletin Med. Text here ------------>
+                <h3>St. Christopher’s Community Center</h3><!--- Input Bulletin Heading here ------------------------------->
+                <h3><center>$12.00 Per Plate</center><h3><!--- Input Bulletin Med. Text here ------------>
 
             </div>
 
             <div class="col-xs-4">
-                <h3>All Saints Council Meeting</h3><!--- Input Bulletin Heading here ------------------------------->
-                <h3>Sunday January, 08 After the Service</h3><!--- Input Bulletin Med. Text here ------------>
-                <h3>St. Luke's Council Meeting</h3><!--- Input Bulletin Heading here ------------------------------->
-                <h3>Sunday January, 22 After the Service</h3><!--- Input Bulletin Med. Text here ------------>
+                <h3>All Saint's Cake Walk</h3><!--- Input Bulletin Heading here ------------------------------->
+                <h3>Friday February, 10th</h3><!--- Input Bulletin Med. Text here ------------>
+                <h3>5:30 PM - 9:00 PM</h3><!--- Input Bulletin Heading here ------------------------------->
+                <h3></h3><!--- Input Bulletin Med. Text here ------------>
             </div>
 
             <div class="col-xs-4">
@@ -186,17 +186,7 @@
         <div id="search-bg"></div>
         <div id="search">
 
-            <!---------Begin Media Release section on Home page-------------------------------------------------------------------->
-            <div id="search-container"><!-----------Beginning of grey container box/ 4 lines of code---------->
-                <div id="search-bg"></div>
-                <div id="search">
-                    <div id="nyBanner">
-                        <img id="bogo" src="/lib/img/newWhiteGoldB.png" alt="" height="230px" width="900px">
-                    </div>
-                </div>
-            </div>
 
-            <!-----------End of outer grey container box/ 4 lines of code around Media Release--------------->
 
             <div id="bg"><!-----Beginning of inner grey container box/ 4 lines of code around churches---------->
                 <div id="search-container">
@@ -252,45 +242,76 @@
 
                             <div class="col-lg-4">
                                 <div class="thumbnail">
-                                    <img src="/lib/img/ens_092616_PBwitness (1).jpg">
+                                    <img src="/lib/img/ECN%20Mtg%20LaCinda.jpg">
                                 </div>
-                                <p>Presiding Bishop Michael Curry stands along North Dakota Highway 1806 on Sept. 24 to witness as law enforcement officers arrive at a small anti-Dakota Access Pipeline encampment to arrest people accused of removing no-trespass signs from neighboring ranch land recently purchased by the pipeline construction company. Photo: Mary Frances Schjonberg/Episcopal News Service</p>
-
+                                <p>The need for recognizing transitions into various projects throughout Episcopal Church in Navajoland (ECN) was recognized.</p>
+                                <p>Photo by Fred Eaton</p>
                                 <div class="thumbnail">
-                                    <img src="/lib/img/ens_092616_Circle.jpg">
+                                    <img src="/lib/img/ECN%20Mtg%20Maggie%20Paula%20speaking.jpg">
                                 </div>
-                                <p>George Fulford of Mandan, North Dakota, right foreground, speaks during a listening time arranged Sept. 24 for Presiding Bishop Michael Curry, center top, at Oceti Skowin Camp. Seated to Curry’s right are South Dakota Bishop John Tarrant and Bishop Mark Narum of the ELCA Western North Dakota Synod. Photo: Mary Frances Schjonberg/Episcopal News Service</p>
+                                <p>Episcopal Church in Navajoland Meeting</p>
+                                <p>Photo by Fred Eaton</p>
+
 
 
                             </div>
                             <div class="col-lg-8" id="text">
-                                <h3>Call is issued to the Episcopal Church to stand with Standing Rock on November 3</h3>
-                                October 28, 2016
-                                The Episcopal Church community on the Standing Rock Sioux Nation in North Dakota has issued a call for the Episcopal Church to stand in solidarity and witness with those protecting water on the Standing Rock Sioux Nation in North Dakota.
+                                <h3>The Episcopal Church in Navajoland Visioning toward the Future</h3>
+                                A gathering of the lay and clergy representatives of The Episcopal Church in
+
+                                Navajoland (ECN) was held on Saturday, January 21, 2017. The purpose of the
+
+                                meeting was to hear from members of the council what they think is needed in order to
+
+                                do the work of transitioning from an Area Mission to a Diocese. The Rev. Cornelia
+
+                                Eaton, Rev. Canon Cathlena Plummer and Rev. Deacon Leon Sampson led the
+
+                                discussion.
                                 <br><br>
-                                Concerned by the increased repression of non-violent water protectors whose ranks include men, women and youth, and supported by the wisdom of Standing Rock Sioux Chairman Dave Archambault, the Rev. John Floberg has appealed for clergy and laity around the Episcopal Church to come together on the banks of the Missouri River in North Dakota to stand in witness and solidarity on November 3.
+                                Much of the meeting was spent listening to the people and hearing of the visions and
+
+                                needs of each of the congregations. The goals for ECN were reviewed, and a brief
+
+                                review of the progress we have made towards those goals was shared. It was
+
+                                recognized that in order to move forward with the transition, more training is needed in
+
+                                the 3 regions to understand the structure of a diocese.
                                 <br><br>
-                                The militarized police presence near the camps of water protectors, compounded by the mass arrests of some of those protectors in recent days, have stirred the Executive Council of the Episcopal Church and other Episcopalians to advocacy and action. Over the past month, Episcopalians have called upon the U.S. Department of Justice to monitor the actions of local law enforcement, state police, and the U.S. National Guard, urging law-enforcement officials to “de-escalate military and police provocation in and near the campsites of peaceful protest and witness of the Dakota Access Pipeline project.” The Episcopal Church also stands with Archambault in his request of U.S. Attorney General Loretta Lynch to investigate potential civil rights violations involving the law enforcement response.
+                                The question “How do we continue to look at our sustainability?” was the focus of the
+
+                                conversation. A model was developed during a brainstorming session, but there is the
+
+                                need to continue to flesh out that model.
                                 <br><br>
-                                In a letter to the Episcopal Church on October 23, Floberg wrote:
-                                <br>
-                                “In recent days, the repressive power of the state has increased: armed riot police are guarding ongoing pipeline construction, increased arrests and repression of non-violent prayerful action. At the same time, Oceti Sakowin water protectors have reclaimed land never relinquished by treaty directly in the path of the pipeline and established a new camp.  Our duty as people of faith and clergy could not be clearer: to stand on the side of the oppressed and to pray for God’s mercy in these challenging times.”
+                                The three big goals for that the members believe are important to the future of ECN are
+
+                                1) Language, 2) Youth, 3) Outreach. The group acknowledged that leadership is
+
+                                important and support discerning and preparing more Navajo clergy. The Rev. Deacon
+
+                                Leon Sampson commented about the meeting, “It is all part of that “grassroots”
+
+                                learning… “.
                                 <br><br>
-                                Presiding Bishop Michael Curry issued a statement on August 25 in support of the people gathered at Standing Rock.  He traveled to Standing Rock and the Oceti Sakowin Camp of water protectors, demonstrating support and solidarity through his presence. Presiding Bishop Curry called this historic gathering of over two hundred Indigenous Nations from North America and other parts of the world “the new Selma,” and his statement has been echoed by the Episcopal bishops of North and South Dakota and others. The Evangelical Lutheran Church in America, the United Methodist Church, the Presbyterian Church USA, and the United Church of Christ are also standing in solidarity with the Standing Rock camps.
+                                <h3>New Goals for the two Farms:</h3>
+                                The Homer Dale Farm at St. Christopher’s Mission in Bluff, UT and the Community
+
+                                Farm at Good Shepherd in Fort Defiance are part of a grant received from the United
+
+                                Thank Offering of the Episcopal Church. Production and packaging would take place at
+
+                                Good Shepherd Mission. St. Christopher’s is growing blue corn. The goal is to provide
+
+                                training in the other regions in honey production, growing blue corn, and making soap.
+
+                                The hope is this will give people training and new skills that they can use to support
+
+                                themselves and help support the church. This way the responsibility for production can
+
+                                be shared among all the regions and not rest just on the Southeast Region.
                                 <br><br>
-                                To learn more about this powerful opportunity to exercise our shared baptismal ministry as lay and clergy members see here
-                                <br><br>
-                                Information from Episcopal News Service
-                                <br><br>
-                                <a href="http://episcopaldigitalnetwork.com/ens/2016/09/27/presiding-bishop-tells-standing-rock-protectors-the-way-of-jesus-honors-the-water/" target="_blank">
-                                    <h6>Presiding Bishop tells Standing Rock protectors ‘the way of Jesus honors the water’</h6>
-                                </a>
-                                <a href="http://episcopaldigitalnetwork.com/ens/2016/10/22/episcopal-church-executive-council-stands-with-standing-rock/" target="_blank">
-                                    <h6>Executive Council Stands with Standing Rock</h6>
-                                </a>
-                                <a href="http://episcopaldigitalnetwork.com/ens/2016/10/24/evolving-standing-rock-protests-expands-episcopal-churchs-ministry/" target="_blank">
-                                    <h6>Evolving Standing Rock protests expand Episcopal Church’s ministry</h6>
-                                </a>
 
                             </div>
                         </div>
@@ -298,6 +319,50 @@
                 </div><!-----------End of outer grey container box/ 4 lines of code around Media Release--------------->
         <br>
         <br>
+            <!---------Begin Fire Section-------------------------------------------------------------------->
+            <div id="search-container"><!-----------Beginning of grey container box/ 4 lines of code---------->
+                <div id="search-bg"></div>
+                <div id="search">
+                    <div>
+                        <h3>2017 Fire in the Old Hospital Structure</h3>
+
+                        On January 05th, 2017 at approximately 2:30 pm the Farmington, NM Fire Department was called to the grounds of All Saints Episcopal Church for a reported fire in the lower floor of the Old Church Building.
+                        Earlier in the day construction workers were in the building tending to pipes and once all workers were off site, heat from pipe cutting ignited the ceiling of the first room of the Old Church. The red embers created smoke that was visible but was masked as dust gusts since the weather that day was excessively windy. It was clear to Cheii’s Dev shop Employees next door that something was amiss when they smelled smoke and took it upon themselves to investigate all buildings on grounds until the fire was discovered. One Cheii worker got help from the church maintenance and another Cheii worker called emergency dispatch. The maintenance worker and Cheii worker tried without success to put the fire out with fire extinguishers.
+                        <br><br>
+                        It took about 15 minutes for Farmington Fire Department workers to show up and extinguish the fire. There was minimal damage to the ceiling in two rooms of the Old Church. Electricity was shut off to the building for precaution. No persons were harmed, and the building is still standing.
+                        The Episcopal Church in Navajoland has many plans for this historic building. Plans that will aid the community and the people.
+                        We thank the Farmington Fire Department for their work and are very thankful that no one was injured.
+                    </div>
+                            <br>
+                    <div class="col-sm-">
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="/lib/img/IMG_0684.JPG">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="/lib/img/smoke1.jpg">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <img src="/lib/img/IMG_0690.JPG">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <br>
+        <br>
+            <!-----------End of outer grey container box/ 4 lines of code around Fire Section -------------->
 
             <div id="search-container"><!-----------Beginning of grey container box/ 4 lines of code---------->
                 <div id="search-bg"></div>

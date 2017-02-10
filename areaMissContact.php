@@ -124,13 +124,6 @@
             color: white;
         }
 
-        .rotate90 {
-            -webkit-transform: rotate(90deg);
-            -moz-transform: rotate(90deg);
-            -o-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-            transform: rotate(90deg);
-        }
 
         #search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
         #search h2 { margin-bottom: 50px }
@@ -171,7 +164,7 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/dave.JPG">
+                                        <img src="/lib/img/bishop1.jpg">
                                     </div>
                                     <p> Rt. Rev. David E. Bailey<br>
                                         E-Mail: ecndbailey@gmail.com<br>
@@ -202,7 +195,7 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/chan2017.jpg">
+                                        <img src="/lib/img/Chan1.jpg">
                                     </div>
                                     <p> Rev. Chan Osborn de Anaya<br>
                                         E-Mail: ecncanaya@gmail.com<br>
@@ -258,7 +251,7 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/cat.jpg">
+                                        <img src="/lib/img/cat1.jpg">
                                     </div>
                                     <p> Rev. Cathlena Plummer<br>
                                         E-Mail: ecncplummer@gmail.com<br>
@@ -287,7 +280,7 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/Inez3.jpg">
+                                        <img src="/lib/img/inez4.jpg">
                                     </div>
                                     <p> Rev. Inez Velarde<br>
                                         ECN Office: (505)327-7549
@@ -318,7 +311,7 @@
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="thumbnail" id="clergy">
-                                        <img src="/lib/img/cynthia.jpg">
+                                        <img src="/lib/img/cynthia2.jpg">
                                     </div>
                                     <p> Rev. Cynthia Hizer<br>
                                         E-Mail:  ecnchizer@gmail.com<br>
@@ -346,7 +339,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="thumbnail" id="clergy">
-                                    <img src="/lib/img/mendez2.JPG" class="rotate90">
+                                    <img src="/lib/img/mendez1.jpg" class="">
                                 </div>
                                 <p> Rev. Richard Mendez<br>
                                     Good Shepherd Office: (928)729-2322
@@ -372,7 +365,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="thumbnail" id="clergy">
-                                    <img src="/lib/img/Paula.PNG">
+                                    <img src="/lib/img/paula2.jpg">
                                 </div>
                                 <p>Rev. Deacon Paula Henson<br>
                                     E-Mail: officegoodshepherdmission@gmail.com<br>
@@ -433,7 +426,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="thumbnail" id="clergy">
-                                    <img src="/lib/img/catsmom.JPG">
+                                    <img src="/lib/img/catherine1.jpg">
                                 </div>
                                 <p> Rev. Catherine Plummer<br>
                                     Cellular: (435)672-9949
@@ -515,7 +508,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="thumbnail" id="clergy">
-                                    <img src="/lib/img/leon.JPG">
+                                    <img src="/lib/img/leon1.jpg">
                                 </div>
                                 <p> Rev. Deacon Leon Sampson<br>
                                     E-Mail: sampsonl74@yahoo.com<br>
