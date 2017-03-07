@@ -454,7 +454,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="thumbnail" id="clergy">
-                                    <img src="/lib/img/lillieHenderson.jpg">
+                                    <img src="/lib/img/lillie1.jpg">
                                 </div>
                                 <p> Lillie Henderson<br>
                                     E-Mail: teabimasaani@yahoo.com<br>
@@ -482,7 +482,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="thumbnail" id="clergy">
-                                    <img src="/lib/img/cornelia2.jpg">
+                                    <img src="/lib/img/cornelia1.jpg">
                                 </div>
                                 <p>Rev. Cornelia Eaton<br>
                                     ECN Office: (505)327-7549

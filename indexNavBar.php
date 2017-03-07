@@ -4,7 +4,7 @@
     <div class="container-fullwidth">
         <div class="navbar-header">
             <a class="navbar-brand" href="index.php" id="logo">
-                <img alt="Brand" src="/lib/img/ecnNavLogo2.png" width="550" height="90">
+                <img alt="Brand" src="/lib/img/logo1.jpg" width="550" height="90">
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
